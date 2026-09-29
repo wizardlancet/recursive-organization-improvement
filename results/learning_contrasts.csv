@@ -1,0 +1,91 @@
+study,environment,memory,comparison,n,delta,ci95
+core,Stationary harm,Reset,Repeated - Balanced,128,-0.017019776503245,0.002615662896408536
+core,Stationary harm,Reset,Repeated - Successive rejects,128,-0.018777589003245006,0.0026619760078707123
+core,Stationary harm,Reset,Repeated - Discover once,128,-0.0014177409807840918,0.004413059096033466
+core,Stationary harm,Reset,Repeated - uniform fixed mixture,128,0.0009596284230550273,0.002521047705995768
+core,Stationary harm,Cumulative,Repeated - Balanced,128,-7.143259048456073e-05,0.0009244413080845048
+core,Stationary harm,Cumulative,Repeated - Successive rejects,128,-0.0005890107154845562,0.0009684875571200573
+core,Stationary harm,Cumulative,Repeated - Discover once,128,0.0007143378257751711,0.0007015561003331963
+core,Stationary harm,Cumulative,Repeated - uniform fixed mixture,128,0.0034318534533183103,0.0011730982698110993
+core,Stationary harm,Window 8,Repeated - Balanced,128,-0.001304563681284533,0.0011356014007954057
+core,Stationary harm,Window 8,Repeated - Successive rejects,128,-0.00211511055628453,0.0011475977491208617
+core,Stationary harm,Window 8,Repeated - Discover once,128,0.0025378473599751987,0.001662300317722822
+core,Stationary harm,Window 8,Repeated - uniform fixed mixture,128,0.005175651179419658,0.0013651357209968462
+core,Stationary harm,Cumulative,Balanced - Reset,128,0.027827148437500025,0.0012386363883583821
+core,Stationary harm,Window 8,Balanced - Reset,128,0.026967773437500026,0.0012557433482367787
+core,Stationary harm,Cumulative,Repeated discovery - Reset,128,0.044775492350260473,0.0028271341146012476
+core,Stationary harm,Window 8,Repeated discovery - Reset,128,0.0426829862594605,0.0029147153963651026
+core,Stationary harm,Cumulative,Discover once - Reset,128,0.04264341354370121,0.004556979469283791
+core,Stationary harm,Window 8,Discover once - Reset,128,0.03872739791870121,0.0036382347548989252
+core,Workflow reversal,Reset,Repeated - Balanced,128,-0.019974718888600758,0.0023509011980539594
+core,Workflow reversal,Reset,Repeated - Successive rejects,128,-0.02152745326360069,0.0024098839433112813
+core,Workflow reversal,Reset,Repeated - Discover once,128,-0.0015921600659689178,0.00500010736896699
+core,Workflow reversal,Reset,Repeated - uniform fixed mixture,128,-0.00109325567881274,0.0022389078850933034
+core,Workflow reversal,Cumulative,Repeated - Balanced,128,0.0032098571459452845,0.0024453484071536875
+core,Workflow reversal,Cumulative,Repeated - Successive rejects,128,0.000621966520945285,0.0027294093125555434
+core,Workflow reversal,Cumulative,Repeated - Discover once,128,0.0038393775622050175,0.002500959660213659
+core,Workflow reversal,Cumulative,Repeated - uniform fixed mixture,128,0.005834236939748156,0.0025939095864289854
+core,Workflow reversal,Window 8,Repeated - Balanced,128,0.006234538555145205,0.0023973264552210436
+core,Workflow reversal,Window 8,Repeated - Successive rejects,128,0.0034708666801452643,0.0025166851182332867
+core,Workflow reversal,Window 8,Repeated - Discover once,128,0.009754692713419517,0.002668461677662198
+core,Workflow reversal,Window 8,Repeated - uniform fixed mixture,128,0.011137613720364002,0.0025461111257462357
+core,Workflow reversal,Cumulative,Balanced - Reset,128,-0.10253417968750003,0.0013220793076366918
+core,Workflow reversal,Window 8,Balanced - Reset,128,-0.006967773437500033,0.0013639919478524308
+core,Workflow reversal,Cumulative,Repeated discovery - Reset,128,-0.07934960365295399,0.0034450855460253765
+core,Workflow reversal,Window 8,Repeated discovery - Reset,128,0.01924148400624593,0.003505365619346851
+core,Workflow reversal,Cumulative,Discover once - Reset,128,-0.08478114128112792,0.004934967111360635
+core,Workflow reversal,Window 8,Discover once - Reset,128,0.007894631226857497,0.004230172799120342
+core,Uniform gain,Reset,Repeated - Balanced,128,-0.019995114008585606,0.002400466118977136
+core,Uniform gain,Reset,Repeated - Successive rejects,128,-0.022075192133585525,0.0023870070505978636
+core,Uniform gain,Reset,Repeated - Discover once,128,-0.0020380147298177135,0.004637846630816661
+core,Uniform gain,Reset,Repeated - uniform fixed mixture,128,-0.0021970452202691214,0.0022345291881587146
+core,Uniform gain,Cumulative,Repeated - Balanced,128,0.00039228995641083994,0.0001315382748500928
+core,Uniform gain,Cumulative,Repeated - Successive rejects,128,3.096183141091096e-05,0.00010789272215674193
+core,Uniform gain,Cumulative,Repeated - Discover once,128,0.00013425429662076993,1.0388583600330931e-05
+core,Uniform gain,Cumulative,Repeated - uniform fixed mixture,128,0.0013859881295099274,0.0004404580696160792
+core,Uniform gain,Window 8,Repeated - Balanced,128,0.00038970708847056897,0.00013158469843121178
+core,Uniform gain,Window 8,Repeated - Successive rejects,128,2.8378963470639985e-05,0.00010789319209149208
+core,Uniform gain,Window 8,Repeated - Discover once,128,0.0008543451627096334,0.0007999716739283368
+core,Uniform gain,Window 8,Repeated - uniform fixed mixture,128,0.001969386471642488,0.0005633768088357331
+core,Uniform gain,Cumulative,Balanced - Reset,128,0.007363281249999968,0.0011036094891400036
+core,Uniform gain,Window 8,Balanced - Reset,128,0.007363281249999968,0.0011036094891400036
+core,Uniform gain,Cumulative,Repeated discovery - Reset,128,0.027750685214996414,0.0023472700234431327
+core,Uniform gain,Window 8,Repeated discovery - Reset,128,0.027748102347056144,0.0023473264514586698
+core,Uniform gain,Cumulative,Discover once - Reset,128,0.025578416188557933,0.004586674957037587
+core,Uniform gain,Window 8,Discover once - Reset,128,0.024855742454528797,0.004370571177866166
+exploratory control,Stationary harm,Reset,Repeated - Balanced,128,-0.016653401851654027,0.002550477638521748
+exploratory control,Stationary harm,Reset,Repeated - Trial-matched Balanced,128,-0.013823748429616294,0.002378971359036543
+exploratory control,Stationary harm,Reset,Repeated - Discover once,128,0.00034547646840413573,0.004479516496990327
+exploratory control,Stationary harm,Cumulative,Repeated - Balanced,128,0.0007833027839661295,0.0009133110369801548
+exploratory control,Stationary harm,Cumulative,Repeated - Trial-matched Balanced,128,-0.00016095876693723562,0.0004635765955413756
+exploratory control,Stationary harm,Cumulative,Repeated - Discover once,128,0.0010978492101033793,0.0013546804839696027
+exploratory control,Stationary harm,Window 8,Repeated - Balanced,128,0.00023377418518071794,0.0010440462128344032
+exploratory control,Stationary harm,Window 8,Repeated - Trial-matched Balanced,128,-0.001159732341766348,0.0005800830253395267
+exploratory control,Stationary harm,Window 8,Repeated - Discover once,128,0.005382374922434511,0.0020972056080322534
+exploratory control,Workflow reversal,Reset,Repeated - Balanced,128,-0.01807572444279998,0.002394063072781589
+exploratory control,Workflow reversal,Reset,Repeated - Trial-matched Balanced,128,-0.01525498867034911,0.002238312314399973
+exploratory control,Workflow reversal,Reset,Repeated - Discover once,128,-0.0022264798482259916,0.0043771963608212885
+exploratory control,Workflow reversal,Cumulative,Repeated - Balanced,128,0.009220902125040738,0.0035313996580469734
+exploratory control,Workflow reversal,Cumulative,Repeated - Trial-matched Balanced,128,0.008315703074137374,0.0036265353714892545
+exploratory control,Workflow reversal,Cumulative,Repeated - Discover once,128,0.00926201105117799,0.003968899289007753
+exploratory control,Workflow reversal,Window 8,Repeated - Balanced,128,0.00607382774353022,0.0021746936830993767
+exploratory control,Workflow reversal,Window 8,Repeated - Trial-matched Balanced,128,0.0019068924585978076,0.0020713855219313677
+exploratory control,Workflow reversal,Window 8,Repeated - Discover once,128,0.008893335660298587,0.0021971208826019085
+exploratory control,Workflow reversal 20,Reset,Repeated - Balanced,128,-0.018168497880299908,0.0025389791076524384
+exploratory control,Workflow reversal 20,Reset,Repeated - Trial-matched Balanced,128,-0.01586045742034911,0.002280982348512815
+exploratory control,Workflow reversal 20,Reset,Repeated - Discover once,128,-0.0024164374669393357,0.004387933849840844
+exploratory control,Workflow reversal 20,Cumulative,Repeated - Balanced,128,0.008400609493255669,0.005128914281697828
+exploratory control,Workflow reversal 20,Cumulative,Repeated - Trial-matched Balanced,128,0.011323535442352291,0.005259685004463439
+exploratory control,Workflow reversal 20,Cumulative,Repeated - Discover once,128,0.008910468419392907,0.0055015127699653485
+exploratory control,Workflow reversal 20,Window 8,Repeated - Balanced,128,0.0003121288617450998,0.0011820568499084784
+exploratory control,Workflow reversal 20,Window 8,Repeated - Trial-matched Balanced,128,-0.0006321501731872473,0.0007210318121767824
+exploratory control,Workflow reversal 20,Window 8,Repeated - Discover once,128,0.0025701133410134854,0.0013734065499845661
+exploratory control,Workflow reversal 28,Reset,Repeated - Balanced,128,-0.017001052697499654,0.0025201037253929307
+exploratory control,Workflow reversal 28,Reset,Repeated - Trial-matched Balanced,128,-0.013990062077840166,0.00235332029255206
+exploratory control,Workflow reversal 28,Reset,Repeated - Discover once,128,-0.0011571017901103337,0.004326011258144941
+exploratory control,Workflow reversal 28,Cumulative,Repeated - Balanced,128,0.0026192800203959773,0.0014752810219317103
+exploratory control,Workflow reversal 28,Cumulative,Repeated - Trial-matched Balanced,128,0.0016750184694926122,0.0013600086440593209
+exploratory control,Workflow reversal 28,Cumulative,Repeated - Discover once,128,0.002933826446533227,0.0022539144944466382
+exploratory control,Workflow reversal 28,Window 8,Repeated - Balanced,128,3.840208053587386e-05,0.0012036265218065445
+exploratory control,Workflow reversal 28,Window 8,Repeated - Trial-matched Balanced,128,-0.0005738457043965644,0.0006922594939067986
+exploratory control,Workflow reversal 28,Window 8,Repeated - Discover once,128,0.003424307505289678,0.0017689800699574323

@@ -1,0 +1,10 @@
+{
+  "status": "Additional diagnostic controls specified after inspecting the frozen v6 core results; exploratory, not preregistered",
+  "reason": "Separate program replacement from label reuse and review-time concentration; check alignment of the distribution change and review schedule",
+  "stream_seed": 940000,
+  "replicates": 128,
+  "environments": ["Stationary harm", "Workflow reversal", "Workflow reversal 20", "Workflow reversal 28"],
+  "memories": ["Reset", "Cumulative", "Window 8"],
+  "arms": ["Balanced", "Discover once", "Repeated discovery", "Trial-matched Balanced"],
+  "trial_matched_control": "Run and pay for exactly the same catalog trials, pool the acquired labels under the same memory rule, reallocate remaining budget on the same schedule, but keep Balanced as the operational evaluator. No procedure-switch costs."
+}

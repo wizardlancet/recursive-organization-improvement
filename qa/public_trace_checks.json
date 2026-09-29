@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "pr": 6133,
+      "commit_artifacts": 1,
+      "review_records": 0,
+      "head_check_records": 14,
+      "mapped_events": 16,
+      "merge_recorded": 1
+    },
+    {
+      "pr": 6096,
+      "commit_artifacts": 2,
+      "review_records": 5,
+      "head_check_records": 14,
+      "mapped_events": 21,
+      "merge_recorded": 1
+    },
+    {
+      "pr": 6095,
+      "commit_artifacts": 1,
+      "review_records": 3,
+      "head_check_records": 14,
+      "mapped_events": 19,
+      "merge_recorded": 1
+    }
+  ],
+  "unique_event_ids": true,
+  "unknown_fields_preserved": true,
+  "scope": "Current public head-SHA check records; missing records do not imply no historical CI.",
+  "snapshot_sha256": "7226556de5525159fe24b968760cdc13b66480f2be0e78292b17da09fc6b803d"
+}

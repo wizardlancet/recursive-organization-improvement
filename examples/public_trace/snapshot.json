@@ -1,0 +1,1215 @@
+{
+  "repository": "pallets/flask",
+  "selection_receipt": {
+    "url": "https://api.github.com/repos/pallets/flask/pulls?state=closed&sort=created&direction=desc&per_page=100",
+    "retrieved_utc": "2026-09-28T17:45:43.181951+00:00",
+    "response_sha256": "1b24681a3c64fd54ab71c98105934dc47bab4f51826be8a40233ba13784da819",
+    "next_page": true
+  },
+  "selection_rule": "first three merged PRs before 2026-09-30 in the 100 closed PRs\nreturned in descending creation order by the stated endpoint on retrieval.",
+  "selection_candidates": [
+    {
+      "number": 6162,
+      "created_at": "2026-09-13T00:08:36Z",
+      "merged_at": null
+    },
+    {
+      "number": 6159,
+      "created_at": "2026-09-11T23:25:42Z",
+      "merged_at": null
+    },
+    {
+      "number": 6158,
+      "created_at": "2026-09-11T14:53:09Z",
+      "merged_at": null
+    },
+    {
+      "number": 6157,
+      "created_at": "2026-09-11T04:14:20Z",
+      "merged_at": null
+    },
+    {
+      "number": 6156,
+      "created_at": "2026-09-10T19:01:14Z",
+      "merged_at": null
+    },
+    {
+      "number": 6155,
+      "created_at": "2026-09-10T12:17:19Z",
+      "merged_at": null
+    },
+    {
+      "number": 6154,
+      "created_at": "2026-09-08T16:28:25Z",
+      "merged_at": null
+    },
+    {
+      "number": 6153,
+      "created_at": "2026-09-07T01:36:14Z",
+      "merged_at": null
+    },
+    {
+      "number": 6151,
+      "created_at": "2026-09-05T11:00:37Z",
+      "merged_at": null
+    },
+    {
+      "number": 6150,
+      "created_at": "2026-09-05T05:36:37Z",
+      "merged_at": null
+    },
+    {
+      "number": 6147,
+      "created_at": "2026-09-01T12:53:30Z",
+      "merged_at": null
+    },
+    {
+      "number": 6145,
+      "created_at": "2026-08-31T13:27:52Z",
+      "merged_at": null
+    },
+    {
+      "number": 6144,
+      "created_at": "2026-08-29T05:28:21Z",
+      "merged_at": null
+    },
+    {
+      "number": 6142,
+      "created_at": "2026-08-28T15:13:58Z",
+      "merged_at": null
+    },
+    {
+      "number": 6138,
+      "created_at": "2026-08-24T13:12:02Z",
+      "merged_at": null
+    },
+    {
+      "number": 6137,
+      "created_at": "2026-08-23T00:43:11Z",
+      "merged_at": null
+    },
+    {
+      "number": 6136,
+      "created_at": "2026-08-19T04:29:26Z",
+      "merged_at": null
+    },
+    {
+      "number": 6135,
+      "created_at": "2026-08-16T17:19:26Z",
+      "merged_at": null
+    },
+    {
+      "number": 6133,
+      "created_at": "2026-08-11T20:17:29Z",
+      "merged_at": "2026-08-11T20:19:14Z"
+    },
+    {
+      "number": 6132,
+      "created_at": "2026-08-11T09:26:58Z",
+      "merged_at": null
+    },
+    {
+      "number": 6131,
+      "created_at": "2026-08-10T15:21:07Z",
+      "merged_at": null
+    },
+    {
+      "number": 6130,
+      "created_at": "2026-08-10T14:58:46Z",
+      "merged_at": null
+    },
+    {
+      "number": 6129,
+      "created_at": "2026-08-10T13:27:25Z",
+      "merged_at": null
+    },
+    {
+      "number": 6127,
+      "created_at": "2026-08-09T20:48:49Z",
+      "merged_at": null
+    },
+    {
+      "number": 6125,
+      "created_at": "2026-08-09T09:43:54Z",
+      "merged_at": null
+    },
+    {
+      "number": 6124,
+      "created_at": "2026-08-08T16:55:19Z",
+      "merged_at": null
+    },
+    {
+      "number": 6118,
+      "created_at": "2026-08-02T15:46:34Z",
+      "merged_at": null
+    },
+    {
+      "number": 6117,
+      "created_at": "2026-08-02T13:49:25Z",
+      "merged_at": null
+    },
+    {
+      "number": 6116,
+      "created_at": "2026-08-01T12:01:38Z",
+      "merged_at": null
+    },
+    {
+      "number": 6115,
+      "created_at": "2026-08-01T08:05:05Z",
+      "merged_at": null
+    },
+    {
+      "number": 6113,
+      "created_at": "2026-07-31T03:20:45Z",
+      "merged_at": null
+    },
+    {
+      "number": 6112,
+      "created_at": "2026-07-30T18:53:18Z",
+      "merged_at": null
+    },
+    {
+      "number": 6111,
+      "created_at": "2026-07-30T14:37:10Z",
+      "merged_at": null
+    },
+    {
+      "number": 6110,
+      "created_at": "2026-07-30T14:28:59Z",
+      "merged_at": null
+    },
+    {
+      "number": 6108,
+      "created_at": "2026-07-27T20:04:49Z",
+      "merged_at": null
+    },
+    {
+      "number": 6106,
+      "created_at": "2026-07-26T14:51:53Z",
+      "merged_at": null
+    },
+    {
+      "number": 6105,
+      "created_at": "2026-07-25T14:43:47Z",
+      "merged_at": null
+    },
+    {
+      "number": 6104,
+      "created_at": "2026-07-24T10:30:05Z",
+      "merged_at": null
+    },
+    {
+      "number": 6103,
+      "created_at": "2026-07-23T15:50:23Z",
+      "merged_at": null
+    },
+    {
+      "number": 6102,
+      "created_at": "2026-07-22T07:55:22Z",
+      "merged_at": null
+    },
+    {
+      "number": 6101,
+      "created_at": "2026-07-22T00:42:59Z",
+      "merged_at": null
+    },
+    {
+      "number": 6100,
+      "created_at": "2026-07-20T20:28:31Z",
+      "merged_at": null
+    },
+    {
+      "number": 6099,
+      "created_at": "2026-07-20T01:51:12Z",
+      "merged_at": null
+    },
+    {
+      "number": 6098,
+      "created_at": "2026-07-16T21:16:10Z",
+      "merged_at": null
+    },
+    {
+      "number": 6096,
+      "created_at": "2026-07-14T15:30:46Z",
+      "merged_at": "2026-08-11T19:48:41Z"
+    },
+    {
+      "number": 6095,
+      "created_at": "2026-07-14T10:21:31Z",
+      "merged_at": "2026-07-30T17:05:05Z"
+    },
+    {
+      "number": 6094,
+      "created_at": "2026-07-14T04:41:33Z",
+      "merged_at": null
+    },
+    {
+      "number": 6091,
+      "created_at": "2026-07-11T01:11:52Z",
+      "merged_at": null
+    },
+    {
+      "number": 6090,
+      "created_at": "2026-07-10T11:42:03Z",
+      "merged_at": null
+    },
+    {
+      "number": 6089,
+      "created_at": "2026-07-09T21:58:27Z",
+      "merged_at": null
+    },
+    {
+      "number": 6088,
+      "created_at": "2026-07-09T21:04:58Z",
+      "merged_at": null
+    },
+    {
+      "number": 6087,
+      "created_at": "2026-07-08T09:35:50Z",
+      "merged_at": null
+    },
+    {
+      "number": 6086,
+      "created_at": "2026-07-08T05:25:30Z",
+      "merged_at": null
+    },
+    {
+      "number": 6085,
+      "created_at": "2026-07-07T16:29:17Z",
+      "merged_at": null
+    },
+    {
+      "number": 6083,
+      "created_at": "2026-07-07T12:58:14Z",
+      "merged_at": null
+    },
+    {
+      "number": 6081,
+      "created_at": "2026-07-05T13:20:10Z",
+      "merged_at": null
+    },
+    {
+      "number": 6080,
+      "created_at": "2026-07-04T04:57:59Z",
+      "merged_at": null
+    },
+    {
+      "number": 6079,
+      "created_at": "2026-07-03T05:16:17Z",
+      "merged_at": null
+    },
+    {
+      "number": 6078,
+      "created_at": "2026-07-02T15:55:08Z",
+      "merged_at": null
+    },
+    {
+      "number": 6077,
+      "created_at": "2026-07-02T15:06:45Z",
+      "merged_at": null
+    },
+    {
+      "number": 6076,
+      "created_at": "2026-07-02T11:13:36Z",
+      "merged_at": null
+    },
+    {
+      "number": 6075,
+      "created_at": "2026-07-02T11:06:03Z",
+      "merged_at": null
+    },
+    {
+      "number": 6074,
+      "created_at": "2026-07-02T10:19:13Z",
+      "merged_at": null
+    },
+    {
+      "number": 6073,
+      "created_at": "2026-07-02T07:56:41Z",
+      "merged_at": null
+    },
+    {
+      "number": 6072,
+      "created_at": "2026-07-02T07:39:47Z",
+      "merged_at": null
+    },
+    {
+      "number": 6070,
+      "created_at": "2026-07-02T06:56:14Z",
+      "merged_at": null
+    },
+    {
+      "number": 6069,
+      "created_at": "2026-07-01T05:23:32Z",
+      "merged_at": null
+    },
+    {
+      "number": 6067,
+      "created_at": "2026-06-29T10:29:48Z",
+      "merged_at": null
+    },
+    {
+      "number": 6066,
+      "created_at": "2026-06-24T06:41:20Z",
+      "merged_at": null
+    },
+    {
+      "number": 6064,
+      "created_at": "2026-06-23T21:12:53Z",
+      "merged_at": null
+    },
+    {
+      "number": 6062,
+      "created_at": "2026-06-22T09:13:29Z",
+      "merged_at": null
+    },
+    {
+      "number": 6061,
+      "created_at": "2026-06-20T09:40:33Z",
+      "merged_at": null
+    },
+    {
+      "number": 6060,
+      "created_at": "2026-06-17T06:30:12Z",
+      "merged_at": null
+    },
+    {
+      "number": 6053,
+      "created_at": "2026-06-10T22:54:11Z",
+      "merged_at": null
+    },
+    {
+      "number": 6046,
+      "created_at": "2026-06-08T18:02:17Z",
+      "merged_at": null
+    },
+    {
+      "number": 6045,
+      "created_at": "2026-06-07T17:05:15Z",
+      "merged_at": null
+    },
+    {
+      "number": 6043,
+      "created_at": "2026-06-05T02:48:22Z",
+      "merged_at": null
+    },
+    {
+      "number": 6041,
+      "created_at": "2026-05-31T07:55:51Z",
+      "merged_at": null
+    },
+    {
+      "number": 6040,
+      "created_at": "2026-05-31T07:54:03Z",
+      "merged_at": null
+    },
+    {
+      "number": 6039,
+      "created_at": "2026-05-31T07:04:33Z",
+      "merged_at": null
+    },
+    {
+      "number": 6037,
+      "created_at": "2026-05-26T03:40:26Z",
+      "merged_at": null
+    },
+    {
+      "number": 6036,
+      "created_at": "2026-05-25T16:09:08Z",
+      "merged_at": null
+    },
+    {
+      "number": 6035,
+      "created_at": "2026-05-24T23:40:20Z",
+      "merged_at": null
+    },
+    {
+      "number": 6034,
+      "created_at": "2026-05-24T23:39:08Z",
+      "merged_at": null
+    },
+    {
+      "number": 6030,
+      "created_at": "2026-05-21T17:18:13Z",
+      "merged_at": null
+    },
+    {
+      "number": 6029,
+      "created_at": "2026-05-21T12:07:06Z",
+      "merged_at": null
+    },
+    {
+      "number": 6028,
+      "created_at": "2026-05-19T17:37:58Z",
+      "merged_at": null
+    },
+    {
+      "number": 6027,
+      "created_at": "2026-05-19T14:46:06Z",
+      "merged_at": null
+    },
+    {
+      "number": 6026,
+      "created_at": "2026-05-19T14:07:41Z",
+      "merged_at": null
+    },
+    {
+      "number": 6024,
+      "created_at": "2026-05-16T14:38:10Z",
+      "merged_at": null
+    },
+    {
+      "number": 6021,
+      "created_at": "2026-05-13T16:12:29Z",
+      "merged_at": null
+    },
+    {
+      "number": 6020,
+      "created_at": "2026-05-13T15:49:22Z",
+      "merged_at": null
+    },
+    {
+      "number": 6019,
+      "created_at": "2026-05-13T13:06:44Z",
+      "merged_at": null
+    },
+    {
+      "number": 6018,
+      "created_at": "2026-05-10T23:38:43Z",
+      "merged_at": null
+    },
+    {
+      "number": 6017,
+      "created_at": "2026-05-08T09:43:36Z",
+      "merged_at": null
+    },
+    {
+      "number": 6016,
+      "created_at": "2026-05-03T13:09:10Z",
+      "merged_at": null
+    },
+    {
+      "number": 6015,
+      "created_at": "2026-05-02T14:56:43Z",
+      "merged_at": null
+    },
+    {
+      "number": 6014,
+      "created_at": "2026-05-02T08:21:41Z",
+      "merged_at": null
+    },
+    {
+      "number": 6013,
+      "created_at": "2026-05-02T03:56:17Z",
+      "merged_at": "2026-05-02T03:58:57Z"
+    },
+    {
+      "number": 6010,
+      "created_at": "2026-04-25T09:20:29Z",
+      "merged_at": null
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 6133,
+      "url": "https://github.com/pallets/flask/pull/6133",
+      "created_at": "2026-08-11T20:17:29Z",
+      "merged_at": "2026-08-11T20:19:14Z",
+      "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+      "merge_sha": "d8eaaba824655046958d1a97f11780de460c3271",
+      "opener": {
+        "id": "actor-002",
+        "type": "User"
+      },
+      "merged_by": {
+        "id": "actor-002",
+        "type": "User"
+      },
+      "commits": [
+        {
+          "sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "parent_shas": [
+            "3596b1ab61cea85edb8970e83ff61daa073facf8"
+          ],
+          "committer_timestamp": "2026-08-11T20:15:18Z"
+        }
+      ],
+      "reviews": [],
+      "check_runs": [
+        {
+          "id": 93914609676,
+          "name": "Mac",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:35Z",
+          "completed_at": "2026-08-11T20:17:49Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609676"
+        },
+        {
+          "id": 93914609673,
+          "name": "3.11",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:35Z",
+          "completed_at": "2026-08-11T20:17:48Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609673"
+        },
+        {
+          "id": 93914609652,
+          "name": "3.10",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:35Z",
+          "completed_at": "2026-08-11T20:17:48Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609652"
+        },
+        {
+          "id": 93914609650,
+          "name": "3.13",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:36Z",
+          "completed_at": "2026-08-11T20:17:56Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609650"
+        },
+        {
+          "id": 93914609642,
+          "name": "PyPy",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:43Z",
+          "completed_at": "2026-08-11T20:18:14Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609642"
+        },
+        {
+          "id": 93914609633,
+          "name": "3.12",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:35Z",
+          "completed_at": "2026-08-11T20:17:52Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609633"
+        },
+        {
+          "id": 93914609624,
+          "name": "Development Versions",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:35Z",
+          "completed_at": "2026-08-11T20:17:49Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609624"
+        },
+        {
+          "id": 93914609622,
+          "name": "3.14",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:35Z",
+          "completed_at": "2026-08-11T20:17:49Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609622"
+        },
+        {
+          "id": 93914609610,
+          "name": "3.15",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:36Z",
+          "completed_at": "2026-08-11T20:18:04Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609610"
+        },
+        {
+          "id": 93914609559,
+          "name": "Minimum Versions",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:36Z",
+          "completed_at": "2026-08-11T20:17:57Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609559"
+        },
+        {
+          "id": 93914609531,
+          "name": "3.14t",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:36Z",
+          "completed_at": "2026-08-11T20:18:03Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609531"
+        },
+        {
+          "id": 93914609523,
+          "name": "Windows",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:36Z",
+          "completed_at": "2026-08-11T20:18:05Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609523"
+        },
+        {
+          "id": 93914609331,
+          "name": "typing",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:35Z",
+          "completed_at": "2026-08-11T20:17:51Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172628/job/93914609331"
+        },
+        {
+          "id": 93914608808,
+          "name": "main",
+          "head_sha": "89992954ec71b594b1b911f98977cdc8ad46a057",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T20:17:35Z",
+          "completed_at": "2026-08-11T20:17:51Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31532172461/job/93914608808"
+        }
+      ],
+      "check_total_count": 14,
+      "receipts": [
+        {
+          "url": "https://api.github.com/repos/pallets/flask/pulls/6133",
+          "retrieved_utc": "2026-09-28T17:45:43.890722+00:00",
+          "response_sha256": "51255741d115059eaee22598153f2d0ca5eea75e941d53ab7464e2a3124a3359",
+          "next_page": false
+        },
+        {
+          "url": "https://api.github.com/repos/pallets/flask/pulls/6133/commits?per_page=100",
+          "retrieved_utc": "2026-09-28T17:45:44.540453+00:00",
+          "response_sha256": "48a80475f1d078bcf3bc53098ee9345f40a8f50837a5f308b0ff9336d35e1fed",
+          "next_page": false
+        },
+        {
+          "url": "https://api.github.com/repos/pallets/flask/pulls/6133/reviews?per_page=100",
+          "retrieved_utc": "2026-09-28T17:45:44.460461+00:00",
+          "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "next_page": false
+        },
+        {
+          "url": "https://api.github.com/repos/pallets/flask/commits/89992954ec71b594b1b911f98977cdc8ad46a057/check-runs?per_page=100",
+          "retrieved_utc": "2026-09-28T17:45:44.779655+00:00",
+          "response_sha256": "71b3951c1e4bf9621912d5e547e164de4b7085f7f7581802eeeec2d6443295d9",
+          "next_page": false
+        }
+      ]
+    },
+    {
+      "number": 6096,
+      "url": "https://github.com/pallets/flask/pull/6096",
+      "created_at": "2026-07-14T15:30:46Z",
+      "merged_at": "2026-08-11T19:48:41Z",
+      "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+      "merge_sha": "05e9c6bd630ecf4ec0ec884b1fc7901663737bc7",
+      "opener": {
+        "id": "actor-003",
+        "type": "User"
+      },
+      "merged_by": {
+        "id": "actor-002",
+        "type": "User"
+      },
+      "commits": [
+        {
+          "sha": "de8429ffda8cfb54db175529e2bae72a24e1fa7e",
+          "parent_shas": [
+            "514fc6b3e8402e4c646d5284e97a4f0ab50a7c4b"
+          ],
+          "committer_timestamp": "2026-08-11T19:44:45Z"
+        },
+        {
+          "sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "parent_shas": [
+            "de8429ffda8cfb54db175529e2bae72a24e1fa7e"
+          ],
+          "committer_timestamp": "2026-08-11T19:44:45Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 4695942650,
+          "account_id": "actor-003",
+          "account_type": "User",
+          "state": "COMMENTED",
+          "submitted_at": "2026-07-14T15:31:59Z",
+          "commit_id": "67d2e8f7e018dc7c64f6fccc1fb420b7f7dd0164"
+        },
+        {
+          "id": 4695948884,
+          "account_id": "actor-003",
+          "account_type": "User",
+          "state": "COMMENTED",
+          "submitted_at": "2026-07-14T15:32:40Z",
+          "commit_id": "67d2e8f7e018dc7c64f6fccc1fb420b7f7dd0164"
+        },
+        {
+          "id": 4695986823,
+          "account_id": "actor-003",
+          "account_type": "User",
+          "state": "COMMENTED",
+          "submitted_at": "2026-07-14T15:37:13Z",
+          "commit_id": "67d2e8f7e018dc7c64f6fccc1fb420b7f7dd0164"
+        },
+        {
+          "id": 4695993872,
+          "account_id": "actor-003",
+          "account_type": "User",
+          "state": "COMMENTED",
+          "submitted_at": "2026-07-14T15:38:07Z",
+          "commit_id": "67d2e8f7e018dc7c64f6fccc1fb420b7f7dd0164"
+        },
+        {
+          "id": 4763157980,
+          "account_id": "actor-005",
+          "account_type": "User",
+          "state": "COMMENTED",
+          "submitted_at": "2026-07-23T10:27:22Z",
+          "commit_id": "67d2e8f7e018dc7c64f6fccc1fb420b7f7dd0164"
+        }
+      ],
+      "check_runs": [
+        {
+          "id": 93906237968,
+          "name": "Mac",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:43Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237968"
+        },
+        {
+          "id": 93906237748,
+          "name": "PyPy",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:57Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237748"
+        },
+        {
+          "id": 93906237745,
+          "name": "3.15",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:28Z",
+          "completed_at": "2026-08-11T19:47:55Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237745"
+        },
+        {
+          "id": 93906237738,
+          "name": "Development Versions",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:49Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237738"
+        },
+        {
+          "id": 93906237716,
+          "name": "3.12",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:45Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237716"
+        },
+        {
+          "id": 93906237696,
+          "name": "3.14t",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:54Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237696"
+        },
+        {
+          "id": 93906237674,
+          "name": "Minimum Versions",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:28Z",
+          "completed_at": "2026-08-11T19:47:51Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237674"
+        },
+        {
+          "id": 93906237660,
+          "name": "3.14",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:47Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237660"
+        },
+        {
+          "id": 93906237638,
+          "name": "3.13",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:28Z",
+          "completed_at": "2026-08-11T19:47:44Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237638"
+        },
+        {
+          "id": 93906237635,
+          "name": "3.10",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:49Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237635"
+        },
+        {
+          "id": 93906237634,
+          "name": "3.11",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:44Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237634"
+        },
+        {
+          "id": 93906237610,
+          "name": "Windows",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:52Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237610"
+        },
+        {
+          "id": 93906237408,
+          "name": "typing",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:54Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619229/job/93906237408"
+        },
+        {
+          "id": 93906237338,
+          "name": "main",
+          "head_sha": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-08-11T19:47:27Z",
+          "completed_at": "2026-08-11T19:47:44Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/31529619201/job/93906237338"
+        }
+      ],
+      "check_total_count": 14,
+      "receipts": [
+        {
+          "url": "https://api.github.com/repos/pallets/flask/pulls/6096",
+          "retrieved_utc": "2026-09-28T17:45:45.529418+00:00",
+          "response_sha256": "76ca4673b6656f8898c092355d306eaddf7ee287a62764244f0fc43653fdf9dc",
+          "next_page": false
+        },
+        {
+          "url": "https://api.github.com/repos/pallets/flask/pulls/6096/commits?per_page=100",
+          "retrieved_utc": "2026-09-28T17:45:46.207521+00:00",
+          "response_sha256": "5d358128e9798627b9183e070dfd245006cbefe01f69461e70ab7ea1d6339907",
+          "next_page": false
+        },
+        {
+          "url": "https://api.github.com/repos/pallets/flask/pulls/6096/reviews?per_page=100",
+          "retrieved_utc": "2026-09-28T17:45:46.377766+00:00",
+          "response_sha256": "fdafa8ae02e1f05cb87905a7f6d145ced86318a0bcc63f382f1ad594af823d89",
+          "next_page": false
+        },
+        {
+          "url": "https://api.github.com/repos/pallets/flask/commits/7203feabf723edae0286ae5dc64fec8ac4c91735/check-runs?per_page=100",
+          "retrieved_utc": "2026-09-28T17:45:46.393195+00:00",
+          "response_sha256": "444c9e80917561ee0c26ce8ce27e13bc6426bd92b3f0b8955e48ca75c9a5e249",
+          "next_page": false
+        }
+      ]
+    },
+    {
+      "number": 6095,
+      "url": "https://github.com/pallets/flask/pull/6095",
+      "created_at": "2026-07-14T10:21:31Z",
+      "merged_at": "2026-07-30T17:05:05Z",
+      "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+      "merge_sha": "548994ea0c61465574cbfdd636a894a692f54b94",
+      "opener": {
+        "id": "actor-001",
+        "type": "User"
+      },
+      "merged_by": {
+        "id": "actor-002",
+        "type": "User"
+      },
+      "commits": [
+        {
+          "sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "parent_shas": [
+            "8285adf5a4f572dbf7a0a3b8f3a96ca0b19c50a4"
+          ],
+          "committer_timestamp": "2026-07-30T17:01:20Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 4693370413,
+          "account_id": "actor-004",
+          "account_type": "User",
+          "state": "COMMENTED",
+          "submitted_at": "2026-07-14T10:28:02Z",
+          "commit_id": "bcad8d2a467919c21b99eda27d862d1fd8db3b3a"
+        },
+        {
+          "id": 4693480370,
+          "account_id": "actor-001",
+          "account_type": "User",
+          "state": "COMMENTED",
+          "submitted_at": "2026-07-14T10:43:23Z",
+          "commit_id": "bcad8d2a467919c21b99eda27d862d1fd8db3b3a"
+        },
+        {
+          "id": 4693513097,
+          "account_id": "actor-001",
+          "account_type": "User",
+          "state": "COMMENTED",
+          "submitted_at": "2026-07-14T10:47:26Z",
+          "commit_id": "bcad8d2a467919c21b99eda27d862d1fd8db3b3a"
+        }
+      ],
+      "check_runs": [
+        {
+          "id": 90944527139,
+          "name": "3.11",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:37Z",
+          "completed_at": "2026-07-30T17:02:51Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944527139"
+        },
+        {
+          "id": 90944527016,
+          "name": "3.14t",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:37Z",
+          "completed_at": "2026-07-30T17:03:02Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944527016"
+        },
+        {
+          "id": 90944526923,
+          "name": "3.10",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:41Z",
+          "completed_at": "2026-07-30T17:02:56Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526923"
+        },
+        {
+          "id": 90944526883,
+          "name": "Minimum Versions",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:37Z",
+          "completed_at": "2026-07-30T17:02:55Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526883"
+        },
+        {
+          "id": 90944526880,
+          "name": "Development Versions",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "failure",
+          "started_at": "2026-07-30T17:02:35Z",
+          "completed_at": "2026-07-30T17:02:52Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526880"
+        },
+        {
+          "id": 90944526844,
+          "name": "3.12",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:36Z",
+          "completed_at": "2026-07-30T17:02:50Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526844"
+        },
+        {
+          "id": 90944526840,
+          "name": "3.14",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:35Z",
+          "completed_at": "2026-07-30T17:02:52Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526840"
+        },
+        {
+          "id": 90944526820,
+          "name": "Mac",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:37Z",
+          "completed_at": "2026-07-30T17:02:59Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526820"
+        },
+        {
+          "id": 90944526799,
+          "name": "3.13",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:35Z",
+          "completed_at": "2026-07-30T17:02:50Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526799"
+        },
+        {
+          "id": 90944526782,
+          "name": "PyPy",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:35Z",
+          "completed_at": "2026-07-30T17:03:01Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526782"
+        },
+        {
+          "id": 90944526738,
+          "name": "Windows",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:36Z",
+          "completed_at": "2026-07-30T17:03:04Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526738"
+        },
+        {
+          "id": 90944526652,
+          "name": "3.9",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:36Z",
+          "completed_at": "2026-07-30T17:03:00Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526652"
+        },
+        {
+          "id": 90944526561,
+          "name": "typing",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:35Z",
+          "completed_at": "2026-07-30T17:02:54Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210136/job/90944526561"
+        },
+        {
+          "id": 90944526345,
+          "name": "main",
+          "head_sha": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-07-30T17:02:36Z",
+          "completed_at": "2026-07-30T17:03:02Z",
+          "app_id": 15368,
+          "url": "https://github.com/pallets/flask/actions/runs/30564210071/job/90944526345"
+        }
+      ],
+      "check_total_count": 14,
+      "receipts": [
+        {
+          "url": "https://api.github.com/repos/pallets/flask/pulls/6095",
+          "retrieved_utc": "2026-09-28T17:45:47.101723+00:00",
+          "response_sha256": "b1795b728b1e30268fe81ae6743f98db38e18192d34bead649cae1cfc059d93d",
+          "next_page": false
+        },
+        {
+          "url": "https://api.github.com/repos/pallets/flask/pulls/6095/commits?per_page=100",
+          "retrieved_utc": "2026-09-28T17:45:47.776416+00:00",
+          "response_sha256": "2aea846cb10e9f4a3a0bb47c41114cb94ca04a8d72f64c235a036ebbd4bcc01c",
+          "next_page": false
+        },
+        {
+          "url": "https://api.github.com/repos/pallets/flask/pulls/6095/reviews?per_page=100",
+          "retrieved_utc": "2026-09-28T17:45:47.774909+00:00",
+          "response_sha256": "de63d7e50e65bccc3739dc365d2bade21c942717558e7d7ccc29b165b648de07",
+          "next_page": false
+        },
+        {
+          "url": "https://api.github.com/repos/pallets/flask/commits/5ce121dd841e2dc2594d0ed3954278f4101d3521/check-runs?per_page=100",
+          "retrieved_utc": "2026-09-28T17:45:47.956106+00:00",
+          "response_sha256": "5bcfc5316b382d9e2261ee32269bd1987423c68647850828f45b26425e74f271",
+          "next_page": false
+        }
+      ]
+    }
+  ],
+  "privacy": "Snapshot-scoped actor pseudonyms; no account IDs or usernames. Public PR provenance remains linkable."
+}

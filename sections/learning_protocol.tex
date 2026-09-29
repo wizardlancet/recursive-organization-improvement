@@ -1,0 +1,66 @@
+\section{Learning experiment: complete specification and reporting}
+\label{app:protocol}
+\subsection{Frozen core design and exploratory controls}
+The local core protocol, \path{examples/learning_protocol.json}, was recorded before the first run of the core implementation. It specifies 48 rounds, a 2736-label ceiling for each eight-round block, three catalog programs, six arms, three memory conditions, three environments, and the full allocation grid. There was no parameter selection on test results. The trial-matched control and change-timing checks were specified after the core results exposed a possible acquisition-timing explanation; their separate protocol is \path{examples/learning_controls.json}. They use fresh streams and are reported as exploratory attribution checks. Neither protocol is an external preregistration.
+
+The core has $3\times3\times6\times128=6912$ trajectories. The allocation grid uses 96 replicates for each share/trial-count combination and each discovery arm under stationary cumulative memory and reversal with Window 8. Four fixed references and two additional memory ablations in each environment bring this analysis to 4608 trajectories. The exploratory controls cross four environments (stationary and reversals before rounds 21, 25, 29), three memory conditions, four arms, and 128 replicates: 6144 trajectories. The three independent keyed root seeds are 920000, 930000, and 940000. Each random stream is indexed by root seed, round, acquisition stage, program, trial, and replicate. Conditions share underlying potential-label streams within each root; no policy receives unqueried labels.
+
+\subsection{Evidence update and program trials}
+For a template--stratum cell, cumulative memory adds each actually queried label once. Window 8 uses observations at historical rounds $t-8$ through $t-1$, plus current observations. Reset retains no earlier observations. All program trials at a review receive the same pre-review memory snapshot. Trial outputs and fresh validation labels are pooled only after program selection, then supplied to the current operational screen. Validation observes only the selected template, while screening observes all templates except for the second phase of the rejection comparator. A label from a rejected program remains usable if its source and population are appropriate. The pooling ablation withholds all program-trial labels from workflow memory while retaining program scores.
+
+Each trial score is $1-3\widehat r^{\rm val}-.22N^{\rm screen}/4096$, where validation uses equal counts across the two strata. A program's score is the mean of its trial means retained under the memory rule. Each review has the same trial count within a configuration. Ties favor Biased, then Balanced, then Neyman. Program-score memory can be disabled independently of workflow memory. Retained scores were generated under different historical knowledge states; they are empirical assessments used by this specified controller, not identically distributed observations of an invariant program value.
+
+For block budget $B=2736$, program share $f$, three programs, and $q$ trials per program, a trial receives $b=\lfloor\lfloor fB\rfloor/(3q)\rfloor$ label units. Validation obtains $v=\max\{1,\lfloor\lfloor .2b\rfloor/2\rfloor\}$ labels per stratum; screening receives $b-2v$ total units. The base $(f,q)=(.2,1)$ therefore allows 182 units per trial, with 18 validation labels per stratum and 146 units for screening. Actual counts can be smaller after integer allocation. Let $M_i$ be the actual number of trial labels for replicate $i$ at a block's start. Its subsequent per-round operational allowance is $\lfloor(B-M_i)/8\rfloor$. Discover once has $M_i=0$ after block 1. This rule keeps the budget fixed when trial count or program share changes.
+
+\subsection{Within-template and between-template allocation}
+For the catalog programs, let $u$ be one template's share of the operational or trial allowance. Balanced obtains $\lfloor u/2\rfloor$ labels in each stratum. Biased obtains $\max\{1,\lfloor .95u\rfloor\}$ and $\max\{1,\lfloor .05u\rfloor\}$. All tested allocations fit the allowance. Neyman first obtains $m=\min\{2,\max\{1,\lfloor u/4\rfloor\}\}$ labels per cell. Using retained and pilot data, it estimates $p_s$, sets $v_s=p_s(1-p_s)$, and allocates
+\begin{equation}
+n_s=m+\left\lfloor\frac{(u-2m)\sqrt{v_s}}{\sum_\ell\sqrt{v_\ell}}\right\rfloor.
+\end{equation}
+Pilot labels enter the posterior once. Equal label costs make this the equal-cost stratified allocation. Catalog selection breaks posterior ties in template order standard, specialized, broad.
+
+The successive-rejection comparator treats one pair of stratum labels as a bounded loss with mean equal to population risk. With $n$ affordable pairs and $K=3$, it uses the schedule of \citet{bai}:
+\begin{equation}
+\overline{\log}K=\frac12+\sum_{j=2}^{K}\frac1j,\qquad
+n_k=\left\lceil\frac{n-K}{(\overline{\log}K)(K+1-k)}\right\rceil,\quad k=1,2.
+\end{equation}
+All three templates receive $n_1$ pairs; the worst posterior-mean template is removed, and the remaining two reach $n_2$ pairs each. Elimination ties remove the lowest indexed template; final ties use the lowest surviving index. Historical evidence enters the posterior under the memory conditions. Thus the implementation uses the published rejection schedule with declared posterior ranking and deterministic ties. At the fixed allowance of 342 labels it uses 336 labels. No theoretical bound is claimed for this modification under memory or drift. SR is an additional fixed comparator and is not part of the three-program discovery catalog.
+
+\subsection{Outcome accounting, checks, and uncertainty}
+For deployed template $k_t$ with true population risk $r_{k_t,t}$, total queried labels $Q_t$, and program-change indicator $S_t$, the external score is
+\begin{equation}
+V_t=1-3r_{k_t,t}-.02-\{.22Q_t+.50S_t\}/4096.
+\label{eq:net}
+\end{equation}
+Each queried label corresponds to a generated evaluation output, so $.22$ includes $.20$ labeling and $.02$ generation. The separate $.02$ term prices each production output. Unqueried potential-label arrays are a simulator device, not actor-visible generated outputs. All rejected-program trials are charged. Program comparison costs are not subtracted a second time after computing net value.
+
+The simulator checks every block ceiling and the identity
+$V_t=1-3r_t^*-.02-\mathrm{regret}_t-\mathrm{expense}_t$,
+where $r_t^*$ is the best available risk. An independent scalar reconstruction checks 36 fixed-Balanced trajectories across the three environments and memory conditions to absolute tolerance $10^{-12}$. Additional fixtures check the lookback boundary, rejection allocation, and selection of a known best template. The patch checker enforces target authority and state version for program changes.
+
+Reported half-widths are $1.96s/\sqrt N$ across independent replicate trajectories. Paired intervals use within-replicate differences under the common streams. They quantify simulation uncertainty conditional on the supplied parameters. The uniform fixed benchmark averages the conditional mean values of Biased, Balanced, and Neyman under an initial uniform program prior; its paired contrast integrates over this discrete prior rather than adding random program draws. No claim of equivalence or correction for multiple hypothesis testing is attached to intervals spanning zero.
+
+\Cref{tab:base} supplies all core cell means; raw trajectories, intervals, costs, harms, regret, and late outcomes are retained in \path{results/learning_runs.csv} and \path{results/learning_summary.csv}.\begin{table}[!htbp]
+\caption{Complete core net-value means. B: Biased; Bal: Balanced; N: Neyman; Mix: uniform fixed-program mixture; SR: successive rejection; O: discover once; R: repeated discovery. Each cell uses 128 trajectories. Full intervals and additional outcomes are supplied in the CSV files.}
+\label{tab:base}\centering\small
+\begin{tabular}{@{}llrrrrrrr@{}}\toprule
+Environment & Memory & B & Bal & N & SR & O & R & Mix \\\midrule
+\tableinput{sections/learning_base_rows.tex}
+\bottomrule\end{tabular}\end{table}
+
+\Cref{tab:grid} reports the complete factorial grid, so favorable settings are not selected for the main result. The retained-program proportions, cell sizes, and subsequent-eight-round net value and harm are in \path{results/learning_conditional.csv}. These conditional means remain descriptive because the retained program is selected using noisy evidence.
+\begin{table}[!htbp]
+\caption{Repeated discovery minus discover-once at fixed total budget. All program shares and trial counts are shown. Entries are paired differences $\pm$ 95\% Monte Carlo half-width; 96 fresh replicates per condition.}
+\label{tab:grid}\centering\small
+\begin{tabular}{@{}rrrr@{}}\toprule
+Program share & Trials/program & Stationary, cumulative & Reversal, Window 8 \\\midrule
+\tableinput{sections/learning_grid_rows.tex}
+\bottomrule\end{tabular}\end{table}
+\begin{table}[!htbp]
+\caption{Repeated discovery: retained-program percentages and subsequent eight-round outcomes conditional on retaining Balanced. Stationary and uniform gain use cumulative memory; reversal uses Window 8. B/Bal/N are Biased/Balanced/Neyman; $n_{\rm Bal}$ is the number retaining Balanced among 128 replicates. Harm is the percentage of rounds deploying a template worse than standard. Other memory conditions and discover-once results are supplied in the complete CSV.}
+\label{tab:programs}\centering\small
+\begin{tabular}{@{}lrrrrrrr@{}}\toprule
+Environment & Review & B (\%) & Bal (\%) & N (\%) & $n_{\rm Bal}$ & Net given Bal & Harm (\%) \\\midrule
+\tableinput{sections/learning_program_rows.tex}
+\bottomrule\end{tabular}\end{table}
+\FloatBarrier

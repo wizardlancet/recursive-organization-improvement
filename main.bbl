@@ -1,0 +1,405 @@
+\begin{thebibliography}{50}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Adams and MacKay(2007)]{bocpd}
+Ryan~Prescott Adams and David J.~C. MacKay.
+\newblock Bayesian online changepoint detection, 2007.
+\newblock URL \url{https://arxiv.org/abs/0710.3742}.
+
+\bibitem[{Agile Alliance}(n.d.)]{xp}
+{Agile Alliance}.
+\newblock {Extreme Programming (XP)}, n.d.
+\newblock URL \url{https://agilealliance.org/glossary/xp/}.
+\newblock Undated living glossary; accessed 2026-09-28.
+
+\bibitem[Amdahl(1967)]{amdahl}
+Gene~M. Amdahl.
+\newblock {Validity of the single processor approach to achieving large scale
+  computing capabilities}.
+\newblock In \emph{Proceedings of the April 18-20, 1967, spring joint computer
+  conference on - AFIPS '67 (Spring)}, pages 483--485, 1967.
+\newblock \doi{10.1145/1465482.1465560}.
+
+\bibitem[Argyris and Sch\"on(1978)]{argyris}
+Chris Argyris and Donald~A. Sch\"on.
+\newblock \emph{Organizational Learning: A Theory of Action Perspective}.
+\newblock Addison-Wesley, 1978.
+\newblock URL \url{https://search.worldcat.org/title/610749704}.
+
+\bibitem[Audibert et~al.(2010)Audibert, Bubeck, and Munos]{bai}
+Jean-Yves Audibert, S{\'e}bastien Bubeck, and R{\'e}mi Munos.
+\newblock Best arm identification in multi-armed bandits.
+\newblock In \emph{Proceedings of the 23rd Conference on Learning Theory},
+  pages 41--53, 2010.
+\newblock URL
+  \url{https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/COLT10_ABM.pdf}.
+
+\bibitem[Bainbridge(1983)]{bainbridge}
+Lisanne Bainbridge.
+\newblock {Ironies of automation}.
+\newblock \emph{Automatica}, 19\penalty0 (6):\penalty0 775--779, 1983.
+\newblock \doi{10.1016/0005-1098(83)90046-8}.
+
+\bibitem[Bansal et~al.(2021)Bansal, Wu, Zhou, Fok, Nushi, Kamar, Ribeiro, and
+  Weld]{bansal}
+Gagan Bansal, Tongshuang Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece Kamar,
+  Marco~Tulio Ribeiro, and Daniel Weld.
+\newblock {Does the Whole Exceed its Parts? The Effect of AI Explanations on
+  Complementary Team Performance}.
+\newblock In \emph{Proceedings of the 2021 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--16, 2021.
+\newblock \doi{10.1145/3411764.3445717}.
+
+\bibitem[Beck et~al.(2001)Beck, Beedle, van Bennekum, Cockburn, Cunningham,
+  Fowler, Grenning, Highsmith, Hunt, Jeffries, Kern, Marick, Martin, Mellor,
+  Schwaber, Sutherland, and Thomas]{agile}
+Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham,
+  Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon
+  Kern, Brian Marick, Robert~C. Martin, Steve Mellor, Ken Schwaber, Jeff
+  Sutherland, and Dave Thomas.
+\newblock {Principles behind the Agile Manifesto}, 2001.
+\newblock URL \url{https://agilemanifesto.org/principles.html}.
+\newblock Accessed 2026-09-28.
+
+\bibitem[Bowman et~al.(2022)Bowman, Hyun, Perez, Chen, Pettit, Heiner,
+  Luko\v{s}i\={u}t\.{e}, Askell, Jones, Chen, Goldie, Mirhoseini, McKinnon,
+  Olah, Amodei, Amodei, Drain, Li, Tran-Johnson, Kernion, Kerr, Mueller,
+  Ladish, Landau, Ndousse, Lovitt, Elhage, Schiefer, Joseph, Mercado, DasSarma,
+  Larson, McCandlish, Kundu, Johnston, Kravec, Showk, Fort, Telleen-Lawton,
+  Brown, Henighan, Hume, Bai, Hatfield-Dodds, Mann, and Kaplan]{oversight}
+Samuel~R. Bowman, Jeeyoon Hyun, Ethan Perez, Edwin Chen, Craig Pettit, Scott
+  Heiner, Kamil\.{e} Luko\v{s}i\={u}t\.{e}, Amanda Askell, Andy Jones, Anna
+  Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Christopher Olah,
+  Daniela Amodei, Dario Amodei, Dawn Drain, Dustin Li, Eli Tran-Johnson,
+  Jackson Kernion, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau,
+  Kamal Ndousse, Liane Lovitt, Nelson Elhage, Nicholas Schiefer, Nicholas
+  Joseph, Noem{\'\i} Mercado, Nova DasSarma, Robin Larson, Sam McCandlish,
+  Sandipan Kundu, Scott Johnston, Shauna Kravec, Sheer~El Showk, Stanislav
+  Fort, Timothy Telleen-Lawton, Tom Brown, Tom Henighan, Tristan Hume, Yuntao
+  Bai, Zac Hatfield-Dodds, Ben Mann, and Jared Kaplan.
+\newblock {Measuring Progress on Scalable Oversight for Large Language Models},
+  2022.
+\newblock URL \url{https://arxiv.org/abs/2211.03540}.
+\newblock arXiv:2211.03540; preprint.
+
+\bibitem[Brynjolfsson et~al.(2021)Brynjolfsson, Rock, and Syverson]{jcurve}
+Erik Brynjolfsson, Daniel Rock, and Chad Syverson.
+\newblock {The Productivity J-Curve: How Intangibles Complement General Purpose
+  Technologies}.
+\newblock \emph{American Economic Journal: Macroeconomics}, 13\penalty0
+  (1):\penalty0 333--372, 2021.
+\newblock \doi{10.1257/mac.20180386}.
+
+\bibitem[Brynjolfsson et~al.(2025)Brynjolfsson, Li, and Raymond]{brynjolfsson}
+Erik Brynjolfsson, Danielle Li, and Lindsey Raymond.
+\newblock {Generative AI at Work}.
+\newblock \emph{The Quarterly Journal of Economics}, 140\penalty0 (2):\penalty0
+  889--942, 2025.
+\newblock \doi{10.1093/qje/qjae044}.
+
+\bibitem[Bu\c{c}inca et~al.(2021)Bu\c{c}inca, Malaya, and Gajos]{bucinca}
+Zana Bu\c{c}inca, Maja~Barbara Malaya, and Krzysztof~Z. Gajos.
+\newblock {To Trust or to Think: Cognitive Forcing Functions Can Reduce
+  Overreliance on AI in AI-assisted Decision-making}.
+\newblock \emph{Proceedings of the ACM on Human-Computer Interaction},
+  5\penalty0 (CSCW1):\penalty0 1--21, 2021.
+\newblock \doi{10.1145/3449287}.
+
+\bibitem[Burns et~al.(2024)Burns, Izmailov, Kirchner, Baker, Gao,
+  Aschenbrenner, Chen, Ecoffet, Joglekar, Leike, Sutskever, and Wu]{burns}
+Collin Burns, Pavel Izmailov, Jan~Hendrik Kirchner, Bowen Baker, Leo Gao,
+  Leopold Aschenbrenner, Yining Chen, Adrien Ecoffet, Manas Joglekar, Jan
+  Leike, Ilya Sutskever, and Jeffrey Wu.
+\newblock Weak-to-strong generalization: Eliciting strong capabilities with
+  weak supervision.
+\newblock In Ruslan Salakhutdinov, Zico Kolter, Katherine Heller, Adrian
+  Weller, Nuria Oliver, Jonathan Scarlett, and Felix Berkenkamp, editors,
+  \emph{Proceedings of the 41st International Conference on Machine Learning},
+  volume 235 of \emph{Proceedings of Machine Learning Research}, pages
+  4971--5012. PMLR, 21--27 Jul 2024.
+\newblock URL \url{https://proceedings.mlr.press/v235/burns24b.html}.
+
+\bibitem[Cataldo et~al.(2006)Cataldo, Wagstrom, Herbsleb, and Carley]{cataldo}
+Marcelo Cataldo, Patrick~A. Wagstrom, James~D. Herbsleb, and Kathleen~M.
+  Carley.
+\newblock {Identification of coordination requirements: Implications for the
+  design of collaboration and awareness tools}.
+\newblock In \emph{Proceedings of the 2006 20th anniversary conference on
+  Computer supported cooperative work}, pages 353--362, 2006.
+\newblock \doi{10.1145/1180875.1180929}.
+
+\bibitem[Christiano et~al.(2018)Christiano, Shlegeris, and Amodei]{amplify}
+Paul Christiano, Buck Shlegeris, and Dario Amodei.
+\newblock {Supervising strong learners by amplifying weak experts}, 2018.
+\newblock URL \url{https://arxiv.org/abs/1810.08575}.
+\newblock arXiv:1810.08575; preprint.
+
+\bibitem[Clemen and Winkler(1985)]{clemen}
+Robert~T. Clemen and Robert~L. Winkler.
+\newblock Limits for the precision and value of information from dependent
+  sources.
+\newblock \emph{Operations Research}, 33\penalty0 (2):\penalty0 427--442, 1985.
+\newblock \doi{10.1287/opre.33.2.427}.
+
+\bibitem[Dignum et~al.(2004)Dignum, Dignum, and Meyer]{opera}
+Virginia Dignum, Frank Dignum, and John-Jules Meyer.
+\newblock {An agent-mediated approach to the support of knowledge sharing in
+  organizations}.
+\newblock \emph{The Knowledge Engineering Review}, 19\penalty0 (2):\penalty0
+  147--174, 2004.
+\newblock \doi{10.1017/s0269888904000244}.
+
+\bibitem[Engelbart(1992)]{engelbart}
+Douglas~C. Engelbart.
+\newblock {Toward High-Performance Organizations: A Strategic Role for
+  Groupware}.
+\newblock In \emph{Proceedings of GroupWare '92}, 1992.
+\newblock URL
+  \url{https://www.dougengelbart.org/pubs/papers/scanned-original/1992-augment-132811-Toward-High-Performance-Organizations-a-Strategic-Role-for-Groupware.pdf}.
+
+\bibitem[Feldman and Pentland(2003)]{feldman}
+Martha~S. Feldman and Brian~T. Pentland.
+\newblock Reconceptualizing organizational routines as a source of flexibility
+  and change.
+\newblock \emph{Administrative Science Quarterly}, 48\penalty0 (1):\penalty0
+  94--118, 2003.
+\newblock \doi{10.2307/3556620}.
+
+\bibitem[Galbraith(1974)]{galbraith}
+Jay~R. Galbraith.
+\newblock {Organization Design: An Information Processing View}.
+\newblock \emph{Interfaces}, 4\penalty0 (3):\penalty0 28--36, 1974.
+\newblock \doi{10.1287/inte.4.3.28}.
+
+\bibitem[Gama et~al.(2014)Gama, {\v Z}liobait{\.e}, Bifet, Pechenizkiy, and
+  Bouchachia]{drift}
+Jo{\~a}o Gama, Indr{\.e} {\v Z}liobait{\.e}, Albert Bifet, Mykola Pechenizkiy,
+  and Abdelhamid Bouchachia.
+\newblock A survey on concept drift adaptation.
+\newblock \emph{ACM Computing Surveys}, 46\penalty0 (4):\penalty0 1--37, 2014.
+\newblock \doi{10.1145/2523813}.
+
+\bibitem[Garivier and Moulines(2011)]{switchbandit}
+Aur{\'e}lien Garivier and Eric Moulines.
+\newblock On upper-confidence bound policies for switching bandit problems.
+\newblock In \emph{Algorithmic Learning Theory}, volume 6925 of \emph{Lecture
+  Notes in Computer Science}, pages 174--188, 2011.
+\newblock \doi{10.1007/978-3-642-24412-4_16}.
+
+\bibitem[{GitHub}(2026{\natexlab{a}})]{githubchecks}
+{GitHub}.
+\newblock {REST API} endpoints for check runs.
+\newblock GitHub REST API documentation, 2026{\natexlab{a}}.
+\newblock URL \url{https://docs.github.com/en/rest/checks/runs}.
+\newblock Accessed September 30, 2026.
+
+\bibitem[{GitHub}(2026{\natexlab{b}})]{githubreviews}
+{GitHub}.
+\newblock {REST API} endpoints for pull request reviews.
+\newblock GitHub REST API documentation, 2026{\natexlab{b}}.
+\newblock URL \url{https://docs.github.com/en/rest/pulls/reviews}.
+\newblock Accessed September 30, 2026.
+
+\bibitem[Horvitz and Thompson(1952)]{ht}
+D.~G. Horvitz and D.~J. Thompson.
+\newblock {A Generalization of Sampling Without Replacement from a Finite
+  Universe}.
+\newblock \emph{Journal of the American Statistical Association}, 47\penalty0
+  (260):\penalty0 663--685, 1952.
+\newblock \doi{10.1080/01621459.1952.10483446}.
+
+\bibitem[Horvitz(1999)]{mixed}
+Eric Horvitz.
+\newblock {Principles of mixed-initiative user interfaces}.
+\newblock In \emph{Proceedings of the SIGCHI conference on Human factors in
+  computing systems the CHI is the limit - CHI '99}, pages 159--166, 1999.
+\newblock \doi{10.1145/302979.303030}.
+
+\bibitem[Hu et~al.(2025)Hu, Lu, and Clune]{adas}
+Shengran Hu, Cong Lu, and Jeff Clune.
+\newblock Automated design of agentic systems.
+\newblock In \emph{International Conference on Learning Representations}, 2025.
+\newblock URL
+  \url{https://proceedings.iclr.cc/paper_files/paper/2025/file/36b7acf6f6010652b3f2a433774a66fe-Paper-Conference.pdf}.
+
+\bibitem[H\"ubner et~al.(2002)H\"ubner, ao~Sichman, and Boissier]{moise}
+Jomi~Fred H\"ubner, Jaime~Sim\ ao~Sichman, and Olivier Boissier.
+\newblock {MOISE+: towards a structural, functional, and deontic model for MAS
+  organization}.
+\newblock In \emph{Proceedings of the first international joint conference on
+  Autonomous agents and multiagent systems: part 1}, pages 501--502, 2002.
+\newblock \doi{10.1145/544741.544858}.
+
+\bibitem[Johnson et~al.(2014)Johnson, Bradshaw, Feltovich, Jonker, Riemsdijk,
+  and Sierhuis]{coactive}
+Matthew Johnson, Jeffrey~M. Bradshaw, Paul~J. Feltovich, Catholijn~M. Jonker,
+  M.~Birna~Van Riemsdijk, and Maarten Sierhuis.
+\newblock {Coactive Design: Designing Support for Interdependence in Joint
+  Activity}.
+\newblock \emph{Journal of Human-Robot Interaction}, 3\penalty0 (1):\penalty0
+  43--69, 2014.
+\newblock \doi{10.5898/jhri.3.1.johnson}.
+
+\bibitem[Kasy and Sautmann(2021)]{kasy}
+Maximilian Kasy and Anja Sautmann.
+\newblock Adaptive treatment assignment in experiments for policy choice.
+\newblock \emph{Econometrica}, 89\penalty0 (1):\penalty0 113--132, 2021.
+\newblock \doi{10.3982/ECTA17527}.
+\newblock URL \url{https://doi.org/10.3982/ECTA17527}.
+
+\bibitem[Lee and See(2004)]{lee}
+J.~D. Lee and K.~A. See.
+\newblock {Trust in Automation: Designing for Appropriate Reliance}.
+\newblock \emph{Human Factors: The Journal of the Human Factors and Ergonomics
+  Society}, 46\penalty0 (1):\penalty0 50--80, 2004.
+\newblock \doi{10.1518/hfes.46.1.50_30392}.
+
+\bibitem[Levitt and March(1988)]{levitt}
+Barbara Levitt and James~G. March.
+\newblock {Organizational Learning}.
+\newblock \emph{Annual Review of Sociology}, 14\penalty0 (1):\penalty0
+  319--338, 1988.
+\newblock \doi{10.1146/annurev.so.14.080188.001535}.
+
+\bibitem[Little(1961)]{little}
+John D.~C. Little.
+\newblock {A Proof for the Queuing Formula: $L=\lambda W$}.
+\newblock \emph{Operations Research}, 9\penalty0 (3):\penalty0 383--387, 1961.
+\newblock \doi{10.1287/opre.9.3.383}.
+
+\bibitem[Lorenz et~al.(2011)Lorenz, Rauhut, Schweitzer, and Helbing]{lorenz}
+Jan Lorenz, Heiko Rauhut, Frank Schweitzer, and Dirk Helbing.
+\newblock {How social influence can undermine the wisdom of crowd effect}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 108\penalty0
+  (22):\penalty0 9020--9025, 2011.
+\newblock \doi{10.1073/pnas.1008636108}.
+
+\bibitem[Malone and Crowston(1994)]{malone}
+Thomas~W. Malone and Kevin Crowston.
+\newblock {The interdisciplinary study of coordination}.
+\newblock \emph{ACM Computing Surveys}, 26\penalty0 (1):\penalty0 87--119,
+  1994.
+\newblock \doi{10.1145/174666.174668}.
+
+\bibitem[March(1991)]{march}
+James~G. March.
+\newblock {Exploration and Exploitation in Organizational Learning}.
+\newblock \emph{Organization Science}, 2\penalty0 (1):\penalty0 71--87, 1991.
+\newblock \doi{10.1287/orsc.2.1.71}.
+
+\bibitem[Milgrom and Roberts(1995)]{milgrom}
+Paul Milgrom and John Roberts.
+\newblock {Complementarities and fit: Strategy, structure, and organizational
+  change in manufacturing}.
+\newblock \emph{Journal of Accounting and Economics}, 19\penalty0
+  (2-3):\penalty0 179--208, 1995.
+\newblock \doi{10.1016/0165-4101(94)00382-F}.
+
+\bibitem[Neyman(1934)]{neyman}
+Jerzy Neyman.
+\newblock On the two different aspects of the representative method: The method
+  of stratified sampling and the method of purposive selection.
+\newblock \emph{Journal of the Royal Statistical Society}, 97\penalty0
+  (4):\penalty0 558--606, 1934.
+\newblock \doi{10.1111/j.2397-2335.1934.tb04184.x}.
+
+\bibitem[Noy and Zhang(2023)]{noy}
+Shakked Noy and Whitney Zhang.
+\newblock {Experimental evidence on the productivity effects of generative
+  artificial intelligence}.
+\newblock \emph{Science}, 381\penalty0 (6654):\penalty0 187--192, 2023.
+\newblock \doi{10.1126/science.adh2586}.
+
+\bibitem[Parasuraman et~al.(2000)Parasuraman, Sheridan, and Wickens]{levels}
+R.~Parasuraman, T.B. Sheridan, and C.D. Wickens.
+\newblock {A model for types and levels of human interaction with automation}.
+\newblock \emph{IEEE Transactions on Systems, Man, and Cybernetics - Part A:
+  Systems and Humans}, 30\penalty0 (3):\penalty0 286--297, 2000.
+\newblock \doi{10.1109/3468.844354}.
+
+\bibitem[Puranam(2021)]{puranam2021}
+Phanish Puranam.
+\newblock {Human--AI collaborative decision-making as an organization design
+  problem}.
+\newblock \emph{Journal of Organization Design}, 10\penalty0 (2):\penalty0
+  75--80, 2021.
+\newblock \doi{10.1007/s41469-021-00095-2}.
+
+\bibitem[Puranam et~al.(2014)Puranam, Alexy, and Reitzig]{puranam}
+Phanish Puranam, Oliver Alexy, and Markus Reitzig.
+\newblock {What's ``New'' About New Forms of Organizing?}
+\newblock \emph{Academy of Management Review}, 39\penalty0 (2):\penalty0
+  162--180, 2014.
+\newblock \doi{10.5465/amr.2011.0436}.
+
+\bibitem[Royce(1970)]{royce}
+Winston~W. Royce.
+\newblock {Managing the Development of Large Software Systems}.
+\newblock In \emph{Proceedings of IEEE WESCON}, pages 1--9, 1970.
+\newblock URL \url{https://cse.msu.edu/~cse435/Homework/HW3/royce1970.pdf}.
+\newblock Original 1970 paper; linked copy is a reprint.
+
+\bibitem[Shinn et~al.(2023)Shinn, Cassano, Gopinath, Narasimhan, and
+  Yao]{reflexion}
+Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu
+  Yao.
+\newblock Reflexion: Language agents with verbal reinforcement learning.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~36, 2023.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html}.
+
+\bibitem[Sturm et~al.(2021)Sturm, Gerlach, Pumplun, Mesbah, Peters, Tauchert,
+  Nan, and Buxmann]{sturm}
+Timo Sturm, Jin~P. Gerlach, Luisa Pumplun, Neda Mesbah, Felix Peters, Christoph
+  Tauchert, Ning Nan, and Peter Buxmann.
+\newblock {Coordinating Human and Machine Learning for Effective Organizational
+  Learning}.
+\newblock \emph{MIS Quarterly}, 45\penalty0 (3):\penalty0 1581--1602, 2021.
+\newblock \doi{10.25300/misq/2021/16543}.
+
+\bibitem[Tucker et~al.(2023)Tucker, Biddulph, Wang, and Joachims]{costbandit}
+Aaron~D. Tucker, Caleb Biddulph, Claire Wang, and Thorsten Joachims.
+\newblock Bandits with costly reward observations.
+\newblock In \emph{Proceedings of the Thirty-Ninth Conference on Uncertainty in
+  Artificial Intelligence}, volume 216 of \emph{Proceedings of Machine Learning
+  Research}, pages 2147--2156, 2023.
+\newblock URL \url{https://proceedings.mlr.press/v216/tucker23a.html}.
+
+\bibitem[Vaccaro et~al.(2024)Vaccaro, Almaatouq, and Malone]{vaccaro}
+Michelle Vaccaro, Abdullah Almaatouq, and Thomas Malone.
+\newblock {When combinations of humans and AI are useful: A systematic review
+  and meta-analysis}.
+\newblock \emph{Nature Human Behaviour}, 8\penalty0 (12):\penalty0 2293--2303,
+  2024.
+\newblock \doi{10.1038/s41562-024-02024-1}.
+
+\bibitem[{van der Aalst}(2012)]{processmining}
+Wil {van der Aalst}.
+\newblock Process mining: Overview and opportunities.
+\newblock \emph{ACM Transactions on Management Information Systems}, 3\penalty0
+  (2):\penalty0 1--17, 2012.
+\newblock \doi{10.1145/2229156.2229157}.
+
+\bibitem[Zhang et~al.(2025)Zhang, Xiang, Yu, Teng, Chen, Chen, Zhuge, Cheng,
+  Hong, Wang, Zheng, Liu, Luo, and Wu]{aflow}
+Jiayi Zhang, Jinyu Xiang, Zhaoyang Yu, Fengwei Teng, Xionghui Chen, Jiaqi Chen,
+  Mingchen Zhuge, Xin Cheng, Sirui Hong, Jinlin Wang, Bingnan Zheng, Bang Liu,
+  Yuyu Luo, and Chenglin Wu.
+\newblock Aflow: Automating agentic workflow generation.
+\newblock In \emph{International Conference on Learning Representations}, 2025.
+\newblock URL
+  \url{https://proceedings.iclr.cc/paper_files/paper/2025/hash/5492ecbce4439401798dcd2c90be94cd-Abstract-Conference.html}.
+
+\bibitem[Zollo and Winter(2002)]{zollo}
+Maurizio Zollo and Sidney~G. Winter.
+\newblock {Deliberate Learning and the Evolution of Dynamic Capabilities}.
+\newblock \emph{Organization Science}, 13\penalty0 (3):\penalty0 339--351,
+  2002.
+\newblock \doi{10.1287/orsc.13.3.339.2780}.
+
+\end{thebibliography}

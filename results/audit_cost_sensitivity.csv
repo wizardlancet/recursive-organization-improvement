@@ -1,0 +1,109 @@
+scenario,audit_cost,policy,mean
+Stationary,0,Fixed sparse,0.8658435742187501
+Stationary,0,Fixed dense,0.8797008789062499
+Stationary,0,Periodic dense,0.876546015625
+Stationary,0,Adaptive audit,0.87759876953125
+Stationary,0,No audit,0.87975830078125
+Stationary,0,Fixed 0.05,0.873861484375
+Stationary,0,Fixed 0.10,0.8782809765624999
+Stationary,0,Fixed 0.20,0.8794775195312501
+Stationary,0,Fixed 0.60,0.8797281250000001
+Stationary,0.05,Fixed sparse,0.8646056591796875
+Stationary,0.05,Fixed dense,0.8597151611328125
+Stationary,0.05,Periodic dense,0.8703770703124999
+Stationary,0.05,Adaptive audit,0.8746066796875
+Stationary,0.05,No audit,0.87975830078125
+Stationary,0.05,Fixed 0.05,0.8713833837890625
+Stationary,0.05,Fixed 0.10,0.8733136669921874
+Stationary,0.05,Fixed 0.20,0.8695119189453127
+Stationary,0.05,Fixed 0.60,0.8497464843749999
+Stationary,0.1,Fixed sparse,0.8633677441406249
+Stationary,0.1,Fixed dense,0.8397294433593749
+Stationary,0.1,Periodic dense,0.864208125
+Stationary,0.1,Adaptive audit,0.8716145898437501
+Stationary,0.1,No audit,0.87975830078125
+Stationary,0.1,Fixed 0.05,0.868905283203125
+Stationary,0.1,Fixed 0.10,0.868346357421875
+Stationary,0.1,Fixed 0.20,0.859546318359375
+Stationary,0.1,Fixed 0.60,0.81976484375
+Stationary,0.2,Fixed sparse,0.8608919140625
+Stationary,0.2,Fixed dense,0.7997580078125001
+Stationary,0.2,Periodic dense,0.851870234375
+Stationary,0.2,Adaptive audit,0.8656304101562501
+Stationary,0.2,No audit,0.87975830078125
+Stationary,0.2,Fixed 0.05,0.86394908203125
+Stationary,0.2,Fixed 0.10,0.85841173828125
+Stationary,0.2,Fixed 0.20,0.8396151171874999
+Stationary,0.2,Fixed 0.60,0.7598015625000001
+Stationary,0.4,Fixed sparse,0.8559402539062501
+Stationary,0.4,Fixed dense,0.7198151367187501
+Stationary,0.4,Periodic dense,0.827194453125
+Stationary,0.4,Adaptive audit,0.85366205078125
+Stationary,0.4,No audit,0.87975830078125
+Stationary,0.4,Fixed 0.05,0.8540366796875
+Stationary,0.4,Fixed 0.10,0.8385425000000001
+Stationary,0.4,Fixed 0.20,0.79975271484375
+Stationary,0.4,Fixed 0.60,0.6398750000000001
+Stationary,0.8,Fixed sparse,0.84603693359375
+Stationary,0.8,Fixed dense,0.55992939453125
+Stationary,0.8,Periodic dense,0.7778428906249999
+Stationary,0.8,Adaptive audit,0.8297253320312501
+Stationary,0.8,No audit,0.87975830078125
+Stationary,0.8,Fixed 0.05,0.834211875
+Stationary,0.8,Fixed 0.10,0.7988040234374999
+Stationary,0.8,Fixed 0.20,0.7200279101562501
+Stationary,0.8,Fixed 0.60,0.4000218749999999
+Regime shifts,0,Fixed sparse,0.64357568359375
+Regime shifts,0,Fixed dense,0.6898978515624999
+Regime shifts,0,Periodic dense,0.68344357421875
+Regime shifts,0,Adaptive audit,0.6881957714843749
+Regime shifts,0,No audit,0.5638925781249999
+Regime shifts,0,Fixed 0.05,0.6636990624999999
+Regime shifts,0,Fixed 0.10,0.6797508203125
+Regime shifts,0,Fixed 0.20,0.6878686914062498
+Regime shifts,0,Fixed 0.60,0.6902937109375
+Regime shifts,0.05,Fixed sparse,0.6423377685546876
+Regime shifts,0.05,Fixed dense,0.6699121337890626
+Regime shifts,0.05,Periodic dense,0.67727462890625
+Regime shifts,0.05,Adaptive audit,0.6832604931640626
+Regime shifts,0.05,No audit,0.5638925781249999
+Regime shifts,0.05,Fixed 0.05,0.6612209619140625
+Regime shifts,0.05,Fixed 0.10,0.6747835107421875
+Regime shifts,0.05,Fixed 0.20,0.6779030908203125
+Regime shifts,0.05,Fixed 0.60,0.6603120703125
+Regime shifts,0.1,Fixed sparse,0.641099853515625
+Regime shifts,0.1,Fixed dense,0.649926416015625
+Regime shifts,0.1,Periodic dense,0.6711056835937501
+Regime shifts,0.1,Adaptive audit,0.67832521484375
+Regime shifts,0.1,No audit,0.5638925781249999
+Regime shifts,0.1,Fixed 0.05,0.658742861328125
+Regime shifts,0.1,Fixed 0.10,0.669816201171875
+Regime shifts,0.1,Fixed 0.20,0.667937490234375
+Regime shifts,0.1,Fixed 0.60,0.6303304296875
+Regime shifts,0.2,Fixed sparse,0.6386240234375
+Regime shifts,0.2,Fixed dense,0.60995498046875
+Regime shifts,0.2,Periodic dense,0.6587677929687501
+Regime shifts,0.2,Adaptive audit,0.668454658203125
+Regime shifts,0.2,No audit,0.5638925781249999
+Regime shifts,0.2,Fixed 0.05,0.65378666015625
+Regime shifts,0.2,Fixed 0.10,0.6598815820312498
+Regime shifts,0.2,Fixed 0.20,0.6480062890625
+Regime shifts,0.2,Fixed 0.60,0.5703671484375
+Regime shifts,0.4,Fixed sparse,0.63367236328125
+Regime shifts,0.4,Fixed dense,0.530012109375
+Regime shifts,0.4,Periodic dense,0.63409201171875
+Regime shifts,0.4,Adaptive audit,0.648713544921875
+Regime shifts,0.4,No audit,0.5638925781249999
+Regime shifts,0.4,Fixed 0.05,0.6438742578125001
+Regime shifts,0.4,Fixed 0.10,0.6400123437499999
+Regime shifts,0.4,Fixed 0.20,0.60814388671875
+Regime shifts,0.4,Fixed 0.60,0.45044058593749997
+Regime shifts,0.8,Fixed sparse,0.62376904296875
+Regime shifts,0.8,Fixed dense,0.37012636718749986
+Regime shifts,0.8,Periodic dense,0.58474044921875
+Regime shifts,0.8,Adaptive audit,0.609231318359375
+Regime shifts,0.8,No audit,0.5638925781249999
+Regime shifts,0.8,Fixed 0.05,0.624049453125
+Regime shifts,0.8,Fixed 0.10,0.6002738671875
+Regime shifts,0.8,Fixed 0.20,0.52841908203125
+Regime shifts,0.8,Fixed 0.60,0.21058746093749992

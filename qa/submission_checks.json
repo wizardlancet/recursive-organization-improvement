@@ -1,0 +1,63 @@
+{
+  "author_verified": true,
+  "no_internal_versions_in_pdf": true,
+  "pages": 18,
+  "all_33_result_csvs_unchanged": true,
+  "cost_formula_grouping_verified": true,
+  "negative_intervals_visible_in_declared_axis": true,
+  "actor_ids_pseudonymized": true,
+  "mixture_values": {
+    "Reset": 0.43426180601119996,
+    "Cumulative": 0.476565073331197
+  },
+  "exploratory_contrasts": [
+    {
+      "environment": "Workflow reversal 20",
+      "comparison": "Repeated - Balanced",
+      "delta": 0.0003121288617450998,
+      "lower": -0.0008699279881633785,
+      "upper": 0.0014941857116535782
+    },
+    {
+      "environment": "Workflow reversal 20",
+      "comparison": "Repeated - Trial-matched Balanced",
+      "delta": -0.0006321501731872473,
+      "lower": -0.0013531819853640297,
+      "upper": 8.888163898953519e-05
+    },
+    {
+      "environment": "Workflow reversal",
+      "comparison": "Repeated - Balanced",
+      "delta": 0.00607382774353022,
+      "lower": 0.0038991340604308438,
+      "upper": 0.008248521426629598
+    },
+    {
+      "environment": "Workflow reversal",
+      "comparison": "Repeated - Trial-matched Balanced",
+      "delta": 0.0019068924585978076,
+      "lower": -0.00016449306333356012,
+      "upper": 0.003978277980529176
+    },
+    {
+      "environment": "Workflow reversal 28",
+      "comparison": "Repeated - Balanced",
+      "delta": 3.840208053587386e-05,
+      "lower": -0.0011652244412706707,
+      "upper": 0.0012420286023424184
+    },
+    {
+      "environment": "Workflow reversal 28",
+      "comparison": "Repeated - Trial-matched Balanced",
+      "delta": -0.0005738457043965644,
+      "lower": -0.0012661051983033629,
+      "upper": 0.00011841378951023415
+    }
+  ],
+  "bibliography_pages": [
+    11,
+    12,
+    13
+  ],
+  "pdf_sha256": "cd0b1f5497c0f52ec27ef02c872a537c67fec6d46b7e96a6bacf0c5ea94f5eea"
+}

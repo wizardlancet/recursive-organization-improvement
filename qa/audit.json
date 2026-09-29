@@ -1,0 +1,16 @@
+{
+  "pages": 18,
+  "bib_entries": 50,
+  "unique_cited_entries": 50,
+  "missing_citations": [],
+  "uncited_entries": [],
+  "duplicate_bib_keys": 0,
+  "figures": 3,
+  "tables": 9,
+  "appendix_sections": 4,
+  "overfull_boxes": [],
+  "missing_glyphs": [],
+  "unresolved_references": [],
+  "extracted_word_count_including_refs": 11207,
+  "pdf_sha256": "cd0b1f5497c0f52ec27ef02c872a537c67fec6d46b7e96a6bacf0c5ea94f5eea"
+}

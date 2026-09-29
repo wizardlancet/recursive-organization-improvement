@@ -1,0 +1,17 @@
+{
+  "id": "coverage-change-1",
+  "target": "evaluation.coverage_program",
+  "expected_version": 0,
+  "actor": "review_board",
+  "transformation": {
+    "from": "Biased",
+    "to": "Balanced"
+  },
+  "evidence": [
+    "program-trials-1.v1"
+  ],
+  "comparison": "population-and-net-value-criterion.v1",
+  "cost_ledger": "labels-outputs-transition-1.v1",
+  "horizon_rounds": 8,
+  "retention": "next-review-rule.v1"
+}

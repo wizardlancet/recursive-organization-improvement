@@ -1,0 +1,248 @@
+{
+  "protocol_sha256": "70b39e54e2062f561c556b4752ac7f3f2fd4e6614bb3a6941b9a111e2d6badca",
+  "base_trajectories": 6912,
+  "sensitivity_trajectories": 4608,
+  "budget_checks_passed": true,
+  "cost_identities_passed": true,
+  "test_tuning": "none",
+  "randomization_unit": "replicate within keyed stream seed",
+  "program_changes_first_replicate": {
+    "Stationary harm / Reset / Biased": [],
+    "Stationary harm / Reset / Balanced": [],
+    "Stationary harm / Reset / Neyman": [],
+    "Stationary harm / Reset / Successive rejects": [],
+    "Stationary harm / Reset / Discover once": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      }
+    ],
+    "Stationary harm / Reset / Repeated discovery": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      },
+      {
+        "round": 17,
+        "from_program": "Neyman",
+        "to_program": "Biased",
+        "version": 2
+      },
+      {
+        "round": 25,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 3
+      },
+      {
+        "round": 33,
+        "from_program": "Neyman",
+        "to_program": "Balanced",
+        "version": 4
+      }
+    ],
+    "Stationary harm / Cumulative / Biased": [],
+    "Stationary harm / Cumulative / Balanced": [],
+    "Stationary harm / Cumulative / Neyman": [],
+    "Stationary harm / Cumulative / Successive rejects": [],
+    "Stationary harm / Cumulative / Discover once": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      }
+    ],
+    "Stationary harm / Cumulative / Repeated discovery": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      }
+    ],
+    "Stationary harm / Window 8 / Biased": [],
+    "Stationary harm / Window 8 / Balanced": [],
+    "Stationary harm / Window 8 / Neyman": [],
+    "Stationary harm / Window 8 / Successive rejects": [],
+    "Stationary harm / Window 8 / Discover once": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      }
+    ],
+    "Stationary harm / Window 8 / Repeated discovery": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      },
+      {
+        "round": 25,
+        "from_program": "Neyman",
+        "to_program": "Biased",
+        "version": 2
+      },
+      {
+        "round": 41,
+        "from_program": "Biased",
+        "to_program": "Balanced",
+        "version": 3
+      }
+    ],
+    "Workflow reversal / Reset / Biased": [],
+    "Workflow reversal / Reset / Balanced": [],
+    "Workflow reversal / Reset / Neyman": [],
+    "Workflow reversal / Reset / Successive rejects": [],
+    "Workflow reversal / Reset / Discover once": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      }
+    ],
+    "Workflow reversal / Reset / Repeated discovery": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      },
+      {
+        "round": 17,
+        "from_program": "Neyman",
+        "to_program": "Biased",
+        "version": 2
+      },
+      {
+        "round": 25,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 3
+      },
+      {
+        "round": 33,
+        "from_program": "Neyman",
+        "to_program": "Biased",
+        "version": 4
+      },
+      {
+        "round": 41,
+        "from_program": "Biased",
+        "to_program": "Balanced",
+        "version": 5
+      }
+    ],
+    "Workflow reversal / Cumulative / Biased": [],
+    "Workflow reversal / Cumulative / Balanced": [],
+    "Workflow reversal / Cumulative / Neyman": [],
+    "Workflow reversal / Cumulative / Successive rejects": [],
+    "Workflow reversal / Cumulative / Discover once": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      }
+    ],
+    "Workflow reversal / Cumulative / Repeated discovery": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      }
+    ],
+    "Workflow reversal / Window 8 / Biased": [],
+    "Workflow reversal / Window 8 / Balanced": [],
+    "Workflow reversal / Window 8 / Neyman": [],
+    "Workflow reversal / Window 8 / Successive rejects": [],
+    "Workflow reversal / Window 8 / Discover once": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      }
+    ],
+    "Workflow reversal / Window 8 / Repeated discovery": [
+      {
+        "round": 1,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      },
+      {
+        "round": 25,
+        "from_program": "Neyman",
+        "to_program": "Biased",
+        "version": 2
+      },
+      {
+        "round": 33,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 3
+      }
+    ],
+    "Uniform gain / Reset / Biased": [],
+    "Uniform gain / Reset / Balanced": [],
+    "Uniform gain / Reset / Neyman": [],
+    "Uniform gain / Reset / Successive rejects": [],
+    "Uniform gain / Reset / Discover once": [],
+    "Uniform gain / Reset / Repeated discovery": [
+      {
+        "round": 17,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      },
+      {
+        "round": 33,
+        "from_program": "Neyman",
+        "to_program": "Biased",
+        "version": 2
+      },
+      {
+        "round": 41,
+        "from_program": "Biased",
+        "to_program": "Balanced",
+        "version": 3
+      }
+    ],
+    "Uniform gain / Cumulative / Biased": [],
+    "Uniform gain / Cumulative / Balanced": [],
+    "Uniform gain / Cumulative / Neyman": [],
+    "Uniform gain / Cumulative / Successive rejects": [],
+    "Uniform gain / Cumulative / Discover once": [],
+    "Uniform gain / Cumulative / Repeated discovery": [
+      {
+        "round": 17,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      }
+    ],
+    "Uniform gain / Window 8 / Biased": [],
+    "Uniform gain / Window 8 / Balanced": [],
+    "Uniform gain / Window 8 / Neyman": [],
+    "Uniform gain / Window 8 / Successive rejects": [],
+    "Uniform gain / Window 8 / Discover once": [],
+    "Uniform gain / Window 8 / Repeated discovery": [
+      {
+        "round": 17,
+        "from_program": "Biased",
+        "to_program": "Neyman",
+        "version": 1
+      }
+    ]
+  }
+}

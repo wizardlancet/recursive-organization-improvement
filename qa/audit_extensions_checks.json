@@ -1,0 +1,8 @@
+{
+  "selected_evsi_horizon": 16,
+  "development_cases": 512,
+  "test_trajectories": 6912,
+  "regression_cases": 4,
+  "parameters_fixed_before_run": true,
+  "interpretation": "Changing threshold to .16 is a misspecified routing-rule sensitivity, not a change in the payoff optimum .14."
+}

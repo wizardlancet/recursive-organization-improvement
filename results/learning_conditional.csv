@@ -1,0 +1,190 @@
+environment,memory,arm,review_round,program,n,share,net,harm
+Stationary harm,Reset,Discover once,1,Biased,35,0.2734375,0.39125905064174105,0.17857142857142858
+Stationary harm,Reset,Discover once,1,Balanced,48,0.375,0.444621607462565,0.0078125
+Stationary harm,Reset,Discover once,1,Neyman,45,0.3515625,0.4489706217447916,0.013888888888888888
+Stationary harm,Reset,Repeated discovery,1,Biased,35,0.2734375,0.39125905064174105,0.17857142857142858
+Stationary harm,Reset,Repeated discovery,1,Balanced,48,0.375,0.444621607462565,0.0078125
+Stationary harm,Reset,Repeated discovery,1,Neyman,45,0.3515625,0.4489706217447916,0.013888888888888888
+Stationary harm,Reset,Repeated discovery,9,Biased,33,0.2578125,0.3918904437440814,0.18181818181818182
+Stationary harm,Reset,Repeated discovery,9,Balanced,38,0.296875,0.45445675498560856,0.006578947368421052
+Stationary harm,Reset,Repeated discovery,9,Neyman,57,0.4453125,0.44748308148300425,0.010964912280701754
+Stationary harm,Reset,Repeated discovery,17,Biased,40,0.3125,0.4047356262207031,0.115625
+Stationary harm,Reset,Repeated discovery,17,Balanced,40,0.3125,0.4470138092041015,0.0125
+Stationary harm,Reset,Repeated discovery,17,Neyman,48,0.375,0.4529085540771483,0.0026041666666666665
+Stationary harm,Reset,Repeated discovery,25,Biased,42,0.328125,0.4012680925641741,0.15773809523809523
+Stationary harm,Reset,Repeated discovery,25,Balanced,40,0.3125,0.45432908630371094,0.00625
+Stationary harm,Reset,Repeated discovery,25,Neyman,46,0.359375,0.4500162539274795,0.01358695652173913
+Stationary harm,Reset,Repeated discovery,33,Biased,39,0.3046875,0.40016063201121793,0.14743589743589744
+Stationary harm,Reset,Repeated discovery,33,Balanced,41,0.3203125,0.4469543605897484,0.018292682926829267
+Stationary harm,Reset,Repeated discovery,33,Neyman,48,0.375,0.4490786361694335,0.010416666666666666
+Stationary harm,Reset,Repeated discovery,41,Biased,35,0.2734375,0.4054947858537946,0.11071428571428571
+Stationary harm,Reset,Repeated discovery,41,Balanced,55,0.4296875,0.4520262673117897,0.004545454545454545
+Stationary harm,Reset,Repeated discovery,41,Neyman,38,0.296875,0.45327667236328123,0.006578947368421052
+Stationary harm,Cumulative,Discover once,1,Biased,35,0.2734375,0.46315190778459814,0.0035714285714285713
+Stationary harm,Cumulative,Discover once,1,Balanced,48,0.375,0.474699732462565,0.0
+Stationary harm,Cumulative,Discover once,1,Neyman,45,0.3515625,0.4748872884114583,0.0
+Stationary harm,Cumulative,Repeated discovery,1,Biased,35,0.2734375,0.46315190778459814,0.0035714285714285713
+Stationary harm,Cumulative,Repeated discovery,1,Balanced,48,0.375,0.474699732462565,0.0
+Stationary harm,Cumulative,Repeated discovery,1,Neyman,45,0.3515625,0.4748872884114583,0.0
+Stationary harm,Cumulative,Repeated discovery,9,Biased,34,0.265625,0.4814649335075828,0.0
+Stationary harm,Cumulative,Repeated discovery,9,Balanced,46,0.359375,0.4819088612432065,0.0
+Stationary harm,Cumulative,Repeated discovery,9,Neyman,48,0.375,0.4815958913167317,0.0
+Stationary harm,Cumulative,Repeated discovery,17,Biased,43,0.3359375,0.4791168212890624,0.0
+Stationary harm,Cumulative,Repeated discovery,17,Balanced,44,0.34375,0.4819083335182883,0.0
+Stationary harm,Cumulative,Repeated discovery,17,Neyman,41,0.3203125,0.48190949230659297,0.0
+Stationary harm,Cumulative,Repeated discovery,25,Biased,43,0.3359375,0.48190929324127907,0.0
+Stationary harm,Cumulative,Repeated discovery,25,Balanced,46,0.359375,0.4819081978175951,0.0
+Stationary harm,Cumulative,Repeated discovery,25,Neyman,39,0.3046875,0.48191049429086535,0.0
+Stationary harm,Cumulative,Repeated discovery,33,Biased,46,0.359375,0.48191051980723504,0.0
+Stationary harm,Cumulative,Repeated discovery,33,Balanced,41,0.3203125,0.4819102366377668,0.0
+Stationary harm,Cumulative,Repeated discovery,33,Neyman,41,0.3203125,0.4819087479754192,0.0
+Stationary harm,Cumulative,Repeated discovery,41,Biased,49,0.3828125,0.4819097277582908,0.0
+Stationary harm,Cumulative,Repeated discovery,41,Balanced,40,0.3125,0.48190979003906254,0.0
+Stationary harm,Cumulative,Repeated discovery,41,Neyman,39,0.3046875,0.48191010303986376,0.0
+Stationary harm,Window 8,Discover once,1,Biased,35,0.2734375,0.46315190778459814,0.0035714285714285713
+Stationary harm,Window 8,Discover once,1,Balanced,48,0.375,0.474699732462565,0.0
+Stationary harm,Window 8,Discover once,1,Neyman,45,0.3515625,0.4748872884114583,0.0
+Stationary harm,Window 8,Repeated discovery,1,Biased,35,0.2734375,0.46315190778459814,0.0035714285714285713
+Stationary harm,Window 8,Repeated discovery,1,Balanced,48,0.375,0.474699732462565,0.0
+Stationary harm,Window 8,Repeated discovery,1,Neyman,45,0.3515625,0.4748872884114583,0.0
+Stationary harm,Window 8,Repeated discovery,9,Biased,34,0.265625,0.47837669821346507,0.0
+Stationary harm,Window 8,Repeated discovery,9,Balanced,46,0.359375,0.4783219047214673,0.0
+Stationary harm,Window 8,Repeated discovery,9,Neyman,48,0.375,0.48128339131673165,0.0
+Stationary harm,Window 8,Repeated discovery,17,Biased,56,0.4375,0.47627966744559147,0.0
+Stationary harm,Window 8,Repeated discovery,17,Balanced,35,0.2734375,0.4819049944196428,0.0
+Stationary harm,Window 8,Repeated discovery,17,Neyman,37,0.2890625,0.48069085198479733,0.0
+Stationary harm,Window 8,Repeated discovery,25,Biased,51,0.3984375,0.47808273016237735,0.0
+Stationary harm,Window 8,Repeated discovery,25,Balanced,39,0.3046875,0.48190501677684294,0.0
+Stationary harm,Window 8,Repeated discovery,25,Neyman,38,0.296875,0.47874571147717926,0.0
+Stationary harm,Window 8,Repeated discovery,33,Biased,50,0.390625,0.47590704345703116,0.0
+Stationary harm,Window 8,Repeated discovery,33,Balanced,34,0.265625,0.4788174258961397,0.0
+Stationary harm,Window 8,Repeated discovery,33,Neyman,44,0.34375,0.48020032015713776,0.0
+Stationary harm,Window 8,Repeated discovery,41,Biased,41,0.3203125,0.47678419159679886,0.0
+Stationary harm,Window 8,Repeated discovery,41,Balanced,38,0.296875,0.4803246588456004,0.0
+Stationary harm,Window 8,Repeated discovery,41,Neyman,49,0.3828125,0.4815989342514349,0.0
+Workflow reversal,Reset,Discover once,1,Biased,35,0.2734375,0.39125905064174105,0.17857142857142858
+Workflow reversal,Reset,Discover once,1,Balanced,48,0.375,0.444621607462565,0.0078125
+Workflow reversal,Reset,Discover once,1,Neyman,45,0.3515625,0.4489706217447916,0.013888888888888888
+Workflow reversal,Reset,Repeated discovery,1,Biased,35,0.2734375,0.39125905064174105,0.17857142857142858
+Workflow reversal,Reset,Repeated discovery,1,Balanced,48,0.375,0.444621607462565,0.0078125
+Workflow reversal,Reset,Repeated discovery,1,Neyman,45,0.3515625,0.4489706217447916,0.013888888888888888
+Workflow reversal,Reset,Repeated discovery,9,Biased,33,0.2578125,0.3918904437440814,0.18181818181818182
+Workflow reversal,Reset,Repeated discovery,9,Balanced,38,0.296875,0.45445675498560856,0.006578947368421052
+Workflow reversal,Reset,Repeated discovery,9,Neyman,57,0.4453125,0.44748308148300425,0.010964912280701754
+Workflow reversal,Reset,Repeated discovery,17,Biased,40,0.3125,0.4047356262207031,0.115625
+Workflow reversal,Reset,Repeated discovery,17,Balanced,40,0.3125,0.4470138092041015,0.0125
+Workflow reversal,Reset,Repeated discovery,17,Neyman,48,0.375,0.4529085540771483,0.0026041666666666665
+Workflow reversal,Reset,Repeated discovery,25,Biased,47,0.3671875,0.6650808391165225,0.0
+Workflow reversal,Reset,Repeated discovery,25,Balanced,45,0.3515625,0.7102237684461805,0.0
+Workflow reversal,Reset,Repeated discovery,25,Neyman,36,0.28125,0.7060589090983072,0.0
+Workflow reversal,Reset,Repeated discovery,33,Biased,58,0.453125,0.6660277267982219,0.0
+Workflow reversal,Reset,Repeated discovery,33,Balanced,29,0.2265625,0.7120625252559268,0.0
+Workflow reversal,Reset,Repeated discovery,33,Neyman,41,0.3203125,0.7090831328601371,0.0
+Workflow reversal,Reset,Repeated discovery,41,Biased,61,0.4765625,0.6700056932793289,0.0
+Workflow reversal,Reset,Repeated discovery,41,Balanced,29,0.2265625,0.7125765044113685,0.0
+Workflow reversal,Reset,Repeated discovery,41,Neyman,38,0.296875,0.7096535130550986,0.0
+Workflow reversal,Cumulative,Discover once,1,Biased,35,0.2734375,0.46315190778459814,0.0035714285714285713
+Workflow reversal,Cumulative,Discover once,1,Balanced,48,0.375,0.474699732462565,0.0
+Workflow reversal,Cumulative,Discover once,1,Neyman,45,0.3515625,0.4748872884114583,0.0
+Workflow reversal,Cumulative,Repeated discovery,1,Biased,35,0.2734375,0.46315190778459814,0.0035714285714285713
+Workflow reversal,Cumulative,Repeated discovery,1,Balanced,48,0.375,0.474699732462565,0.0
+Workflow reversal,Cumulative,Repeated discovery,1,Neyman,45,0.3515625,0.4748872884114583,0.0
+Workflow reversal,Cumulative,Repeated discovery,9,Biased,34,0.265625,0.4814649335075828,0.0
+Workflow reversal,Cumulative,Repeated discovery,9,Balanced,46,0.359375,0.4819088612432065,0.0
+Workflow reversal,Cumulative,Repeated discovery,9,Neyman,48,0.375,0.4815958913167317,0.0
+Workflow reversal,Cumulative,Repeated discovery,17,Biased,43,0.3359375,0.4791168212890624,0.0
+Workflow reversal,Cumulative,Repeated discovery,17,Balanced,44,0.34375,0.4819083335182883,0.0
+Workflow reversal,Cumulative,Repeated discovery,17,Neyman,41,0.3203125,0.48190949230659297,0.0
+Workflow reversal,Cumulative,Repeated discovery,25,Biased,43,0.3359375,0.48190929324127907,0.0
+Workflow reversal,Cumulative,Repeated discovery,25,Balanced,46,0.359375,0.48451689346976895,0.0
+Workflow reversal,Cumulative,Repeated discovery,25,Neyman,39,0.3046875,0.48191049429086535,0.0
+Workflow reversal,Cumulative,Repeated discovery,33,Biased,45,0.3515625,0.4819108072916666,0.0
+Workflow reversal,Cumulative,Repeated discovery,33,Balanced,42,0.328125,0.4940531558082216,0.0
+Workflow reversal,Cumulative,Repeated discovery,33,Neyman,41,0.3203125,0.4819087479754192,0.0
+Workflow reversal,Cumulative,Repeated discovery,41,Biased,49,0.3828125,0.49170564612563766,0.0
+Workflow reversal,Cumulative,Repeated discovery,41,Balanced,40,0.3125,0.508160171508789,0.0
+Workflow reversal,Cumulative,Repeated discovery,41,Neyman,39,0.3046875,0.4949870261167868,0.0
+Workflow reversal,Window 8,Discover once,1,Biased,35,0.2734375,0.46315190778459814,0.0035714285714285713
+Workflow reversal,Window 8,Discover once,1,Balanced,48,0.375,0.474699732462565,0.0
+Workflow reversal,Window 8,Discover once,1,Neyman,45,0.3515625,0.4748872884114583,0.0
+Workflow reversal,Window 8,Repeated discovery,1,Biased,35,0.2734375,0.46315190778459814,0.0035714285714285713
+Workflow reversal,Window 8,Repeated discovery,1,Balanced,48,0.375,0.474699732462565,0.0
+Workflow reversal,Window 8,Repeated discovery,1,Neyman,45,0.3515625,0.4748872884114583,0.0
+Workflow reversal,Window 8,Repeated discovery,9,Biased,34,0.265625,0.47837669821346507,0.0
+Workflow reversal,Window 8,Repeated discovery,9,Balanced,46,0.359375,0.4783219047214673,0.0
+Workflow reversal,Window 8,Repeated discovery,9,Neyman,48,0.375,0.48128339131673165,0.0
+Workflow reversal,Window 8,Repeated discovery,17,Biased,56,0.4375,0.47627966744559147,0.0
+Workflow reversal,Window 8,Repeated discovery,17,Balanced,35,0.2734375,0.4819049944196428,0.0
+Workflow reversal,Window 8,Repeated discovery,17,Neyman,37,0.2890625,0.48069085198479733,0.0
+Workflow reversal,Window 8,Repeated discovery,25,Biased,51,0.3984375,0.6057297889859068,0.0
+Workflow reversal,Window 8,Repeated discovery,25,Balanced,39,0.3046875,0.6188280936999198,0.0
+Workflow reversal,Window 8,Repeated discovery,25,Neyman,38,0.296875,0.6350615009508634,0.0
+Workflow reversal,Window 8,Repeated discovery,33,Biased,56,0.4375,0.7219065747942243,0.0
+Workflow reversal,Window 8,Repeated discovery,33,Balanced,36,0.28125,0.7219056362575955,0.0
+Workflow reversal,Window 8,Repeated discovery,33,Neyman,36,0.28125,0.721906483968099,0.0
+Workflow reversal,Window 8,Repeated discovery,41,Biased,61,0.4765625,0.7219062279873206,0.0
+Workflow reversal,Window 8,Repeated discovery,41,Balanced,26,0.203125,0.721904296875,0.0
+Workflow reversal,Window 8,Repeated discovery,41,Neyman,41,0.3203125,0.7219031654916157,0.0
+Uniform gain,Reset,Discover once,1,Biased,46,0.359375,0.6759217370074727,0.0
+Uniform gain,Reset,Discover once,1,Balanced,35,0.2734375,0.7137418736049106,0.0
+Uniform gain,Reset,Discover once,1,Neyman,47,0.3671875,0.7129496992395279,0.0
+Uniform gain,Reset,Repeated discovery,1,Biased,46,0.359375,0.6759217370074727,0.0
+Uniform gain,Reset,Repeated discovery,1,Balanced,35,0.2734375,0.7137418736049106,0.0
+Uniform gain,Reset,Repeated discovery,1,Neyman,47,0.3671875,0.7129496992395279,0.0
+Uniform gain,Reset,Repeated discovery,9,Biased,44,0.34375,0.6693897316672585,0.0
+Uniform gain,Reset,Repeated discovery,9,Balanced,35,0.2734375,0.708601579938616,0.0
+Uniform gain,Reset,Repeated discovery,9,Neyman,49,0.3828125,0.7114831418407206,0.0
+Uniform gain,Reset,Repeated discovery,17,Biased,46,0.359375,0.670693359375,0.0
+Uniform gain,Reset,Repeated discovery,17,Balanced,39,0.3046875,0.7072700852614182,0.0
+Uniform gain,Reset,Repeated discovery,17,Neyman,43,0.3359375,0.7082850540515988,0.0
+Uniform gain,Reset,Repeated discovery,25,Biased,47,0.3671875,0.6650818130817818,0.0
+Uniform gain,Reset,Repeated discovery,25,Balanced,45,0.3515625,0.7102230902777777,0.0
+Uniform gain,Reset,Repeated discovery,25,Neyman,36,0.28125,0.706057637532552,0.0
+Uniform gain,Reset,Repeated discovery,33,Biased,58,0.453125,0.6660277267982219,0.0
+Uniform gain,Reset,Repeated discovery,33,Balanced,29,0.2265625,0.7120625252559268,0.0
+Uniform gain,Reset,Repeated discovery,33,Neyman,41,0.3203125,0.7090831328601371,0.0
+Uniform gain,Reset,Repeated discovery,41,Biased,61,0.4765625,0.6700056932793289,0.0
+Uniform gain,Reset,Repeated discovery,41,Balanced,29,0.2265625,0.7125765044113685,0.0
+Uniform gain,Reset,Repeated discovery,41,Neyman,38,0.296875,0.7096535130550986,0.0
+Uniform gain,Cumulative,Discover once,1,Biased,46,0.359375,0.7212478239639944,0.0
+Uniform gain,Cumulative,Discover once,1,Balanced,35,0.2734375,0.7218847307477678,0.0
+Uniform gain,Cumulative,Discover once,1,Neyman,47,0.3671875,0.7218858694522939,0.0
+Uniform gain,Cumulative,Repeated discovery,1,Biased,46,0.359375,0.7212478239639944,0.0
+Uniform gain,Cumulative,Repeated discovery,1,Balanced,35,0.2734375,0.7218847307477678,0.0
+Uniform gain,Cumulative,Repeated discovery,1,Neyman,47,0.3671875,0.7218858694522939,0.0
+Uniform gain,Cumulative,Repeated discovery,9,Biased,34,0.265625,0.7219092514935662,0.0
+Uniform gain,Cumulative,Repeated discovery,9,Balanced,39,0.3046875,0.7219065817808493,0.0
+Uniform gain,Cumulative,Repeated discovery,9,Neyman,55,0.4296875,0.7219081254438919,0.0
+Uniform gain,Cumulative,Repeated discovery,17,Biased,33,0.2578125,0.7219077555338541,0.0
+Uniform gain,Cumulative,Repeated discovery,17,Balanced,38,0.296875,0.7219076216848272,0.0
+Uniform gain,Cumulative,Repeated discovery,17,Neyman,57,0.4453125,0.7219093617221766,0.0
+Uniform gain,Cumulative,Repeated discovery,25,Biased,36,0.28125,0.7219073316786024,0.0
+Uniform gain,Cumulative,Repeated discovery,25,Balanced,39,0.3046875,0.7219085380358573,0.0
+Uniform gain,Cumulative,Repeated discovery,25,Neyman,53,0.4140625,0.7219102506817512,0.0
+Uniform gain,Cumulative,Repeated discovery,33,Biased,36,0.28125,0.7219094509548611,0.0
+Uniform gain,Cumulative,Repeated discovery,33,Balanced,36,0.28125,0.7219102986653646,0.0
+Uniform gain,Cumulative,Repeated discovery,33,Neyman,56,0.4375,0.721910661969866,0.0
+Uniform gain,Cumulative,Repeated discovery,41,Biased,39,0.3046875,0.7219089292868589,0.0
+Uniform gain,Cumulative,Repeated discovery,41,Balanced,33,0.2578125,0.7219096050840436,0.0
+Uniform gain,Cumulative,Repeated discovery,41,Neyman,56,0.4375,0.7219101170131138,0.0
+Uniform gain,Window 8,Discover once,1,Biased,46,0.359375,0.7212478239639944,0.0
+Uniform gain,Window 8,Discover once,1,Balanced,35,0.2734375,0.7218847307477678,0.0
+Uniform gain,Window 8,Discover once,1,Neyman,47,0.3671875,0.7218858694522939,0.0
+Uniform gain,Window 8,Repeated discovery,1,Biased,46,0.359375,0.7212478239639944,0.0
+Uniform gain,Window 8,Repeated discovery,1,Balanced,35,0.2734375,0.7218847307477678,0.0
+Uniform gain,Window 8,Repeated discovery,1,Neyman,47,0.3671875,0.7218858694522939,0.0
+Uniform gain,Window 8,Repeated discovery,9,Biased,34,0.265625,0.7219092514935662,0.0
+Uniform gain,Window 8,Repeated discovery,9,Balanced,39,0.3046875,0.7219065817808493,0.0
+Uniform gain,Window 8,Repeated discovery,9,Neyman,55,0.4296875,0.7219081254438919,0.0
+Uniform gain,Window 8,Repeated discovery,17,Biased,41,0.3203125,0.7219042819883764,0.0
+Uniform gain,Window 8,Repeated discovery,17,Balanced,30,0.234375,0.7219062296549479,0.0
+Uniform gain,Window 8,Repeated discovery,17,Neyman,57,0.4453125,0.7219072201377467,0.0
+Uniform gain,Window 8,Repeated discovery,25,Biased,42,0.328125,0.7219052124023436,0.0
+Uniform gain,Window 8,Repeated discovery,25,Balanced,38,0.296875,0.7219044093081826,0.0
+Uniform gain,Window 8,Repeated discovery,25,Neyman,48,0.375,0.7219071197509767,0.0
+Uniform gain,Window 8,Repeated discovery,33,Biased,52,0.40625,0.7219040386493388,0.0
+Uniform gain,Window 8,Repeated discovery,33,Balanced,34,0.265625,0.7219052124023437,0.0
+Uniform gain,Window 8,Repeated discovery,33,Neyman,42,0.328125,0.7219073922293526,0.0
+Uniform gain,Window 8,Repeated discovery,41,Biased,61,0.4765625,0.7219055876184682,0.0
+Uniform gain,Window 8,Repeated discovery,41,Balanced,26,0.203125,0.7219046255258412,0.0
+Uniform gain,Window 8,Repeated discovery,41,Neyman,41,0.3203125,0.7219027933260289,0.0

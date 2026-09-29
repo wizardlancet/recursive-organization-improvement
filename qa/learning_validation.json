@@ -1,0 +1,6 @@
+{
+  "independent_scalar_cases": 36,
+  "absolute_tolerance": 1e-12,
+  "successive_rejection_budget_and_selection": true,
+  "lookback_boundary": true
+}

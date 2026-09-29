@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+main.aux
+main.log
+main.blg
+main.out
+main.synctex.gz
+qa/page-*.png
+qa/contact-*.png
+qa/text_extraction.txt
