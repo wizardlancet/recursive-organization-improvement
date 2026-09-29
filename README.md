@@ -11,7 +11,7 @@ and evaluation-program reassessment.
 
 Repository: https://github.com/wizardlancet/recursive-organization-improvement
 
-Release: `research-2026-09-30`. No Zenodo DOI has been issued for this release.
+Release: `research-2026-09-30`.
 
 ## Main result
 
