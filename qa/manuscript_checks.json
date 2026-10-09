@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "pdfs": {
+    "main.pdf": {
+      "pages": 26,
+      "sha256": "b398dbed0086cd4bf3420dad8cfeac3e5dd97c94c0a9626caedd3dae7967b82a",
+      "out_of_page_text": [],
+      "unresolved_references_or_layout_errors": []
+    },
+    "supplement/supplementary_tables.pdf": {
+      "pages": 19,
+      "sha256": "9f557e10a72a9fe18cfcc9870bb17c427c63a6941eef223632205bd0e9369ffc",
+      "out_of_page_text": [],
+      "unresolved_references_or_layout_errors": []
+    }
+  },
+  "bibliography_items": 53,
+  "bibliography_style": "plainnat (alphabetical author ordering with numeric labels)",
+  "all_reference_labels_present": true,
+  "figures": 4,
+  "tables": 12,
+  "figure1_after_equation4": true,
+  "supplement_location": "anc/supplementary_tables.pdf",
+  "compile_engine": "Tectonic, three TeX passes with BibTeX",
+  "nonfatal": "Fontconfig default-config diagnostic and UTF-8 inputenc warning; no missing glyphs or unresolved citations"
+}

@@ -1,0 +1,22 @@
+{
+  "sources": [
+    "study2/results/illustrative_curve.csv",
+    "study2/results/phase.csv"
+  ],
+  "display_grid": "21 exact equally spaced eta values selected after the core experiment and read from its saved illustrative_curve.csv; no new evaluations or sampling",
+  "phase_filter": {
+    "q_H": 0.2,
+    "q_A": 0.1,
+    "human_agent_ratio": 4,
+    "blind_overhead": 0.05,
+    "budget": 3,
+    "regime": "hard"
+  },
+  "dimensions_inches": [
+    7.15,
+    4.35
+  ],
+  "uncertainty": "Exact expectations under the specified model; no sampling intervals",
+  "matplotlib": "3.11.0",
+  "accessibility": "Color plus line style/markers; categorical heatmap uses redundant hatching and legend, dependence increases upward; source values included"
+}

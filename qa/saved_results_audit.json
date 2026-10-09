@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "new_experiments_run": false,
+  "method": "Saved-trajectory arithmetic and CSV-to-TeX checks only; no simulation module imported",
+  "checks": {
+    "learning": 648,
+    "learning_sensitivity": 576,
+    "learning_controls": 576,
+    "study1_contrasts": 180,
+    "longitudinal": 72,
+    "robustness": 216,
+    "audit_extensions": 288,
+    "study2_summaries": 2016,
+    "study2_contrasts": 180,
+    "study2_accounting": 1,
+    "table6": 63,
+    "table7": 36,
+    "table8": 108,
+    "table9": 36,
+    "table12": 156,
+    "prose_claims": 95,
+    "table5": 12,
+    "table11": 30
+  },
+  "maximum_absolute_differences": {
+    "learning": 0.0,
+    "learning_sensitivity": 0.0,
+    "learning_controls": 0.0,
+    "study1_contrasts": 0.0,
+    "longitudinal": 0.0,
+    "robustness": 0.0,
+    "audit_extensions": 0.0,
+    "study2_summaries": 0.0,
+    "study2_contrasts": 0.0,
+    "study2_accounting": 1.1102230246251565e-16,
+    "table6": 0.0,
+    "table7": 0.0,
+    "table8": 0.0,
+    "table9": 0.0,
+    "table12": 0.0,
+    "prose_claims": 0.0
+  },
+  "claim_count": 97,
+  "numeric_source_lines": 244,
+  "study2_cost_comparisons": [
+    {
+      "world": "no_echo",
+      "error_reduction": 0.017478325520833338,
+      "deployment_gain": 0.05038217708333334,
+      "acquisition_per_task": 0.057031249999999985,
+      "net_difference": -0.006650662373860805,
+      "switch_difference_per_task": 1.5894571941607594e-06
+    },
+    {
+      "world": "high_echo",
+      "error_reduction": 0.017469488281250004,
+      "deployment_gain": 0.046407390625000024,
+      "acquisition_per_task": 0.057031249999999985,
+      "net_difference": -0.01062391897964432,
+      "switch_difference_per_task": 5.960464435905699e-08
+    },
+    {
+      "world": "both_dependences",
+      "error_reduction": 0.011370401041666742,
+      "deployment_gain": 0.027833911458333555,
+      "acquisition_per_task": 0.057031249999999985,
+      "net_difference": -0.02920608055623386,
+      "switch_difference_per_task": 8.742014567429679e-06
+    },
+    {
+      "world": "echo_shift",
+      "error_reduction": 0.017412810020833336,
+      "deployment_gain": 0.04818563058333333,
+      "acquisition_per_task": 0.057031249999999985,
+      "net_difference": -0.00884985134644578,
+      "switch_difference_per_task": 4.231929779129062e-06
+    },
+    {
+      "world": "source_asymmetry",
+      "error_reduction": 0.015471706369791668,
+      "deployment_gain": 0.04041479358854168,
+      "acquisition_per_task": 0.057031249999999985,
+      "net_difference": -0.01661673456646784,
+      "switch_difference_per_task": 2.7815500953237704e-07
+    },
+    {
+      "world": "strong_humans",
+      "error_reduction": 0.0769739609375,
+      "deployment_gain": 0.22269922656250002,
+      "acquisition_per_task": 0.057031249999999985,
+      "net_difference": 0.1656672613067629,
+      "switch_difference_per_task": 7.15255737138154e-07
+    }
+  ],
+  "sr_strict_best_cells": [
+    [
+      "Stationary harm",
+      "Reset"
+    ],
+    [
+      "Stationary harm",
+      "Cumulative"
+    ],
+    [
+      "Stationary harm",
+      "Window 8"
+    ],
+    [
+      "Workflow reversal",
+      "Reset"
+    ],
+    [
+      "Uniform gain",
+      "Reset"
+    ]
+  ],
+  "sr_uniform_gain_gaps": [
+    3.096183141071407e-05,
+    2.8378963470410135e-05
+  ],
+  "citations": 53,
+  "supplement_rows": 879,
+  "study2_protocol_sha256": "446ce633a53058ff29225d54b708ba574af9159d16fe853aa1c7301744d8cd1e"
+}

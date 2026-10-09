@@ -1,0 +1,82 @@
+\section{Study 2: complete specification}
+\label{app:actor}
+\subsection{Private judgments, exposure, and decision rights}
+Study 2 was designed and its protocol fixed after Study 1 was completed; it is exploratory. The protocol is \path{study2/protocol.json} (archive commit \texttt{fdf5ec1}). Its retained pre-run record, \path{study2/qa/pre_run_record.json}, records a matching SHA-256 hash at 13:06:04 UTC on October 2, 2026. The Git archive postdates execution; the local hash record is not an independently timestamped preregistration. A task has balanced binary truth $y\in\{0,1\}$. A private judgment equals $y$ unless its actor makes an error. Human errors are independent Bernoulli draws with probability $q_H$, conditional on $y$, and independent of the agent group. For each task, draw a shared-mode indicator with probability $\rho_A$. In shared mode, all agent errors equal one Bernoulli draw with probability $q_A$; otherwise each agent draws an independent Bernoulli error with that probability. Tasks are independent. An agent proposer belongs to the same group as its reviewers. This mixture preserves marginal agent error $q_A$ and gives pairwise error correlation $\rho_A$; the full mixture law, rather than correlation alone, determines collective error.
+
+Let $d_0$ be the displayed upstream judgment and $d_i^{\rm priv}$ reviewer $i$'s private judgment. An exposed reviewer reports
+\begin{equation}
+d_i^{\rm pub}=(1-C_i)d_i^{\rm priv}+C_i d_0,
+\qquad C_i\sim\operatorname{Bernoulli}(\eta_s),\quad s\in\{H,A\}.
+\label{eq:echo}
+\end{equation}
+Here $\eta_s$ is the probability that an agent reviewer copies an upstream decision from source $s$; $s$ identifies a human or agent upstream actor. Copy indicators are independent of private errors and of one another. This binary rule selects one judgment; it does not average signals or create new task evidence. Blind protocols use private commitments for aggregation or escalation, so changing $\eta_s$ does not change their decisions. In serial review, the immediately preceding review replaces $d_0$ at each step, and all sources after the first step are agents.
+
+\Cref{tab:actor-protocols} defines the six protocol families and two single-actor baselines. A gate retains the proposal only if all relevant reviews agree with it; otherwise a separate human makes the final decision. The human arbiter has error probability $q_H$ and is independent of the proposer and reviewers. A human proposer and a human arbiter therefore require two distinct humans. A production audit grants the arbiter override authority, whereas a gold label supplies correct measurement for learning.
+\begin{table}[!htbp]
+\caption{Review protocols and final decision rights. Voting includes the proposer and all reviewers; a tied vote uses a fair random choice. All reviewers are agents. Gates call an additional human only on the indicated cases.}
+\label{tab:actor-protocols}\small
+\begin{tabularx}{\linewidth}{@{}p{.23\linewidth}YY@{}}\toprule
+Protocol & Evidence used & Final decision \\\midrule
+Exposed vote & Reviews after seeing the proposal & Majority vote. \\
+Blind vote & Private commitments & Majority vote. \\
+Exposed disagreement gate & Public reviews versus proposal & Human arbitration on any disagreement. \\
+Blind disagreement gate & Private reviews versus proposal & Human arbitration on any disagreement. \\
+Gate with random arbitration & Public reviews versus proposal & Arbitrate all disagreements and a random 25\% of unanimous cases. \\
+Serial last-reviewer decision & Each reviewer sees only its immediate predecessor & Last review; no collective vote. \\
+Single actor & One human or agent private judgment & That actor's judgment. \\\bottomrule
+\end{tabularx}
+\end{table}
+These rules separate private information, public disagreement, and final authority. For example, the change in error from randomly overriding a unanimous case is $q_H-P(d_0\ne y\mid\text{unanimous})$. An independent human override helps only when this difference is negative.
+
+The exact search crosses $q_H\in\{.1,.2,.3\}$, $q_A\in\{.05,.1,.2,.3\}$, $\rho_A\in\{0,.25,.5,.75,1\}$ and $\eta\in\{0,.25,.5,.75,1\}$ with $\eta_H=\eta_A=\eta$, human-to-agent call-cost ratios $2,4,8$, blind overheads $0,.05,.2$ per reviewer, task budgets $1,2,3$, and hard versus expected budget constraints. Human calls define one cost unit. A hard budget reserves every potentially called actor; an expected budget constrains the mean cost including escalation probabilities. The catalog has $2\times7\times6+2=86$ arrangements: two proposer types, one to seven reviewers, six protocols, and two single-actor baselines. Exact finite-state probabilities identify the minimum-error feasible arrangement in each of 16,200 cells. Errors within $10^{-12}$ count as ties; lower expected cost breaks error ties. Remaining ties use catalog order: human then agent baseline, then human/agent proposer, increasing reviewer count, and the six protocols in table order. The deployment-loss optimum is recorded separately.
+
+The fixed-roster comparison retains all 25,200 combinations of the accuracy, dependence and exposure grid, two proposer types, one to seven reviewers, and six protocols. A separate source-sensitivity grid uses $\eta_H,\eta_A\in\{0,.2,.5,.8,1\}$, $\rho_A\in\{0,.5,.9\}$, $q_H=.2$, and $q_A=.1$, giving 6,450 arrangement evaluations. The 21 equally spaced exposure values in \cref{fig:actor-review}a--b are exact illustrative evaluations chosen after the core run, not a prespecified test.
+
+\subsection{Paid observations and retained evidence}
+An observer can learn individual ability and copying only from the information it buys. For an agent proposer and one equally capable agent reviewer,
+\[
+P(d_1^{\rm pub}\ne d_0)=2q_A(1-q_A)(1-\rho_A)(1-\eta_A).
+\]
+Consequently, at the same $q_A$, $(\rho_A,\eta_A)=(.8,0)$ and $(0,.8)$ give the same joint distribution of public votes and truth in this two-actor case, but different responses to blinding. Private observations or randomized visibility can distinguish the mechanisms.
+
+Four fixed observation policies select among 58 arrangements with at most five reviewers and hard task cost at most three. Human, agent, gold-label, and per-reviewer blind-commitment costs are $1,.25,1,.05$, respectively. Each round permits at most 240 acquisition-cost units, hence 1920 per eight-round block, with no borrowing. These cost units differ from the label counts used in Appendix~\ref{app:protocol}. All current observations are acquired and charged before the selected arrangement is deployed; production outcomes do not provide free learning feedback.
+
+\emph{Paired observation} records two human and six agent private judgments, ten additional exposed agent responses (five for each proposer type), a gold label, and six private-commitment overheads on each task. Its cost is $2+6(.25)+10(.25)+1+6(.05)=7.3$, allowing 32 tasks and costing 233.6 per round. The same task supplies pre- and post-exposure judgments. Among reviews that initially disagree with a source, the fraction switching to that source estimates $\eta_s$. Study 2 assumes recording the private commitment does not itself change the later copying mechanism.
+
+\emph{Randomized exposure} acquires 50 tasks, randomized in balanced cells crossing human/agent source and blind/exposed review. Each task purchases two human responses, six agent responses, and a gold label. Blind tasks additionally pay six commitment overheads. The four cells have 12 or 13 tasks, with 25 blind tasks in total, costing $25(4.8)+25(4.5)=232.5$ per round. Private ability and dependence use only blind tasks. For each source, the estimate of copying is one minus exposed disagreement divided by blind disagreement, clipped to $[0,1]$. This design uses disjoint blind and exposed tasks and assumes exchangeability across their randomized assignments.
+
+Both model-based policies estimate $q_H$ and $q_A$ from gold-labeled private errors with one error and one success pseudocount, then clip estimates to $[.001,.499]$. Agent dependence is the private pairwise error moment minus squared raw error frequency, divided by the raw Bernoulli variance and clipped to $[0,1]$; zero estimated variance gives zero dependence. Paired copying estimates use half an event in each outcome as pseudocounts. Randomized disagreement rates likewise use half-event pseudocounts before taking their ratio. Each policy pools the requisite counts over its assigned memory interval and predicts every feasible arrangement's error and call cost under the known model family. The true parameters are used only by the external scorer and catalog benchmark.
+
+\emph{Omit echo ablation} purchases exactly the paired observations but fixes $\eta_H=\eta_A=0$ when predicting arrangements. \emph{Final-outcome sampling} instead buys an arrangement's executed final outcome and a gold label, cycling through candidates. At zero-based round $r$, trial $j$ uses catalog index $(83r+j)\bmod58$. A trial reserves its worst possible call cost plus one gold label; actual calls and that label are charged. It stops before exceeding the ceiling. For a candidate with $n$ retained observations, $e$ errors, total call cost $c$, and worst call cost $c_{\max}$, its score is $3(1+e)/(2+n)+.02(c+c_{\max})/(1+n)$. Thus unobserved candidates also have defined scores. No policy obtains unpurchased counterfactual responses.
+
+Reset retains current-round counts; cumulative memory retains all acquired counts; Window 8 retains the current round and eight preceding rounds. Observation policies and memory rules are assigned research treatments and remain fixed. Each selected arrangement changes operational visibility, aggregation, or authority under the assigned procedure. Study 2 does not implement an outer search over observation policies.
+
+\subsection{Evaluation, reporting, and validation}
+The six learning environments in \cref{tab:actor-worlds} isolate copying, private dependence, source asymmetry, and relative actor ability. The copying shift occurs before acquisition in round 25. Each environment crosses four observation policies and three memories, plus two fixed baselines, with 128 replicate trajectories of 48 rounds: $6(4\times3+2)128=10{,}752$ trajectories. Fixed baselines use an agent proposer and three agent reviewers, either exposed or blind, and buy no learning evidence. These baselines were specified before outcomes were inspected.
+\begin{table}[!htbp]
+\caption{Study 2 environments. In the environment and policy names, echo means copying. All other costs and resource ceilings are held fixed as specified in Appendix~\ref{app:actor}. Numerical parameters are experimental settings, not estimates of human or language-model behavior.}
+\label{tab:actor-worlds}\centering\small
+\begin{tabular}{@{}lrrrrrl@{}}\toprule
+Environment & $q_H$ & $q_A$ & $\rho_A$ & $\eta_H$ & $\eta_A$ & Change \\\midrule
+No echo & .2 & .1 & .1 & 0 & 0 & None \\
+High echo & .2 & .1 & .1 & .8 & .8 & None \\
+Both dependences & .2 & .1 & .8 & .8 & .8 & None \\
+Echo shift & .2 & .1 & .1 & 0 & 0 & Both $\eta_s$ become .8 at round 25 \\
+Source asymmetry & .2 & .1 & .2 & .9 & .1 & None \\
+Stronger humans & .1 & .2 & .2 & .8 & .8 & None \\\bottomrule
+\end{tabular}
+\end{table}
+The model-based learner selects the arrangement minimizing estimated deployment loss $3e+.02c$, where $e$ is final error probability and $c$ is expected production call cost. Ties use the filtered catalog order. Selection regret compares this loss with the feasible catalog minimum under the true environment parameters; an optimal-choice hit accepts every loss within $10^{-10}$ of that minimum. This objective differs from the error-first grid search and excludes acquisition and switching costs. Net value additionally charges those costs:
+\begin{equation}
+V_t^{\rm actor}=1-3e_t-.02c_t-\frac{A_t+.5S_t}{4096},
+\label{eq:actor-value}
+\end{equation}
+where $A_t$ is purchased-observation cost and $S_t$ indicates a change from the previous arrangement. All conditions start from the exposed agent-proposer/three-reviewer arrangement; the fixed blind baseline therefore pays one initial switch. The scorer integrates production error and cost exactly. The denominator 4096 is an amortization scale for the round's production volume, not 4096 additionally sampled production outcomes. Values from this resource schedule are not compared numerically with those from Study 1.
+
+Learning uses root seed 2026100204, keyed by environment and round, with independent replicate rows and common potential-task panels across policies. Only purchased entries are revealed. Full-horizon and final-16-round summaries average within a trajectory before computing means and $1.96s/\sqrt{128}$ Monte Carlo half-widths across trajectories. Paired comparisons use within-replicate differences. Intervals describe randomness in acquired evidence and resulting choices, conditional on the model. The fixed baselines have deterministic expected-outcome scores.
+
+\Cref{tab:actor-results} reports all six environments under cumulative memory; Supplementary Table S5 gives all 84 policy--memory--environment conditions, late outcomes, costs, regret, and paired comparisons. Error and net value are reported together because better selection need not repay continuing acquisition costs.
+\input{sections/actor_results}
+The High echo comparison illustrates this distinction: paired observation achieves a lower error than the fixed blind baseline, while the fixed baseline retains more net value. In Stronger humans, the same observation policy identifies arrangements with both lower error and higher net value than that baseline. Neither comparison establishes one observation rule as universally preferable.
+
+An independent bit-level enumeration checks 144 arrangement--environment cases to maximum absolute difference $1.11\times10^{-15}$. A second implementation simulates 150,000 tasks in each of four independent environments and checks 344 arrangements on the shared panels; each metric must agree within seven estimated standard errors plus $2\times10^{-5}$. The separate validation seed is 2026100205. Further checks cover the memory lookback boundary, copying endpoints, both resource ceilings, and the net-value identity. Exact enumeration results have no sampling interval; the Monte Carlo comparison checks implementation agreement rather than empirical validity.

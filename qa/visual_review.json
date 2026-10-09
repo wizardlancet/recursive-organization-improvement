@@ -1,0 +1,18 @@
+{
+  "reviewed": true,
+  "method": "All pages inspected as contact sheets; Figure 4 and selected revised pages inspected at readable image scale",
+  "main_pages": 26,
+  "supplement_pages": 19,
+  "reference_pages": [
+    15,
+    16,
+    17
+  ],
+  "findings": [
+    "No missing reference pages, clipped tables, missing glyphs, or overlapping figure labels observed",
+    "Figure 4c preserves all 25 saved cells with redundant hatching, legend, and upward rho axis",
+    "Supplement S3 fits one page; the S5 contrast heading stays with its table",
+    "Figure 1 follows the external criterion and its explanatory paragraph before Section 3.4"
+  ],
+  "scope": "Visual review, not a claim of empirical validity or accessibility certification"
+}

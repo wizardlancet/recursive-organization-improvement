@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "archive_sha256": "db2746e916ed416d9420876b1983638b234aca606d1ba0c89c4330425900bcf3",
+  "file_count": 26,
+  "pages": 26,
+  "independent_compilation": true,
+  "all_pages_text_identical": true,
+  "all_pages_render_identical": true,
+  "ancillary_pdf_included": true,
+  "license_encoding_repair_recompiled": true
+}

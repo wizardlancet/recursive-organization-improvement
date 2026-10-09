@@ -1,0 +1,159 @@
+{
+  "panels": [
+    {
+      "panel": "A. Net value, harmful adoption, and selection regret",
+      "rows": 54,
+      "columns": [
+        "Environment",
+        "Memory",
+        "Arm",
+        "Net value",
+        "Harm (\\%)",
+        "Regret"
+      ]
+    },
+    {
+      "panel": "B. Evaluation expense, program-trial expense, and late outcome",
+      "rows": 54,
+      "columns": [
+        "Environment",
+        "Memory",
+        "Arm",
+        "Expense",
+        "Trial expense",
+        "Late net"
+      ]
+    },
+    {
+      "panel": "C. Paired net-value contrasts",
+      "rows": 90,
+      "columns": [
+        "Study",
+        "Environment",
+        "Memory",
+        "Comparison",
+        "$N$",
+        "Difference"
+      ]
+    },
+    {
+      "panel": "Complete conditional summary",
+      "rows": 189,
+      "columns": [
+        "Environment",
+        "Memory",
+        "Arm",
+        "Round",
+        "Program",
+        "$n$",
+        "Share (\\%)",
+        "Net",
+        "Harm (\\%)"
+      ]
+    },
+    {
+      "panel": "Complete audit grid",
+      "rows": 54,
+      "columns": [
+        "Environment",
+        "Window",
+        "Policy",
+        "Net value",
+        "Difference vs. fixed .10"
+      ]
+    },
+    {
+      "panel": "Complete prior, threshold, and generation-cost grid",
+      "rows": 72,
+      "columns": [
+        "Prior",
+        "Threshold",
+        "$g_c$",
+        "Environment",
+        "Policy",
+        "Net value",
+        "Difference vs. fixed .10"
+      ]
+    },
+    {
+      "panel": "A. Full-horizon selection and net value",
+      "rows": 84,
+      "columns": [
+        "Environment",
+        "Policy",
+        "Memory",
+        "Error (\\%)",
+        "Net value",
+        "Hit (\\%)"
+      ]
+    },
+    {
+      "panel": "B. Full-horizon costs and regret",
+      "rows": 84,
+      "columns": [
+        "Environment",
+        "Policy",
+        "Memory",
+        "Acquisition cost",
+        "Production cost",
+        "Regret"
+      ]
+    },
+    {
+      "panel": "C. Final-16-round outcomes",
+      "rows": 84,
+      "columns": [
+        "Environment",
+        "Policy",
+        "Memory",
+        "Late error (\\%)",
+        "Late net",
+        "Late hit (\\%)"
+      ]
+    },
+    {
+      "panel": "D. Final-16-round costs and regret",
+      "rows": 84,
+      "columns": [
+        "Environment",
+        "Policy",
+        "Memory",
+        "Late acquisition",
+        "Late production",
+        "Late regret"
+      ]
+    },
+    {
+      "panel": "E. Paired policy and memory contrasts",
+      "rows": 30,
+      "columns": [
+        "Environment",
+        "Policy A / memory",
+        "Policy B / memory",
+        "Error diff. (pp)",
+        "Net difference",
+        "Regret diff."
+      ]
+    }
+  ],
+  "sources": {
+    "S1": [
+      "results/learning_summary.csv",
+      "results/learning_contrasts.csv"
+    ],
+    "S2": [
+      "results/learning_conditional.csv"
+    ],
+    "S3": [
+      "results/robustness_summary.csv"
+    ],
+    "S4": [
+      "results/audit_extensions_summary.csv"
+    ],
+    "S5": [
+      "study2/results/learning_summary.csv",
+      "study2/results/paired_contrasts.csv"
+    ]
+  },
+  "tag": "research-2026-10-09"
+}

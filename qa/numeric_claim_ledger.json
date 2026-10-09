@@ -1,0 +1,681 @@
+[
+  {
+    "claim": "Stationary harm/Reset/Balanced/net",
+    "source_value": 0.45224121093749997,
+    "manuscript_display": ".45224",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Stationary harm/Cumulative/Balanced/net",
+    "source_value": 0.48006835937499986,
+    "manuscript_display": ".48007",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Stationary harm/Cumulative/Balanced/late_net",
+    "source_value": 0.48163085937499983,
+    "manuscript_display": ".48163",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Stationary harm/Reset/Balanced/regret",
+    "source_value": 0.029389648437500013,
+    "manuscript_display": ".02939",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Stationary harm/Cumulative/Balanced/regret",
+    "source_value": 0.0015625000000000005,
+    "manuscript_display": ".00156",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Stationary harm/Reset/Balanced/expense",
+    "source_value": 0.018369140625,
+    "manuscript_display": ".01837",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Stationary harm/Cumulative/Discover once/net",
+    "source_value": 0.4792825889587402,
+    "manuscript_display": ".47928",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Stationary harm/Cumulative/Repeated discovery/net",
+    "source_value": 0.47999692678451544,
+    "manuscript_display": ".48000",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Stationary harm/Cumulative/Successive rejects/net",
+    "source_value": 0.48058593750000006,
+    "manuscript_display": ".48059",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Workflow reversal/Cumulative/Balanced/net",
+    "source_value": 0.48026367187499985,
+    "manuscript_display": ".48026",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Workflow reversal/Window 8/Balanced/net",
+    "source_value": 0.5758300781250001,
+    "manuscript_display": ".57583",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Workflow reversal/Reset/Balanced/net",
+    "source_value": 0.5827978515625,
+    "manuscript_display": ".58280",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Workflow reversal/Window 8/Balanced/late_net",
+    "source_value": 0.7216308593750002,
+    "manuscript_display": ".72163",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Workflow reversal/Reset/Balanced/late_net",
+    "source_value": 0.7123730468750001,
+    "manuscript_display": ".71237",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Workflow reversal/Cumulative/Balanced/late_net",
+    "source_value": 0.4828027343749999,
+    "manuscript_display": ".48280",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Stationary harm/Cumulative/Balanced - Reset/mean",
+    "source_value": 0.027827148437500025,
+    "manuscript_display": ".02783",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Stationary harm/Cumulative/Balanced - Reset/lower",
+    "source_value": 0.026588512049141644,
+    "manuscript_display": ".02659",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Stationary harm/Cumulative/Balanced - Reset/upper",
+    "source_value": 0.029065784825858407,
+    "manuscript_display": ".02907",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Stationary harm/Reset/Repeated - Balanced/mean",
+    "source_value": -0.017019776503245,
+    "manuscript_display": "-.01702",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Stationary harm/Reset/Repeated - Balanced/lower",
+    "source_value": -0.019635439399653537,
+    "manuscript_display": "-.01964",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Stationary harm/Reset/Repeated - Balanced/upper",
+    "source_value": -0.014404113606836466,
+    "manuscript_display": "-.01440",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Stationary harm/Cumulative/Repeated - Balanced/mean",
+    "source_value": -7.143259048456073e-05,
+    "manuscript_display": "-.00007",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Stationary harm/Cumulative/Repeated - Balanced/lower",
+    "source_value": -0.0009958738985690655,
+    "manuscript_display": "-.00100",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Stationary harm/Cumulative/Repeated - Balanced/upper",
+    "source_value": 0.000853008717599944,
+    "manuscript_display": ".00085",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Workflow reversal/Window 8/Repeated - Discover once/mean",
+    "source_value": 0.009754692713419517,
+    "manuscript_display": ".00975",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Workflow reversal/Window 8/Repeated - Discover once/lower",
+    "source_value": 0.007086231035757319,
+    "manuscript_display": ".00709",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Workflow reversal/Window 8/Repeated - Discover once/upper",
+    "source_value": 0.012423154391081714,
+    "manuscript_display": ".01242",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "core/Workflow reversal/Window 8/Repeated - Balanced/mean",
+    "source_value": 0.006234538555145205,
+    "manuscript_display": ".00623",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "exploratory control/Workflow reversal/Window 8/Repeated - Balanced/mean",
+    "source_value": 0.00607382774353022,
+    "manuscript_display": ".00607",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "exploratory control/Workflow reversal/Window 8/Repeated - Balanced/lower",
+    "source_value": 0.0038991340604308438,
+    "manuscript_display": ".00390",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "exploratory control/Workflow reversal/Window 8/Repeated - Balanced/upper",
+    "source_value": 0.008248521426629598,
+    "manuscript_display": ".00825",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "exploratory control/Workflow reversal/Window 8/Repeated - Trial-matched Balanced/mean",
+    "source_value": 0.0019068924585978076,
+    "manuscript_display": ".00191",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "exploratory control/Workflow reversal/Window 8/Repeated - Trial-matched Balanced/lower",
+    "source_value": -0.00016449306333356012,
+    "manuscript_display": "-.00016",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "exploratory control/Workflow reversal/Window 8/Repeated - Trial-matched Balanced/upper",
+    "source_value": 0.003978277980529176,
+    "manuscript_display": ".00398",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "exploratory control/Workflow reversal 20/Window 8/Repeated - Trial-matched Balanced/mean",
+    "source_value": -0.0006321501731872473,
+    "manuscript_display": "-.00063",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "exploratory control/Workflow reversal 28/Window 8/Repeated - Trial-matched Balanced/mean",
+    "source_value": -0.0005738457043965644,
+    "manuscript_display": "-.00057",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "exploratory control/Workflow reversal 20/Window 8/Repeated - Balanced/mean",
+    "source_value": 0.0003121288617450998,
+    "manuscript_display": ".00031",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "exploratory control/Workflow reversal 28/Window 8/Repeated - Balanced/mean",
+    "source_value": 3.840208053587386e-05,
+    "manuscript_display": ".00004",
+    "source": "results/learning_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Uniform fixed mixture / Reset",
+    "source_value": 0.43426180601119996,
+    "manuscript_display": ".43426",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Repeated minus mixture / Reset",
+    "source_value": 0.0009596284230550256,
+    "manuscript_display": ".00096",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Uniform fixed mixture / Cumulative",
+    "source_value": 0.476565073331197,
+    "manuscript_display": ".47657",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Repeated minus mixture / Cumulative",
+    "source_value": 0.003431853453318423,
+    "manuscript_display": ".00343",
+    "source": "results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Pooling / Stationary harm / True",
+    "source_value": 0.48042813830905495,
+    "manuscript_display": ".48043",
+    "source": "results/learning_sensitivity_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Pooling / Stationary harm / False",
+    "source_value": 0.47751152250501844,
+    "manuscript_display": ".47751",
+    "source": "results/learning_sensitivity_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Pooling / Workflow reversal / True",
+    "source_value": 0.5821445571051703,
+    "manuscript_display": ".58214",
+    "source": "results/learning_sensitivity_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Pooling / Workflow reversal / False",
+    "source_value": 0.5739151212904187,
+    "manuscript_display": ".57392",
+    "source": "results/learning_sensitivity_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "high_echo/Full_trace/cumulative/error",
+    "source_value": 1.7730511718749997,
+    "manuscript_display": "1.773",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "high_echo/Full_trace/cumulative/net",
+    "source_value": 0.8607735378888453,
+    "manuscript_display": ".86077",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "high_echo/Ignore_echo/cumulative/error",
+    "source_value": 9.824664881875,
+    "manuscript_display": "9.825",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "high_echo/Ignore_echo/cumulative/net",
+    "source_value": 0.6232256929950948,
+    "manuscript_display": ".62323",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "high_echo/Randomized_exposure/cumulative/error",
+    "source_value": 1.782081521458333,
+    "manuscript_display": "1.782",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "high_echo/Randomized_exposure/cumulative/net",
+    "source_value": 0.8607765244452088,
+    "manuscript_display": ".86078",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "high_echo/blind_vote:A:k3/none/net",
+    "source_value": 0.8713974568684896,
+    "manuscript_display": ".87140",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "high_echo/blind_vote:A:k3/none/error",
+    "source_value": 3.52,
+    "manuscript_display": "3.520",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "strong_humans/Full_trace/cumulative/net",
+    "source_value": 0.7730647181752526,
+    "manuscript_display": ".77306",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "strong_humans/blind_vote:A:k3/none/net",
+    "source_value": 0.6073974568684897,
+    "manuscript_display": ".60740",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift / Full_trace / reset",
+    "source_value": 0.857982561223348,
+    "manuscript_display": ".85798",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift / Full_trace / cumulative",
+    "source_value": 0.8625476055220438,
+    "manuscript_display": ".86255",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift late error / Full_trace / cumulative",
+    "source_value": 1.7703999999999998,
+    "manuscript_display": "1.7704",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift / Full_trace / window8",
+    "source_value": 0.8627408968137105,
+    "manuscript_display": ".86274",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift late error / Full_trace / window8",
+    "source_value": 1.7703999999999998,
+    "manuscript_display": "1.7704",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift / Randomized_exposure / reset",
+    "source_value": 0.8508083611719992,
+    "manuscript_display": ".85081",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift late error / Randomized_exposure / reset",
+    "source_value": 2.3211787299999997,
+    "manuscript_display": "2.3212",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift / Randomized_exposure / cumulative",
+    "source_value": 0.8520618780351379,
+    "manuscript_display": ".85206",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift late error / Randomized_exposure / cumulative",
+    "source_value": 1.8372258099999996,
+    "manuscript_display": "1.8372",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift / Randomized_exposure / window8",
+    "source_value": 0.8565919578079082,
+    "manuscript_display": ".85659",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Echo shift late error / Randomized_exposure / window8",
+    "source_value": 1.7703999999999998,
+    "manuscript_display": "1.7704",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "High echo paired-minus-omit net",
+    "source_value": 0.23754784489374997,
+    "manuscript_display": ".23755",
+    "source": "study2/results/paired_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "High echo paired-minus-omit halfwidth",
+    "source_value": 3.537020990666862e-05,
+    "manuscript_display": ".00004",
+    "source": "study2/results/paired_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Copying=0.0/agreement",
+    "source_value": 69.058,
+    "manuscript_display": "69.06",
+    "source": "study2/results/illustrative_curve.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Copying=0.8/agreement",
+    "source_value": 91.19886400000001,
+    "manuscript_display": "91.20",
+    "source": "study2/results/illustrative_curve.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Copying=0.0/error",
+    "source_value": 3.5199999999999996,
+    "manuscript_display": "3.52",
+    "source": "study2/results/illustrative_curve.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Copying=0.8/error",
+    "source_value": 9.637120000000003,
+    "manuscript_display": "9.64",
+    "source": "study2/results/illustrative_curve.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Copying=0.0/wrong_up_approval",
+    "source_value": 10.090000000000002,
+    "manuscript_display": "10.09",
+    "source": "study2/results/illustrative_curve.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Copying=0.8/wrong_up_approval",
+    "source_value": 59.62312000000002,
+    "manuscript_display": "59.62",
+    "source": "study2/results/illustrative_curve.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Abstract 0.452",
+    "source_value": 0.45224121093749997,
+    "manuscript_display": "0.452",
+    "source": "same source as corresponding full-precision body claim",
+    "scope": ""
+  },
+  {
+    "claim": "Abstract 0.480",
+    "source_value": 0.48006835937499986,
+    "manuscript_display": "0.480",
+    "source": "same source as corresponding full-precision body claim",
+    "scope": ""
+  },
+  {
+    "claim": "Abstract 0.006",
+    "source_value": 0.00607382774353022,
+    "manuscript_display": "0.006",
+    "source": "same source as corresponding full-precision body claim",
+    "scope": ""
+  },
+  {
+    "claim": "Abstract 0.002",
+    "source_value": 0.0019068924585978076,
+    "manuscript_display": "0.002",
+    "source": "same source as corresponding full-precision body claim",
+    "scope": ""
+  },
+  {
+    "claim": "Abstract 69",
+    "source_value": 69.058,
+    "manuscript_display": "69",
+    "source": "same source as corresponding full-precision body claim",
+    "scope": ""
+  },
+  {
+    "claim": "Abstract 91",
+    "source_value": 91.198864,
+    "manuscript_display": "91",
+    "source": "same source as corresponding full-precision body claim",
+    "scope": ""
+  },
+  {
+    "claim": "Abstract 3.5",
+    "source_value": 3.52,
+    "manuscript_display": "3.5",
+    "source": "same source as corresponding full-precision body claim",
+    "scope": ""
+  },
+  {
+    "claim": "Abstract 9.6",
+    "source_value": 9.63712,
+    "manuscript_display": "9.6",
+    "source": "same source as corresponding full-precision body claim",
+    "scope": ""
+  },
+  {
+    "claim": "Paired cumulative below fixed blind net",
+    "source_value": 5,
+    "manuscript_display": "5 of 6",
+    "source": "study2/results/learning_summary.csv",
+    "scope": "Full horizon, paired observation, cumulative memory, fixed blind A+3A comparator; not every policy or memory"
+  },
+  {
+    "claim": "Paired acquisition amortization",
+    "source_value": 0.05703125,
+    "manuscript_display": ".05703",
+    "source": "study2/protocol.json; study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "SR highest unrounded mean",
+    "source_value": 5,
+    "manuscript_display": "five of nine",
+    "source": "results/learning_summary.csv",
+    "scope": "Descriptive comparison; two further Uniform gain retained-memory cells are within .00004, not exact ties"
+  },
+  {
+    "claim": "Appendix D stationary / Fixed sparse",
+    "source_value": 0.8608919140625,
+    "manuscript_display": ".86089",
+    "source": "results/longitudinal_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Appendix D stationary / Fixed 0.05",
+    "source_value": 0.86394908203125,
+    "manuscript_display": ".86395",
+    "source": "results/longitudinal_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Appendix D stationary / Fixed 0.10",
+    "source_value": 0.85841173828125,
+    "manuscript_display": ".85841",
+    "source": "results/longitudinal_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Appendix D stationary / No audit",
+    "source_value": 0.87975830078125,
+    "manuscript_display": ".87976",
+    "source": "results/longitudinal_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Appendix D adaptive minus fixed .10 / difference",
+    "source_value": 0.00857307617187505,
+    "manuscript_display": ".00857",
+    "source": "results/paired_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Appendix D adaptive minus fixed .10 / ci95_low",
+    "source_value": 0.006761819251023815,
+    "manuscript_display": ".00676",
+    "source": "results/paired_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Appendix D adaptive minus fixed .10 / ci95_high",
+    "source_value": 0.010384333092726284,
+    "manuscript_display": ".01038",
+    "source": "results/paired_contrasts.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Last stationary retained program / Biased",
+    "source_value": 38.28125,
+    "manuscript_display": "38.3",
+    "source": "results/learning_conditional.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Last stationary retained program / Balanced",
+    "source_value": 31.25,
+    "manuscript_display": "31.2",
+    "source": "results/learning_conditional.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Last stationary Balanced conditional net",
+    "source_value": 0.48190979003906254,
+    "manuscript_display": ".4819",
+    "source": "results/learning_conditional.csv",
+    "scope": ""
+  },
+  {
+    "claim": "Last stationary retained program / Neyman",
+    "source_value": 30.46875,
+    "manuscript_display": "30.5",
+    "source": "results/learning_conditional.csv",
+    "scope": ""
+  }
+]

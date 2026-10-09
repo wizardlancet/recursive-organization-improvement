@@ -74,25 +74,26 @@ For external criterion $J$ and specified comparator $0$, the effect of a patch i
 \Delta_H(p)=\E[J(\Trace_{t:t+H}^{p})-J(\Trace_{t:t+H}^{0})]-C_H(p).
 \label{eq:value}
 \end{equation}
-$C_H$ contains costs not already included in $J$. Randomized comparisons, controlled simulation, or explicit causal assumptions are needed to estimate the two potential outcomes. Outcomes without defensible common units remain a vector with declared constraints. In the experiment below, the net-value criterion incorporates every modeled monetary cost, so no additional cost is subtracted in \cref{eq:value}.
+$C_H$ contains costs not already included in $J$. Randomized comparisons, controlled simulation, or explicit causal assumptions are needed to estimate the two potential outcomes. Outcomes without defensible common units remain a vector with declared constraints. In the simulations below, the net-value criteria incorporate every modeled resource cost, so no additional cost is subtracted in \cref{eq:value}.
 
 \Cref{fig:framework} connects execution to this revision loop. A software team might first change review routing, then discover that its evaluations cover only human-reviewed PRs. A second patch can alter evidence acquisition to include routine changes. That second patch is evaluated through later routing decisions and their outcomes; the mere act of adding an audit does not establish its net benefit.
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering\includegraphics[width=.97\linewidth]{figures/fig1_framework.pdf}
 \caption{The modeling specification connects organization state, event histories, and improvement procedures. A revision names its target, evidence, authority, and external evaluation criterion.}
 \label{fig:framework}
 \end{figure}
+\FloatBarrier
 
 \subsection{Organizational memory as a testable design choice}
 The memory field $M$ separates three retained objects: workflow evidence, evaluation-program evidence, and adopted arrangements. Keeping a program name without its supporting observations preserves a decision but does not accumulate statistical knowledge. Keeping observations indefinitely can preserve knowledge about a population that no longer exists. An instance therefore records evidence provenance, applicability, and expiry alongside the retained policy.
 
-The retention component $U.r$ specifies when evidence or arrangements are reconsidered. A fixed window is one such rule; changing the rule is a procedure revision at the declared boundary. In the mechanism study, memory rules are experimentally assigned and held fixed within a run. Evaluation programs may then change inside each memory condition. This factorial construction separates a design intervention on retention from the execution of a program-selection procedure.
+The retention component $U.r$ specifies when evidence or arrangements are reconsidered. A fixed window is one such rule; changing the rule is a procedure revision at the declared boundary. In Study 1, memory rules are experimentally assigned and held fixed within a run. Evaluation programs may then change inside each memory condition. This factorial construction separates a design intervention on retention from the execution of a program-selection procedure.
 
 Evidence generated during organizational search can serve more than one decision. A rejected program trial may still produce valid labels about a workflow. The trace records the labels once and reveals them to the permitted downstream evaluator; their cost is charged once. Comparing a policy that reuses those labels with one that discards them tests an information-transfer rule. Comparing two policies with the same trials and label reuse, while allowing only one to replace its program, tests a more specific contribution of program revision.
 
 \subsection{What the implementation checks}
 The reference implementation provides a finite checker for unique event/artifact identifiers, visible inputs, version matching, protected criteria, target-specific permissions, and patch budgets. Constructed fixtures accept a valid trace and patch and reject a hidden input and five invalid patch variants. A separate target test allows a release owner to change routing but rejects the same actor's audit-rule change; granting the review board that right admits it. This checks the operational consequences of the declared boundary.
 
-The mechanism experiment instantiates a narrower executable subset: retained label statistics, retained trial scores, program versions, authorized patch application, label budgets, and a modeled cost ledger. It exports trajectory outcomes, program proportions, conditional block outcomes, and example version transitions. Full implementations would additionally need to enforce all relationships in \cref{tab:obligations}, including criterion and retention contracts. The supplied checks establish conformance to their implemented predicates; the numerical experiment supplies evidence about efficacy.
+Study 1 instantiates a narrower executable subset: retained label statistics, retained trial scores, program versions, authorized patch application, label budgets, and a modeled cost ledger. It exports trajectory outcomes, program proportions, conditional block outcomes, and example version transitions. Full implementations would additionally need to enforce all relationships in \cref{tab:obligations}, including criterion and retention contracts. The supplied checks establish conformance to their implemented predicates; the simulation studies supply evidence about efficacy within their specified settings.
 
 Mapping public repository records supplies a complementary feasibility check. Three merged Flask PRs yield four commit artifacts and 56 mapped events: eight reviews, 42 head-commit check runs, and six opening/merge records. Artifact identifiers and recorded actions are recoverable. Historical authority, actual message exposure, effort, organization versions, and AI involvement remain unknown. Appendix~\ref{app:records} specifies the snapshot and mapping. Such a trace can expose instrumentation gaps before a team attempts a workflow-effect estimate.

@@ -13,7 +13,6 @@
 \usepackage[nameinlink,noabbrev]{cleveref}
 \renewcommand{\shorttitle}{\textsc{Recursive Organization Improvement}}
 \renewcommand{\headeright}{}
-\renewcommand{\undertitle}{Modeling specification and mechanism study}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}
 \raggedbottom
@@ -38,29 +37,32 @@
   CataX AI \\
   \texttt{wangzilong@cata-x.ai}
 }
-\date{September 30, 2026}
+\date{October 9, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
-Stronger AI agents do not automatically produce better organizations: teams must also learn which work arrangements to retain and when to reconsider them. We propose a modeling specification for recursive organization improvement and evaluate it through an executable checker, a public-record mapping, and controlled simulation. The specification connects actor-visible histories, organizational memory, decision rights, and evidence-carrying change contracts. The mechanism study crosses six decision rules, three memory conditions, and three task environments under fixed resource ceilings. In a stationary environment, cumulative evidence raises balanced evaluation's normalized net value per task from 0.45224 to 0.48007. Repeated reassessment's disadvantage relative to this comparator falls from 0.01702 with reset evidence to 0.00007 with cumulative evidence. A reversal of the best workflow reveals the opposite cost: indefinite retention delays adaptation, while a finite window restores eventual performance at a transition cost. In exploratory controls, matching trial acquisition and label reuse reduces the apparent reassessment gain from 0.00607 to 0.00191. Program replacement adds no stable benefit across the tested reversal times. The study identifies evidence acquisition, reuse, and timely updating as mechanisms that must be separated from evaluator replacement when assessing organizational improvement.
+Stronger AI agents do not automatically produce better organizations: teams must learn which work arrangements to retain and when to reconsider them, while those arrangements determine what evidence the team can learn from. We propose a modeling specification for recursive organization improvement that connects actor-visible histories, organizational memory, decision rights, and evidence-carrying change contracts, and evaluate it through an executable checker, a public-record mapping, and two simulation studies. Study 1 holds evidence quality fixed and varies its acquisition, retention, and reuse. In a stationary environment, cumulative evidence raises balanced evaluation's net value per task from 0.452 to 0.480 and nearly removes repeated reassessment's disadvantage. After the best workflow reverses, indefinite retention delays adaptation. Matching trial acquisition and label reuse reduces the apparent evaluator-replacement gain from 0.006 to 0.002. Study 2 makes visible judgments a product of the human--agent review arrangement. With individual accuracy fixed, increasing reviewers' copying probability raises unanimous agreement from 69\% to 91\% while raising decision error from 3.5\% to 9.6\%. Greater shared agent error shifts the minimum-error arrangement within a budget-constrained catalog from blind agent voting to a human proposal with disagreement-triggered human arbitration. Paired observation with cumulative memory identifies lower-error arrangements in all six environments, but its net value is below a fixed blind-review baseline in five because continued acquisition costs exceed the deployment gain. All parameters are synthetic; Study 2 and the attribution controls are exploratory. Organizational improvement should be assessed across the lifecycle of its evidence, including how organizational arrangements generate it.
 \end{abstract}
 \keywords{human--AI interaction \and multi-agent organizations \and organizational learning \and workflow adaptation \and recursive improvement \and evaluation}
 \input{sections/introduction}
 \input{sections/specification}
 \input{sections/study}
+\input{sections/study2}
 \input{sections/discussion}
 \section*{Code and data availability}
 \input{sections/availability}
 \section*{Use of AI tools}
-OpenAI Codex assisted with manuscript drafting and revision, simulation implementation, data analysis, and figure preparation. The reported mechanism experiments use synthetic label distributions; they do not measure deployed language-model performance.
+OpenAI Codex assisted with manuscript drafting and revision, simulation implementation, data analysis, and figure preparation. The two simulation studies use synthetic task outcomes and parameterized actor judgments; they do not measure deployed language-model performance or human-participant behavior.
 \FloatBarrier
 \begingroup
 \small
-\setlength{\bibsep}{2pt}
+\setlength{\bibsep}{1pt}
 \bibliographystyle{plainnat}
 \bibliography{bibliography}
 \endgroup
 \clearpage
 \appendix
 \input{sections/appendices}
+\FloatBarrier
+\input{sections/actor_review}
 \end{document}

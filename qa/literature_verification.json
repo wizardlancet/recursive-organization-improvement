@@ -1,0 +1,36 @@
+{
+  "accessed": "2026-10-09",
+  "entries": [
+    {
+      "key": "ladha1992",
+      "doi": "10.2307/2111584",
+      "primary_sources": [
+        "https://www.jstor.org/stable/i310488",
+        "https://api.crossref.org/works/10.2307/2111584"
+      ],
+      "verified": "Author, title, journal, volume 36, issue 3, year 1992, pages 617-634, DOI",
+      "access_depth": "Journal table of contents and registry metadata; article full text unavailable",
+      "citation_scope": "General positioning in correlated-vote jury-theorem research; no theorem details asserted"
+    },
+    {
+      "key": "bikhchandani1992",
+      "doi": "10.1086/261849",
+      "primary_sources": [
+        "https://www.journals.uchicago.edu/doi/10.1086/261849"
+      ],
+      "verified": "Authors, title, 1992, Journal of Political Economy 100(5), 992-1026, DOI, publisher abstract",
+      "access_depth": "Publisher metadata and abstract",
+      "citation_scope": "Observing predecessors can displace private information; the paper does not equate exogenous copying with an optimizing cascade"
+    },
+    {
+      "key": "Scientific Agent Skills software acknowledgment",
+      "doi": "10.48550/arXiv.2609.00065",
+      "primary_sources": [
+        "https://arxiv.org/abs/2609.00065"
+      ],
+      "verified": "Current arXiv v2, revised 2026-09-02; five-author list and year",
+      "access_depth": "arXiv record",
+      "citation_scope": "Software-workflow acknowledgment in README, not a scientific evidence claim"
+    }
+  ]
+}

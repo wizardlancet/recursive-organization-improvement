@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{53}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -64,6 +64,15 @@ Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham,
 \newblock {Principles behind the Agile Manifesto}, 2001.
 \newblock URL \url{https://agilemanifesto.org/principles.html}.
 \newblock Accessed 2026-09-28.
+
+\bibitem[Bikhchandani et~al.(1992)Bikhchandani, Hirshleifer, and
+  Welch]{bikhchandani1992}
+Sushil Bikhchandani, David Hirshleifer, and Ivo Welch.
+\newblock A theory of fads, fashion, custom, and cultural change as
+  informational cascades.
+\newblock \emph{Journal of Political Economy}, 100\penalty0 (5):\penalty0
+  992--1026, 1992.
+\newblock \doi{10.1086/261849}.
 
 \bibitem[Bowman et~al.(2022)Bowman, Hyun, Perez, Chen, Pettit, Heiner,
   Luko\v{s}i\={u}t\.{e}, Askell, Jones, Chen, Goldie, Mirhoseini, McKinnon,
@@ -251,6 +260,13 @@ Maximilian Kasy and Anja Sautmann.
 \newblock \doi{10.3982/ECTA17527}.
 \newblock URL \url{https://doi.org/10.3982/ECTA17527}.
 
+\bibitem[Ladha(1992)]{ladha1992}
+Krishna~K. Ladha.
+\newblock The {Condorcet} jury theorem, free speech, and correlated votes.
+\newblock \emph{American Journal of Political Science}, 36\penalty0
+  (3):\penalty0 617--634, 1992.
+\newblock \doi{10.2307/2111584}.
+
 \bibitem[Lee and See(2004)]{lee}
 J.~D. Lee and K.~A. See.
 \newblock {Trust in Automation: Designing for Appropriate Reliance}.
@@ -320,6 +336,16 @@ R.~Parasuraman, T.B. Sheridan, and C.D. Wickens.
 \newblock \emph{IEEE Transactions on Systems, Man, and Cybernetics - Part A:
   Systems and Humans}, 30\penalty0 (3):\penalty0 286--297, 2000.
 \newblock \doi{10.1109/3468.844354}.
+
+\bibitem[Pitre et~al.(2025)Pitre, Ramakrishnan, and Wang]{consensagent}
+Priya Pitre, Naren Ramakrishnan, and Xuan Wang.
+\newblock {CONSENSAGENT}: Towards efficient and effective consensus in
+  multi-agent {LLM} interactions through sycophancy mitigation.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2025}, pages 22112--22133. Association for Computational Linguistics,
+  2025.
+\newblock \doi{10.18653/v1/2025.findings-acl.1141}.
+\newblock URL \url{https://aclanthology.org/2025.findings-acl.1141/}.
 
 \bibitem[Puranam(2021)]{puranam2021}
 Phanish Puranam.

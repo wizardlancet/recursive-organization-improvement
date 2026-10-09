@@ -1,0 +1,2833 @@
+[
+  {
+    "file": "main.tex",
+    "line": 1,
+    "text": "\\documentclass[10pt]{article}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 3,
+    "text": "\\usepackage[T1]{fontenc}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 4,
+    "text": "\\usepackage[utf8]{inputenc}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 12,
+    "text": "\\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 16,
+    "text": "\\setlength{\\parindent}{0pt}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 17,
+    "text": "\\setlength{\\parskip}{4pt}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 19,
+    "text": "\\setlength{\\emergencystretch}{2em}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 29,
+    "text": "\\newcommand{\\Ind}{\\mathbf{1}}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 31,
+    "text": "\\newcommand{\\tableinput}[1]{\\@@input #1 }",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 33,
+    "text": "\\lstset{basicstyle=\\ttfamily\\footnotesize,breaklines=true,frame=single,rulecolor=\\color{black!15},backgroundcolor=\\color{black!2},columns=fullflexible,keepspaces=true,showstringspaces=false}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 40,
+    "text": "\\date{October 9, 2026}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 44,
+    "text": "Stronger AI agents do not automatically produce better organizations: teams must learn which work arrangements to retain and when to reconsider them, while those arrangements determine what evidence the team can learn from. We propose a modeling specification for recursive organization improvement that connects actor-visible histories, organizational memory, decision rights, and evidence-carrying change contracts, and evaluate it through an executable checker, a public-record mapping, and two simulation studies. Study 1 holds evidence quality fixed and varies its acquisition, retention, and reuse. In a stationary environment, cumulative evidence raises balanced evaluation's net value per task from 0.452 to 0.480 and nearly removes repeated reassessment's disadvantage. After the best workflow reverses, indefinite retention delays adaptation. Matching trial acquisition and label reuse reduces the apparent evaluator-replacement gain from 0.006 to 0.002. Study 2 makes visible judgments a product of the human--agent review arrangement. With individual accuracy fixed, increasing reviewers' copying probability raises unanimous agreement from 69\\% to 91\\% while raising decision error from 3.5\\% to 9.6\\%. Greater shared agent error shifts the minimum-error arrangement within a budget-constrained catalog from blind agent voting to a human proposal with disagreement-triggered human arbitration. Paired observation with cumulative memory identifies lower-error arrangements in all six environments, but its net value is below a fixed blind-review baseline in five because continued acquisition costs exceed the deployment gain. All parameters are synthetic; Study 2 and the attribution controls are exploratory. Organizational improvement should be assessed across the lifecycle of its evidence, including how organizational arrangements generate it.",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 50,
+    "text": "\\input{sections/study2}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "main.tex",
+    "line": 59,
+    "text": "\\setlength{\\bibsep}{1pt}",
+    "kind": "abstract result, typesetting, or date",
+    "sources": [
+      "numeric claim ledger; LaTeX settings"
+    ]
+  },
+  {
+    "file": "sections/introduction.tex",
+    "line": 8,
+    "text": "Workflow revision creates a measurement problem of its own. A new review policy changes both which cases receive attention and which failures become visible. If the same selected cases determine whether that policy is retained, organizational learning can favor a locally successful but globally harmful arrangement. An improvement procedure therefore needs an explicit account of the evidence it can acquire, the changes it can authorize, and the costs it incurs. The procedure may itself become a target of revision. Study 2 examines how review visibility and decision rights shape the evidence available for judging an arrangement.",
+    "kind": "study identifier or explicit bottleneck illustration",
+    "sources": [
+      "analytic calculation: min(4,5,9)=4; min(8,5,9)=5; min(8,8,9)=8; interaction=3"
+    ]
+  },
+  {
+    "file": "sections/introduction.tex",
+    "line": 14,
+    "text": "Study 1, \\emph{evidence acquisition and retention}, holds label quality fixed and crosses evidence-reset, cumulative, and finite-window memory with fixed evaluation programs, one-time discovery, and repeated program assessment. A template-ranking reversal makes old evidence obsolete. Matching resource ceilings and the acquisition process separates the value of remembering evidence from that of replacing an evaluator. Memory largely removes repeated assessment's disadvantage in a stable environment, yet delays adaptation after change. Exploratory acquisition-matched controls narrow the gain attributable to evaluator replacement.",
+    "kind": "study identifier or explicit bottleneck illustration",
+    "sources": [
+      "analytic calculation: min(4,5,9)=4; min(8,5,9)=5; min(8,8,9)=8; interaction=3"
+    ]
+  },
+  {
+    "file": "sections/introduction.tex",
+    "line": 16,
+    "text": "Study 2, \\emph{review arrangements and evidence generation}, derives organizational outcomes and visible judgments from individual errors, shared error sources, upstream exposure, and decision rights. Its contribution is to distinguish mechanisms that can look identical in public records but respond differently to blinding, separate gold-labeled measurement from human override authority, and show how error dependence changes the preferred placement of humans under a fixed budget. Paid observation policies test whether identifying a better arrangement also recovers the cost of learning about it.",
+    "kind": "study identifier or explicit bottleneck illustration",
+    "sources": [
+      "analytic calculation: min(4,5,9)=4; min(8,5,9)=5; min(8,8,9)=8; interaction=3"
+    ]
+  },
+  {
+    "file": "sections/introduction.tex",
+    "line": 18,
+    "text": "The argument has two strands. Study 1 follows evidence through discovery, retention, and reassessment while holding its quality fixed. Study 2 asks where observable evidence comes from: blind review preserves private judgments, whereas exposed review can replace them with copied agreement. Blinding does not remove dependence already present in private errors. The arrangement being improved therefore also determines which judgments an improvement procedure could observe. Study 2 compares fixed observation policies; it does not implement an outer search that revises those policies.",
+    "kind": "study identifier or explicit bottleneck illustration",
+    "sources": [
+      "analytic calculation: min(4,5,9)=4; min(8,5,9)=5; min(8,8,9)=8; interaction=3"
+    ]
+  },
+  {
+    "file": "sections/introduction.tex",
+    "line": 32,
+    "text": "\\begin{tabularx}{\\linewidth}{@{}p{.23\\linewidth}YY@{}}\\toprule",
+    "kind": "study identifier or explicit bottleneck illustration",
+    "sources": [
+      "analytic calculation: min(4,5,9)=4; min(8,5,9)=5; min(8,8,9)=8; interaction=3"
+    ]
+  },
+  {
+    "file": "sections/introduction.tex",
+    "line": 47,
+    "text": "For example, let drafting, review, and integration capacities be 4, 5, and 9 accepted-task equivalents per day. A deterministic serial capacity bound is their minimum. Doubling drafting alone raises the bound from 4 to 5; raising review capacity to 8 at the same time raises it to 8. The factorial interaction is $8-5-4+4=3$. This standard bottleneck calculation \\citep{amdahl,little} isolates why technical and workflow changes can be complementary. Rework, variable quality, and demand must be modeled separately in an empirical application. Our specification records the fields needed to distinguish such joint changes from an increase in task-level speed.",
+    "kind": "study identifier or explicit bottleneck illustration",
+    "sources": [
+      "analytic calculation: min(4,5,9)=4; min(8,5,9)=5; min(8,8,9)=8; interaction=3"
+    ]
+  },
+  {
+    "file": "sections/specification.tex",
+    "line": 14,
+    "text": "\\begin{tabularx}{\\linewidth}{@{}p{.15\\linewidth}YY@{}}\\toprule",
+    "kind": "formal definition or public snapshot count",
+    "sources": [
+      "scripts/contracts.py",
+      "results/public_trace_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/specification.tex",
+    "line": 58,
+    "text": "\\begin{tabularx}{\\linewidth}{@{}p{.19\\linewidth}YY@{}}\\toprule",
+    "kind": "formal definition or public snapshot count",
+    "sources": [
+      "scripts/contracts.py",
+      "results/public_trace_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/specification.tex",
+    "line": 72,
+    "text": "For external criterion $J$ and specified comparator $0$, the effect of a patch is",
+    "kind": "formal definition or public snapshot count",
+    "sources": [
+      "scripts/contracts.py",
+      "results/public_trace_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/specification.tex",
+    "line": 74,
+    "text": "\\Delta_H(p)=\\E[J(\\Trace_{t:t+H}^{p})-J(\\Trace_{t:t+H}^{0})]-C_H(p).",
+    "kind": "formal definition or public snapshot count",
+    "sources": [
+      "scripts/contracts.py",
+      "results/public_trace_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/specification.tex",
+    "line": 81,
+    "text": "\\centering\\includegraphics[width=.97\\linewidth]{figures/fig1_framework.pdf}",
+    "kind": "formal definition or public snapshot count",
+    "sources": [
+      "scripts/contracts.py",
+      "results/public_trace_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/specification.tex",
+    "line": 90,
+    "text": "The retention component $U.r$ specifies when evidence or arrangements are reconsidered. A fixed window is one such rule; changing the rule is a procedure revision at the declared boundary. In Study 1, memory rules are experimentally assigned and held fixed within a run. Evaluation programs may then change inside each memory condition. This factorial construction separates a design intervention on retention from the execution of a program-selection procedure.",
+    "kind": "formal definition or public snapshot count",
+    "sources": [
+      "scripts/contracts.py",
+      "results/public_trace_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/specification.tex",
+    "line": 97,
+    "text": "Study 1 instantiates a narrower executable subset: retained label statistics, retained trial scores, program versions, authorized patch application, label budgets, and a modeled cost ledger. It exports trajectory outcomes, program proportions, conditional block outcomes, and example version transitions. Full implementations would additionally need to enforce all relationships in \\cref{tab:obligations}, including criterion and retention contracts. The supplied checks establish conformance to their implemented predicates; the simulation studies supply evidence about efficacy within their specified settings.",
+    "kind": "formal definition or public snapshot count",
+    "sources": [
+      "scripts/contracts.py",
+      "results/public_trace_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/specification.tex",
+    "line": 99,
+    "text": "Mapping public repository records supplies a complementary feasibility check. Three merged Flask PRs yield four commit artifacts and 56 mapped events: eight reviews, 42 head-commit check runs, and six opening/merge records. Artifact identifiers and recorded actions are recoverable. Historical authority, actual message exposure, effort, organization versions, and AI involvement remain unknown. Appendix~\\ref{app:records} specifies the snapshot and mapping. Such a trace can expose instrumentation gaps before a team attempts a workflow-effect estimate.",
+    "kind": "formal definition or public snapshot count",
+    "sources": [
+      "scripts/contracts.py",
+      "results/public_trace_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 1,
+    "text": "\\section{Study 1: Acquiring, retaining, and reconsidering evidence}",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 4,
+    "text": "Study 1 follows a change from its discovery to its later use. It asks whether evidence retention alters the value of evaluator revision, whether a one-time discovery can substitute for repeated search, and which part of reassessment produces a measured gain. These questions instantiate $U.a$ (evidence acquisition), $M$ (retained evidence), and $U.r$ (continued use or reconsideration) in the specification.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 6,
+    "text": "The relations in \\cref{tab:obligations} constrain specific design decisions. Decision--memory requires separate records for workflow labels, program scores, and the adopted program; we therefore intervene on these memories separately. Cost--resource requires each queried label to enter one ledger, even when both program trials and workflow selection reuse it. Actor--evidence requires current program trials to share the same pre-review information and prevents access to hidden error probabilities. Outcome--criterion keeps the deployment horizon and net-value rule common across arms. Study 1 uses these obligations to distinguish a change in the evaluator from a change in its evidence.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 8,
+    "text": "A proposer supplies three workflow templates, an evaluator acquires labels, and a review board may replace the evaluation program. In Study 1, the roles denote information access and decision rights and can be assigned to humans or agents; Study 2 models their individual judgments (Section~\\ref{sec:actor-review}). The environment has two equally frequent observable task strata. Error probabilities are $(.20,.20)$ for the standard template, $(.16,.16)$ for broad, and initially $(.08,.46)$ for specialized. Thus broad is initially best, while specialized helps one stratum and harms the population. In \\emph{stationary harm} these probabilities remain fixed. In \\emph{workflow reversal}, specialized becomes $(.08,.08)$ before round 25 and becomes the best template. \\emph{Uniform gain} uses that improving specialized template throughout. The probabilities define synthetic mechanism contrasts, not fitted organizational parameters.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 10,
+    "text": "Each of 48 rounds deploys one template on 4096 production tasks. Only acquired evaluation labels enter decisions; the external scorer uses exact expected production outcomes. This separates uncertainty in organizational judgment from production sampling noise. One value unit is the gross value assigned to one completed production task before errors and costs. Net value per task subtracts error penalties and modeled expenses in these normalized units. An error costs 3 units, generation costs $.02$ per production or evaluation output, a label costs $.20$, and changing evaluation programs costs $.50$. Storage and computation costs are outside this ledger.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 15,
+    "text": "\\widehat r_{k,t}=\\frac12\\sum_{s=1}^{2}\\frac{1+E_{ks,t}}{2+N_{ks,t}},",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 18,
+    "text": "where $E$ and $N$ count observed errors and labels available to the decision. All conditions begin with $\\operatorname{Beta}(1,1)$. \\emph{Reset} uses current-round evidence only. \\emph{Cumulative} retains all earlier evidence. \\emph{Window 8} retains evidence from the preceding eight rounds plus current observations. The same retention rule applies to past evaluation-program scores; a program's identity remains retained until another is selected. This separates remembering a decision from remembering the evidence supporting it.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 20,
+    "text": "Three evaluation programs form a fixed catalog. Biased allocates 95\\% of a template's allowance to the first stratum. Balanced uses equal counts. Neyman uses a two-label-per-cell pilot and posterior variance estimates to allocate the remainder across strata \\citep{neyman}. Each program chooses the template minimizing \\cref{eq:risk}. Counts use population weights regardless of sampling proportions.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 25,
+    "text": "\\Cref{tab:arms} distinguishes knowing an evaluator, discovering it once, and periodically reconsidering it. A label unit is one observed binary error outcome for one evaluated output. Every arm receives a ceiling of 2736 such observations per eight-round block. A fixed arm can allocate 342 units per round, or 114 per template for the three catalog programs. Discover once pays for program comparisons only before round 1. Repeated discovery compares programs before rounds 1, 9, 17, 25, 33, and 41. Both begin with Biased and select among the same catalog.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 30,
+    "text": "\\begin{tabularx}{\\linewidth}{@{}p{.23\\linewidth}YY@{}}\\toprule",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 40,
+    "text": "In the base design, program trials receive at most 20\\% of the block ceiling, with one trial per catalog program. Each trial screens the three workflows under the same pre-review memory snapshot, selects one, and validates it on fresh balanced labels. Its score is validation value less screening expense per production task. The highest mean retained trial score determines the program. This fixed outer selector implements bounded program revision. It does not generate new algorithms.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 42,
+    "text": "All acquired trial labels, including evidence from rejected programs, can enter workflow memory exactly once. Decisions about program scores precede pooling the current trials; the subsequent operational screen receives the pooled evidence. This makes failed searches potential sources of reusable information. Actual trial expenditure is deducted from the current block, and the remaining allowance is spread across its operational screens. Discover once receives the full operational allowance from block 2 onward. No arm borrows from a future block; unused units due to integer allocation are not charged.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 44,
+    "text": "Net value includes production generation, all acquired labels, all evaluated outputs, and program changes. Selection regret measures the gross value gap to the best available template, separately from those costs. Harmful adoption counts choices worse than standard; after reversal, this measure becomes zero for all templates, so regret and adaptation trajectories are needed to distinguish them. The primary outcome averages net value over all 48 rounds, with final-eight-round performance as a separate endpoint.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 46,
+    "text": "The core matrix crosses three environments, three memory rules, and six arms, using 128 independent replicate streams per cell. A separate 96-replicate grid crosses program-budget shares $.2,.4,.6$ with trial counts $1,3,6$, keeping the total ceiling fixed. It also removes program-score memory or trial-label pooling separately. After inspecting the core results, we added an explicitly exploratory trial-matched control and reversals before rounds 21 and 29 on new streams, to test attribution and timing. Appendix~\\ref{app:protocol} specifies all conditions. Supplementary Tables S1--S5, supplied as the arXiv ancillary file \\texttt{supplementary\\_tables.pdf}, report Monte Carlo intervals and secondary outcomes for all conditions across the two studies and audit controls; conditional program groups in S2 are descriptive summaries without intervals. Each table identifies its repository source.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 49,
+    "text": "\\Cref{fig:memory} reports every core arm and memory condition. Under stationary harm, cumulative evidence raises Balanced's mean net value from $.45224$ to $.48007$, a paired gain of $.02783$ (95\\% Monte Carlo interval $.02659$--$.02907$). Its final-eight-round value reaches $.48163$, the value of consistently selecting broad under its actual evaluation expenditure. Balanced's mean selection regret falls from $.02939$ to $.00156$ per task, while its evaluation expense remains $.01837$. The net-value gain therefore equals the reduction in selection regret.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 52,
+    "text": "\\centering\\includegraphics[width=\\linewidth]{figures/fig9_memory.pdf}",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 53,
+    "text": "\\caption{All core comparisons: 128 replicate trajectories per cell, means and 95\\% Monte Carlo intervals. Each panel uses its own value scale. ``Cumul.'' retains all acquired evidence; Window 8 retains the preceding eight rounds plus current evidence. The results concern the jointly specified memory, discovery, and acquisition rules.}",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 57,
+    "text": "Repeated discovery is $.01702$ below Balanced with reset evidence (interval $-.01964$ to $-.01440$). With cumulative evidence, that difference becomes $-.00007$ (interval $-.00100$ to $.00085$). Discover once reaches $.47928$, and repeated discovery $.48000$. Thus the sizeable reset disadvantage does not persist when paid-for evidence is reused. This does not establish equivalence: Study 1 estimates a small difference with the stated uncertainty. Successive rejection reaches $.48059$ under cumulative evidence, providing a competitive fixed selection rule. Across the nine environment--memory cells, successive rejection has the largest unrounded core mean in five. In the two retained-memory Uniform gain cells, its mean is less than $.00004$ below repeated discovery. These are descriptive rankings, not tests of equivalence. Under Uniform gain, specialized is best from the outset, so retention improves selection without the obsolescence cost seen after reversal; a fixed elimination rule remains competitive without program replacement.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 59,
+    "text": "The comparison to fixed programs also depends on prior knowledge. An equal-probability initial draw from the three catalog programs defines an ex ante fixed-program mixture, computed as their average conditional value. Under stationary harm, its net values are $.43426$ with reset evidence and $.47657$ with cumulative evidence. Repeated discovery exceeds these prior-averaged references by $.00096$ and $.00343$, respectively. Table~\\ref{tab:base} reports the mixture in every core condition. Balanced is a prespecified representative-sampling rule, not an ex post oracle. These comparisons distinguish the cost of discovering a program from the value of revising an already reasonable design.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 62,
+    "text": "Under workflow reversal, indefinite accumulation slows the replacement of broad by the newly superior specialized template. Balanced's full-horizon values are $.48026$ with cumulative memory, $.57583$ with Window 8, and $.58280$ with reset evidence. The finite window improves considerably on unlimited accumulation, yet its transition delay makes it worse than reset over this particular horizon. In the final eight rounds it reaches $.72163$, compared with $.71237$ for reset and $.48280$ for cumulative memory. \\Cref{fig:attribution}a displays the corresponding deployment choices.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 65,
+    "text": "\\centering\\includegraphics[width=\\linewidth]{figures/fig10_attribution.pdf}",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 66,
+    "text": "\\caption{Retention and attribution. (a) Fixed Balanced under the core reversal; the vertical line marks the change before round 25. (b) Exploratory controls with Window 8 and reversals before rounds 21, 25, or 29. Points show repeated-discovery minus comparator differences with paired 95\\% Monte Carlo intervals on 128 fresh replicate streams. Matching the trials, label reuse, and timing changes the attribution of the apparent reassessment gain.}",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 70,
+    "text": "With Window 8 in the core reversal, repeated discovery exceeds discover-once by $.00975$ (interval $.00709$--$.01242$) and ordinary Balanced by $.00623$. These differences include the effects of concentrated trial acquisition and pooling, as well as the possibility of replacing the program. On the fresh exploratory streams, reversal before round 25 gives a repeated-discovery advantage of $.00607$ over ordinary Balanced (interval $.00390$--$.00825$). Matching program trials and label reuse while keeping Balanced reduces this difference to $.00191$ (interval $-.00016$ to $.00398$). For reversals before rounds 21 and 29, repeated discovery minus trial-matched Balanced is $-.00063$ and $-.00057$, respectively; both intervals span zero. The corresponding differences against ordinary Balanced are $.00031$ and $.00004$. The design therefore does not identify a stable gain from program replacement across the tested timings.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 73,
+    "text": "The full nine-cell budget-share/trial-count grid is reported in \\cref{tab:grid}. More trial expenditure can improve the total repeated-discovery package when it also provides reusable workflow evidence. Consequently, ``meta-evaluation expenditure'' is not synonymous with discarded operational evidence. Removing trial-label pooling lowers repeated discovery from $.48043$ to $.47751$ under stationary cumulative memory, and from $.58214$ to $.57392$ under reversal with Window 8 on the independent sensitivity streams. Resetting only the program-score history has much smaller mean effects in these two conditions. These are interventions on different memory components, rather than interchangeable definitions of learning.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study.tex",
+    "line": 75,
+    "text": "\\Cref{tab:programs} reports retained-program proportions and subsequent-block outcomes conditional on retaining Balanced; Supplementary Table S2 reports all three retained programs and all three memory conditions for both discover-once and repeated-discovery rules across the three environments. At the last stationary review with cumulative memory, Biased, Balanced, and Neyman are retained in 38.3\\%, 31.2\\%, and 30.5\\% of runs. The 40 runs retaining Balanced have subsequent-block net value $.4819$ and zero harmful adoption. Accurate workflow selection therefore need not coincide with convergence to one program when programs share a well-informed workflow memory. These summaries describe selection and downstream performance together; because retained programs are selected endogenously, their conditional means are not causal program effects. The combined evidence supports a narrower and more useful explanation of organizational improvement: gains depend on what the organization learns from evaluation, how long that evidence remains relevant, and whether a measured gain survives a control with the same information acquisition.",
+    "kind": "Study 1 settings or result claim",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "results/learning_*.csv"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 1,
+    "text": "\\section{Study 2: How review arrangements generate evidence}",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 3,
+    "text": "\\subsection{Research questions and connection to Study 1}",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 4,
+    "text": "Study 1 prescribes workflow error rates and label quality independently of the arrangement that acquires evidence. Study 2 makes the expressed judgments and final outcomes depend on a human--agent review arrangement. The same private signals may remain available under blind review or be replaced by copied agreement after exposure. Proposers and reviewers instantiate $X$; exposure and order change $\\Phi$ and $\\Pi$; arbitration changes $L$; and observation retention instantiates $M$. Study 2 was designed and its protocol fixed after Study 1 was completed; it is exploratory.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 14,
+    "text": "For an agent proposer and three agent reviewers, private accuracy of 90\\% and $\\rho_A=.1$, increasing $\\eta_A$ from 0 to .8 raises unanimous agreement with the proposer from 69.06\\% to 91.20\\%, while majority-decision error rises from 3.52\\% to 9.64\\%. Conditional on an incorrect proposal, unanimous approval rises from 10.09\\% to 59.62\\%. Blind voting retains an error rate of 3.52\\% under the same private-signal distribution. This comparison illustrates the copying mechanism; agreement alone does not identify its cause. With one agent proposer and one equally capable agent reviewer, $(\\rho_A,\\eta_A)=(.8,0)$ and $(0,.8)$ produce the same joint distribution of public votes and truth but respond differently to blinding (Appendix~\\ref{app:actor}).",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 16,
+    "text": "\\Cref{fig:actor-review} separates copying from pre-existing dependence. With $q_H=.2$, $q_A=.1$, a human-to-agent call-cost ratio of four, blind overhead of .05 per reviewer, and a hard task budget of three human-call units, the minimum-error choice at $\\eta_H=\\eta_A=.5$ changes from an agent proposer with six blind agent reviewers at $\\rho_A=0$ to a human proposer, one blind agent reviewer, and an independent human arbiter on disagreement at $\\rho_A=1$.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 18,
+    "text": "\\centering\\includegraphics[width=\\linewidth]{figures/fig4_actor_review.pdf}",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 19,
+    "text": "\\caption{Study 2: private judgment, upstream exposure, and review organization. (a--b) Final majority-decision error and unanimous agreement for an agent proposer and three agent reviewers, with $q_A=.1$ and $\\rho_A=.1$. Exposed reviewers copy with probability $\\eta_A$; blind protocols retain private votes. The 21 illustrative values were chosen after the core run. (c) The minimum-error arrangement, with cost breaking error ties, at each dependence and copying setting, for $q_H=.2$, $q_A=.1$, and a hard task budget of three human-call units. Human and agent calls cost 1 and .25; blind commitment adds .05 per reviewer. Gates reserve a separate human arbiter. Dependence increases upward. Colors and hatching identify the selected arrangements; all values are exact expectations.}",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 25,
+    "text": "We compare four fixed observation policies for selecting arrangements with unknown actor parameters. Across 48 rounds, they choose among 58 budget-feasible arrangements under reset, cumulative, or Window 8 memory. They acquire final outcomes only, paired private and post-exposure judgments, or observations from randomized blind and exposed tasks. An \\emph{Omit echo} ablation receives the same paired records but sets copying probabilities to zero in its predictions. Six environments, including a copying shift before round 25 and source-dependent copying, use 128 replicate trajectories per condition. All policies share a ceiling on acquisition cost, but purchase different numbers of labels. The cost schedule is separate from Study 1's label-count budget. Observation policies are assigned treatments and do not change during learning.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 27,
+    "text": "In High echo with cumulative memory, paired observation achieves mean decision error 1.773\\% and net value $.86077$, compared with 9.825\\% and $.62323$ for the Omit echo ablation using the same acquired records. The paired net-value difference is $.23755$ (95\\% Monte Carlo half-width $.00004$). Randomized exposure reaches 1.782\\% error and $.86078$ net value. The fixed blind agent-proposer/three-reviewer baseline has higher error, 3.520\\%, but higher net value, $.87140$, because it purchases no continuing learning evidence. Appendix~\\ref{app:actor} reports all six environments under cumulative memory; Supplementary Table S5 reports every policy--memory condition and its costs.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 29,
+    "text": "Across all six environments, cumulative paired observation has lower error than the fixed blind baseline, but its net value is lower in five. It spends 233.6 acquisition units per round, or $.05703$ per production task after amortization over 4096 tasks. In those five environments this expense exceeds the gain in deployment value, including production call cost; the switch charge is included separately. In Stronger humans, paired observation's net value is $.77306$, compared with $.60740$ for the fixed blind baseline. The result is specific to the stated observation budget, comparator, and amortization scale.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 31,
+    "text": "Memory effects depend on the observation policy. In Echo shift, paired observation's full-horizon net values are $.85798$ with reset, $.86255$ with cumulative memory, and $.86274$ with Window 8; cumulative and Window 8 both reach final-16-round error 1.7704\\%. For randomized exposure, the corresponding net values are $.85081$, $.85206$, and $.85659$, and final-16-round errors are 2.3212\\%, 1.8372\\%, and 1.7704\\%. Thus finite retention improves adaptation for randomized exposure in this setting, while the cumulative penalty for paired observation is small; the large reversal penalty of Study 1 does not transfer unchanged to every observation procedure.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 3,
+    "text": "The specification makes an otherwise ambiguous comparison operational. A capability-only intervention changes actor profiles while keeping assignment, visibility, authority, and improvement procedures fixed. A workflow intervention changes those arrangements under a fixed procedure. A procedure intervention changes how candidate arrangements are evaluated or retained. A factorial study can compare these interventions and their interactions under the same task population and outcome criterion. The bottleneck example in \\cref{sec:foundations} supplies one elementary prediction; Study 1 shows how evidence acquisition and retention alter the value of organizational search; Study 2 shows how review arrangements generate the judgments that can become evidence.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 5,
+    "text": "The distinction matters when AI changes both production volume and the work of supervision. Automation can redistribute monitoring demands \\citep{bainbridge}; human and machine learning can become organizationally interdependent \\citep{sturm}. In Study 1, the same amount of acquired evidence has different value depending on whether the organization reuses it, discards it, or retains it after the relevant task relationship changes. The conditional implication is to evaluate evidence retention together with the workflow that generates evidence.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 7,
+    "text": "The supplementary audit model in Appendix~\\ref{app:audit} examines the earlier decision to acquire information at all. Its finite-horizon value-of-information controller can acquire little evidence under a strong prior, while Study 1 asks what happens to evidence after it has been bought. Together the models distinguish acquisition, retention, and use. Neither an audit count nor a revision count alone measures an organization's capacity to learn.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 10,
+    "text": "Independent agent identities do not establish independent evidence. Shared models, training data, tools, or copied explanations can correlate errors, limiting the value of aggregation \\citep{clemen}. Correlated-vote extensions of Condorcet's jury theorem analyze aggregation when votes are dependent \\citep{ladha1992}; information-cascade theory explains how observing predecessors can displace private information \\citep{bikhchandani1992}. Social influence can also change the diversity of judgments \\citep{lorenz}. Study 2 uses an exogenous copying probability rather than an optimizing cascade model; its contribution is the observation-equivalence comparison, the distinction between measurement and override, and the budget-dependent placement of human judgment. An ROI comparison records both pre-existing covariance assumptions and reveal events. It can then vary model diversity, information access, or communication while keeping the decision rule explicit. Section~\\ref{sec:actor-review} instantiates this distinction by varying private error dependence and exposure-induced copying separately, while retaining the initial judgments under the blind protocols.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 14,
+    "text": "Cross-functional humans can reduce handoffs, interpret errors across domains, and connect agent outputs to downstream requirements. Organization design and coordination requirements identify the dependencies through which these gains could arise \\citep{galbraith,cataldo,puranam2021}. The gain must be compared with lost specialist depth, attention limits, and switching costs. A useful experiment varies human breadth while logging transfer count, rework, review delay, and quality at fixed resources. These variables are representable in the specification, while their empirical magnitudes remain task-dependent.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 23,
+    "text": "Study 2 identifies information exposure and decision rights as distinct design choices. When reviewers can copy an upstream decision, public agreement combines agreement already present in private judgments with exposure-induced conformity. An organization that escalates only visible disagreements can therefore suppress its own opportunity to correct mistakes. Retaining initial assessments, their sources, and reveal order makes these mechanisms distinguishable and supports comparisons of alternative review arrangements.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 29,
+    "text": "The two studies connect at three points. Study 1's workflow reversal and Study 2's copying shift before round 25 both change the relevance of earlier observations, although their adaptation costs differ by observation policy. Study 1's trial-matched control holds acquisition and reuse fixed while changing the retained evaluator; Study 2's Omit echo ablation holds acquired records fixed while changing the model used to interpret them. Both comparisons show why evidence volume alone cannot explain learning outcomes. Finally, Study 1's discover-once rule separates discovery from continued search, whereas Study 2's paid policies keep acquiring observations throughout. A learn-then-stop comparator is needed to determine how much of Study 2's acquisition expense can be avoided.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 34,
+    "text": "For Study 1, the catalog, known stratum weights, synthetic error distributions, and cost schedule define the comparison. Program trials evaluate a fixed catalog at a smaller screening budget than operational deployment. Historical program scores average trials conducted at different knowledge states; they are a heuristic selection rule, not a stationary posterior for program quality. Reset discards reusable evidence; cumulative retention assumes past outcomes remain relevant; the fixed window bounds age without detecting a change. These choices explain the limits of the tested learning rules. Concept-drift, switching-bandit, and change-point methods offer principled alternatives for future instances \\citep{drift,switchbandit,bocpd}, with acquisition costs represented explicitly \\citep{costbandit}.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 38,
+    "text": "Study 2 assumes conditionally independent human errors, one shared-error model for agents, and copying that adds no task information. Its parameters are experimental settings rather than estimates of human or language-model behavior. Paired observation additionally assumes that recording a private commitment does not change the subsequent copying mechanism. The enumerated optimum is specific to the candidate catalog and costs. These assumptions make exposure, dependence, and authority separately testable; their empirical magnitudes require task-specific measurement. Study 2 also holds observation procedures fixed and excludes human reviewers copying agent advice. Deployed private judgments do not enter learning memory without a separate purchase. Learning when to stop, allowing human copying, reusing deployed private judgments as feedback, and varying the observation ceiling and production amortization scale are therefore distinct next tests.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 43,
+    "text": "Recursive organization improvement asks how human--agent teams change their work and learn whether those changes helped. The proposed modeling specification connects evidence access, organizational memory, authority, costs, and retention through explicit change contracts. Study 1 shows that evidence has a lifecycle: acquisition and reuse can remove much of repeated assessment's apparent disadvantage, whereas retaining obsolete evidence delays adaptation, and acquisition-matched comparisons narrow the gain attributable to evaluator replacement. Study 2 identifies an earlier part of that lifecycle: review arrangements determine which private judgments become visible evidence. Shared errors, copying, cost, and decision authority jointly shape the preferred placement of human judgment, while identifying a better arrangement need not recover the cost of continued observation. Together, the studies connect how evidence is generated to how it is acquired, retained, and reconsidered. Organizational improvement must therefore be evaluated across that lifecycle, rather than inferred from agent capability or the number of revisions performed.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/availability.tex",
+    "line": 1,
+    "text": "Code, protocols, per-trajectory results, validation records, and a pseudonymized public-record snapshot are available at \\url{https://github.com/wizardlancet/recursive-organization-improvement} (tag \\texttt{research-2026-10-09}). Supplementary Tables S1--S5 are supplied as arXiv ancillary material and summarize all conditions; the repository README maps each table to its source file. Code is licensed under MIT; the manuscript, figures, and synthetic data under CC BY 4.0. Third-party materials retain their original terms.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 6,
+    "text": "  \"id\": \"coverage-change-1\",",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 8,
+    "text": "  \"expected_version\": 0,",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 11,
+    "text": "  \"evidence\": [\"program-trials-1.v1\"],",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 12,
+    "text": "  \"comparison\": \"population-and-net-value-criterion.v1\",",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 13,
+    "text": "  \"cost_ledger\": \"labels-outputs-transition-1.v1\",",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 14,
+    "text": "  \"horizon_rounds\": 8,",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 15,
+    "text": "  \"retention\": \"next-review-rule.v1\"",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 20,
+    "text": "The public mapping uses a convenience-sample snapshot from \\texttt{pallets/flask}: the first three merged PRs before September 30, 2026 among the first 100 closed PRs returned in descending creation order. The initial retrieval was September 28, 2026 at 17:45:43 UTC (September 29 in Singapore). Selection candidates, URLs, timestamps, and response hashes are retained. The snapshot contains factual identifiers and states, excluding message bodies and email addresses. Released actor identifiers are stable pseudonyms; account IDs and usernames are omitted. PR links remain available for provenance, so this is pseudonymization rather than irreversible anonymization.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 28,
+    "text": "\\href{https://github.com/pallets/flask/pull/6133}{\\#6133} & 1 & 0 & 14 & 16 \\\\",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 29,
+    "text": "\\href{https://github.com/pallets/flask/pull/6096}{\\#6096} & 2 & 5 & 14 & 21 \\\\",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 30,
+    "text": "\\href{https://github.com/pallets/flask/pull/6095}{\\#6095} & 1 & 3 & 14 & 19 \\\\\\bottomrule",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 38,
+    "text": "Suppose two environments induce identical distributions over every history accessible to a procedure, but a specified workflow change improves the population in one and harms it in the other. Any binary sign decision based on those histories has the same output distribution in both environments. If its probability of reporting improvement is $q$, its two error probabilities are $1-q$ and $q$. Their sum is one, so at least one is at least $1/2$. This is the standard observation-equivalence argument.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 40,
+    "text": "A construction uses equally frequent flagged and unflagged cases. A change lowers flagged error from $.20$ to $.10$ in both environments; unflagged error falls to $.10$ in one and rises to $.50$ in the other. If only flagged labels are observed and no downstream signal arrives, evidence is identical although population risk changes from $.20$ to $.10$ or $.30$. With known positive inclusion probabilities $q_i$ and accurate labels $E_i$, the Horvitz--Thompson estimator $N^{-1}\\sum_i Z_i E_i/q_i$ is design-unbiased for finite-population risk \\citep{ht}. Small inclusion probabilities can still produce high variance. Study 1 has positive coverage in every cell and tests this finite-evidence problem; it is not an instance of exact observational equivalence.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 43,
+    "text": "For equal-variance errors with equicorrelation $\\rho$, the variance of the mean is $\\sigma^2[\\rho+(1-\\rho)/n]$, with $-1/(n-1)\\leq\\rho\\leq1$. Common bias contributes an additional squared-bias term to mean squared error. Information dependence therefore limits the gain from adding actors \\citep{clemen}; more actors alone need not produce proportionally more information.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 45,
+    "text": "Let independent initial human and agent estimation errors have variances $v_H$ and $v_A$. Suppose the human sees the agent answer and replaces the private judgment by $(1-\\alpha)H+\\alpha A$. Equal averaging of that judgment with $A$ has risk",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 47,
+    "text": "R(\\alpha)=\\{(1-\\alpha)^2v_H+(1+\\alpha)^2v_A\\}/4.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 49,
+    "text": "For $v_A<v_H$ and $0\\leq\\alpha\\leq1$, the optimum is $\\alpha^*=(v_H-v_A)/(v_H+v_A)$, giving $v_Hv_A/(v_H+v_A)$. This is also the risk of optimal inverse-variance weighting of the original private judgments. Thus a gain over equal private averaging is a reweighting gain, not evidence that exposure creates information. With initial covariance $\\sigma_{HA}$, risk gains the term $(1-\\alpha^2)\\sigma_{HA}/2$. The parameters describe a candidate interaction model; they are not empirical estimates of anchoring.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 57,
+    "text": "The supplementary audit model isolates longitudinal evidence acquisition under a fixed controller. It contains 160 periods of 32 tasks. Route A has base value 1 and error probability $.04$ (stationary) or alternating $.04/.25$ blocks of 40 periods; route B has base value $.82$ and error probability $.08$. An error costs 3, an audit costs $.20$, and an audit-rate change costs $.50$ per batch. Only audits reveal A's errors, available next period; executing B can still be paired with acquiring an A audit. Observations update a sliding-window Beta estimate. The base prior is $\\operatorname{Beta}(1,9)$ and window 12.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 59,
+    "text": "The payoff-optimal routing threshold is $.14$, since $1-3p=.82-3(.08)=.58$. The heuristic adaptive controller audits at rate $.40$ when posterior $P(p>.14)$ lies between $.10$ and $.90$, and at $.025$ otherwise. Periodic dense auditing uses $.40$ for the first three periods of each 12-period cycle and $.025$ otherwise. The base audit comparison uses 400 seeds from 20260928, common across policies. Stationary net values are $.86089$ for fixed $.025$, $.86395$ for fixed $.05$, $.85841$ for fixed $.10$, and $.87976$ for no auditing. No auditing retains A under the base prior, the optimal route in that stationary case; audits cannot repair current outputs.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 61,
+    "text": "With slow shifts, adaptive auditing exceeds fixed $.10$ by $.00857$ per task (paired interval $.00676$--$.01038$). A separate 200-seed grid, beginning at 20360928, crosses windows 6, 12, 24 with stationary, 40-period, and 10-period regimes. It includes no audit, fixed $.05/.10/.40$, periodic dense, and adaptive policies. Supplementary Table S3 reports all 54 combinations of environment, memory window, and audit policy.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 64,
+    "text": "The finite-horizon expected-value-of-sample-information (EVSI) controller evaluates acquiring $m\\in\\{0,1,4,16\\}$ labels. Given current Beta parameters $(a,b)$, a beta-binomial predictive distribution over $k$ observed errors gives posterior mean $(a+k)/(a+b+m)$. Let $L_\\theta(p)$ be $1-3p$ if $p\\leq\\theta$ and $.58$ otherwise. The controller maximizes",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 67,
+    "text": "-\\frac{\\bigl[(.20+g_c I_B)m+.50I_{\\rm change}\\bigr]}{32}.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 69,
+    "text": "$I_{\\rm change}$ equals 1 when the audit rate changes and 0 otherwise. Both costs in the bracket are subtracted. $I_B$ indicates executing B; $g_c$ is the cost of generating a counterfactual A output to audit. The predictive sum is exact under the current Beta model. The controller approximates future value with horizon $h$ and a sliding window, so it is a finite-horizon EVSI heuristic under drift.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 71,
+    "text": "Development fixes the prior at $\\operatorname{Beta}(1,9)$, the threshold at $.14$, and $g_c=0$. Seeds 710000--710063 choose $h$ from $1,4,8,16$ using stationary and slow-shift mean value; $h=16$ is selected. Testing uses 96 independent seeds 810000--810095, three priors, thresholds $.14/.16$, generation costs $g_c=0/.20$, two environments, and three policies: 6912 trajectories. Threshold $.16$ is a misspecified routing-rule sensitivity under unchanged payoffs. Nonzero $g_c$ charges selectively generated A outputs while B is executed; it is distinct from a common cost charged for producing every candidate under every policy.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 73,
+    "text": "\\Cref{tab:audit} reports all prior/threshold means at $g_c=0$. Supplementary Table S4 reports both candidate-generation cost conditions, marginal Monte Carlo intervals, and paired policy contrasts. EVSI's performance depends strongly on the prior: with no initial feedback, information acquisition itself can stall. Four regression cases match the preserved scalar implementation to $10^{-12}$.",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 75,
+    "text": "\\caption{Supplementary audit sensitivity at zero additional candidate-generation cost. Columns give net-value means over 96 trajectories; F: fixed $.10$, A: adaptive heuristic, E: EVSI. Uncertainty estimates and results at $g_c=.20$ are reported in Supplementary Table S4.}",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/appendices.tex",
+    "line": 78,
+    "text": " & & \\multicolumn{3}{c}{Stationary} & \\multicolumn{3}{c}{Slow shifts} \\\\",
+    "kind": "public snapshot, analytical illustration, or audit setting/result",
+    "sources": [
+      "results/public_trace_summary.csv",
+      "results/longitudinal_summary.csv",
+      "results/paired_contrasts.csv",
+      "results/audit_extensions_summary.csv",
+      "scripts/experiments.py",
+      "scripts/audit_extensions.py",
+      "qa/audit_extensions_checks.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 1,
+    "text": "\\section{Study 1: complete specification}",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 4,
+    "text": "The core protocol, \\path{examples/learning_protocol.json}, records a design fixed before execution and is archived at commit \\texttt{75d312e}. This first public commit contains both protocol and results; it does not establish a pre-run Git timestamp. The protocol specifies 48 rounds, a 2736-label ceiling for each eight-round block, three catalog programs, six arms, three memory conditions, three environments, and the full allocation grid. There was no parameter selection on test results. The trial-matched control and change-timing checks were specified after inspection of the core results to examine a possible acquisition-timing explanation. Their design and independent random streams are described below. They use fresh streams and are reported as exploratory attribution checks. Neither protocol is an external preregistration.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 6,
+    "text": "The core has $3\\times3\\times6\\times128=6912$ trajectories. The allocation grid uses 96 replicates for each share/trial-count combination and each discovery arm under stationary cumulative memory and reversal with Window 8. Four fixed references and two memory ablations in each environment bring this analysis to 4608 trajectories. The exploratory controls cross four environments (stationary and reversals before rounds 21, 25, 29), three memory conditions, four arms, and 128 replicates: 6144 trajectories. The three independent keyed root seeds are 920000, 930000, and 940000. Each random stream is indexed by root seed, round, acquisition stage, program, trial, and replicate. Conditions share underlying potential-label streams within each root; no policy receives unqueried labels.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 9,
+    "text": "For a template--stratum cell, cumulative memory adds each actually queried label once. Window 8 uses observations at historical rounds $t-8$ through $t-1$, plus current observations. Reset retains no earlier observations. All program trials at a review receive the same pre-review memory snapshot. Trial outputs and fresh validation labels are pooled only after program selection, then supplied to the current operational screen. Validation observes only the selected template, while screening observes all templates except for the second phase of the rejection comparator. A label from a rejected program remains usable if its source and population are appropriate. The pooling ablation withholds all program-trial labels from workflow memory while retaining program scores.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 11,
+    "text": "Each trial score is $1-3\\widehat r^{\\rm val}-.22N^{\\rm screen}/4096$, where validation uses equal counts across the two strata. A program's score is the mean of its trial means retained under the memory rule. Each review has the same trial count within a configuration. Ties favor Biased, then Balanced, then Neyman. Program-score memory can be disabled independently of workflow memory. Retained scores were generated under different historical knowledge states; they are empirical assessments used by this specified controller, not identically distributed observations of an invariant program value.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 13,
+    "text": "For block budget $B=2736$, program share $f$, three programs, and $q$ trials per program, a trial receives $b=\\lfloor\\lfloor fB\\rfloor/(3q)\\rfloor$ label units. Validation obtains $v=\\max\\{1,\\lfloor\\lfloor .2b\\rfloor/2\\rfloor\\}$ labels per stratum; screening receives $b-2v$ total units. The base $(f,q)=(.2,1)$ therefore allows 182 units per trial, with 18 validation labels per stratum and 146 units for screening. Actual counts can be smaller after integer allocation. Let $M_i$ be the actual number of trial labels for replicate $i$ at a block's start. Its subsequent per-round operational allowance is $\\lfloor(B-M_i)/8\\rfloor$. Discover once has $M_i=0$ after block 1. This rule keeps the budget fixed when trial count or program share changes.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 16,
+    "text": "For the catalog programs, let $u$ be one template's share of the operational or trial allowance. Balanced obtains $\\lfloor u/2\\rfloor$ labels in each stratum. Biased obtains $\\max\\{1,\\lfloor .95u\\rfloor\\}$ and $\\max\\{1,\\lfloor .05u\\rfloor\\}$. All tested allocations fit the allowance. Neyman first obtains $m=\\min\\{2,\\max\\{1,\\lfloor u/4\\rfloor\\}\\}$ labels per cell. Using retained and pilot data, it estimates $p_s$, sets $v_s=p_s(1-p_s)$, and allocates",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 18,
+    "text": "n_s=m+\\left\\lfloor\\frac{(u-2m)\\sqrt{v_s}}{\\sum_\\ell\\sqrt{v_\\ell}}\\right\\rfloor.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 22,
+    "text": "The successive-rejection comparator treats one pair of stratum labels as a bounded loss with mean equal to population risk. With $n$ affordable pairs and $K=3$, it uses the schedule of \\citet{bai}:",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 24,
+    "text": "\\overline{\\log}K=\\frac12+\\sum_{j=2}^{K}\\frac1j,\\qquad",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 25,
+    "text": "n_k=\\left\\lceil\\frac{n-K}{(\\overline{\\log}K)(K+1-k)}\\right\\rceil,\\quad k=1,2.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 27,
+    "text": "All three templates receive $n_1$ pairs; the worst posterior-mean template is removed, and the remaining two reach $n_2$ pairs each. Elimination ties remove the lowest indexed template; final ties use the lowest surviving index. Historical evidence enters the posterior under the memory conditions. Thus the implementation uses the published rejection schedule with declared posterior ranking and deterministic ties. At the fixed allowance of 342 labels it uses 336 labels. No theoretical bound is claimed for this modification under memory or drift. SR is a fixed between-template comparator and is not part of the three-program discovery catalog.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 32,
+    "text": "V_t=1-3r_{k_t,t}-.02-\\{.22Q_t+.50S_t\\}/4096.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 35,
+    "text": "Each queried label corresponds to a generated evaluation output, so $.22$ includes $.20$ labeling and $.02$ generation. The separate $.02$ term prices each production output. Unqueried potential-label arrays are a simulator device, not actor-visible generated outputs. All rejected-program trials are charged. Program comparison costs are not subtracted a second time after computing net value.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 38,
+    "text": "$V_t=1-3r_t^*-.02-\\mathrm{regret}_t-\\mathrm{expense}_t$,",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 39,
+    "text": "where $r_t^*$ is the best available risk. An independent scalar reconstruction checks 36 fixed-Balanced trajectories across the three environments and memory conditions to absolute tolerance $10^{-12}$. Separate fixtures check the lookback boundary, rejection allocation, and selection of a known best template. The patch checker enforces target authority and state version for program changes.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 41,
+    "text": "Reported half-widths are $1.96s/\\sqrt N$ across independent replicate trajectories. Paired intervals use within-replicate differences under the common streams. They quantify simulation uncertainty conditional on the supplied parameters. The uniform fixed benchmark averages the conditional mean values of Biased, Balanced, and Neyman under an initial uniform program prior; its paired contrast integrates over this discrete prior rather than adding random program draws. No claim of equivalence or correction for multiple hypothesis testing is attached to intervals spanning zero.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 43,
+    "text": "\\Cref{tab:base} reports all core net-value means. Supplementary Table S1 reports their Monte Carlo intervals, costs, harmful adoption, selection regret, and late outcomes; replicate-level data accompany the reproducibility materials.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 45,
+    "text": "\\caption{Complete core net-value means. B: Biased; Bal: Balanced; N: Neyman; Mix: uniform fixed-program mixture; SR: successive rejection; O: discover once; R: repeated discovery. Each cell uses 128 trajectories. Monte Carlo intervals and additional outcomes are reported in Supplementary Table S1.}",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 52,
+    "text": "\\Cref{tab:grid} reports the complete factorial grid, so favorable settings are not selected for the main result. Supplementary Table S2 reports retained-program proportions, conditional sample sizes, and net value and harmful adoption over the subsequent eight rounds. These conditional means remain descriptive because the retained program is selected using noisy evidence.",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 54,
+    "text": "\\caption{Repeated discovery minus discover-once at fixed total budget. All program shares and trial counts are shown. Entries are paired differences $\\pm$ 95\\% Monte Carlo half-width; 96 fresh replicates per condition.}",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 57,
+    "text": "Program share & Trials/program & Stationary, cumulative & Reversal, Window 8 \\\\\\midrule",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_protocol.tex",
+    "line": 61,
+    "text": "\\caption{Repeated discovery: retained-program percentages and subsequent eight-round outcomes conditional on retaining Balanced. Stationary and uniform gain use cumulative memory; reversal uses Window 8. B/Bal/N are Biased/Balanced/Neyman; $n_{\\rm Bal}$ is the number retaining Balanced among 128 replicates. Harm is the percentage of rounds deploying a template worse than standard. Supplementary Table S2 reports all three retained programs and all three memory conditions for both discover-once and repeated-discovery rules across the three environments.}",
+    "kind": "Study 1 methods or settings",
+    "sources": [
+      "examples/learning_protocol.json",
+      "examples/learning_controls.json",
+      "scripts/learning_experiment.py",
+      "qa/learning_validation.json"
+    ]
+  },
+  {
+    "file": "sections/learning_base_rows.tex",
+    "line": 1,
+    "text": "Stationary harm & Reset & 0.3967 & 0.4522 & 0.4539 & 0.4540 & 0.4366 & 0.4352 & 0.4343 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_base_rows.tex",
+    "line": 2,
+    "text": "Stationary harm & Cumulative & 0.4692 & 0.4801 & 0.4805 & 0.4806 & 0.4793 & 0.4800 & 0.4766 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_base_rows.tex",
+    "line": 3,
+    "text": "Stationary harm & Window 8 & 0.4594 & 0.4792 & 0.4796 & 0.4800 & 0.4754 & 0.4779 & 0.4727 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_base_rows.tex",
+    "line": 4,
+    "text": "Workflow reversal & Reset & 0.5260 & 0.5828 & 0.5830 & 0.5844 & 0.5644 & 0.5628 & 0.5639 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_base_rows.tex",
+    "line": 5,
+    "text": "Workflow reversal & Cumulative & 0.4721 & 0.4803 & 0.4805 & 0.4829 & 0.4796 & 0.4835 & 0.4776 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_base_rows.tex",
+    "line": 6,
+    "text": "Workflow reversal & Window 8 & 0.5609 & 0.5758 & 0.5760 & 0.5786 & 0.5723 & 0.5821 & 0.5709 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_base_rows.tex",
+    "line": 7,
+    "text": "Uniform gain & Reset & 0.6617 & 0.7141 & 0.7132 & 0.7162 & 0.6962 & 0.6941 & 0.6963 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_base_rows.tex",
+    "line": 8,
+    "text": "Uniform gain & Cumulative & 0.7184 & 0.7215 & 0.7216 & 0.7218 & 0.7217 & 0.7219 & 0.7205 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_base_rows.tex",
+    "line": 9,
+    "text": "Uniform gain & Window 8 & 0.7166 & 0.7215 & 0.7216 & 0.7218 & 0.7210 & 0.7219 & 0.7199 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_grid_rows.tex",
+    "line": 1,
+    "text": "0.2 & 1 & +0.0012 $\\pm$ 0.0012 & +0.0071 $\\pm$ 0.0024 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_grid_rows.tex",
+    "line": 2,
+    "text": "0.2 & 3 & +0.0019 $\\pm$ 0.0020 & +0.0053 $\\pm$ 0.0023 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_grid_rows.tex",
+    "line": 3,
+    "text": "0.2 & 6 & +0.0006 $\\pm$ 0.0008 & +0.0062 $\\pm$ 0.0020 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_grid_rows.tex",
+    "line": 4,
+    "text": "0.4 & 1 & +0.0002 $\\pm$ 0.0004 & +0.0105 $\\pm$ 0.0025 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_grid_rows.tex",
+    "line": 5,
+    "text": "0.4 & 3 & +0.0002 $\\pm$ 0.0001 & +0.0098 $\\pm$ 0.0026 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_grid_rows.tex",
+    "line": 6,
+    "text": "0.4 & 6 & +0.0002 $\\pm$ 0.0001 & +0.0080 $\\pm$ 0.0019 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_grid_rows.tex",
+    "line": 7,
+    "text": "0.6 & 1 & +0.0007 $\\pm$ 0.0011 & +0.0175 $\\pm$ 0.0021 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_grid_rows.tex",
+    "line": 8,
+    "text": "0.6 & 3 & +0.0001 $\\pm$ 0.0001 & +0.0158 $\\pm$ 0.0022 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_grid_rows.tex",
+    "line": 9,
+    "text": "0.6 & 6 & +0.0002 $\\pm$ 0.0002 & +0.0134 $\\pm$ 0.0015 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 1,
+    "text": "Stationary & 1 & 27.3 & 37.5 & 35.2 & 48 & 0.4747 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 2,
+    "text": "Stationary & 9 & 26.6 & 35.9 & 37.5 & 46 & 0.4819 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 3,
+    "text": "Stationary & 17 & 33.6 & 34.4 & 32.0 & 44 & 0.4819 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 4,
+    "text": "Stationary & 25 & 33.6 & 35.9 & 30.5 & 46 & 0.4819 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 5,
+    "text": "Stationary & 33 & 35.9 & 32.0 & 32.0 & 41 & 0.4819 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 6,
+    "text": "Stationary & 41 & 38.3 & 31.2 & 30.5 & 40 & 0.4819 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 7,
+    "text": "Reversal & 1 & 27.3 & 37.5 & 35.2 & 48 & 0.4747 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 8,
+    "text": "Reversal & 9 & 26.6 & 35.9 & 37.5 & 46 & 0.4783 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 9,
+    "text": "Reversal & 17 & 43.8 & 27.3 & 28.9 & 35 & 0.4819 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 10,
+    "text": "Reversal & 25 & 39.8 & 30.5 & 29.7 & 39 & 0.6188 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 11,
+    "text": "Reversal & 33 & 43.8 & 28.1 & 28.1 & 36 & 0.7219 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 12,
+    "text": "Reversal & 41 & 47.7 & 20.3 & 32.0 & 26 & 0.7219 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 13,
+    "text": "Uniform gain & 1 & 35.9 & 27.3 & 36.7 & 35 & 0.7219 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 14,
+    "text": "Uniform gain & 9 & 26.6 & 30.5 & 43.0 & 39 & 0.7219 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 15,
+    "text": "Uniform gain & 17 & 25.8 & 29.7 & 44.5 & 38 & 0.7219 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 16,
+    "text": "Uniform gain & 25 & 28.1 & 30.5 & 41.4 & 39 & 0.7219 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 17,
+    "text": "Uniform gain & 33 & 28.1 & 28.1 & 43.8 & 36 & 0.7219 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/learning_program_rows.tex",
+    "line": 18,
+    "text": "Uniform gain & 41 & 30.5 & 25.8 & 43.8 & 33 & 0.7219 & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/audit_rows.tex",
+    "line": 1,
+    "text": "1:1 & 0.14 & 0.8479 & 0.8530 & 0.8338 & 0.6616 & 0.6753 & 0.6758 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/audit_rows.tex",
+    "line": 2,
+    "text": "1:1 & 0.16 & 0.8523 & 0.8571 & 0.8342 & 0.6597 & 0.6729 & 0.6757 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/audit_rows.tex",
+    "line": 3,
+    "text": "1:9 & 0.14 & 0.8581 & 0.8649 & 0.8656 & 0.6620 & 0.6706 & 0.6599 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/audit_rows.tex",
+    "line": 4,
+    "text": "1:9 & 0.16 & 0.8592 & 0.8686 & 0.8660 & 0.6515 & 0.6642 & 0.6526 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/audit_rows.tex",
+    "line": 5,
+    "text": "1:19 & 0.14 & 0.8595 & 0.8720 & 0.8795 & 0.6468 & 0.6571 & 0.5673 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/audit_rows.tex",
+    "line": 6,
+    "text": "1:19 & 0.16 & 0.8595 & 0.8735 & 0.8795 & 0.6263 & 0.6396 & 0.5673 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 1,
+    "text": "\\section{Study 2: complete specification}",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 4,
+    "text": "Study 2 was designed and its protocol fixed after Study 1 was completed; it is exploratory. The protocol is \\path{study2/protocol.json} (archive commit \\texttt{fdf5ec1}). Its retained pre-run record, \\path{study2/qa/pre_run_record.json}, records a matching SHA-256 hash at 13:06:04 UTC on October 2, 2026. The Git archive postdates execution; the local hash record is not an independently timestamped preregistration. A task has balanced binary truth $y\\in\\{0,1\\}$. A private judgment equals $y$ unless its actor makes an error. Human errors are independent Bernoulli draws with probability $q_H$, conditional on $y$, and independent of the agent group. For each task, draw a shared-mode indicator with probability $\\rho_A$. In shared mode, all agent errors equal one Bernoulli draw with probability $q_A$; otherwise each agent draws an independent Bernoulli error with that probability. Tasks are independent. An agent proposer belongs to the same group as its reviewers. This mixture preserves marginal agent error $q_A$ and gives pairwise error correlation $\\rho_A$; the full mixture law, rather than correlation alone, determines collective error.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 6,
+    "text": "Let $d_0$ be the displayed upstream judgment and $d_i^{\\rm priv}$ reviewer $i$'s private judgment. An exposed reviewer reports",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 8,
+    "text": "d_i^{\\rm pub}=(1-C_i)d_i^{\\rm priv}+C_i d_0,",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 12,
+    "text": "Here $\\eta_s$ is the probability that an agent reviewer copies an upstream decision from source $s$; $s$ identifies a human or agent upstream actor. Copy indicators are independent of private errors and of one another. This binary rule selects one judgment; it does not average signals or create new task evidence. Blind protocols use private commitments for aggregation or escalation, so changing $\\eta_s$ does not change their decisions. In serial review, the immediately preceding review replaces $d_0$ at each step, and all sources after the first step are agents.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 18,
+    "text": "\\begin{tabularx}{\\linewidth}{@{}p{.23\\linewidth}YY@{}}\\toprule",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 24,
+    "text": "Gate with random arbitration & Public reviews versus proposal & Arbitrate all disagreements and a random 25\\% of unanimous cases. \\\\",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 29,
+    "text": "These rules separate private information, public disagreement, and final authority. For example, the change in error from randomly overriding a unanimous case is $q_H-P(d_0\\ne y\\mid\\text{unanimous})$. An independent human override helps only when this difference is negative.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 31,
+    "text": "The exact search crosses $q_H\\in\\{.1,.2,.3\\}$, $q_A\\in\\{.05,.1,.2,.3\\}$, $\\rho_A\\in\\{0,.25,.5,.75,1\\}$ and $\\eta\\in\\{0,.25,.5,.75,1\\}$ with $\\eta_H=\\eta_A=\\eta$, human-to-agent call-cost ratios $2,4,8$, blind overheads $0,.05,.2$ per reviewer, task budgets $1,2,3$, and hard versus expected budget constraints. Human calls define one cost unit. A hard budget reserves every potentially called actor; an expected budget constrains the mean cost including escalation probabilities. The catalog has $2\\times7\\times6+2=86$ arrangements: two proposer types, one to seven reviewers, six protocols, and two single-actor baselines. Exact finite-state probabilities identify the minimum-error feasible arrangement in each of 16,200 cells. Errors within $10^{-12}$ count as ties; lower expected cost breaks error ties. Remaining ties use catalog order: human then agent baseline, then human/agent proposer, increasing reviewer count, and the six protocols in table order. The deployment-loss optimum is recorded separately.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 33,
+    "text": "The fixed-roster comparison retains all 25,200 combinations of the accuracy, dependence and exposure grid, two proposer types, one to seven reviewers, and six protocols. A separate source-sensitivity grid uses $\\eta_H,\\eta_A\\in\\{0,.2,.5,.8,1\\}$, $\\rho_A\\in\\{0,.5,.9\\}$, $q_H=.2$, and $q_A=.1$, giving 6,450 arrangement evaluations. The 21 equally spaced exposure values in \\cref{fig:actor-review}a--b are exact illustrative evaluations chosen after the core run, not a prespecified test.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 38,
+    "text": "P(d_1^{\\rm pub}\\ne d_0)=2q_A(1-q_A)(1-\\rho_A)(1-\\eta_A).",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 40,
+    "text": "Consequently, at the same $q_A$, $(\\rho_A,\\eta_A)=(.8,0)$ and $(0,.8)$ give the same joint distribution of public votes and truth in this two-actor case, but different responses to blinding. Private observations or randomized visibility can distinguish the mechanisms.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 42,
+    "text": "Four fixed observation policies select among 58 arrangements with at most five reviewers and hard task cost at most three. Human, agent, gold-label, and per-reviewer blind-commitment costs are $1,.25,1,.05$, respectively. Each round permits at most 240 acquisition-cost units, hence 1920 per eight-round block, with no borrowing. These cost units differ from the label counts used in Appendix~\\ref{app:protocol}. All current observations are acquired and charged before the selected arrangement is deployed; production outcomes do not provide free learning feedback.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 44,
+    "text": "\\emph{Paired observation} records two human and six agent private judgments, ten additional exposed agent responses (five for each proposer type), a gold label, and six private-commitment overheads on each task. Its cost is $2+6(.25)+10(.25)+1+6(.05)=7.3$, allowing 32 tasks and costing 233.6 per round. The same task supplies pre- and post-exposure judgments. Among reviews that initially disagree with a source, the fraction switching to that source estimates $\\eta_s$. Study 2 assumes recording the private commitment does not itself change the later copying mechanism.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 46,
+    "text": "\\emph{Randomized exposure} acquires 50 tasks, randomized in balanced cells crossing human/agent source and blind/exposed review. Each task purchases two human responses, six agent responses, and a gold label. Blind tasks additionally pay six commitment overheads. The four cells have 12 or 13 tasks, with 25 blind tasks in total, costing $25(4.8)+25(4.5)=232.5$ per round. Private ability and dependence use only blind tasks. For each source, the estimate of copying is one minus exposed disagreement divided by blind disagreement, clipped to $[0,1]$. This design uses disjoint blind and exposed tasks and assumes exchangeability across their randomized assignments.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 48,
+    "text": "Both model-based policies estimate $q_H$ and $q_A$ from gold-labeled private errors with one error and one success pseudocount, then clip estimates to $[.001,.499]$. Agent dependence is the private pairwise error moment minus squared raw error frequency, divided by the raw Bernoulli variance and clipped to $[0,1]$; zero estimated variance gives zero dependence. Paired copying estimates use half an event in each outcome as pseudocounts. Randomized disagreement rates likewise use half-event pseudocounts before taking their ratio. Each policy pools the requisite counts over its assigned memory interval and predicts every feasible arrangement's error and call cost under the known model family. The true parameters are used only by the external scorer and catalog benchmark.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 50,
+    "text": "\\emph{Omit echo ablation} purchases exactly the paired observations but fixes $\\eta_H=\\eta_A=0$ when predicting arrangements. \\emph{Final-outcome sampling} instead buys an arrangement's executed final outcome and a gold label, cycling through candidates. At zero-based round $r$, trial $j$ uses catalog index $(83r+j)\\bmod58$. A trial reserves its worst possible call cost plus one gold label; actual calls and that label are charged. It stops before exceeding the ceiling. For a candidate with $n$ retained observations, $e$ errors, total call cost $c$, and worst call cost $c_{\\max}$, its score is $3(1+e)/(2+n)+.02(c+c_{\\max})/(1+n)$. Thus unobserved candidates also have defined scores. No policy obtains unpurchased counterfactual responses.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 52,
+    "text": "Reset retains current-round counts; cumulative memory retains all acquired counts; Window 8 retains the current round and eight preceding rounds. Observation policies and memory rules are assigned research treatments and remain fixed. Each selected arrangement changes operational visibility, aggregation, or authority under the assigned procedure. Study 2 does not implement an outer search over observation policies.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 55,
+    "text": "The six learning environments in \\cref{tab:actor-worlds} isolate copying, private dependence, source asymmetry, and relative actor ability. The copying shift occurs before acquisition in round 25. Each environment crosses four observation policies and three memories, plus two fixed baselines, with 128 replicate trajectories of 48 rounds: $6(4\\times3+2)128=10{,}752$ trajectories. Fixed baselines use an agent proposer and three agent reviewers, either exposed or blind, and buy no learning evidence. These baselines were specified before outcomes were inspected.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 57,
+    "text": "\\caption{Study 2 environments. In the environment and policy names, echo means copying. All other costs and resource ceilings are held fixed as specified in Appendix~\\ref{app:actor}. Numerical parameters are experimental settings, not estimates of human or language-model behavior.}",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 61,
+    "text": "No echo & .2 & .1 & .1 & 0 & 0 & None \\\\",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 62,
+    "text": "High echo & .2 & .1 & .1 & .8 & .8 & None \\\\",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 63,
+    "text": "Both dependences & .2 & .1 & .8 & .8 & .8 & None \\\\",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 64,
+    "text": "Echo shift & .2 & .1 & .1 & 0 & 0 & Both $\\eta_s$ become .8 at round 25 \\\\",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 65,
+    "text": "Source asymmetry & .2 & .1 & .2 & .9 & .1 & None \\\\",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 66,
+    "text": "Stronger humans & .1 & .2 & .2 & .8 & .8 & None \\\\\\bottomrule",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 69,
+    "text": "The model-based learner selects the arrangement minimizing estimated deployment loss $3e+.02c$, where $e$ is final error probability and $c$ is expected production call cost. Ties use the filtered catalog order. Selection regret compares this loss with the feasible catalog minimum under the true environment parameters; an optimal-choice hit accepts every loss within $10^{-10}$ of that minimum. This objective differs from the error-first grid search and excludes acquisition and switching costs. Net value additionally charges those costs:",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 71,
+    "text": "V_t^{\\rm actor}=1-3e_t-.02c_t-\\frac{A_t+.5S_t}{4096},",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 74,
+    "text": "where $A_t$ is purchased-observation cost and $S_t$ indicates a change from the previous arrangement. All conditions start from the exposed agent-proposer/three-reviewer arrangement; the fixed blind baseline therefore pays one initial switch. The scorer integrates production error and cost exactly. The denominator 4096 is an amortization scale for the round's production volume, not 4096 additionally sampled production outcomes. Values from this resource schedule are not compared numerically with those from Study 1.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 76,
+    "text": "Learning uses root seed 2026100204, keyed by environment and round, with independent replicate rows and common potential-task panels across policies. Only purchased entries are revealed. Full-horizon and final-16-round summaries average within a trajectory before computing means and $1.96s/\\sqrt{128}$ Monte Carlo half-widths across trajectories. Paired comparisons use within-replicate differences. Intervals describe randomness in acquired evidence and resulting choices, conditional on the model. The fixed baselines have deterministic expected-outcome scores.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 78,
+    "text": "\\Cref{tab:actor-results} reports all six environments under cumulative memory; Supplementary Table S5 gives all 84 policy--memory--environment conditions, late outcomes, costs, regret, and paired comparisons. Error and net value are reported together because better selection need not repay continuing acquisition costs.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 82,
+    "text": "An independent bit-level enumeration checks 144 arrangement--environment cases to maximum absolute difference $1.11\\times10^{-15}$. A second implementation simulates 150,000 tasks in each of four independent environments and checks 344 arrangements on the shared panels; each metric must agree within seven estimated standard errors plus $2\\times10^{-5}$. The separate validation seed is 2026100205. Further checks cover the memory lookback boundary, copying endpoints, both resource ceilings, and the net-value identity. Exact enumeration results have no sampling interval; the Monte Carlo comparison checks implementation agreement rather than empirical validity.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 3,
+    "text": "\\setlength{\\tabcolsep}{4pt}",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 6,
+    "text": "\\caption{Study 2: selection error and net value under paid observation. All six environments are shown; learning policies use cumulative memory. Entries are means $\\pm$ 95\\% Monte Carlo half-widths over 128 trajectories of 48 rounds. Fixed baselines have exact expected-outcome scores under the model. Error is a percentage; hit is the percentage of rounds attaining a deployment-loss minimum within $10^{-10}$.}\\label{tab:actor-results}\\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 9,
+    "text": "\\multicolumn{5}{l}{\\tablename\\ \\thetable\\ (continued)}\\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 12,
+    "text": "\\midrule\\multicolumn{5}{r}{Continued on next page}\\\\\\endfoot",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 14,
+    "text": "No echo & Paired & $1.772 \\pm 0.002$ & $0.86475 \\pm 0.00008$ & 98.70 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 15,
+    "text": " & Randomized & $1.772 \\pm 0.003$ & $0.86333 \\pm 0.00026$ & 56.67 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 16,
+    "text": " & Omit echo & $1.772 \\pm 0.002$ & $0.86480 \\pm 0.00008$ & 99.97 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 17,
+    "text": " & Final only & $4.919 \\pm 0.197$ & $0.78045 \\pm 0.00563$ & 14.47 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 18,
+    "text": " & Fixed exposed & $3.520$ & $0.87440$ & 0.00 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 19,
+    "text": " & Fixed blind & $3.520$ & $0.87140$ & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 20,
+    "text": "\\addlinespace[3pt]",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 21,
+    "text": "High echo & Paired & $1.773 \\pm 0.003$ & $0.86077 \\pm 0.00009$ & 99.95 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 22,
+    "text": " & Randomized & $1.782 \\pm 0.008$ & $0.86078 \\pm 0.00024$ & 99.82 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 23,
+    "text": " & Omit echo & $9.825 \\pm 0.004$ & $0.62323 \\pm 0.00013$ & 0.00 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 24,
+    "text": " & Final only & $5.983 \\pm 0.217$ & $0.74760 \\pm 0.00640$ & 10.89 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 25,
+    "text": " & Fixed exposed & $9.637$ & $0.69089$ & 0.00 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 26,
+    "text": " & Fixed blind & $3.520$ & $0.87140$ & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 27,
+    "text": "\\addlinespace[3pt]",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 28,
+    "text": "Both dependences & Paired & $7.423 \\pm 0.049$ & $0.69099 \\pm 0.00105$ & 82.29 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 29,
+    "text": " & Randomized & $7.498 \\pm 0.063$ & $0.68945 \\pm 0.00135$ & 77.10 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 30,
+    "text": " & Omit echo & $15.939 \\pm 0.317$ & $0.43965 \\pm 0.00969$ & 0.00 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 31,
+    "text": " & Final only & $9.728 \\pm 0.136$ & $0.63630 \\pm 0.00404$ & 5.49 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 32,
+    "text": " & Fixed exposed & $9.919$ & $0.68242$ & 0.00 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 33,
+    "text": " & Fixed blind & $8.560$ & $0.72020$ & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 34,
+    "text": "\\addlinespace[3pt]",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 35,
+    "text": "Echo shift & Paired & $1.779 \\pm 0.006$ & $0.86255 \\pm 0.00018$ & 98.54 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 36,
+    "text": " & Randomized & $2.113 \\pm 0.083$ & $0.85206 \\pm 0.00238$ & 72.40 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 37,
+    "text": " & Omit echo & $5.797 \\pm 0.002$ & $0.74404 \\pm 0.00008$ & 49.97 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 38,
+    "text": " & Final only & $5.648 \\pm 0.217$ & $0.75770 \\pm 0.00621$ & 11.20 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 39,
+    "text": " & Fixed exposed & $6.579$ & $0.78264$ & 0.00 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 40,
+    "text": " & Fixed blind & $3.520$ & $0.87140$ & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 41,
+    "text": "\\addlinespace[3pt]",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 42,
+    "text": "Source asymmetry & Paired & $2.693 \\pm 0.004$ & $0.83318 \\pm 0.00013$ & 99.76 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 43,
+    "text": " & Randomized & $2.936 \\pm 0.046$ & $0.82728 \\pm 0.00116$ & 70.91 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 44,
+    "text": " & Omit echo & $3.546 \\pm 0.015$ & $0.81160 \\pm 0.00044$ & 0.00 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 45,
+    "text": " & Final only & $6.352 \\pm 0.191$ & $0.73785 \\pm 0.00535$ & 5.34 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 46,
+    "text": " & Fixed exposed & $5.101$ & $0.82697$ & 0.00 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 47,
+    "text": " & Fixed blind & $4.240$ & $0.84980$ & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 48,
+    "text": "\\addlinespace[3pt]",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 49,
+    "text": "Stronger humans & Paired & $4.623 \\pm 0.009$ & $0.77306 \\pm 0.00028$ & 99.37 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 50,
+    "text": " & Randomized & $4.639 \\pm 0.014$ & $0.77286 \\pm 0.00041$ & 98.96 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 51,
+    "text": " & Omit echo & $8.969 \\pm 0.024$ & $0.64781 \\pm 0.00072$ & 0.00 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 52,
+    "text": " & Final only & $9.522 \\pm 0.263$ & $0.63271 \\pm 0.00748$ & 10.04 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 53,
+    "text": " & Fixed exposed & $19.570$ & $0.39290$ & 0.00 \\\\*",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/actor_results.tex",
+    "line": 54,
+    "text": " & Fixed blind & $12.320$ & $0.60740$ & 0.00 \\\\",
+    "kind": "numeric table checked against identified CSV rows",
+    "sources": [
+      "results/learning_*.csv",
+      "results/audit_extensions_summary.csv",
+      "study2/results/learning_summary.csv"
+    ]
+  }
+]

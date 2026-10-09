@@ -1,0 +1,1023 @@
+\documentclass[10pt]{article}
+\usepackage[margin=19mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,booktabs,longtable,array,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue!50!black,linkcolor=blue!50!black}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\arraystretch}{1.08}
+\title{Recursive Organization Improvement\\Supplementary Tables S1--S5}
+\author{Zilong Wang}\date{October 9, 2026}
+\begin{document}\maketitle
+This arXiv ancillary supplement reports Study 1 (evidence acquisition and retention), Study 2 (review arrangements and evidence generation), and the supplementary audit controls. Study 2 and the acquisition-matched controls are exploratory. Source paths below are relative to the repository root at tag \texttt{research-2026-10-09}. Every uncertainty entry is a 95\% Monte Carlo half-width conditional on the supplied simulation parameters. Rounding to zero does not imply a general absence of uncertainty. Protocol definitions and cost units differ between the studies and are specified in the manuscript. Supplementary table panels retain all rows from the named analyses; no outcome-based row filtering is used.
+\tableofcontents
+
+\clearpage
+\section*{Supplementary Table S1: Study 1: evidence acquisition and retention}
+\addcontentsline{toc}{section}{Table S1: Study 1: evidence acquisition and retention}
+{\footnotesize Source: \texttt{results/learning\_summary.csv}; \texttt{results/learning\_contrasts.csv}.}\par Core design: 54 conditions, each with 128 independent replicate trajectories of 48 rounds. Window 8 includes eight previous rounds plus current observations. Net value, regret and expenses are per production task. Harm is the percentage of rounds selecting a template worse than standard. Late net value covers the final eight rounds. Panel C separates core and exploratory control contrasts; intervals use paired replicate differences.
+
+\subsection*{A. Net value, harmful adoption, and selection regret}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}llllll@{}}
+\toprule Environment & Memory & Arm & Net value & Harm (\%) & Regret \\\midrule\endfirsthead
+\toprule Environment & Memory & Arm & Net value & Harm (\%) & Regret \\\midrule\endhead
+\midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+Stationary & Reset & Biased & $0.39666 \pm 0.00278$ & $15.755 \pm 0.800$ & $0.08514 \pm 0.00278$ \\
+Stationary & Reset & Balanced & $0.45224 \pm 0.00123$ & $0.537 \pm 0.177$ & $0.02939 \pm 0.00123$ \\
+Stationary & Reset & Neyman & $0.45389 \pm 0.00118$ & $0.521 \pm 0.175$ & $0.02781 \pm 0.00118$ \\
+Stationary & Reset & Rejection & $0.45400 \pm 0.00128$ & $0.505 \pm 0.174$ & $0.02795 \pm 0.00128$ \\
+Stationary & Reset & Once & $0.43664 \pm 0.00476$ & $4.704 \pm 1.256$ & $0.04509 \pm 0.00476$ \\
+Stationary & Reset & Repeated & $0.43522 \pm 0.00261$ & $4.980 \pm 0.718$ & $0.04667 \pm 0.00261$ \\
+Stationary & Cumulative & Biased & $0.46917 \pm 0.00267$ & $1.009 \pm 0.376$ & $0.01263 \pm 0.00267$ \\
+Stationary & Cumulative & Balanced & $0.48007 \pm 0.00050$ & $0.000 \pm 0.000$ & $0.00156 \pm 0.00050$ \\
+Stationary & Cumulative & Neyman & $0.48046 \pm 0.00048$ & $0.000 \pm 0.000$ & $0.00133 \pm 0.00048$ \\
+Stationary & Cumulative & Rejection & $0.48059 \pm 0.00054$ & $0.000 \pm 0.000$ & $0.00137 \pm 0.00054$ \\
+Stationary & Cumulative & Once & $0.47928 \pm 0.00124$ & $0.016 \pm 0.032$ & $0.00248 \pm 0.00124$ \\
+Stationary & Cumulative & Repeated & $0.48000 \pm 0.00080$ & $0.016 \pm 0.032$ & $0.00191 \pm 0.00080$ \\
+Stationary & Window 8 & Biased & $0.45936 \pm 0.00284$ & $1.514 \pm 0.496$ & $0.02244 \pm 0.00284$ \\
+Stationary & Window 8 & Balanced & $0.47921 \pm 0.00073$ & $0.000 \pm 0.000$ & $0.00242 \pm 0.00073$ \\
+Stationary & Window 8 & Neyman & $0.47962 \pm 0.00071$ & $0.000 \pm 0.000$ & $0.00217 \pm 0.00071$ \\
+Stationary & Window 8 & Rejection & $0.48002 \pm 0.00069$ & $0.000 \pm 0.000$ & $0.00193 \pm 0.00069$ \\
+Stationary & Window 8 & Once & $0.47537 \pm 0.00194$ & $0.309 \pm 0.280$ & $0.00639 \pm 0.00194$ \\
+Stationary & Window 8 & Repeated & $0.47790 \pm 0.00118$ & $0.016 \pm 0.032$ & $0.00400 \pm 0.00118$ \\
+Reversal & Reset & Biased & $0.52595 \pm 0.00282$ & $8.203 \pm 0.594$ & $0.07584 \pm 0.00282$ \\
+Reversal & Reset & Balanced & $0.58280 \pm 0.00128$ & $0.244 \pm 0.117$ & $0.01883 \pm 0.00128$ \\
+Reversal & Reset & Neyman & $0.58300 \pm 0.00121$ & $0.244 \pm 0.117$ & $0.01870 \pm 0.00121$ \\
+Reversal & Reset & Rejection & $0.58435 \pm 0.00115$ & $0.244 \pm 0.117$ & $0.01760 \pm 0.00115$ \\
+Reversal & Reset & Once & $0.56442 \pm 0.00519$ & $2.702 \pm 0.754$ & $0.03731 \pm 0.00520$ \\
+Reversal & Reset & Repeated & $0.56282 \pm 0.00253$ & $2.523 \pm 0.522$ & $0.03907 \pm 0.00253$ \\
+Reversal & Cumulative & Biased & $0.47211 \pm 0.00288$ & $1.009 \pm 0.376$ & $0.12968 \pm 0.00288$ \\
+Reversal & Cumulative & Balanced & $0.48026 \pm 0.00060$ & $0.000 \pm 0.000$ & $0.12137 \pm 0.00060$ \\
+Reversal & Cumulative & Neyman & $0.48054 \pm 0.00051$ & $0.000 \pm 0.000$ & $0.12125 \pm 0.00051$ \\
+Reversal & Cumulative & Rejection & $0.48285 \pm 0.00131$ & $0.000 \pm 0.000$ & $0.11910 \pm 0.00131$ \\
+Reversal & Cumulative & Once & $0.47963 \pm 0.00134$ & $0.016 \pm 0.032$ & $0.12212 \pm 0.00134$ \\
+Reversal & Cumulative & Repeated & $0.48347 \pm 0.00235$ & $0.016 \pm 0.032$ & $0.11843 \pm 0.00235$ \\
+Reversal & Window 8 & Biased & $0.56094 \pm 0.00291$ & $1.270 \pm 0.460$ & $0.04085 \pm 0.00291$ \\
+Reversal & Window 8 & Balanced & $0.57583 \pm 0.00089$ & $0.000 \pm 0.000$ & $0.02580 \pm 0.00089$ \\
+Reversal & Window 8 & Neyman & $0.57601 \pm 0.00081$ & $0.000 \pm 0.000$ & $0.02578 \pm 0.00081$ \\
+Reversal & Window 8 & Rejection & $0.57859 \pm 0.00096$ & $0.000 \pm 0.000$ & $0.02336 \pm 0.00096$ \\
+Reversal & Window 8 & Once & $0.57231 \pm 0.00206$ & $0.212 \pm 0.247$ & $0.02945 \pm 0.00207$ \\
+Reversal & Window 8 & Repeated & $0.58206 \pm 0.00231$ & $0.016 \pm 0.032$ & $0.01984 \pm 0.00231$ \\
+Uniform gain & Reset & Biased & $0.66166 \pm 0.00295$ & $0.000 \pm 0.000$ & $0.06014 \pm 0.00295$ \\
+Uniform gain & Reset & Balanced & $0.71411 \pm 0.00111$ & $0.000 \pm 0.000$ & $0.00752 \pm 0.00111$ \\
+Uniform gain & Reset & Neyman & $0.71317 \pm 0.00114$ & $0.000 \pm 0.000$ & $0.00852 \pm 0.00114$ \\
+Uniform gain & Reset & Rejection & $0.71619 \pm 0.00097$ & $0.000 \pm 0.000$ & $0.00576 \pm 0.00097$ \\
+Uniform gain & Reset & Once & $0.69615 \pm 0.00458$ & $0.000 \pm 0.000$ & $0.02559 \pm 0.00459$ \\
+Uniform gain & Reset & Repeated & $0.69412 \pm 0.00234$ & $0.000 \pm 0.000$ & $0.02777 \pm 0.00234$ \\
+Uniform gain & Cumulative & Biased & $0.71837 \pm 0.00126$ & $0.000 \pm 0.000$ & $0.00342 \pm 0.00126$ \\
+Uniform gain & Cumulative & Balanced & $0.72147 \pm 0.00019$ & $0.000 \pm 0.000$ & $0.00016 \pm 0.00019$ \\
+Uniform gain & Cumulative & Neyman & $0.72159 \pm 0.00025$ & $0.000 \pm 0.000$ & $0.00020 \pm 0.00025$ \\
+Uniform gain & Cumulative & Rejection & $0.72184 \pm 0.00017$ & $0.000 \pm 0.000$ & $0.00012 \pm 0.00017$ \\
+Uniform gain & Cumulative & Once & $0.72173 \pm 0.00008$ & $0.000 \pm 0.000$ & $0.00004 \pm 0.00008$ \\
+Uniform gain & Cumulative & Repeated & $0.72187 \pm 0.00008$ & $0.000 \pm 0.000$ & $0.00004 \pm 0.00008$ \\
+Uniform gain & Window 8 & Biased & $0.71662 \pm 0.00165$ & $0.000 \pm 0.000$ & $0.00518 \pm 0.00165$ \\
+Uniform gain & Window 8 & Balanced & $0.72147 \pm 0.00019$ & $0.000 \pm 0.000$ & $0.00016 \pm 0.00019$ \\
+Uniform gain & Window 8 & Neyman & $0.72159 \pm 0.00025$ & $0.000 \pm 0.000$ & $0.00020 \pm 0.00025$ \\
+Uniform gain & Window 8 & Rejection & $0.72184 \pm 0.00017$ & $0.000 \pm 0.000$ & $0.00012 \pm 0.00017$ \\
+Uniform gain & Window 8 & Once & $0.72101 \pm 0.00080$ & $0.000 \pm 0.000$ & $0.00076 \pm 0.00080$ \\
+Uniform gain & Window 8 & Repeated & $0.72186 \pm 0.00008$ & $0.000 \pm 0.000$ & $0.00004 \pm 0.00008$ \\
+\end{longtable}\endgroup
+\subsection*{B. Evaluation expense, program-trial expense, and late outcome}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}llllll@{}}
+\toprule Environment & Memory & Arm & Expense & Trial expense & Late net \\\midrule\endfirsthead
+\toprule Environment & Memory & Arm & Expense & Trial expense & Late net \\\midrule\endhead
+\midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+Stationary & Reset & Biased & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.39935 \pm 0.00766$ \\
+Stationary & Reset & Balanced & $0.01837 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.45327 \pm 0.00317$ \\
+Stationary & Reset & Neyman & $0.01830 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.45577 \pm 0.00305$ \\
+Stationary & Reset & Rejection & $0.01805 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.45670 \pm 0.00320$ \\
+Stationary & Reset & Once & $0.01827 \pm 0.00001$ & $0.00060 \pm 0.00000$ & $0.44309 \pm 0.00568$ \\
+Stationary & Reset & Repeated & $0.01811 \pm 0.00000$ & $0.00361 \pm 0.00000$ & $0.43967 \pm 0.00566$ \\
+Stationary & Cumulative & Biased & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.48062 \pm 0.00186$ \\
+Stationary & Cumulative & Balanced & $0.01837 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.48163 \pm 0.00000$ \\
+Stationary & Cumulative & Neyman & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.48179 \pm 0.00000$ \\
+Stationary & Cumulative & Rejection & $0.01805 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.48195 \pm 0.00000$ \\
+Stationary & Cumulative & Once & $0.01824 \pm 0.00001$ & $0.00060 \pm 0.00000$ & $0.48173 \pm 0.00001$ \\
+Stationary & Cumulative & Repeated & $0.01809 \pm 0.00000$ & $0.00359 \pm 0.00000$ & $0.48191 \pm 0.00000$ \\
+Stationary & Window 8 & Biased & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.46571 \pm 0.00562$ \\
+Stationary & Window 8 & Balanced & $0.01837 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.47976 \pm 0.00216$ \\
+Stationary & Window 8 & Neyman & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.47992 \pm 0.00211$ \\
+Stationary & Window 8 & Rejection & $0.01805 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.48066 \pm 0.00185$ \\
+Stationary & Window 8 & Once & $0.01824 \pm 0.00001$ & $0.00060 \pm 0.00000$ & $0.47719 \pm 0.00265$ \\
+Stationary & Window 8 & Repeated & $0.01810 \pm 0.00000$ & $0.00359 \pm 0.00000$ & $0.47968 \pm 0.00185$ \\
+Reversal & Reset & Biased & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.65722 \pm 0.00820$ \\
+Reversal & Reset & Balanced & $0.01837 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.71237 \pm 0.00297$ \\
+Reversal & Reset & Neyman & $0.01830 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.71102 \pm 0.00318$ \\
+Reversal & Reset & Rejection & $0.01805 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.71445 \pm 0.00250$ \\
+Reversal & Reset & Once & $0.01827 \pm 0.00001$ & $0.00060 \pm 0.00000$ & $0.69498 \pm 0.00676$ \\
+Reversal & Reset & Repeated & $0.01811 \pm 0.00000$ & $0.00361 \pm 0.00000$ & $0.69142 \pm 0.00633$ \\
+Reversal & Cumulative & Biased & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.49808 \pm 0.00972$ \\
+Reversal & Cumulative & Balanced & $0.01837 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.48280 \pm 0.00189$ \\
+Reversal & Cumulative & Neyman & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.48226 \pm 0.00092$ \\
+Reversal & Cumulative & Rejection & $0.01805 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.49484 \pm 0.00631$ \\
+Reversal & Cumulative & Once & $0.01824 \pm 0.00001$ & $0.00060 \pm 0.00000$ & $0.48384 \pm 0.00307$ \\
+Reversal & Cumulative & Repeated & $0.01809 \pm 0.00000$ & $0.00359 \pm 0.00000$ & $0.49785 \pm 0.00945$ \\
+Reversal & Window 8 & Biased & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72062 \pm 0.00152$ \\
+Reversal & Window 8 & Balanced & $0.01837 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72163 \pm 0.00000$ \\
+Reversal & Window 8 & Neyman & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72179 \pm 0.00000$ \\
+Reversal & Window 8 & Rejection & $0.01805 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72195 \pm 0.00000$ \\
+Reversal & Window 8 & Once & $0.01824 \pm 0.00001$ & $0.00060 \pm 0.00000$ & $0.72056 \pm 0.00151$ \\
+Reversal & Window 8 & Repeated & $0.01810 \pm 0.00000$ & $0.00359 \pm 0.00000$ & $0.72190 \pm 0.00000$ \\
+Uniform gain & Reset & Biased & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.65722 \pm 0.00820$ \\
+Uniform gain & Reset & Balanced & $0.01837 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.71237 \pm 0.00297$ \\
+Uniform gain & Reset & Neyman & $0.01831 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.71102 \pm 0.00318$ \\
+Uniform gain & Reset & Rejection & $0.01805 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.71445 \pm 0.00250$ \\
+Uniform gain & Reset & Once & $0.01826 \pm 0.00001$ & $0.00060 \pm 0.00000$ & $0.69077 \pm 0.00763$ \\
+Uniform gain & Reset & Repeated & $0.01811 \pm 0.00000$ & $0.00361 \pm 0.00000$ & $0.69142 \pm 0.00633$ \\
+Uniform gain & Cumulative & Biased & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72179 \pm 0.00000$ \\
+Uniform gain & Cumulative & Balanced & $0.01837 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72163 \pm 0.00000$ \\
+Uniform gain & Cumulative & Neyman & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72179 \pm 0.00000$ \\
+Uniform gain & Cumulative & Rejection & $0.01805 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72195 \pm 0.00000$ \\
+Uniform gain & Cumulative & Once & $0.01823 \pm 0.00001$ & $0.00060 \pm 0.00000$ & $0.72175 \pm 0.00001$ \\
+Uniform gain & Cumulative & Repeated & $0.01809 \pm 0.00000$ & $0.00359 \pm 0.00000$ & $0.72191 \pm 0.00000$ \\
+Uniform gain & Window 8 & Biased & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72062 \pm 0.00152$ \\
+Uniform gain & Window 8 & Balanced & $0.01837 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72163 \pm 0.00000$ \\
+Uniform gain & Window 8 & Neyman & $0.01821 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72179 \pm 0.00000$ \\
+Uniform gain & Window 8 & Rejection & $0.01805 \pm 0.00000$ & $0.00000 \pm 0.00000$ & $0.72195 \pm 0.00000$ \\
+Uniform gain & Window 8 & Once & $0.01823 \pm 0.00001$ & $0.00060 \pm 0.00000$ & $0.72175 \pm 0.00001$ \\
+Uniform gain & Window 8 & Repeated & $0.01810 \pm 0.00000$ & $0.00359 \pm 0.00000$ & $0.72190 \pm 0.00000$ \\
+\end{longtable}\endgroup
+Reversal labels in Panel C give the one-based round before which the change occurs.
+
+\subsection*{C. Paired net-value contrasts}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}lp{.19\linewidth}lp{.29\linewidth}rr@{}}
+\toprule Study & Environment & Memory & Comparison & $N$ & Difference \\\midrule\endfirsthead
+\toprule Study & Environment & Memory & Comparison & $N$ & Difference \\\midrule\endhead
+\midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+core & Stationary & Reset & Repeated - Balanced & 128 & $-0.01702 \pm 0.00262$ \\
+core & Stationary & Reset & Repeated - Successive rejects & 128 & $-0.01878 \pm 0.00266$ \\
+core & Stationary & Reset & Repeated - Discover once & 128 & $-0.00142 \pm 0.00441$ \\
+core & Stationary & Reset & Repeated - uniform fixed mixture & 128 & $0.00096 \pm 0.00252$ \\
+core & Stationary & Cumulative & Repeated - Balanced & 128 & $-0.00007 \pm 0.00092$ \\
+core & Stationary & Cumulative & Repeated - Successive rejects & 128 & $-0.00059 \pm 0.00097$ \\
+core & Stationary & Cumulative & Repeated - Discover once & 128 & $0.00071 \pm 0.00070$ \\
+core & Stationary & Cumulative & Repeated - uniform fixed mixture & 128 & $0.00343 \pm 0.00117$ \\
+core & Stationary & Window 8 & Repeated - Balanced & 128 & $-0.00130 \pm 0.00114$ \\
+core & Stationary & Window 8 & Repeated - Successive rejects & 128 & $-0.00212 \pm 0.00115$ \\
+core & Stationary & Window 8 & Repeated - Discover once & 128 & $0.00254 \pm 0.00166$ \\
+core & Stationary & Window 8 & Repeated - uniform fixed mixture & 128 & $0.00518 \pm 0.00137$ \\
+core & Stationary & Cumulative & Balanced - Reset & 128 & $0.02783 \pm 0.00124$ \\
+core & Stationary & Window 8 & Balanced - Reset & 128 & $0.02697 \pm 0.00126$ \\
+core & Stationary & Cumulative & Repeated discovery - Reset & 128 & $0.04478 \pm 0.00283$ \\
+core & Stationary & Window 8 & Repeated discovery - Reset & 128 & $0.04268 \pm 0.00291$ \\
+core & Stationary & Cumulative & Discover once - Reset & 128 & $0.04264 \pm 0.00456$ \\
+core & Stationary & Window 8 & Discover once - Reset & 128 & $0.03873 \pm 0.00364$ \\
+core & Reversal at 25 & Reset & Repeated - Balanced & 128 & $-0.01997 \pm 0.00235$ \\
+core & Reversal at 25 & Reset & Repeated - Successive rejects & 128 & $-0.02153 \pm 0.00241$ \\
+core & Reversal at 25 & Reset & Repeated - Discover once & 128 & $-0.00159 \pm 0.00500$ \\
+core & Reversal at 25 & Reset & Repeated - uniform fixed mixture & 128 & $-0.00109 \pm 0.00224$ \\
+core & Reversal at 25 & Cumulative & Repeated - Balanced & 128 & $0.00321 \pm 0.00245$ \\
+core & Reversal at 25 & Cumulative & Repeated - Successive rejects & 128 & $0.00062 \pm 0.00273$ \\
+core & Reversal at 25 & Cumulative & Repeated - Discover once & 128 & $0.00384 \pm 0.00250$ \\
+core & Reversal at 25 & Cumulative & Repeated - uniform fixed mixture & 128 & $0.00583 \pm 0.00259$ \\
+core & Reversal at 25 & Window 8 & Repeated - Balanced & 128 & $0.00623 \pm 0.00240$ \\
+core & Reversal at 25 & Window 8 & Repeated - Successive rejects & 128 & $0.00347 \pm 0.00252$ \\
+core & Reversal at 25 & Window 8 & Repeated - Discover once & 128 & $0.00975 \pm 0.00267$ \\
+core & Reversal at 25 & Window 8 & Repeated - uniform fixed mixture & 128 & $0.01114 \pm 0.00255$ \\
+core & Reversal at 25 & Cumulative & Balanced - Reset & 128 & $-0.10253 \pm 0.00132$ \\
+core & Reversal at 25 & Window 8 & Balanced - Reset & 128 & $-0.00697 \pm 0.00136$ \\
+core & Reversal at 25 & Cumulative & Repeated discovery - Reset & 128 & $-0.07935 \pm 0.00345$ \\
+core & Reversal at 25 & Window 8 & Repeated discovery - Reset & 128 & $0.01924 \pm 0.00351$ \\
+core & Reversal at 25 & Cumulative & Discover once - Reset & 128 & $-0.08478 \pm 0.00493$ \\
+core & Reversal at 25 & Window 8 & Discover once - Reset & 128 & $0.00789 \pm 0.00423$ \\
+core & Uniform gain & Reset & Repeated - Balanced & 128 & $-0.02000 \pm 0.00240$ \\
+core & Uniform gain & Reset & Repeated - Successive rejects & 128 & $-0.02208 \pm 0.00239$ \\
+core & Uniform gain & Reset & Repeated - Discover once & 128 & $-0.00204 \pm 0.00464$ \\
+core & Uniform gain & Reset & Repeated - uniform fixed mixture & 128 & $-0.00220 \pm 0.00223$ \\
+core & Uniform gain & Cumulative & Repeated - Balanced & 128 & $0.00039 \pm 0.00013$ \\
+core & Uniform gain & Cumulative & Repeated - Successive rejects & 128 & $0.00003 \pm 0.00011$ \\
+core & Uniform gain & Cumulative & Repeated - Discover once & 128 & $0.00013 \pm 0.00001$ \\
+core & Uniform gain & Cumulative & Repeated - uniform fixed mixture & 128 & $0.00139 \pm 0.00044$ \\
+core & Uniform gain & Window 8 & Repeated - Balanced & 128 & $0.00039 \pm 0.00013$ \\
+core & Uniform gain & Window 8 & Repeated - Successive rejects & 128 & $0.00003 \pm 0.00011$ \\
+core & Uniform gain & Window 8 & Repeated - Discover once & 128 & $0.00085 \pm 0.00080$ \\
+core & Uniform gain & Window 8 & Repeated - uniform fixed mixture & 128 & $0.00197 \pm 0.00056$ \\
+core & Uniform gain & Cumulative & Balanced - Reset & 128 & $0.00736 \pm 0.00110$ \\
+core & Uniform gain & Window 8 & Balanced - Reset & 128 & $0.00736 \pm 0.00110$ \\
+core & Uniform gain & Cumulative & Repeated discovery - Reset & 128 & $0.02775 \pm 0.00235$ \\
+core & Uniform gain & Window 8 & Repeated discovery - Reset & 128 & $0.02775 \pm 0.00235$ \\
+core & Uniform gain & Cumulative & Discover once - Reset & 128 & $0.02558 \pm 0.00459$ \\
+core & Uniform gain & Window 8 & Discover once - Reset & 128 & $0.02486 \pm 0.00437$ \\
+exploratory control & Stationary & Reset & Repeated - Balanced & 128 & $-0.01665 \pm 0.00255$ \\
+exploratory control & Stationary & Reset & Repeated - Trial-matched Balanced & 128 & $-0.01382 \pm 0.00238$ \\
+exploratory control & Stationary & Reset & Repeated - Discover once & 128 & $0.00035 \pm 0.00448$ \\
+exploratory control & Stationary & Cumulative & Repeated - Balanced & 128 & $0.00078 \pm 0.00091$ \\
+exploratory control & Stationary & Cumulative & Repeated - Trial-matched Balanced & 128 & $-0.00016 \pm 0.00046$ \\
+exploratory control & Stationary & Cumulative & Repeated - Discover once & 128 & $0.00110 \pm 0.00135$ \\
+exploratory control & Stationary & Window 8 & Repeated - Balanced & 128 & $0.00023 \pm 0.00104$ \\
+exploratory control & Stationary & Window 8 & Repeated - Trial-matched Balanced & 128 & $-0.00116 \pm 0.00058$ \\
+exploratory control & Stationary & Window 8 & Repeated - Discover once & 128 & $0.00538 \pm 0.00210$ \\
+exploratory control & Reversal at 25 & Reset & Repeated - Balanced & 128 & $-0.01808 \pm 0.00239$ \\
+exploratory control & Reversal at 25 & Reset & Repeated - Trial-matched Balanced & 128 & $-0.01525 \pm 0.00224$ \\
+exploratory control & Reversal at 25 & Reset & Repeated - Discover once & 128 & $-0.00223 \pm 0.00438$ \\
+exploratory control & Reversal at 25 & Cumulative & Repeated - Balanced & 128 & $0.00922 \pm 0.00353$ \\
+exploratory control & Reversal at 25 & Cumulative & Repeated - Trial-matched Balanced & 128 & $0.00832 \pm 0.00363$ \\
+exploratory control & Reversal at 25 & Cumulative & Repeated - Discover once & 128 & $0.00926 \pm 0.00397$ \\
+exploratory control & Reversal at 25 & Window 8 & Repeated - Balanced & 128 & $0.00607 \pm 0.00217$ \\
+exploratory control & Reversal at 25 & Window 8 & Repeated - Trial-matched Balanced & 128 & $0.00191 \pm 0.00207$ \\
+exploratory control & Reversal at 25 & Window 8 & Repeated - Discover once & 128 & $0.00889 \pm 0.00220$ \\
+exploratory control & Reversal at 21 & Reset & Repeated - Balanced & 128 & $-0.01817 \pm 0.00254$ \\
+exploratory control & Reversal at 21 & Reset & Repeated - Trial-matched Balanced & 128 & $-0.01586 \pm 0.00228$ \\
+exploratory control & Reversal at 21 & Reset & Repeated - Discover once & 128 & $-0.00242 \pm 0.00439$ \\
+exploratory control & Reversal at 21 & Cumulative & Repeated - Balanced & 128 & $0.00840 \pm 0.00513$ \\
+exploratory control & Reversal at 21 & Cumulative & Repeated - Trial-matched Balanced & 128 & $0.01132 \pm 0.00526$ \\
+exploratory control & Reversal at 21 & Cumulative & Repeated - Discover once & 128 & $0.00891 \pm 0.00550$ \\
+exploratory control & Reversal at 21 & Window 8 & Repeated - Balanced & 128 & $0.00031 \pm 0.00118$ \\
+exploratory control & Reversal at 21 & Window 8 & Repeated - Trial-matched Balanced & 128 & $-0.00063 \pm 0.00072$ \\
+exploratory control & Reversal at 21 & Window 8 & Repeated - Discover once & 128 & $0.00257 \pm 0.00137$ \\
+exploratory control & Reversal at 29 & Reset & Repeated - Balanced & 128 & $-0.01700 \pm 0.00252$ \\
+exploratory control & Reversal at 29 & Reset & Repeated - Trial-matched Balanced & 128 & $-0.01399 \pm 0.00235$ \\
+exploratory control & Reversal at 29 & Reset & Repeated - Discover once & 128 & $-0.00116 \pm 0.00433$ \\
+exploratory control & Reversal at 29 & Cumulative & Repeated - Balanced & 128 & $0.00262 \pm 0.00148$ \\
+exploratory control & Reversal at 29 & Cumulative & Repeated - Trial-matched Balanced & 128 & $0.00168 \pm 0.00136$ \\
+exploratory control & Reversal at 29 & Cumulative & Repeated - Discover once & 128 & $0.00293 \pm 0.00225$ \\
+exploratory control & Reversal at 29 & Window 8 & Repeated - Balanced & 128 & $0.00004 \pm 0.00120$ \\
+exploratory control & Reversal at 29 & Window 8 & Repeated - Trial-matched Balanced & 128 & $-0.00057 \pm 0.00069$ \\
+exploratory control & Reversal at 29 & Window 8 & Repeated - Discover once & 128 & $0.00342 \pm 0.00177$ \\
+\end{longtable}\endgroup
+\clearpage
+\section*{Supplementary Table S2: Retained programs and conditional block outcomes}
+\addcontentsline{toc}{section}{Table S2: Retained programs and conditional block outcomes}
+{\footnotesize Source: \texttt{results/learning\_conditional.csv}.}\par All 189 observed program groups are retained: three environments and three memories, both discover-once and repeated-discovery rules, and all three retained programs at their scheduled reviews. Shares use 128 runs per review condition; $n$ is the number retaining the named program. Net and harm cover the subsequent eight-round block. Harm is expressed as a percentage. These are descriptive, endogenously selected groups; no causal program effect or unavailable conditional interval is implied. Every reported group has at least one retained run.
+
+\subsection*{Complete conditional summary}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}lllllllll@{}}
+\toprule Environment & Memory & Arm & Round & Program & $n$ & Share (\%) & Net & Harm (\%) \\\midrule\endfirsthead
+\toprule Environment & Memory & Arm & Round & Program & $n$ & Share (\%) & Net & Harm (\%) \\\midrule\endhead
+\midrule\multicolumn{9}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+Stationary & Reset & Once & 1 & Biased & 35 & 27.34 & 0.39126 & 17.857 \\
+Stationary & Reset & Once & 1 & Balanced & 48 & 37.50 & 0.44462 & 0.781 \\
+Stationary & Reset & Once & 1 & Neyman & 45 & 35.16 & 0.44897 & 1.389 \\
+Stationary & Reset & Repeated & 1 & Biased & 35 & 27.34 & 0.39126 & 17.857 \\
+Stationary & Reset & Repeated & 1 & Balanced & 48 & 37.50 & 0.44462 & 0.781 \\
+Stationary & Reset & Repeated & 1 & Neyman & 45 & 35.16 & 0.44897 & 1.389 \\
+Stationary & Reset & Repeated & 9 & Biased & 33 & 25.78 & 0.39189 & 18.182 \\
+Stationary & Reset & Repeated & 9 & Balanced & 38 & 29.69 & 0.45446 & 0.658 \\
+Stationary & Reset & Repeated & 9 & Neyman & 57 & 44.53 & 0.44748 & 1.096 \\
+Stationary & Reset & Repeated & 17 & Biased & 40 & 31.25 & 0.40474 & 11.562 \\
+Stationary & Reset & Repeated & 17 & Balanced & 40 & 31.25 & 0.44701 & 1.250 \\
+Stationary & Reset & Repeated & 17 & Neyman & 48 & 37.50 & 0.45291 & 0.260 \\
+Stationary & Reset & Repeated & 25 & Biased & 42 & 32.81 & 0.40127 & 15.774 \\
+Stationary & Reset & Repeated & 25 & Balanced & 40 & 31.25 & 0.45433 & 0.625 \\
+Stationary & Reset & Repeated & 25 & Neyman & 46 & 35.94 & 0.45002 & 1.359 \\
+Stationary & Reset & Repeated & 33 & Biased & 39 & 30.47 & 0.40016 & 14.744 \\
+Stationary & Reset & Repeated & 33 & Balanced & 41 & 32.03 & 0.44695 & 1.829 \\
+Stationary & Reset & Repeated & 33 & Neyman & 48 & 37.50 & 0.44908 & 1.042 \\
+Stationary & Reset & Repeated & 41 & Biased & 35 & 27.34 & 0.40549 & 11.071 \\
+Stationary & Reset & Repeated & 41 & Balanced & 55 & 42.97 & 0.45203 & 0.455 \\
+Stationary & Reset & Repeated & 41 & Neyman & 38 & 29.69 & 0.45328 & 0.658 \\
+Stationary & Cumulative & Once & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
+Stationary & Cumulative & Once & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
+Stationary & Cumulative & Once & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
+Stationary & Cumulative & Repeated & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
+Stationary & Cumulative & Repeated & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
+Stationary & Cumulative & Repeated & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
+Stationary & Cumulative & Repeated & 9 & Biased & 34 & 26.56 & 0.48146 & 0.000 \\
+Stationary & Cumulative & Repeated & 9 & Balanced & 46 & 35.94 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 9 & Neyman & 48 & 37.50 & 0.48160 & 0.000 \\
+Stationary & Cumulative & Repeated & 17 & Biased & 43 & 33.59 & 0.47912 & 0.000 \\
+Stationary & Cumulative & Repeated & 17 & Balanced & 44 & 34.38 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 17 & Neyman & 41 & 32.03 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 25 & Biased & 43 & 33.59 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 25 & Balanced & 46 & 35.94 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 25 & Neyman & 39 & 30.47 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 33 & Biased & 46 & 35.94 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 33 & Balanced & 41 & 32.03 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 33 & Neyman & 41 & 32.03 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 41 & Biased & 49 & 38.28 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 41 & Balanced & 40 & 31.25 & 0.48191 & 0.000 \\
+Stationary & Cumulative & Repeated & 41 & Neyman & 39 & 30.47 & 0.48191 & 0.000 \\
+Stationary & Window 8 & Once & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
+Stationary & Window 8 & Once & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
+Stationary & Window 8 & Once & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
+Stationary & Window 8 & Repeated & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
+Stationary & Window 8 & Repeated & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
+Stationary & Window 8 & Repeated & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
+Stationary & Window 8 & Repeated & 9 & Biased & 34 & 26.56 & 0.47838 & 0.000 \\
+Stationary & Window 8 & Repeated & 9 & Balanced & 46 & 35.94 & 0.47832 & 0.000 \\
+Stationary & Window 8 & Repeated & 9 & Neyman & 48 & 37.50 & 0.48128 & 0.000 \\
+Stationary & Window 8 & Repeated & 17 & Biased & 56 & 43.75 & 0.47628 & 0.000 \\
+Stationary & Window 8 & Repeated & 17 & Balanced & 35 & 27.34 & 0.48190 & 0.000 \\
+Stationary & Window 8 & Repeated & 17 & Neyman & 37 & 28.91 & 0.48069 & 0.000 \\
+Stationary & Window 8 & Repeated & 25 & Biased & 51 & 39.84 & 0.47808 & 0.000 \\
+Stationary & Window 8 & Repeated & 25 & Balanced & 39 & 30.47 & 0.48191 & 0.000 \\
+Stationary & Window 8 & Repeated & 25 & Neyman & 38 & 29.69 & 0.47875 & 0.000 \\
+Stationary & Window 8 & Repeated & 33 & Biased & 50 & 39.06 & 0.47591 & 0.000 \\
+Stationary & Window 8 & Repeated & 33 & Balanced & 34 & 26.56 & 0.47882 & 0.000 \\
+Stationary & Window 8 & Repeated & 33 & Neyman & 44 & 34.38 & 0.48020 & 0.000 \\
+Stationary & Window 8 & Repeated & 41 & Biased & 41 & 32.03 & 0.47678 & 0.000 \\
+Stationary & Window 8 & Repeated & 41 & Balanced & 38 & 29.69 & 0.48032 & 0.000 \\
+Stationary & Window 8 & Repeated & 41 & Neyman & 49 & 38.28 & 0.48160 & 0.000 \\
+Reversal & Reset & Once & 1 & Biased & 35 & 27.34 & 0.39126 & 17.857 \\
+Reversal & Reset & Once & 1 & Balanced & 48 & 37.50 & 0.44462 & 0.781 \\
+Reversal & Reset & Once & 1 & Neyman & 45 & 35.16 & 0.44897 & 1.389 \\
+Reversal & Reset & Repeated & 1 & Biased & 35 & 27.34 & 0.39126 & 17.857 \\
+Reversal & Reset & Repeated & 1 & Balanced & 48 & 37.50 & 0.44462 & 0.781 \\
+Reversal & Reset & Repeated & 1 & Neyman & 45 & 35.16 & 0.44897 & 1.389 \\
+Reversal & Reset & Repeated & 9 & Biased & 33 & 25.78 & 0.39189 & 18.182 \\
+Reversal & Reset & Repeated & 9 & Balanced & 38 & 29.69 & 0.45446 & 0.658 \\
+Reversal & Reset & Repeated & 9 & Neyman & 57 & 44.53 & 0.44748 & 1.096 \\
+Reversal & Reset & Repeated & 17 & Biased & 40 & 31.25 & 0.40474 & 11.562 \\
+Reversal & Reset & Repeated & 17 & Balanced & 40 & 31.25 & 0.44701 & 1.250 \\
+Reversal & Reset & Repeated & 17 & Neyman & 48 & 37.50 & 0.45291 & 0.260 \\
+Reversal & Reset & Repeated & 25 & Biased & 47 & 36.72 & 0.66508 & 0.000 \\
+Reversal & Reset & Repeated & 25 & Balanced & 45 & 35.16 & 0.71022 & 0.000 \\
+Reversal & Reset & Repeated & 25 & Neyman & 36 & 28.12 & 0.70606 & 0.000 \\
+Reversal & Reset & Repeated & 33 & Biased & 58 & 45.31 & 0.66603 & 0.000 \\
+Reversal & Reset & Repeated & 33 & Balanced & 29 & 22.66 & 0.71206 & 0.000 \\
+Reversal & Reset & Repeated & 33 & Neyman & 41 & 32.03 & 0.70908 & 0.000 \\
+Reversal & Reset & Repeated & 41 & Biased & 61 & 47.66 & 0.67001 & 0.000 \\
+Reversal & Reset & Repeated & 41 & Balanced & 29 & 22.66 & 0.71258 & 0.000 \\
+Reversal & Reset & Repeated & 41 & Neyman & 38 & 29.69 & 0.70965 & 0.000 \\
+Reversal & Cumulative & Once & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
+Reversal & Cumulative & Once & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
+Reversal & Cumulative & Once & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
+Reversal & Cumulative & Repeated & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
+Reversal & Cumulative & Repeated & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
+Reversal & Cumulative & Repeated & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
+Reversal & Cumulative & Repeated & 9 & Biased & 34 & 26.56 & 0.48146 & 0.000 \\
+Reversal & Cumulative & Repeated & 9 & Balanced & 46 & 35.94 & 0.48191 & 0.000 \\
+Reversal & Cumulative & Repeated & 9 & Neyman & 48 & 37.50 & 0.48160 & 0.000 \\
+Reversal & Cumulative & Repeated & 17 & Biased & 43 & 33.59 & 0.47912 & 0.000 \\
+Reversal & Cumulative & Repeated & 17 & Balanced & 44 & 34.38 & 0.48191 & 0.000 \\
+Reversal & Cumulative & Repeated & 17 & Neyman & 41 & 32.03 & 0.48191 & 0.000 \\
+Reversal & Cumulative & Repeated & 25 & Biased & 43 & 33.59 & 0.48191 & 0.000 \\
+Reversal & Cumulative & Repeated & 25 & Balanced & 46 & 35.94 & 0.48452 & 0.000 \\
+Reversal & Cumulative & Repeated & 25 & Neyman & 39 & 30.47 & 0.48191 & 0.000 \\
+Reversal & Cumulative & Repeated & 33 & Biased & 45 & 35.16 & 0.48191 & 0.000 \\
+Reversal & Cumulative & Repeated & 33 & Balanced & 42 & 32.81 & 0.49405 & 0.000 \\
+Reversal & Cumulative & Repeated & 33 & Neyman & 41 & 32.03 & 0.48191 & 0.000 \\
+Reversal & Cumulative & Repeated & 41 & Biased & 49 & 38.28 & 0.49171 & 0.000 \\
+Reversal & Cumulative & Repeated & 41 & Balanced & 40 & 31.25 & 0.50816 & 0.000 \\
+Reversal & Cumulative & Repeated & 41 & Neyman & 39 & 30.47 & 0.49499 & 0.000 \\
+Reversal & Window 8 & Once & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
+Reversal & Window 8 & Once & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
+Reversal & Window 8 & Once & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
+Reversal & Window 8 & Repeated & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
+Reversal & Window 8 & Repeated & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
+Reversal & Window 8 & Repeated & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
+Reversal & Window 8 & Repeated & 9 & Biased & 34 & 26.56 & 0.47838 & 0.000 \\
+Reversal & Window 8 & Repeated & 9 & Balanced & 46 & 35.94 & 0.47832 & 0.000 \\
+Reversal & Window 8 & Repeated & 9 & Neyman & 48 & 37.50 & 0.48128 & 0.000 \\
+Reversal & Window 8 & Repeated & 17 & Biased & 56 & 43.75 & 0.47628 & 0.000 \\
+Reversal & Window 8 & Repeated & 17 & Balanced & 35 & 27.34 & 0.48190 & 0.000 \\
+Reversal & Window 8 & Repeated & 17 & Neyman & 37 & 28.91 & 0.48069 & 0.000 \\
+Reversal & Window 8 & Repeated & 25 & Biased & 51 & 39.84 & 0.60573 & 0.000 \\
+Reversal & Window 8 & Repeated & 25 & Balanced & 39 & 30.47 & 0.61883 & 0.000 \\
+Reversal & Window 8 & Repeated & 25 & Neyman & 38 & 29.69 & 0.63506 & 0.000 \\
+Reversal & Window 8 & Repeated & 33 & Biased & 56 & 43.75 & 0.72191 & 0.000 \\
+Reversal & Window 8 & Repeated & 33 & Balanced & 36 & 28.12 & 0.72191 & 0.000 \\
+Reversal & Window 8 & Repeated & 33 & Neyman & 36 & 28.12 & 0.72191 & 0.000 \\
+Reversal & Window 8 & Repeated & 41 & Biased & 61 & 47.66 & 0.72191 & 0.000 \\
+Reversal & Window 8 & Repeated & 41 & Balanced & 26 & 20.31 & 0.72190 & 0.000 \\
+Reversal & Window 8 & Repeated & 41 & Neyman & 41 & 32.03 & 0.72190 & 0.000 \\
+Uniform gain & Reset & Once & 1 & Biased & 46 & 35.94 & 0.67592 & 0.000 \\
+Uniform gain & Reset & Once & 1 & Balanced & 35 & 27.34 & 0.71374 & 0.000 \\
+Uniform gain & Reset & Once & 1 & Neyman & 47 & 36.72 & 0.71295 & 0.000 \\
+Uniform gain & Reset & Repeated & 1 & Biased & 46 & 35.94 & 0.67592 & 0.000 \\
+Uniform gain & Reset & Repeated & 1 & Balanced & 35 & 27.34 & 0.71374 & 0.000 \\
+Uniform gain & Reset & Repeated & 1 & Neyman & 47 & 36.72 & 0.71295 & 0.000 \\
+Uniform gain & Reset & Repeated & 9 & Biased & 44 & 34.38 & 0.66939 & 0.000 \\
+Uniform gain & Reset & Repeated & 9 & Balanced & 35 & 27.34 & 0.70860 & 0.000 \\
+Uniform gain & Reset & Repeated & 9 & Neyman & 49 & 38.28 & 0.71148 & 0.000 \\
+Uniform gain & Reset & Repeated & 17 & Biased & 46 & 35.94 & 0.67069 & 0.000 \\
+Uniform gain & Reset & Repeated & 17 & Balanced & 39 & 30.47 & 0.70727 & 0.000 \\
+Uniform gain & Reset & Repeated & 17 & Neyman & 43 & 33.59 & 0.70829 & 0.000 \\
+Uniform gain & Reset & Repeated & 25 & Biased & 47 & 36.72 & 0.66508 & 0.000 \\
+Uniform gain & Reset & Repeated & 25 & Balanced & 45 & 35.16 & 0.71022 & 0.000 \\
+Uniform gain & Reset & Repeated & 25 & Neyman & 36 & 28.12 & 0.70606 & 0.000 \\
+Uniform gain & Reset & Repeated & 33 & Biased & 58 & 45.31 & 0.66603 & 0.000 \\
+Uniform gain & Reset & Repeated & 33 & Balanced & 29 & 22.66 & 0.71206 & 0.000 \\
+Uniform gain & Reset & Repeated & 33 & Neyman & 41 & 32.03 & 0.70908 & 0.000 \\
+Uniform gain & Reset & Repeated & 41 & Biased & 61 & 47.66 & 0.67001 & 0.000 \\
+Uniform gain & Reset & Repeated & 41 & Balanced & 29 & 22.66 & 0.71258 & 0.000 \\
+Uniform gain & Reset & Repeated & 41 & Neyman & 38 & 29.69 & 0.70965 & 0.000 \\
+Uniform gain & Cumulative & Once & 1 & Biased & 46 & 35.94 & 0.72125 & 0.000 \\
+Uniform gain & Cumulative & Once & 1 & Balanced & 35 & 27.34 & 0.72188 & 0.000 \\
+Uniform gain & Cumulative & Once & 1 & Neyman & 47 & 36.72 & 0.72189 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 1 & Biased & 46 & 35.94 & 0.72125 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 1 & Balanced & 35 & 27.34 & 0.72188 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 1 & Neyman & 47 & 36.72 & 0.72189 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 9 & Biased & 34 & 26.56 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 9 & Balanced & 39 & 30.47 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 9 & Neyman & 55 & 42.97 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 17 & Biased & 33 & 25.78 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 17 & Balanced & 38 & 29.69 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 17 & Neyman & 57 & 44.53 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 25 & Biased & 36 & 28.12 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 25 & Balanced & 39 & 30.47 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 25 & Neyman & 53 & 41.41 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 33 & Biased & 36 & 28.12 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 33 & Balanced & 36 & 28.12 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 33 & Neyman & 56 & 43.75 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 41 & Biased & 39 & 30.47 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 41 & Balanced & 33 & 25.78 & 0.72191 & 0.000 \\
+Uniform gain & Cumulative & Repeated & 41 & Neyman & 56 & 43.75 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Once & 1 & Biased & 46 & 35.94 & 0.72125 & 0.000 \\
+Uniform gain & Window 8 & Once & 1 & Balanced & 35 & 27.34 & 0.72188 & 0.000 \\
+Uniform gain & Window 8 & Once & 1 & Neyman & 47 & 36.72 & 0.72189 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 1 & Biased & 46 & 35.94 & 0.72125 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 1 & Balanced & 35 & 27.34 & 0.72188 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 1 & Neyman & 47 & 36.72 & 0.72189 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 9 & Biased & 34 & 26.56 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 9 & Balanced & 39 & 30.47 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 9 & Neyman & 55 & 42.97 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 17 & Biased & 41 & 32.03 & 0.72190 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 17 & Balanced & 30 & 23.44 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 17 & Neyman & 57 & 44.53 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 25 & Biased & 42 & 32.81 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 25 & Balanced & 38 & 29.69 & 0.72190 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 25 & Neyman & 48 & 37.50 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 33 & Biased & 52 & 40.62 & 0.72190 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 33 & Balanced & 34 & 26.56 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 33 & Neyman & 42 & 32.81 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 41 & Biased & 61 & 47.66 & 0.72191 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 41 & Balanced & 26 & 20.31 & 0.72190 & 0.000 \\
+Uniform gain & Window 8 & Repeated & 41 & Neyman & 41 & 32.03 & 0.72190 & 0.000 \\
+\end{longtable}\endgroup
+\clearpage
+\section*{Supplementary Table S3: Audit policy and memory-window grid}
+\addcontentsline{toc}{section}{Table S3: Audit policy and memory-window grid}
+{\footnotesize Source: \texttt{results/robustness\_summary.csv}.}\par All 54 combinations of three environments, three memory windows, and six audit policies. Each cell uses 200 independent seeds. Paired differences compare with fixed audit rate .10 within the same environment and window. The outcome is net value per task under the supplementary audit model.
+
+\subsection*{Complete audit grid}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\renewcommand{\arraystretch}{1.0}
+\begin{longtable}{@{}lllll@{}}
+\toprule Environment & Window & Policy & Net value & Difference vs. fixed .10 \\\midrule\endfirsthead
+\toprule Environment & Window & Policy & Net value & Difference vs. fixed .10 \\\midrule\endhead
+\midrule\multicolumn{5}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+Stationary & 6 & No audit & $0.88054 \pm 0.00117$ & $0.02452 \pm 0.00080$ \\
+Stationary & 6 & Fixed 0.05 & $0.85918 \pm 0.00181$ & $0.00316 \pm 0.00119$ \\
+Stationary & 6 & Fixed 0.10 & $0.85602 \pm 0.00152$ & $0.00000 \pm 0.00000$ \\
+Stationary & 6 & Fixed 0.40 & $0.80061 \pm 0.00120$ & $-0.05541 \pm 0.00078$ \\
+Stationary & 6 & Periodic dense & $0.84527 \pm 0.00148$ & $-0.01075 \pm 0.00108$ \\
+Stationary & 6 & Adaptive audit & $0.85356 \pm 0.00135$ & $-0.00246 \pm 0.00082$ \\
+Stationary & 12 & No audit & $0.88054 \pm 0.00117$ & $0.02118 \pm 0.00047$ \\
+Stationary & 12 & Fixed 0.05 & $0.86517 \pm 0.00177$ & $0.00580 \pm 0.00109$ \\
+Stationary & 12 & Fixed 0.10 & $0.85937 \pm 0.00130$ & $0.00000 \pm 0.00000$ \\
+Stationary & 12 & Fixed 0.40 & $0.80066 \pm 0.00119$ & $-0.05871 \pm 0.00049$ \\
+Stationary & 12 & Periodic dense & $0.85290 \pm 0.00120$ & $-0.00647 \pm 0.00051$ \\
+Stationary & 12 & Adaptive audit & $0.86681 \pm 0.00127$ & $0.00744 \pm 0.00060$ \\
+Stationary & 24 & No audit & $0.88054 \pm 0.00117$ & $0.02037 \pm 0.00027$ \\
+Stationary & 24 & Fixed 0.05 & $0.86869 \pm 0.00147$ & $0.00851 \pm 0.00067$ \\
+Stationary & 24 & Fixed 0.10 & $0.86018 \pm 0.00120$ & $0.00000 \pm 0.00000$ \\
+Stationary & 24 & Fixed 0.40 & $0.80066 \pm 0.00119$ & $-0.05952 \pm 0.00031$ \\
+Stationary & 24 & Periodic dense & $0.85319 \pm 0.00118$ & $-0.00698 \pm 0.00028$ \\
+Stationary & 24 & Adaptive audit & $0.87162 \pm 0.00125$ & $0.01144 \pm 0.00037$ \\
+Slow shifts & 6 & No audit & $0.56603 \pm 0.00195$ & $-0.09302 \pm 0.00284$ \\
+Slow shifts & 6 & Fixed 0.05 & $0.64384 \pm 0.00319$ & $-0.01521 \pm 0.00231$ \\
+Slow shifts & 6 & Fixed 0.10 & $0.65905 \pm 0.00249$ & $0.00000 \pm 0.00000$ \\
+Slow shifts & 6 & Fixed 0.40 & $0.62772 \pm 0.00153$ & $-0.03133 \pm 0.00222$ \\
+Slow shifts & 6 & Periodic dense & $0.64667 \pm 0.00239$ & $-0.01238 \pm 0.00245$ \\
+Slow shifts & 6 & Adaptive audit & $0.66438 \pm 0.00198$ & $0.00533 \pm 0.00234$ \\
+Slow shifts & 12 & No audit & $0.56603 \pm 0.00195$ & $-0.09364 \pm 0.00277$ \\
+Slow shifts & 12 & Fixed 0.05 & $0.65240 \pm 0.00322$ & $-0.00727 \pm 0.00266$ \\
+Slow shifts & 12 & Fixed 0.10 & $0.65967 \pm 0.00241$ & $0.00000 \pm 0.00000$ \\
+Slow shifts & 12 & Fixed 0.40 & $0.61216 \pm 0.00148$ & $-0.04751 \pm 0.00202$ \\
+Slow shifts & 12 & Periodic dense & $0.66029 \pm 0.00204$ & $0.00062 \pm 0.00236$ \\
+Slow shifts & 12 & Adaptive audit & $0.66785 \pm 0.00239$ & $0.00818 \pm 0.00263$ \\
+Slow shifts & 24 & No audit & $0.56603 \pm 0.00195$ & $-0.06813 \pm 0.00271$ \\
+Slow shifts & 24 & Fixed 0.05 & $0.63665 \pm 0.00326$ & $0.00249 \pm 0.00266$ \\
+Slow shifts & 24 & Fixed 0.10 & $0.63416 \pm 0.00242$ & $0.00000 \pm 0.00000$ \\
+Slow shifts & 24 & Fixed 0.40 & $0.57706 \pm 0.00157$ & $-0.05710 \pm 0.00205$ \\
+Slow shifts & 24 & Periodic dense & $0.63149 \pm 0.00278$ & $-0.00267 \pm 0.00300$ \\
+Slow shifts & 24 & Adaptive audit & $0.65398 \pm 0.00290$ & $0.01982 \pm 0.00316$ \\
+Fast shifts & 6 & No audit & $0.56512 \pm 0.00210$ & $-0.02974 \pm 0.00259$ \\
+Fast shifts & 6 & Fixed 0.05 & $0.59498 \pm 0.00279$ & $0.00012 \pm 0.00226$ \\
+Fast shifts & 6 & Fixed 0.10 & $0.59486 \pm 0.00251$ & $0.00000 \pm 0.00000$ \\
+Fast shifts & 6 & Fixed 0.40 & $0.54718 \pm 0.00180$ & $-0.04768 \pm 0.00209$ \\
+Fast shifts & 6 & Periodic dense & $0.58839 \pm 0.00256$ & $-0.00647 \pm 0.00247$ \\
+Fast shifts & 6 & Adaptive audit & $0.59544 \pm 0.00234$ & $0.00058 \pm 0.00247$ \\
+Fast shifts & 12 & No audit & $0.56512 \pm 0.00210$ & $0.03871 \pm 0.00253$ \\
+Fast shifts & 12 & Fixed 0.05 & $0.54272 \pm 0.00307$ & $0.01632 \pm 0.00243$ \\
+Fast shifts & 12 & Fixed 0.10 & $0.52640 \pm 0.00295$ & $0.00000 \pm 0.00000$ \\
+Fast shifts & 12 & Fixed 0.40 & $0.45976 \pm 0.00214$ & $-0.06665 \pm 0.00221$ \\
+Fast shifts & 12 & Periodic dense & $0.52383 \pm 0.00234$ & $-0.00257 \pm 0.00265$ \\
+Fast shifts & 12 & Adaptive audit & $0.52467 \pm 0.00273$ & $-0.00173 \pm 0.00289$ \\
+Fast shifts & 24 & No audit & $0.56512 \pm 0.00210$ & $-0.01550 \pm 0.00239$ \\
+Fast shifts & 24 & Fixed 0.05 & $0.58156 \pm 0.00266$ & $0.00093 \pm 0.00242$ \\
+Fast shifts & 24 & Fixed 0.10 & $0.58062 \pm 0.00237$ & $0.00000 \pm 0.00000$ \\
+Fast shifts & 24 & Fixed 0.40 & $0.54112 \pm 0.00239$ & $-0.03950 \pm 0.00270$ \\
+Fast shifts & 24 & Periodic dense & $0.57131 \pm 0.00240$ & $-0.00931 \pm 0.00244$ \\
+Fast shifts & 24 & Adaptive audit & $0.56229 \pm 0.00220$ & $-0.01834 \pm 0.00251$ \\
+\end{longtable}\endgroup
+\clearpage
+\section*{Supplementary Table S4: Expected-value-of-information sensitivity}
+\addcontentsline{toc}{section}{Table S4: Expected-value-of-information sensitivity}
+{\footnotesize Source: \texttt{results/audit\_extensions\_summary.csv}.}\par All 72 combinations of three priors, two routing thresholds, two candidate-generation costs, two environments, and three policies. Each cell uses 96 independent test seeds; development seeds selected the horizon separately. Nonzero generation cost charges counterfactual A outputs when route B is executed. Paired differences use fixed audit rate .10 within the same condition.
+
+\subsection*{Complete prior, threshold, and generation-cost grid}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}lllllll@{}}
+\toprule Prior & Threshold & $g_c$ & Environment & Policy & Net value & Difference vs. fixed .10 \\\midrule\endfirsthead
+\toprule Prior & Threshold & $g_c$ & Environment & Policy & Net value & Difference vs. fixed .10 \\\midrule\endhead
+\midrule\multicolumn{7}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+1:1 & 0.14 & 0 & Stationary & Fixed 0.10 & $0.84794 \pm 0.00236$ & $0.00000 \pm 0.00000$ \\
+1:1 & 0.14 & 0 & Stationary & Adaptive audit & $0.85300 \pm 0.00213$ & $0.00506 \pm 0.00173$ \\
+1:1 & 0.14 & 0 & Stationary & EVSI & $0.83379 \pm 0.00359$ & $-0.01415 \pm 0.00326$ \\
+1:1 & 0.14 & 0 & Regime shifts & Fixed 0.10 & $0.66159 \pm 0.00308$ & $0.00000 \pm 0.00000$ \\
+1:1 & 0.14 & 0 & Regime shifts & Adaptive audit & $0.67534 \pm 0.00293$ & $0.01375 \pm 0.00317$ \\
+1:1 & 0.14 & 0 & Regime shifts & EVSI & $0.67584 \pm 0.00569$ & $0.01426 \pm 0.00540$ \\
+1:1 & 0.14 & 0.2 & Stationary & Fixed 0.10 & $0.84718 \pm 0.00244$ & $0.00000 \pm 0.00000$ \\
+1:1 & 0.14 & 0.2 & Stationary & Adaptive audit & $0.85173 \pm 0.00220$ & $0.00455 \pm 0.00184$ \\
+1:1 & 0.14 & 0.2 & Stationary & EVSI & $0.82623 \pm 0.00362$ & $-0.02094 \pm 0.00338$ \\
+1:1 & 0.14 & 0.2 & Regime shifts & Fixed 0.10 & $0.65182 \pm 0.00305$ & $0.00000 \pm 0.00000$ \\
+1:1 & 0.14 & 0.2 & Regime shifts & Adaptive audit & $0.66587 \pm 0.00299$ & $0.01405 \pm 0.00323$ \\
+1:1 & 0.14 & 0.2 & Regime shifts & EVSI & $0.66778 \pm 0.00568$ & $0.01596 \pm 0.00542$ \\
+1:1 & 0.16 & 0 & Stationary & Fixed 0.10 & $0.85228 \pm 0.00191$ & $0.00000 \pm 0.00000$ \\
+1:1 & 0.16 & 0 & Stationary & Adaptive audit & $0.85706 \pm 0.00194$ & $0.00479 \pm 0.00134$ \\
+1:1 & 0.16 & 0 & Stationary & EVSI & $0.83421 \pm 0.00355$ & $-0.01807 \pm 0.00313$ \\
+1:1 & 0.16 & 0 & Regime shifts & Fixed 0.10 & $0.65968 \pm 0.00334$ & $0.00000 \pm 0.00000$ \\
+1:1 & 0.16 & 0 & Regime shifts & Adaptive audit & $0.67286 \pm 0.00277$ & $0.01318 \pm 0.00371$ \\
+1:1 & 0.16 & 0 & Regime shifts & EVSI & $0.67570 \pm 0.00566$ & $0.01602 \pm 0.00547$ \\
+1:1 & 0.16 & 0.2 & Stationary & Fixed 0.10 & $0.85180 \pm 0.00195$ & $0.00000 \pm 0.00000$ \\
+1:1 & 0.16 & 0.2 & Stationary & Adaptive audit & $0.85607 \pm 0.00199$ & $0.00427 \pm 0.00145$ \\
+1:1 & 0.16 & 0.2 & Stationary & EVSI & $0.82674 \pm 0.00357$ & $-0.02506 \pm 0.00321$ \\
+1:1 & 0.16 & 0.2 & Regime shifts & Fixed 0.10 & $0.65064 \pm 0.00327$ & $0.00000 \pm 0.00000$ \\
+1:1 & 0.16 & 0.2 & Regime shifts & Adaptive audit & $0.66208 \pm 0.00286$ & $0.01143 \pm 0.00367$ \\
+1:1 & 0.16 & 0.2 & Regime shifts & EVSI & $0.66745 \pm 0.00563$ & $0.01681 \pm 0.00541$ \\
+1:9 & 0.14 & 0 & Stationary & Fixed 0.10 & $0.85814 \pm 0.00172$ & $0.00000 \pm 0.00000$ \\
+1:9 & 0.14 & 0 & Stationary & Adaptive audit & $0.86494 \pm 0.00192$ & $0.00680 \pm 0.00087$ \\
+1:9 & 0.14 & 0 & Stationary & EVSI & $0.86557 \pm 0.00207$ & $0.00743 \pm 0.00147$ \\
+1:9 & 0.14 & 0 & Regime shifts & Fixed 0.10 & $0.66200 \pm 0.00333$ & $0.00000 \pm 0.00000$ \\
+1:9 & 0.14 & 0 & Regime shifts & Adaptive audit & $0.67056 \pm 0.00285$ & $0.00856 \pm 0.00352$ \\
+1:9 & 0.14 & 0 & Regime shifts & EVSI & $0.65987 \pm 0.00606$ & $-0.00213 \pm 0.00667$ \\
+1:9 & 0.14 & 0.2 & Stationary & Fixed 0.10 & $0.85805 \pm 0.00173$ & $0.00000 \pm 0.00000$ \\
+1:9 & 0.14 & 0.2 & Stationary & Adaptive audit & $0.86480 \pm 0.00195$ & $0.00675 \pm 0.00094$ \\
+1:9 & 0.14 & 0.2 & Stationary & EVSI & $0.86507 \pm 0.00222$ & $0.00702 \pm 0.00164$ \\
+1:9 & 0.14 & 0.2 & Regime shifts & Fixed 0.10 & $0.65364 \pm 0.00323$ & $0.00000 \pm 0.00000$ \\
+1:9 & 0.14 & 0.2 & Regime shifts & Adaptive audit & $0.65984 \pm 0.00290$ & $0.00619 \pm 0.00345$ \\
+1:9 & 0.14 & 0.2 & Regime shifts & EVSI & $0.65465 \pm 0.00638$ & $0.00100 \pm 0.00689$ \\
+1:9 & 0.16 & 0 & Stationary & Fixed 0.10 & $0.85918 \pm 0.00162$ & $0.00000 \pm 0.00000$ \\
+1:9 & 0.16 & 0 & Stationary & Adaptive audit & $0.86861 \pm 0.00183$ & $0.00943 \pm 0.00053$ \\
+1:9 & 0.16 & 0 & Stationary & EVSI & $0.86603 \pm 0.00210$ & $0.00685 \pm 0.00134$ \\
+1:9 & 0.16 & 0 & Regime shifts & Fixed 0.10 & $0.65150 \pm 0.00390$ & $0.00000 \pm 0.00000$ \\
+1:9 & 0.16 & 0 & Regime shifts & Adaptive audit & $0.66416 \pm 0.00362$ & $0.01266 \pm 0.00468$ \\
+1:9 & 0.16 & 0 & Regime shifts & EVSI & $0.65263 \pm 0.00621$ & $0.00114 \pm 0.00705$ \\
+1:9 & 0.16 & 0.2 & Stationary & Fixed 0.10 & $0.85915 \pm 0.00162$ & $0.00000 \pm 0.00000$ \\
+1:9 & 0.16 & 0.2 & Stationary & Adaptive audit & $0.86858 \pm 0.00184$ & $0.00943 \pm 0.00055$ \\
+1:9 & 0.16 & 0.2 & Stationary & EVSI & $0.86603 \pm 0.00210$ & $0.00687 \pm 0.00135$ \\
+1:9 & 0.16 & 0.2 & Regime shifts & Fixed 0.10 & $0.64420 \pm 0.00377$ & $0.00000 \pm 0.00000$ \\
+1:9 & 0.16 & 0.2 & Regime shifts & Adaptive audit & $0.65145 \pm 0.00364$ & $0.00725 \pm 0.00449$ \\
+1:9 & 0.16 & 0.2 & Regime shifts & EVSI & $0.65263 \pm 0.00621$ & $0.00844 \pm 0.00697$ \\
+1:19 & 0.14 & 0 & Stationary & Fixed 0.10 & $0.85951 \pm 0.00162$ & $0.00000 \pm 0.00000$ \\
+1:19 & 0.14 & 0 & Stationary & Adaptive audit & $0.87199 \pm 0.00177$ & $0.01248 \pm 0.00036$ \\
+1:19 & 0.14 & 0 & Stationary & EVSI & $0.87950 \pm 0.00163$ & $0.02000 \pm 0.00020$ \\
+1:19 & 0.14 & 0 & Regime shifts & Fixed 0.10 & $0.64678 \pm 0.00420$ & $0.00000 \pm 0.00000$ \\
+1:19 & 0.14 & 0 & Regime shifts & Adaptive audit & $0.65715 \pm 0.00397$ & $0.01037 \pm 0.00451$ \\
+1:19 & 0.14 & 0 & Regime shifts & EVSI & $0.56729 \pm 0.00321$ & $-0.07949 \pm 0.00502$ \\
+1:19 & 0.14 & 0.2 & Stationary & Fixed 0.10 & $0.85951 \pm 0.00162$ & $0.00000 \pm 0.00000$ \\
+1:19 & 0.14 & 0.2 & Stationary & Adaptive audit & $0.87198 \pm 0.00177$ & $0.01247 \pm 0.00037$ \\
+1:19 & 0.14 & 0.2 & Stationary & EVSI & $0.87950 \pm 0.00163$ & $0.02000 \pm 0.00020$ \\
+1:19 & 0.14 & 0.2 & Regime shifts & Fixed 0.10 & $0.63993 \pm 0.00406$ & $0.00000 \pm 0.00000$ \\
+1:19 & 0.14 & 0.2 & Regime shifts & Adaptive audit & $0.64531 \pm 0.00381$ & $0.00539 \pm 0.00416$ \\
+1:19 & 0.14 & 0.2 & Regime shifts & EVSI & $0.56729 \pm 0.00321$ & $-0.07263 \pm 0.00487$ \\
+1:19 & 0.16 & 0 & Stationary & Fixed 0.10 & $0.85954 \pm 0.00163$ & $0.00000 \pm 0.00000$ \\
+1:19 & 0.16 & 0 & Stationary & Adaptive audit & $0.87348 \pm 0.00167$ & $0.01394 \pm 0.00026$ \\
+1:19 & 0.16 & 0 & Stationary & EVSI & $0.87950 \pm 0.00163$ & $0.01997 \pm 0.00019$ \\
+1:19 & 0.16 & 0 & Regime shifts & Fixed 0.10 & $0.62630 \pm 0.00474$ & $0.00000 \pm 0.00000$ \\
+1:19 & 0.16 & 0 & Regime shifts & Adaptive audit & $0.63964 \pm 0.00445$ & $0.01334 \pm 0.00580$ \\
+1:19 & 0.16 & 0 & Regime shifts & EVSI & $0.56729 \pm 0.00321$ & $-0.05901 \pm 0.00535$ \\
+1:19 & 0.16 & 0.2 & Stationary & Fixed 0.10 & $0.85954 \pm 0.00163$ & $0.00000 \pm 0.00000$ \\
+1:19 & 0.16 & 0.2 & Stationary & Adaptive audit & $0.87348 \pm 0.00167$ & $0.01394 \pm 0.00026$ \\
+1:19 & 0.16 & 0.2 & Stationary & EVSI & $0.87950 \pm 0.00163$ & $0.01997 \pm 0.00019$ \\
+1:19 & 0.16 & 0.2 & Regime shifts & Fixed 0.10 & $0.62102 \pm 0.00454$ & $0.00000 \pm 0.00000$ \\
+1:19 & 0.16 & 0.2 & Regime shifts & Adaptive audit & $0.62680 \pm 0.00414$ & $0.00578 \pm 0.00529$ \\
+1:19 & 0.16 & 0.2 & Regime shifts & EVSI & $0.56729 \pm 0.00321$ & $-0.05373 \pm 0.00515$ \\
+\end{longtable}\endgroup
+\clearpage
+\section*{Supplementary Table S5: Study 2: review arrangements and evidence generation}
+\addcontentsline{toc}{section}{Table S5: Study 2: review arrangements and evidence generation}
+{\footnotesize Source: \texttt{study2/results/learning\_summary.csv}; \texttt{study2/results/paired\_contrasts.csv}.}\par All 84 environment--policy--memory conditions: six environments, four paid policies crossed with three memories, and two fixed baselines per environment. Each learning condition uses 128 trajectories of 48 rounds; late outcomes cover the final 16 rounds. Error and optimal-choice hit are percentages. Regret is deployment loss above the finite-catalog minimum, excluding acquisition and switching. Acquisition cost is per round; production cost is per task in human-call units. Fixed baselines have deterministic expected-outcome scores; their displayed zero half-widths describe the simulation, not real-world certainty. Paired, Randomized, Omit echo and Final only denote the four observation policies defined in Appendix E.
+
+\subsection*{A. Full-horizon selection and net value}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}llllll@{}}
+\toprule Environment & Policy & Memory & Error (\%) & Net value & Hit (\%) \\\midrule\endfirsthead
+\toprule Environment & Policy & Memory & Error (\%) & Net value & Hit (\%) \\\midrule\endhead
+\midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+No echo & Final only & Reset & $10.472 \pm 0.056$ & $0.62353 \pm 0.00174$ & $0.03 \pm 0.04$ \\
+No echo & Final only & Cumulative & $4.919 \pm 0.197$ & $0.78045 \pm 0.00563$ & $14.47 \pm 3.55$ \\
+No echo & Final only & Window 8 & $7.116 \pm 0.137$ & $0.71668 \pm 0.00390$ & $6.38 \pm 0.76$ \\
+No echo & Paired & Reset & $1.864 \pm 0.018$ & $0.85928 \pm 0.00056$ & $33.06 \pm 1.16$ \\
+No echo & Paired & Cumulative & $1.772 \pm 0.002$ & $0.86475 \pm 0.00008$ & $98.70 \pm 0.18$ \\
+No echo & Paired & Window 8 & $1.772 \pm 0.002$ & $0.86475 \pm 0.00008$ & $98.70 \pm 0.18$ \\
+No echo & Randomized & Reset & $1.944 \pm 0.022$ & $0.85786 \pm 0.00068$ & $50.85 \pm 1.21$ \\
+No echo & Randomized & Cumulative & $1.772 \pm 0.003$ & $0.86333 \pm 0.00026$ & $56.67 \pm 6.18$ \\
+No echo & Randomized & Window 8 & $1.772 \pm 0.003$ & $0.86321 \pm 0.00016$ & $53.99 \pm 3.14$ \\
+No echo & Omit echo & Reset & $1.857 \pm 0.018$ & $0.86217 \pm 0.00056$ & $98.36 \pm 0.33$ \\
+No echo & Omit echo & Cumulative & $1.772 \pm 0.002$ & $0.86480 \pm 0.00008$ & $99.97 \pm 0.04$ \\
+No echo & Omit echo & Window 8 & $1.772 \pm 0.002$ & $0.86480 \pm 0.00008$ & $99.97 \pm 0.04$ \\
+No echo & Fixed exposed & Fixed & $3.520 \pm 0.000$ & $0.87440 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+No echo & Fixed blind & Fixed & $3.520 \pm 0.000$ & $0.87140 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+High echo & Final only & Reset & $11.109 \pm 0.058$ & $0.60564 \pm 0.00184$ & $0.00 \pm 0.00$ \\
+High echo & Final only & Cumulative & $5.983 \pm 0.217$ & $0.74760 \pm 0.00640$ & $10.89 \pm 3.09$ \\
+High echo & Final only & Window 8 & $8.788 \pm 0.124$ & $0.66901 \pm 0.00365$ & $2.70 \pm 0.50$ \\
+High echo & Paired & Reset & $1.880 \pm 0.017$ & $0.85753 \pm 0.00052$ & $97.92 \pm 0.31$ \\
+High echo & Paired & Cumulative & $1.773 \pm 0.003$ & $0.86077 \pm 0.00009$ & $99.95 \pm 0.05$ \\
+High echo & Paired & Window 8 & $1.773 \pm 0.003$ & $0.86077 \pm 0.00009$ & $99.95 \pm 0.05$ \\
+High echo & Randomized & Reset & $2.267 \pm 0.045$ & $0.84636 \pm 0.00134$ & $92.53 \pm 0.64$ \\
+High echo & Randomized & Cumulative & $1.782 \pm 0.008$ & $0.86078 \pm 0.00024$ & $99.82 \pm 0.12$ \\
+High echo & Randomized & Window 8 & $1.782 \pm 0.008$ & $0.86078 \pm 0.00024$ & $99.82 \pm 0.12$ \\
+High echo & Omit echo & Reset & $9.961 \pm 0.023$ & $0.61912 \pm 0.00070$ & $0.00 \pm 0.00$ \\
+High echo & Omit echo & Cumulative & $9.825 \pm 0.004$ & $0.62323 \pm 0.00013$ & $0.00 \pm 0.00$ \\
+High echo & Omit echo & Window 8 & $9.825 \pm 0.004$ & $0.62323 \pm 0.00013$ & $0.00 \pm 0.00$ \\
+High echo & Fixed exposed & Fixed & $9.637 \pm 0.000$ & $0.69089 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+High echo & Fixed blind & Fixed & $3.520 \pm 0.000$ & $0.87140 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Both dependences & Final only & Reset & $11.045 \pm 0.054$ & $0.60834 \pm 0.00170$ & $0.00 \pm 0.00$ \\
+Both dependences & Final only & Cumulative & $9.728 \pm 0.136$ & $0.63630 \pm 0.00404$ & $5.49 \pm 2.55$ \\
+Both dependences & Final only & Window 8 & $10.295 \pm 0.079$ & $0.62548 \pm 0.00251$ & $1.01 \pm 0.27$ \\
+Both dependences & Paired & Reset & $7.822 \pm 0.017$ & $0.68223 \pm 0.00036$ & $51.84 \pm 1.28$ \\
+Both dependences & Paired & Cumulative & $7.423 \pm 0.049$ & $0.69099 \pm 0.00105$ & $82.29 \pm 3.92$ \\
+Both dependences & Paired & Window 8 & $7.563 \pm 0.034$ & $0.68789 \pm 0.00073$ & $70.72 \pm 2.72$ \\
+Both dependences & Randomized & Reset & $8.265 \pm 0.041$ & $0.66972 \pm 0.00115$ & $46.96 \pm 1.21$ \\
+Both dependences & Randomized & Cumulative & $7.498 \pm 0.063$ & $0.68945 \pm 0.00135$ & $77.10 \pm 4.85$ \\
+Both dependences & Randomized & Window 8 & $7.631 \pm 0.040$ & $0.68650 \pm 0.00087$ & $66.28 \pm 3.03$ \\
+Both dependences & Omit echo & Reset & $13.749 \pm 0.098$ & $0.50789 \pm 0.00302$ & $0.00 \pm 0.00$ \\
+Both dependences & Omit echo & Cumulative & $15.939 \pm 0.317$ & $0.43965 \pm 0.00969$ & $0.00 \pm 0.00$ \\
+Both dependences & Omit echo & Window 8 & $15.125 \pm 0.212$ & $0.46465 \pm 0.00649$ & $0.00 \pm 0.00$ \\
+Both dependences & Fixed exposed & Fixed & $9.919 \pm 0.000$ & $0.68242 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Both dependences & Fixed blind & Fixed & $8.560 \pm 0.000$ & $0.72020 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Echo shift & Final only & Reset & $10.722 \pm 0.054$ & $0.61665 \pm 0.00170$ & $0.00 \pm 0.00$ \\
+Echo shift & Final only & Cumulative & $5.648 \pm 0.217$ & $0.75770 \pm 0.00621$ & $11.20 \pm 2.78$ \\
+Echo shift & Final only & Window 8 & $7.826 \pm 0.118$ & $0.69639 \pm 0.00341$ & $4.82 \pm 0.57$ \\
+Echo shift & Paired & Reset & $1.886 \pm 0.020$ & $0.85798 \pm 0.00060$ & $65.32 \pm 0.88$ \\
+Echo shift & Paired & Cumulative & $1.779 \pm 0.006$ & $0.86255 \pm 0.00018$ & $98.54 \pm 0.18$ \\
+Echo shift & Paired & Window 8 & $1.772 \pm 0.002$ & $0.86274 \pm 0.00008$ & $98.62 \pm 0.17$ \\
+Echo shift & Randomized & Reset & $2.148 \pm 0.036$ & $0.85081 \pm 0.00108$ & $71.22 \pm 0.95$ \\
+Echo shift & Randomized & Cumulative & $2.113 \pm 0.083$ & $0.85206 \pm 0.00238$ & $72.40 \pm 2.66$ \\
+Echo shift & Randomized & Window 8 & $1.960 \pm 0.040$ & $0.85659 \pm 0.00117$ & $74.54 \pm 2.11$ \\
+Echo shift & Omit echo & Reset & $5.926 \pm 0.023$ & $0.74011 \pm 0.00071$ & $48.96 \pm 0.26$ \\
+Echo shift & Omit echo & Cumulative & $5.797 \pm 0.002$ & $0.74404 \pm 0.00008$ & $49.97 \pm 0.04$ \\
+Echo shift & Omit echo & Window 8 & $5.797 \pm 0.002$ & $0.74404 \pm 0.00008$ & $49.97 \pm 0.04$ \\
+Echo shift & Fixed exposed & Fixed & $6.579 \pm 0.000$ & $0.78264 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Echo shift & Fixed blind & Fixed & $3.520 \pm 0.000$ & $0.87140 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Final only & Reset & $11.009 \pm 0.058$ & $0.60849 \pm 0.00181$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Final only & Cumulative & $6.352 \pm 0.191$ & $0.73785 \pm 0.00535$ & $5.34 \pm 2.06$ \\
+Source asymmetry & Final only & Window 8 & $8.247 \pm 0.134$ & $0.68513 \pm 0.00385$ & $1.84 \pm 0.41$ \\
+Source asymmetry & Paired & Reset & $2.983 \pm 0.028$ & $0.82450 \pm 0.00084$ & $90.67 \pm 0.77$ \\
+Source asymmetry & Paired & Cumulative & $2.693 \pm 0.004$ & $0.83318 \pm 0.00013$ & $99.76 \pm 0.13$ \\
+Source asymmetry & Paired & Window 8 & $2.693 \pm 0.004$ & $0.83318 \pm 0.00013$ & $99.76 \pm 0.13$ \\
+Source asymmetry & Randomized & Reset & $3.414 \pm 0.035$ & $0.81334 \pm 0.00107$ & $48.91 \pm 1.38$ \\
+Source asymmetry & Randomized & Cumulative & $2.936 \pm 0.046$ & $0.82728 \pm 0.00116$ & $70.91 \pm 5.42$ \\
+Source asymmetry & Randomized & Window 8 & $3.009 \pm 0.027$ & $0.82545 \pm 0.00069$ & $62.27 \pm 3.18$ \\
+Source asymmetry & Omit echo & Reset & $4.386 \pm 0.094$ & $0.78638 \pm 0.00281$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Omit echo & Cumulative & $3.546 \pm 0.015$ & $0.81160 \pm 0.00044$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Omit echo & Window 8 & $3.546 \pm 0.015$ & $0.81160 \pm 0.00044$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Fixed exposed & Fixed & $5.101 \pm 0.000$ & $0.82697 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Fixed blind & Fixed & $4.240 \pm 0.000$ & $0.84980 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Stronger humans & Final only & Reset & $18.205 \pm 0.073$ & $0.39097 \pm 0.00207$ & $0.00 \pm 0.00$ \\
+Stronger humans & Final only & Cumulative & $9.522 \pm 0.263$ & $0.63271 \pm 0.00748$ & $10.04 \pm 3.28$ \\
+Stronger humans & Final only & Window 8 & $12.956 \pm 0.201$ & $0.53738 \pm 0.00577$ & $3.79 \pm 0.79$ \\
+Stronger humans & Paired & Reset & $5.413 \pm 0.040$ & $0.74875 \pm 0.00121$ & $77.65 \pm 1.07$ \\
+Stronger humans & Paired & Cumulative & $4.623 \pm 0.009$ & $0.77306 \pm 0.00028$ & $99.37 \pm 0.25$ \\
+Stronger humans & Paired & Window 8 & $4.628 \pm 0.011$ & $0.77289 \pm 0.00032$ & $99.20 \pm 0.29$ \\
+Stronger humans & Randomized & Reset & $5.629 \pm 0.044$ & $0.74241 \pm 0.00133$ & $72.31 \pm 1.12$ \\
+Stronger humans & Randomized & Cumulative & $4.639 \pm 0.014$ & $0.77286 \pm 0.00041$ & $98.96 \pm 0.35$ \\
+Stronger humans & Randomized & Window 8 & $4.646 \pm 0.014$ & $0.77262 \pm 0.00043$ & $98.73 \pm 0.38$ \\
+Stronger humans & Omit echo & Reset & $10.693 \pm 0.101$ & $0.59515 \pm 0.00304$ & $0.00 \pm 0.00$ \\
+Stronger humans & Omit echo & Cumulative & $8.969 \pm 0.024$ & $0.64781 \pm 0.00072$ & $0.00 \pm 0.00$ \\
+Stronger humans & Omit echo & Window 8 & $8.982 \pm 0.027$ & $0.64741 \pm 0.00082$ & $0.00 \pm 0.00$ \\
+Stronger humans & Fixed exposed & Fixed & $19.570 \pm 0.000$ & $0.39290 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Stronger humans & Fixed blind & Fixed & $12.320 \pm 0.000$ & $0.60740 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+\end{longtable}\endgroup
+\subsection*{B. Full-horizon costs and regret}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}llllll@{}}
+\toprule Environment & Policy & Memory & Acquisition cost & Production cost & Regret \\\midrule\endfirsthead
+\toprule Environment & Policy & Memory & Acquisition cost & Production cost & Regret \\\midrule\endhead
+\midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+No echo & Final only & Reset & $214.788 \pm 0.076$ & $0.4879 \pm 0.0049$ & $0.24580 \pm 0.00174$ \\
+No echo & Final only & Cumulative & $214.788 \pm 0.076$ & $0.9764 \pm 0.0341$ & $0.08897 \pm 0.00563$ \\
+No echo & Final only & Window 8 & $214.788 \pm 0.076$ & $0.8658 \pm 0.0193$ & $0.15270 \pm 0.00390$ \\
+No echo & Paired & Reset & $233.600 \pm 0.000$ & $1.3853 \pm 0.0024$ & $0.00552 \pm 0.00056$ \\
+No echo & Paired & Cumulative & $233.600 \pm 0.000$ & $1.2526 \pm 0.0004$ & $0.00011 \pm 0.00008$ \\
+No echo & Paired & Window 8 & $233.600 \pm 0.000$ & $1.2526 \pm 0.0004$ & $0.00011 \pm 0.00008$ \\
+No echo & Randomized & Reset & $232.500 \pm 0.000$ & $1.3501 \pm 0.0028$ & $0.00720 \pm 0.00068$ \\
+No echo & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.3367 \pm 0.0124$ & $0.00179 \pm 0.00026$ \\
+No echo & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.3420 \pm 0.0063$ & $0.00189 \pm 0.00016$ \\
+No echo & Omit echo & Reset & $233.600 \pm 0.000$ & $1.2538 \pm 0.0010$ & $0.00268 \pm 0.00056$ \\
+No echo & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.2501 \pm 0.0001$ & $0.00005 \pm 0.00008$ \\
+No echo & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.2501 \pm 0.0001$ & $0.00005 \pm 0.00008$ \\
+No echo & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.04749 \pm 0.00000$ \\
+No echo & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.05049 \pm 0.00000$ \\
+High echo & Final only & Reset & $209.381 \pm 0.065$ & $0.4931 \pm 0.0055$ & $0.26102 \pm 0.00184$ \\
+High echo & Final only & Cumulative & $209.381 \pm 0.065$ & $1.0879 \pm 0.0388$ & $0.11915 \pm 0.00640$ \\
+High echo & Final only & Window 8 & $209.381 \pm 0.065$ & $0.8080 \pm 0.0206$ & $0.19770 \pm 0.00365$ \\
+High echo & Paired & Reset & $233.600 \pm 0.000$ & $1.4516 \pm 0.0006$ & $0.00332 \pm 0.00052$ \\
+High echo & Paired & Cumulative & $233.600 \pm 0.000$ & $1.4501 \pm 0.0001$ & $0.00008 \pm 0.00009$ \\
+High echo & Paired & Window 8 & $233.600 \pm 0.000$ & $1.4501 \pm 0.0001$ & $0.00008 \pm 0.00009$ \\
+High echo & Randomized & Reset & $232.500 \pm 0.000$ & $1.4428 \pm 0.0016$ & $0.01475 \pm 0.00134$ \\
+High echo & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.4498 \pm 0.0003$ & $0.00035 \pm 0.00024$ \\
+High echo & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.4498 \pm 0.0003$ & $0.00035 \pm 0.00024$ \\
+High echo & Omit echo & Reset & $233.600 \pm 0.000$ & $1.2507 \pm 0.0003$ & $0.24173 \pm 0.00070$ \\
+High echo & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.23763 \pm 0.00013$ \\
+High echo & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.23763 \pm 0.00013$ \\
+High echo & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.22700 \pm 0.00000$ \\
+High echo & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.04649 \pm 0.00000$ \\
+Both dependences & Final only & Reset & $206.524 \pm 0.051$ & $0.4882 \pm 0.0051$ & $0.09392 \pm 0.00170$ \\
+Both dependences & Final only & Cumulative & $206.524 \pm 0.051$ & $1.0708 \pm 0.0502$ & $0.06605 \pm 0.00404$ \\
+Both dependences & Final only & Window 8 & $206.524 \pm 0.051$ & $0.7599 \pm 0.0200$ & $0.07684 \pm 0.00251$ \\
+Both dependences & Paired & Reset & $233.600 \pm 0.000$ & $1.3006 \pm 0.0085$ & $0.01346 \pm 0.00036$ \\
+Both dependences & Paired & Cumulative & $233.600 \pm 0.000$ & $1.4639 \pm 0.0232$ & $0.00477 \pm 0.00105$ \\
+Both dependences & Paired & Window 8 & $233.600 \pm 0.000$ & $1.4090 \pm 0.0160$ & $0.00786 \pm 0.00073$ \\
+Both dependences & Randomized & Reset & $232.500 \pm 0.000$ & $1.2746 \pm 0.0091$ & $0.02623 \pm 0.00115$ \\
+Both dependences & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.4414 \pm 0.0294$ & $0.00658 \pm 0.00135$ \\
+Both dependences & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.3894 \pm 0.0180$ & $0.00951 \pm 0.00087$ \\
+Both dependences & Omit echo & Reset & $233.600 \pm 0.000$ & $1.1266 \pm 0.0064$ & $0.18780 \pm 0.00302$ \\
+Both dependences & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.2569 \pm 0.0123$ & $0.25611 \pm 0.00969$ \\
+Both dependences & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.2274 \pm 0.0097$ & $0.23109 \pm 0.00649$ \\
+Both dependences & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.07038 \pm 0.00000$ \\
+Both dependences & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.03260 \pm 0.00000$ \\
+Echo shift & Final only & Reset & $212.034 \pm 0.072$ & $0.4900 \pm 0.0051$ & $0.25136 \pm 0.00170$ \\
+Echo shift & Final only & Cumulative & $212.034 \pm 0.072$ & $1.0534 \pm 0.0368$ & $0.11040 \pm 0.00621$ \\
+Echo shift & Final only & Window 8 & $212.034 \pm 0.072$ & $0.8499 \pm 0.0191$ & $0.17166 \pm 0.00341$ \\
+Echo shift & Paired & Reset & $233.600 \pm 0.000$ & $1.4192 \pm 0.0018$ & $0.00484 \pm 0.00060$ \\
+Echo shift & Paired & Cumulative & $233.600 \pm 0.000$ & $1.3526 \pm 0.0004$ & $0.00030 \pm 0.00018$ \\
+Echo shift & Paired & Window 8 & $233.600 \pm 0.000$ & $1.3528 \pm 0.0004$ & $0.00011 \pm 0.00008$ \\
+Echo shift & Randomized & Reset & $232.500 \pm 0.000$ & $1.3970 \pm 0.0023$ & $0.01227 \pm 0.00108$ \\
+Echo shift & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.3888 \pm 0.0077$ & $0.01105 \pm 0.00238$ \\
+Echo shift & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.3922 \pm 0.0045$ & $0.00652 \pm 0.00117$ \\
+Echo shift & Omit echo & Reset & $233.600 \pm 0.000$ & $1.2530 \pm 0.0008$ & $0.12274 \pm 0.00071$ \\
+Echo shift & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.2501 \pm 0.0001$ & $0.11881 \pm 0.00008$ \\
+Echo shift & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.2501 \pm 0.0001$ & $0.11881 \pm 0.00008$ \\
+Echo shift & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.13724 \pm 0.00000$ \\
+Echo shift & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.04849 \pm 0.00000$ \\
+Source asymmetry & Final only & Reset & $210.669 \pm 0.070$ & $0.4852 \pm 0.0054$ & $0.23042 \pm 0.00181$ \\
+Source asymmetry & Final only & Cumulative & $210.669 \pm 0.070$ & $1.0058 \pm 0.0389$ & $0.10114 \pm 0.00535$ \\
+Source asymmetry & Final only & Window 8 & $210.669 \pm 0.070$ & $0.7979 \pm 0.0204$ & $0.15384 \pm 0.00385$ \\
+Source asymmetry & Paired & Reset & $233.600 \pm 0.000$ & $1.4483 \pm 0.0014$ & $0.00890 \pm 0.00084$ \\
+Source asymmetry & Paired & Cumulative & $233.600 \pm 0.000$ & $1.4500 \pm 0.0002$ & $0.00024 \pm 0.00013$ \\
+Source asymmetry & Paired & Window 8 & $233.600 \pm 0.000$ & $1.4500 \pm 0.0002$ & $0.00024 \pm 0.00013$ \\
+Source asymmetry & Randomized & Reset & $232.500 \pm 0.000$ & $1.3701 \pm 0.0030$ & $0.02028 \pm 0.00107$ \\
+Source asymmetry & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.3925 \pm 0.0108$ & $0.00640 \pm 0.00116$ \\
+Source asymmetry & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.3752 \pm 0.0064$ & $0.00822 \pm 0.00069$ \\
+Source asymmetry & Omit echo & Reset & $233.600 \pm 0.000$ & $1.2504 \pm 0.0006$ & $0.04703 \pm 0.00281$ \\
+Source asymmetry & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.02183 \pm 0.00044$ \\
+Source asymmetry & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.02183 \pm 0.00044$ \\
+Source asymmetry & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.06349 \pm 0.00000$ \\
+Source asymmetry & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.04066 \pm 0.00000$ \\
+Stronger humans & Final only & Reset & $211.370 \pm 0.066$ & $0.5579 \pm 0.0063$ & $0.38811 \pm 0.00207$ \\
+Stronger humans & Final only & Cumulative & $211.370 \pm 0.066$ & $1.4993 \pm 0.0418$ & $0.14645 \pm 0.00748$ \\
+Stronger humans & Final only & Window 8 & $211.370 \pm 0.066$ & $1.1133 \pm 0.0188$ & $0.24175 \pm 0.00576$ \\
+Stronger humans & Paired & Reset & $233.600 \pm 0.000$ & $1.5894 \pm 0.0041$ & $0.02498 \pm 0.00121$ \\
+Stronger humans & Paired & Cumulative & $233.600 \pm 0.000$ & $1.5611 \pm 0.0008$ & $0.00070 \pm 0.00028$ \\
+Stronger humans & Paired & Window 8 & $233.600 \pm 0.000$ & $1.5614 \pm 0.0010$ & $0.00088 \pm 0.00032$ \\
+Stronger humans & Randomized & Reset & $232.500 \pm 0.000$ & $1.5957 \pm 0.0047$ & $0.03157 \pm 0.00133$ \\
+Stronger humans & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.5609 \pm 0.0009$ & $0.00118 \pm 0.00041$ \\
+Stronger humans & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.5618 \pm 0.0013$ & $0.00142 \pm 0.00043$ \\
+Stronger humans & Omit echo & Reset & $233.600 \pm 0.000$ & $1.3492 \pm 0.0046$ & $0.17857 \pm 0.00304$ \\
+Stronger humans & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.3039 \pm 0.0012$ & $0.12595 \pm 0.00072$ \\
+Stronger humans & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.3053 \pm 0.0015$ & $0.12636 \pm 0.00082$ \\
+Stronger humans & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.43790 \pm 0.00000$ \\
+Stronger humans & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.22340 \pm 0.00000$ \\
+\end{longtable}\endgroup
+\subsection*{C. Final-16-round outcomes}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}llllll@{}}
+\toprule Environment & Policy & Memory & Late error (\%) & Late net & Late hit (\%) \\\midrule\endfirsthead
+\toprule Environment & Policy & Memory & Late error (\%) & Late net & Late hit (\%) \\\midrule\endhead
+\midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+No echo & Final only & Reset & $10.445 \pm 0.097$ & $0.62531 \pm 0.00303$ & $0.05 \pm 0.10$ \\
+No echo & Final only & Cumulative & $3.130 \pm 0.228$ & $0.83006 \pm 0.00638$ & $27.78 \pm 6.96$ \\
+No echo & Final only & Window 8 & $7.290 \pm 0.265$ & $0.71205 \pm 0.00757$ & $5.71 \pm 1.04$ \\
+No echo & Paired & Reset & $1.863 \pm 0.031$ & $0.85928 \pm 0.00096$ & $32.86 \pm 2.15$ \\
+No echo & Paired & Cumulative & $1.770 \pm 0.000$ & $0.86486 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+No echo & Paired & Window 8 & $1.770 \pm 0.000$ & $0.86486 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+No echo & Randomized & Reset & $1.947 \pm 0.042$ & $0.85773 \pm 0.00129$ & $50.15 \pm 2.11$ \\
+No echo & Randomized & Cumulative & $1.770 \pm 0.000$ & $0.86349 \pm 0.00031$ & $59.33 \pm 7.63$ \\
+No echo & Randomized & Window 8 & $1.770 \pm 0.000$ & $0.86324 \pm 0.00021$ & $53.47 \pm 5.24$ \\
+No echo & Omit echo & Reset & $1.861 \pm 0.031$ & $0.86206 \pm 0.00096$ & $98.34 \pm 0.57$ \\
+No echo & Omit echo & Cumulative & $1.770 \pm 0.000$ & $0.86486 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+No echo & Omit echo & Window 8 & $1.770 \pm 0.000$ & $0.86486 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+No echo & Fixed exposed & Fixed & $3.520 \pm 0.000$ & $0.87440 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+No echo & Fixed blind & Fixed & $3.520 \pm 0.000$ & $0.87140 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+High echo & Final only & Reset & $10.631 \pm 0.100$ & $0.62109 \pm 0.00317$ & $0.00 \pm 0.00$ \\
+High echo & Final only & Cumulative & $3.308 \pm 0.294$ & $0.82076 \pm 0.00821$ & $21.53 \pm 6.14$ \\
+High echo & Final only & Window 8 & $9.179 \pm 0.191$ & $0.65758 \pm 0.00552$ & $5.08 \pm 1.09$ \\
+High echo & Paired & Reset & $1.895 \pm 0.037$ & $0.85708 \pm 0.00111$ & $97.61 \pm 0.68$ \\
+High echo & Paired & Cumulative & $1.770 \pm 0.000$ & $0.86086 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+High echo & Paired & Window 8 & $1.770 \pm 0.000$ & $0.86086 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+High echo & Randomized & Reset & $2.263 \pm 0.071$ & $0.84645 \pm 0.00212$ & $92.68 \pm 1.01$ \\
+High echo & Randomized & Cumulative & $1.770 \pm 0.000$ & $0.86113 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+High echo & Randomized & Window 8 & $1.770 \pm 0.000$ & $0.86113 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+High echo & Omit echo & Reset & $9.977 \pm 0.049$ & $0.61864 \pm 0.00147$ & $0.00 \pm 0.00$ \\
+High echo & Omit echo & Cumulative & $9.821 \pm 0.000$ & $0.62334 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+High echo & Omit echo & Window 8 & $9.821 \pm 0.000$ & $0.62334 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+High echo & Fixed exposed & Fixed & $9.637 \pm 0.000$ & $0.69089 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+High echo & Fixed blind & Fixed & $3.520 \pm 0.000$ & $0.87140 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Both dependences & Final only & Reset & $10.605 \pm 0.090$ & $0.62261 \pm 0.00284$ & $0.00 \pm 0.00$ \\
+Both dependences & Final only & Cumulative & $9.145 \pm 0.183$ & $0.65054 \pm 0.00502$ & $8.01 \pm 4.00$ \\
+Both dependences & Final only & Window 8 & $10.305 \pm 0.142$ & $0.62560 \pm 0.00439$ & $0.98 \pm 0.44$ \\
+Both dependences & Paired & Reset & $7.830 \pm 0.030$ & $0.68209 \pm 0.00064$ & $51.46 \pm 2.24$ \\
+Both dependences & Paired & Cumulative & $7.297 \pm 0.047$ & $0.69368 \pm 0.00102$ & $92.19 \pm 3.82$ \\
+Both dependences & Paired & Window 8 & $7.580 \pm 0.056$ & $0.68748 \pm 0.00119$ & $69.04 \pm 4.45$ \\
+Both dependences & Randomized & Reset & $8.269 \pm 0.078$ & $0.66957 \pm 0.00222$ & $47.17 \pm 2.10$ \\
+Both dependences & Randomized & Cumulative & $7.372 \pm 0.065$ & $0.69228 \pm 0.00141$ & $85.94 \pm 5.29$ \\
+Both dependences & Randomized & Window 8 & $7.605 \pm 0.056$ & $0.68720 \pm 0.00119$ & $67.09 \pm 4.45$ \\
+Both dependences & Omit echo & Reset & $13.735 \pm 0.170$ & $0.50836 \pm 0.00526$ & $0.00 \pm 0.00$ \\
+Both dependences & Omit echo & Cumulative & $16.695 \pm 0.321$ & $0.41632 \pm 0.00971$ & $0.00 \pm 0.00$ \\
+Both dependences & Omit echo & Window 8 & $15.002 \pm 0.339$ & $0.46839 \pm 0.01040$ & $0.00 \pm 0.00$ \\
+Both dependences & Fixed exposed & Fixed & $9.919 \pm 0.000$ & $0.68242 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Both dependences & Fixed blind & Fixed & $8.560 \pm 0.000$ & $0.72020 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Echo shift & Final only & Reset & $10.644 \pm 0.094$ & $0.62065 \pm 0.00299$ & $0.00 \pm 0.00$ \\
+Echo shift & Final only & Cumulative & $4.285 \pm 0.411$ & $0.79352 \pm 0.01167$ & $24.41 \pm 6.42$ \\
+Echo shift & Final only & Window 8 & $9.043 \pm 0.201$ & $0.66161 \pm 0.00589$ & $6.40 \pm 1.25$ \\
+Echo shift & Paired & Reset & $1.890 \pm 0.034$ & $0.85722 \pm 0.00104$ & $97.80 \pm 0.63$ \\
+Echo shift & Paired & Cumulative & $1.770 \pm 0.000$ & $0.86086 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+Echo shift & Paired & Window 8 & $1.770 \pm 0.000$ & $0.86086 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+Echo shift & Randomized & Reset & $2.321 \pm 0.080$ & $0.84473 \pm 0.00238$ & $91.89 \pm 1.12$ \\
+Echo shift & Randomized & Cumulative & $1.837 \pm 0.057$ & $0.85915 \pm 0.00169$ & $99.17 \pm 0.71$ \\
+Echo shift & Randomized & Window 8 & $1.770 \pm 0.000$ & $0.86113 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+Echo shift & Omit echo & Reset & $9.981 \pm 0.048$ & $0.61851 \pm 0.00144$ & $0.00 \pm 0.00$ \\
+Echo shift & Omit echo & Cumulative & $9.821 \pm 0.000$ & $0.62334 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Echo shift & Omit echo & Window 8 & $9.821 \pm 0.000$ & $0.62334 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Echo shift & Fixed exposed & Fixed & $9.637 \pm 0.000$ & $0.69089 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Echo shift & Fixed blind & Fixed & $3.520 \pm 0.000$ & $0.87140 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Final only & Reset & $10.490 \pm 0.088$ & $0.62523 \pm 0.00279$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Final only & Cumulative & $4.391 \pm 0.239$ & $0.79002 \pm 0.00652$ & $12.65 \pm 4.99$ \\
+Source asymmetry & Final only & Window 8 & $8.316 \pm 0.244$ & $0.68341 \pm 0.00695$ & $4.30 \pm 1.01$ \\
+Source asymmetry & Paired & Reset & $2.964 \pm 0.052$ & $0.82508 \pm 0.00158$ & $90.92 \pm 1.38$ \\
+Source asymmetry & Paired & Cumulative & $2.685 \pm 0.000$ & $0.83342 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+Source asymmetry & Paired & Window 8 & $2.685 \pm 0.000$ & $0.83342 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+Source asymmetry & Randomized & Reset & $3.393 \pm 0.054$ & $0.81400 \pm 0.00163$ & $49.02 \pm 2.20$ \\
+Source asymmetry & Randomized & Cumulative & $2.887 \pm 0.055$ & $0.82859 \pm 0.00139$ & $75.83 \pm 6.61$ \\
+Source asymmetry & Randomized & Window 8 & $3.004 \pm 0.043$ & $0.82562 \pm 0.00107$ & $61.77 \pm 5.09$ \\
+Source asymmetry & Omit echo & Reset & $4.310 \pm 0.173$ & $0.78864 \pm 0.00519$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Omit echo & Cumulative & $3.521 \pm 0.000$ & $0.81234 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Omit echo & Window 8 & $3.521 \pm 0.000$ & $0.81234 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Fixed exposed & Fixed & $5.101 \pm 0.000$ & $0.82697 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Source asymmetry & Fixed blind & Fixed & $4.240 \pm 0.000$ & $0.84980 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Stronger humans & Final only & Reset & $18.684 \pm 0.136$ & $0.37746 \pm 0.00385$ & $0.00 \pm 0.00$ \\
+Stronger humans & Final only & Cumulative & $7.391 \pm 0.370$ & $0.69146 \pm 0.01067$ & $15.82 \pm 5.67$ \\
+Stronger humans & Final only & Window 8 & $12.709 \pm 0.342$ & $0.54463 \pm 0.00987$ & $3.61 \pm 1.19$ \\
+Stronger humans & Paired & Reset & $5.481 \pm 0.079$ & $0.74670 \pm 0.00243$ & $75.88 \pm 2.18$ \\
+Stronger humans & Paired & Cumulative & $4.600 \pm 0.000$ & $0.77377 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+Stronger humans & Paired & Window 8 & $4.615 \pm 0.017$ & $0.77329 \pm 0.00052$ & $99.56 \pm 0.45$ \\
+Stronger humans & Randomized & Reset & $5.591 \pm 0.079$ & $0.74361 \pm 0.00240$ & $73.10 \pm 2.05$ \\
+Stronger humans & Randomized & Cumulative & $4.600 \pm 0.000$ & $0.77404 \pm 0.00000$ & $100.00 \pm 0.00$ \\
+Stronger humans & Randomized & Window 8 & $4.613 \pm 0.013$ & $0.77362 \pm 0.00041$ & $99.61 \pm 0.38$ \\
+Stronger humans & Omit echo & Reset & $10.863 \pm 0.191$ & $0.59001 \pm 0.00574$ & $0.00 \pm 0.00$ \\
+Stronger humans & Omit echo & Cumulative & $8.920 \pm 0.000$ & $0.64933 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Stronger humans & Omit echo & Window 8 & $8.952 \pm 0.043$ & $0.64831 \pm 0.00129$ & $0.00 \pm 0.00$ \\
+Stronger humans & Fixed exposed & Fixed & $19.570 \pm 0.000$ & $0.39290 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+Stronger humans & Fixed blind & Fixed & $12.320 \pm 0.000$ & $0.60740 \pm 0.00000$ & $0.00 \pm 0.00$ \\
+\end{longtable}\endgroup
+\subsection*{D. Final-16-round costs and regret}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}llllll@{}}
+\toprule Environment & Policy & Memory & Late acquisition & Late production & Late regret \\\midrule\endfirsthead
+\toprule Environment & Policy & Memory & Late acquisition & Late production & Late regret \\\midrule\endhead
+\midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+No echo & Final only & Reset & $215.187 \pm 0.137$ & $0.4351 \pm 0.0094$ & $0.24393 \pm 0.00303$ \\
+No echo & Final only & Cumulative & $215.187 \pm 0.137$ & $1.1752 \pm 0.0603$ & $0.03929 \pm 0.00639$ \\
+No echo & Final only & Window 8 & $215.187 \pm 0.137$ & $0.8326 \pm 0.0325$ & $0.15724 \pm 0.00757$ \\
+No echo & Paired & Reset & $233.600 \pm 0.000$ & $1.3864 \pm 0.0044$ & $0.00552 \pm 0.00096$ \\
+No echo & Paired & Cumulative & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+No echo & Paired & Window 8 & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+No echo & Randomized & Reset & $232.500 \pm 0.000$ & $1.3511 \pm 0.0048$ & $0.00733 \pm 0.00129$ \\
+No echo & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.3313 \pm 0.0153$ & $0.00163 \pm 0.00031$ \\
+No echo & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.3431 \pm 0.0105$ & $0.00186 \pm 0.00021$ \\
+No echo & Omit echo & Reset & $233.600 \pm 0.000$ & $1.2543 \pm 0.0015$ & $0.00279 \pm 0.00096$ \\
+No echo & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+No echo & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+No echo & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.04749 \pm 0.00000$ \\
+No echo & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.05049 \pm 0.00000$ \\
+High echo & Final only & Reset & $209.793 \pm 0.110$ & $0.4320 \pm 0.0089$ & $0.24546 \pm 0.00317$ \\
+High echo & Final only & Cumulative & $209.793 \pm 0.110$ & $1.4389 \pm 0.0728$ & $0.04590 \pm 0.00821$ \\
+High echo & Final only & Window 8 & $209.793 \pm 0.110$ & $0.7887 \pm 0.0335$ & $0.20904 \pm 0.00553$ \\
+High echo & Paired & Reset & $233.600 \pm 0.000$ & $1.4516 \pm 0.0013$ & $0.00377 \pm 0.00111$ \\
+High echo & Paired & Cumulative & $233.600 \pm 0.000$ & $1.4500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+High echo & Paired & Window 8 & $233.600 \pm 0.000$ & $1.4500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+High echo & Randomized & Reset & $232.500 \pm 0.000$ & $1.4446 \pm 0.0025$ & $0.01466 \pm 0.00212$ \\
+High echo & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.4500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+High echo & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.4500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+High echo & Omit echo & Reset & $233.600 \pm 0.000$ & $1.2506 \pm 0.0008$ & $0.24221 \pm 0.00147$ \\
+High echo & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.23752 \pm 0.00000$ \\
+High echo & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.23752 \pm 0.00000$ \\
+High echo & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.22700 \pm 0.00000$ \\
+High echo & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.04649 \pm 0.00000$ \\
+Both dependences & Final only & Reset & $206.910 \pm 0.106$ & $0.4305 \pm 0.0082$ & $0.07956 \pm 0.00284$ \\
+Both dependences & Final only & Cumulative & $206.910 \pm 0.106$ & $1.2295 \pm 0.0790$ & $0.05173 \pm 0.00502$ \\
+Both dependences & Final only & Window 8 & $206.910 \pm 0.106$ & $0.7337 \pm 0.0334$ & $0.07663 \pm 0.00439$ \\
+Both dependences & Paired & Reset & $233.600 \pm 0.000$ & $1.2952 \pm 0.0152$ & $0.01360 \pm 0.00063$ \\
+Both dependences & Paired & Cumulative & $233.600 \pm 0.000$ & $1.5183 \pm 0.0217$ & $0.00209 \pm 0.00102$ \\
+Both dependences & Paired & Window 8 & $233.600 \pm 0.000$ & $1.4029 \pm 0.0269$ & $0.00827 \pm 0.00119$ \\
+Both dependences & Randomized & Reset & $232.500 \pm 0.000$ & $1.2762 \pm 0.0154$ & $0.02638 \pm 0.00222$ \\
+Both dependences & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.4903 \pm 0.0303$ & $0.00376 \pm 0.00141$ \\
+Both dependences & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.3928 \pm 0.0275$ & $0.00881 \pm 0.00119$ \\
+Both dependences & Omit echo & Reset & $233.600 \pm 0.000$ & $1.1245 \pm 0.0118$ & $0.18733 \pm 0.00527$ \\
+Both dependences & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.2902 \pm 0.0084$ & $0.27945 \pm 0.00972$ \\
+Both dependences & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.2252 \pm 0.0164$ & $0.22736 \pm 0.01040$ \\
+Both dependences & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.07038 \pm 0.00000$ \\
+Both dependences & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.03260 \pm 0.00000$ \\
+Echo shift & Final only & Reset & $209.670 \pm 0.124$ & $0.4359 \pm 0.0092$ & $0.24594 \pm 0.00299$ \\
+Echo shift & Final only & Cumulative & $209.670 \pm 0.124$ & $1.3365 \pm 0.0699$ & $0.07317 \pm 0.01168$ \\
+Echo shift & Final only & Window 8 & $209.670 \pm 0.124$ & $0.7926 \pm 0.0303$ & $0.20503 \pm 0.00589$ \\
+Echo shift & Paired & Reset & $233.600 \pm 0.000$ & $1.4524 \pm 0.0007$ & $0.00363 \pm 0.00104$ \\
+Echo shift & Paired & Cumulative & $233.600 \pm 0.000$ & $1.4500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+Echo shift & Paired & Window 8 & $233.600 \pm 0.000$ & $1.4500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+Echo shift & Randomized & Reset & $232.500 \pm 0.000$ & $1.4427 \pm 0.0025$ & $0.01638 \pm 0.00238$ \\
+Echo shift & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.4483 \pm 0.0014$ & $0.00197 \pm 0.00169$ \\
+Echo shift & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.4500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+Echo shift & Omit echo & Reset & $233.600 \pm 0.000$ & $1.2511 \pm 0.0003$ & $0.24234 \pm 0.00144$ \\
+Echo shift & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.23752 \pm 0.00000$ \\
+Echo shift & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.23752 \pm 0.00000$ \\
+Echo shift & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.22700 \pm 0.00000$ \\
+Echo shift & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.04649 \pm 0.00000$ \\
+Source asymmetry & Final only & Reset & $211.038 \pm 0.117$ & $0.4223 \pm 0.0082$ & $0.21360 \pm 0.00278$ \\
+Source asymmetry & Final only & Cumulative & $211.038 \pm 0.117$ & $1.3368 \pm 0.0714$ & $0.04891 \pm 0.00653$ \\
+Source asymmetry & Final only & Window 8 & $211.038 \pm 0.117$ & $0.7773 \pm 0.0383$ & $0.15547 \pm 0.00696$ \\
+Source asymmetry & Paired & Reset & $233.600 \pm 0.000$ & $1.4478 \pm 0.0025$ & $0.00832 \pm 0.00158$ \\
+Source asymmetry & Paired & Cumulative & $233.600 \pm 0.000$ & $1.4500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+Source asymmetry & Paired & Window 8 & $233.600 \pm 0.000$ & $1.4500 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+Source asymmetry & Randomized & Reset & $232.500 \pm 0.000$ & $1.3683 \pm 0.0051$ & $0.01962 \pm 0.00163$ \\
+Source asymmetry & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.4017 \pm 0.0132$ & $0.00510 \pm 0.00139$ \\
+Source asymmetry & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.3735 \pm 0.0102$ & $0.00806 \pm 0.00107$ \\
+Source asymmetry & Omit echo & Reset & $233.600 \pm 0.000$ & $1.2506 \pm 0.0009$ & $0.04477 \pm 0.00519$ \\
+Source asymmetry & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.02108 \pm 0.00000$ \\
+Source asymmetry & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.2500 \pm 0.0000$ & $0.02108 \pm 0.00000$ \\
+Source asymmetry & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.06349 \pm 0.00000$ \\
+Source asymmetry & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.04066 \pm 0.00000$ \\
+Stronger humans & Final only & Reset & $211.641 \pm 0.115$ & $0.5113 \pm 0.0122$ & $0.40155 \pm 0.00386$ \\
+Stronger humans & Final only & Cumulative & $211.641 \pm 0.115$ & $1.7568 \pm 0.0648$ & $0.08766 \pm 0.01067$ \\
+Stronger humans & Final only & Window 8 & $211.641 \pm 0.115$ & $1.1179 \pm 0.0290$ & $0.23444 \pm 0.00987$ \\
+Stronger humans & Paired & Reset & $233.600 \pm 0.000$ & $1.5895 \pm 0.0085$ & $0.02702 \pm 0.00243$ \\
+Stronger humans & Paired & Cumulative & $233.600 \pm 0.000$ & $1.5600 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+Stronger humans & Paired & Window 8 & $233.600 \pm 0.000$ & $1.5610 \pm 0.0016$ & $0.00048 \pm 0.00052$ \\
+Stronger humans & Randomized & Reset & $232.500 \pm 0.000$ & $1.5928 \pm 0.0076$ & $0.03037 \pm 0.00239$ \\
+Stronger humans & Randomized & Cumulative & $232.500 \pm 0.000$ & $1.5600 \pm 0.0000$ & $0.00000 \pm 0.00000$ \\
+Stronger humans & Randomized & Window 8 & $232.500 \pm 0.000$ & $1.5610 \pm 0.0014$ & $0.00042 \pm 0.00041$ \\
+Stronger humans & Omit echo & Reset & $233.600 \pm 0.000$ & $1.3511 \pm 0.0098$ & $0.18371 \pm 0.00574$ \\
+Stronger humans & Omit echo & Cumulative & $233.600 \pm 0.000$ & $1.3020 \pm 0.0000$ & $0.12444 \pm 0.00000$ \\
+Stronger humans & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.3053 \pm 0.0030$ & $0.12545 \pm 0.00129$ \\
+Stronger humans & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.43790 \pm 0.00000$ \\
+Stronger humans & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.22340 \pm 0.00000$ \\
+\end{longtable}\endgroup
+\clearpage
+\subsection*{E. Paired policy and memory contrasts}
+\begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}l>{\raggedright\arraybackslash}p{.19\linewidth}>{\raggedright\arraybackslash}p{.19\linewidth}rrr@{}}
+\toprule Environment & Policy A / memory & Policy B / memory & Error diff. (pp) & Net difference & Regret diff. \\\midrule\endfirsthead
+\toprule Environment & Policy A / memory & Policy B / memory & Error diff. (pp) & Net difference & Regret diff. \\\midrule\endhead
+\midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot
+\bottomrule\endlastfoot
+No echo & Paired / Cumulative & Omit echo / Cumulative & $0.000 \pm 0.000$ & $-0.00005 \pm 0.00001$ & $0.00005 \pm 0.00001$ \\
+No echo & Paired / Cumulative & Randomized / Cumulative & $0.000 \pm 0.004$ & $0.00142 \pm 0.00027$ & $-0.00168 \pm 0.00027$ \\
+No echo & Paired / Window 8 & Paired / Cumulative & $0.000 \pm 0.000$ & $0.00000 \pm 0.00000$ & $0.00000 \pm 0.00000$ \\
+No echo & Randomized / Window 8 & Randomized / Cumulative & $0.000 \pm 0.000$ & $-0.00012 \pm 0.00017$ & $0.00011 \pm 0.00017$ \\
+No echo & Paired / Cumulative & Fixed blind / Fixed & $-1.748 \pm 0.002$ & $-0.00665 \pm 0.00008$ & $-0.05038 \pm 0.00008$ \\
+High echo & Paired / Cumulative & Omit echo / Cumulative & $-8.052 \pm 0.001$ & $0.23755 \pm 0.00004$ & $-0.23755 \pm 0.00004$ \\
+High echo & Paired / Cumulative & Randomized / Cumulative & $-0.009 \pm 0.008$ & $-0.00000 \pm 0.00025$ & $-0.00027 \pm 0.00025$ \\
+High echo & Paired / Window 8 & Paired / Cumulative & $0.000 \pm 0.000$ & $0.00000 \pm 0.00000$ & $0.00000 \pm 0.00000$ \\
+High echo & Randomized / Window 8 & Randomized / Cumulative & $0.000 \pm 0.000$ & $0.00000 \pm 0.00000$ & $0.00000 \pm 0.00000$ \\
+High echo & Paired / Cumulative & Fixed blind / Fixed & $-1.747 \pm 0.003$ & $-0.01062 \pm 0.00009$ & $-0.04641 \pm 0.00009$ \\
+Both dependences & Paired / Cumulative & Omit echo / Cumulative & $-8.516 \pm 0.365$ & $0.25134 \pm 0.01073$ & $-0.25134 \pm 0.01073$ \\
+Both dependences & Paired / Cumulative & Randomized / Cumulative & $-0.075 \pm 0.061$ & $0.00154 \pm 0.00131$ & $-0.00181 \pm 0.00131$ \\
+Both dependences & Paired / Window 8 & Paired / Cumulative & $0.140 \pm 0.034$ & $-0.00310 \pm 0.00073$ & $0.00309 \pm 0.00073$ \\
+Both dependences & Randomized / Window 8 & Randomized / Cumulative & $0.132 \pm 0.040$ & $-0.00295 \pm 0.00084$ & $0.00293 \pm 0.00084$ \\
+Both dependences & Paired / Cumulative & Fixed blind / Fixed & $-1.137 \pm 0.049$ & $-0.02921 \pm 0.00105$ & $-0.02783 \pm 0.00105$ \\
+Echo shift & Paired / Cumulative & Omit echo / Cumulative & $-4.019 \pm 0.006$ & $0.11851 \pm 0.00017$ & $-0.11851 \pm 0.00017$ \\
+Echo shift & Paired / Cumulative & Randomized / Cumulative & $-0.334 \pm 0.084$ & $0.01049 \pm 0.00239$ & $-0.01075 \pm 0.00239$ \\
+Echo shift & Paired / Window 8 & Paired / Cumulative & $-0.007 \pm 0.006$ & $0.00019 \pm 0.00017$ & $-0.00019 \pm 0.00017$ \\
+Echo shift & Randomized / Window 8 & Randomized / Cumulative & $-0.153 \pm 0.076$ & $0.00453 \pm 0.00224$ & $-0.00453 \pm 0.00224$ \\
+Echo shift & Paired / Cumulative & Fixed blind / Fixed & $-1.741 \pm 0.006$ & $-0.00885 \pm 0.00018$ & $-0.04819 \pm 0.00018$ \\
+Source asymmetry & Paired / Cumulative & Omit echo / Cumulative & $-0.853 \pm 0.010$ & $0.02158 \pm 0.00031$ & $-0.02158 \pm 0.00031$ \\
+Source asymmetry & Paired / Cumulative & Randomized / Cumulative & $-0.244 \pm 0.046$ & $0.00590 \pm 0.00116$ & $-0.00616 \pm 0.00116$ \\
+Source asymmetry & Paired / Window 8 & Paired / Cumulative & $0.000 \pm 0.000$ & $0.00000 \pm 0.00000$ & $0.00000 \pm 0.00000$ \\
+Source asymmetry & Randomized / Window 8 & Randomized / Cumulative & $0.072 \pm 0.030$ & $-0.00183 \pm 0.00075$ & $0.00182 \pm 0.00074$ \\
+Source asymmetry & Paired / Cumulative & Fixed blind / Fixed & $-1.547 \pm 0.004$ & $-0.01662 \pm 0.00013$ & $-0.04041 \pm 0.00013$ \\
+Stronger humans & Paired / Cumulative & Omit echo / Cumulative & $-4.347 \pm 0.016$ & $0.12525 \pm 0.00048$ & $-0.12525 \pm 0.00048$ \\
+Stronger humans & Paired / Cumulative & Randomized / Cumulative & $-0.016 \pm 0.013$ & $0.00021 \pm 0.00039$ & $-0.00048 \pm 0.00039$ \\
+Stronger humans & Paired / Window 8 & Paired / Cumulative & $0.006 \pm 0.006$ & $-0.00018 \pm 0.00018$ & $0.00018 \pm 0.00018$ \\
+Stronger humans & Randomized / Window 8 & Randomized / Cumulative & $0.007 \pm 0.006$ & $-0.00024 \pm 0.00019$ & $0.00024 \pm 0.00019$ \\
+Stronger humans & Paired / Cumulative & Fixed blind / Fixed & $-7.697 \pm 0.009$ & $0.16567 \pm 0.00028$ & $-0.22270 \pm 0.00028$ \\
+\end{longtable}\endgroup
+\end{document}
