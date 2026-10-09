@@ -1,1 +1,1 @@
-v3: adds Study 2 on review arrangements and evidence generation (Sec. 5, App. E), supplementary Tables S1–S5 as ancillary material, and a unified discussion of evidence generation, retention, and acquisition cost. No new experiments were run for this manuscript revision.
+v2: 26 pages, 4 figures. Includes an exploratory study of human-agent review arrangements and supplementary Tables S1-S5; expands the analysis of evidence generation and paid observation.

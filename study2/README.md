@@ -34,7 +34,7 @@ The 21-point illustrative curve was selected after the core run.
 - `results/learning_summary.csv`, `paired_contrasts.csv`: all 84 conditions and
   30 paired comparisons. Intervals are 1.96 standard errors across trajectories.
 - `qa/validation.json`, `monte_carlo_checks.json`: retained independent enumeration
-  and Monte Carlo validation records. These were not rerun for the v3 revision.
+  and Monte Carlo validation records. These retain the original execution dates and validation scope.
 
 An agent reviewer's copying probability eta_H or eta_A refers to the *upstream*
 human or agent, respectively. All reviewers in this study are agents. A human

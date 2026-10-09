@@ -18,7 +18,9 @@
     "table8": 108,
     "table9": 36,
     "table12": 156,
-    "prose_claims": 95,
+    "prose_claims": 96,
+    "no_echo_equal_error": 1,
+    "no_echo_blind_cost": 1,
     "table5": 12,
     "table11": 30
   },
@@ -38,10 +40,12 @@
     "table8": 0.0,
     "table9": 0.0,
     "table12": 0.0,
-    "prose_claims": 0.0
+    "prose_claims": 0.0,
+    "no_echo_equal_error": 0.0,
+    "no_echo_blind_cost": 2.5673907444456745e-16
   },
-  "claim_count": 97,
-  "numeric_source_lines": 244,
+  "claim_count": 98,
+  "numeric_source_lines": 250,
   "study2_cost_comparisons": [
     {
       "world": "no_echo",

@@ -1,6 +1,6 @@
 # Research directions not evaluated in this release
 
-The following require new experiments and were not executed for manuscript v3:
+The following research directions require experiments beyond the studies reported here:
 
 1. A Study 2 discover-once / learn-then-stop policy, with acquisition saved after
    commitment and a declared rule for restarting observation under drift.

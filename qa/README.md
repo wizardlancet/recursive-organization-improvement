@@ -1,6 +1,9 @@
 # Verification records
 
-## Current manuscript package v3
+## Current manuscript package v2
+
+- `version_alignment_checks.json`: current release labels, unchanged scientific inputs,
+  abstract length, and manuscript/release metadata boundaries.
 
 - `manuscript_checks.json`: current PDF compilation, page counts, reference
   resolution, and machine-readable layout checks.

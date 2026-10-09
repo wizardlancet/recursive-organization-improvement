@@ -525,6 +525,41 @@
     "scope": ""
   },
   {
+    "claim": "No echo / exposed_vote:A:k3 / net",
+    "source_value": 0.8743999999999997,
+    "manuscript_display": ".87440",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "No echo / blind_vote:A:k3 / net",
+    "source_value": 0.8713974568684896,
+    "manuscript_display": ".87140",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "No echo / Randomized_exposure / hit",
+    "source_value": 56.673177083333336,
+    "manuscript_display": "56.67",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "No echo / Randomized_exposure / error",
+    "source_value": 1.7721674479166665,
+    "manuscript_display": "1.7722",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
+    "claim": "No echo / Full_trace / error",
+    "source_value": 1.7721674479166665,
+    "manuscript_display": "1.7722",
+    "source": "study2/results/learning_summary.csv",
+    "scope": ""
+  },
+  {
     "claim": "Abstract 0.452",
     "source_value": 0.45224121093749997,
     "manuscript_display": "0.452",
@@ -549,34 +584,6 @@
     "claim": "Abstract 0.002",
     "source_value": 0.0019068924585978076,
     "manuscript_display": "0.002",
-    "source": "same source as corresponding full-precision body claim",
-    "scope": ""
-  },
-  {
-    "claim": "Abstract 69",
-    "source_value": 69.058,
-    "manuscript_display": "69",
-    "source": "same source as corresponding full-precision body claim",
-    "scope": ""
-  },
-  {
-    "claim": "Abstract 91",
-    "source_value": 91.198864,
-    "manuscript_display": "91",
-    "source": "same source as corresponding full-precision body claim",
-    "scope": ""
-  },
-  {
-    "claim": "Abstract 3.5",
-    "source_value": 3.52,
-    "manuscript_display": "3.5",
-    "source": "same source as corresponding full-precision body claim",
-    "scope": ""
-  },
-  {
-    "claim": "Abstract 9.6",
-    "source_value": 9.63712,
-    "manuscript_display": "9.6",
     "source": "same source as corresponding full-precision body claim",
     "scope": ""
   },

@@ -3,13 +3,13 @@
   "pdfs": {
     "main.pdf": {
       "pages": 26,
-      "sha256": "b398dbed0086cd4bf3420dad8cfeac3e5dd97c94c0a9626caedd3dae7967b82a",
+      "sha256": "0ad4f6e25a2c792cbaa308afaaa6c6e39c00656ec04d29015b94d3d54f751cd4",
       "out_of_page_text": [],
       "unresolved_references_or_layout_errors": []
     },
     "supplement/supplementary_tables.pdf": {
       "pages": 19,
-      "sha256": "9f557e10a72a9fe18cfcc9870bb17c427c63a6941eef223632205bd0e9369ffc",
+      "sha256": "436e77817e81070c42c368bed0a93aa1e87395308d796f40e0b59cc9b51480b7",
       "out_of_page_text": [],
       "unresolved_references_or_layout_errors": []
     }
@@ -22,5 +22,10 @@
   "figure1_after_equation4": true,
   "supplement_location": "anc/supplementary_tables.pdf",
   "compile_engine": "Tectonic, three TeX passes with BibTeX",
+  "abstract_metadata_characters": 1638,
+  "arxiv_abstract_limit": 1920,
+  "manuscript_version_labels_absent": true,
+  "repository_url_contiguous_two_extractors_and_annotation": true,
+  "native_pdf_click_or_clipboard_tested": false,
   "nonfatal": "Fontconfig default-config diagnostic and UTF-8 inputenc warning; no missing glyphs or unresolved citations"
 }

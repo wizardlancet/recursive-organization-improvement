@@ -206,11 +206,24 @@ curve=rows(ACTOR/'results/illustrative_curve.csv')
 for eta,metric,display,digits in [(0.,'agreement','69.06',2),(.8,'agreement','91.20',2),(0.,'error','3.52',2),(.8,'error','9.64',2),(0.,'wrong_up_approval','10.09',2),(.8,'wrong_up_approval','59.62',2)]:
     r=next(r for r in curve if r['topology']=='exposed_vote:A:k3' and abs(float(r['eta'])-eta)<1e-12)
     claim(f'Copying={eta}/{metric}',100*float(r[metric]),display,'study2/results/illustrative_curve.csv',digits=digits)
+# Equal accuracy need not imply equal deployment loss.
+for p,m,metric,display,digits,factor in [
+ ('exposed_vote:A:k3','none','net','.87440',5,1),
+ ('blind_vote:A:k3','none','net','.87140',5,1),
+ ('Randomized_exposure','cumulative','hit','56.67',2,100),
+ ('Randomized_exposure','cumulative','error','1.7722',4,100),
+ ('Full_trace','cumulative','error','1.7722',4,100)]:
+    claim('No echo / '+p+' / '+metric,factor*ca('no_echo',p,m,metric),display,'study2/results/learning_summary.csv',digits=digits)
+close(ca('no_echo','Randomized_exposure','cumulative','error'),ca('no_echo','Full_trace','cumulative','error'),'no_echo_equal_error')
+assert ca('no_echo','Randomized_exposure','cumulative','production_cost')>ca('no_echo','Full_trace','cumulative','production_cost')
+close(ca('no_echo','exposed_vote:A:k3','none')-ca('no_echo','blind_vote:A:k3','none'),.02*(3*.05)+.5/(48*4096),'no_echo_blind_cost')
+
 # Abstract values are derived independently at their coarser precision.
 for display,v,digits in [('0.452',cs('Stationary harm','Reset','Balanced'),3),('0.480',cs('Stationary harm','Cumulative','Balanced'),3),
  ('0.006',float(select(contrasts,study='exploratory control',environment='Workflow reversal',memory='Window 8',comparison='Repeated - Balanced')['delta']),3),
- ('0.002',float(select(contrasts,study='exploratory control',environment='Workflow reversal',memory='Window 8',comparison='Repeated - Trial-matched Balanced')['delta']),3),
- ('69',69.058,0),('91',91.198864,0),('3.5',3.52,1),('9.6',9.63712,1)]:claim('Abstract '+display,v,display,'same source as corresponding full-precision body claim',digits=digits)
+ ('0.002',float(select(contrasts,study='exploratory control',environment='Workflow reversal',memory='Window 8',comparison='Repeated - Trial-matched Balanced')['delta']),3)]:
+    assert display in text(ROOT/'main.tex').split(r'\begin{abstract}',1)[1].split(r'\end{abstract}',1)[0]
+    claim('Abstract '+display,v,display,'same source as corresponding full-precision body claim',digits=digits)
 
 cost_comparisons=[]
 for w in WORLDS:

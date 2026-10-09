@@ -1,17 +1,17 @@
-# research-2026-10-09
+# v2
 
-This release accompanies manuscript package v3 of *Recursive Organization
-Improvement: A Modeling Specification for Human–Agent Organizations*.
+This release accompanies the two-study manuscript of *Recursive Organization
+Improvement: A Modeling Specification for Human–Agent Organizations*, prepared
+as the replacement for the first arXiv version.
 
-It integrates the existing exploratory Study 2 into the main repository and
-organizes the paper into two studies. Study 2 distinguishes shared private error
-from copying, compares review arrangements under bounded resources, and measures
-the cost of paid observation. Tables S1–S5 include all reported conditions and
-are supplied as an arXiv ancillary PDF. The README maps tables to saved inputs.
+Study 2 distinguishes shared private error from copying, compares human–agent
+review arrangements under bounded resources, and measures the cost of paid
+observation. Tables S1–S5 report all conditions and are supplied as an arXiv
+ancillary PDF. The README maps tables to saved inputs. The 1,638-character
+abstract retains the original specification and Study 1 argument.
 
-All simulation results were already available before this manuscript revision.
-No new Monte Carlo or parameter-grid experiment was run. The release includes
-saved-result arithmetic checks and preserves the earlier independent validation
+No new experiment was run for this manuscript release. The package checks saved
+results and preserves the existing scientific inputs and independent validation
 records. Protocol archive commits are distinguished from pre-run local records;
 neither study is externally preregistered.
 

@@ -1,6 +1,6 @@
-# V6 source verification — 2026-09-30
+# Study 1 source verification — 2026-09-30
 
-The active bibliography adds two primary sources to the 48 cited entries in v5.
+This dated record verifies two primary sources used by Study 1.
 
 | Key | Verified bibliographic record | Primary source | Use and scope |
 |---|---|---|---|
@@ -8,5 +8,4 @@ The active bibliography adds two primary sources to the 48 cited entries in v5.
 | kasy | Maximilian Kasy, Anja Sautmann. 2021. Adaptive Treatment Assignment in Experiments for Policy Choice. Econometrica 89(1), 113–132. DOI 10.3982/ECTA17527. | https://maxkasy.github.io/home/files/papers/adaptiveexperimentspolicy.pdf ; https://doi.org/10.3982/ECTA17527 | Connects evaluation allocation to downstream policy choice. Exploration sampling is discussed, not implemented; no blanket optimality claim is made. |
 
 The article PDFs are references only and are not redistributed in the release.
-The compact package retains 50 entries, all cited in active manuscript sources.
-Earlier ledgers describe their respective versions rather than the v6 experiments.
+The checks describe the source records available on the stated verification date.

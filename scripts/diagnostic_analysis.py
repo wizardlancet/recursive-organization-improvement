@@ -27,7 +27,7 @@ for sc in ['Blind harm','Moving harm','Uniform gain']:
         r=next(r for r in summary if r['scenario']==sc and r['arm']==arm)
         label='Freeze after first' if arm=='Freeze after first revision' else arm
         lines.append(f"{sc} & {label} & {float(r['net_value']):.4f} $\\pm$ {float(r['ci95']):.4f} & {100*float(r['harmful_adoption']):.2f} & {float(r['evaluation_expense']):.4f} \\\\")
-(ROOT/'sections/v5_base_rows.tex').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+(ROOT/'sections/diagnostic_base_rows.tex').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 sens=read('coverage_sensitivity_summary.csv');lines=[]
 for cond in dict.fromkeys(r['condition'] for r in sens):
     vals=[]
@@ -35,7 +35,7 @@ for cond in dict.fromkeys(r['condition'] for r in sens):
         r=next(r for r in sens if r['condition']==cond and r['scenario']==sc and r['arm']=='Procedure revision')
         vals.append(f"{float(r['difference_vs_balanced']):+.4f} $\\pm$ {float(r['paired_ci95']):.4f}")
     lines.append(cond.replace('_',r'\_')+' & '+' & '.join(vals)+r' \\')
-(ROOT/'sections/v5_sensitivity_rows.tex').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+(ROOT/'sections/diagnostic_sensitivity_rows.tex').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 ext=read('audit_extensions_summary.csv');lines=[]
 for prior in ['1:1','1:9','1:19']:
     for theta in [.14,.16]:
@@ -47,4 +47,4 @@ for prior in ['1:1','1:9','1:19']:
         lines.append(prior+f' & {theta:.2f} & '+' & '.join(vals)+r' \\')
 (ROOT/'sections/audit_rows.tex').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 report={'accounting_identities_checked':len(rows),'contracts':checks(),'contrasts':contrasts,'sensitivity_revision_vs_balanced_range':[min(float(r['difference_vs_balanced']) for r in sens if r['arm']=='Procedure revision'),max(float(r['difference_vs_balanced']) for r in sens if r['arm']=='Procedure revision')]}
-(ROOT/'qa/v5_analysis.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps(report,indent=2))
+(ROOT/'qa/diagnostic_analysis.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps(report,indent=2))

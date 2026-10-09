@@ -1,6 +1,6 @@
 # Changelog
 
-## research-2026-10-09 — manuscript package v3
+## v2 — 2026-10-10
 
 - Organize the manuscript around Study 1 (evidence acquisition and retention)
   and Study 2 (review arrangements and evidence generation), with implications
@@ -17,8 +17,12 @@
   raw result files preserve the existing condition grids.
 - Document protocol hashes and archive commits without claiming a verified
   pre-run Git commit or external preregistration.
+- Preserve both studies' empirical test plans, separate cross-study connections
+  from human-authority implications, and clarify objective and cost accounting.
+- Shorten the abstract to 1,638 ASCII characters while retaining the original
+  specification and Study 1 argument; use v2 consistently in release metadata.
 
-## research-2026-09-30 — manuscript package v1
+## v1 — research-2026-09-30
 
 First public release: modeling specification, contract checker, public-record
 snapshot, Study 1, and supplementary audit controls.

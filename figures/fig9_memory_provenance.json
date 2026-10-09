@@ -1,0 +1,388 @@
+{
+  "source": "results/learning_summary.csv",
+  "local_snapshot": "results/learning_summary.csv",
+  "source_sha256": "9a22b080f2ca643145a9f113f0f4dcc113774b8a4832f7898628d1b27aa6cce7",
+  "purpose": "Figure 2 display label: Successive rejects -> Successive rejection",
+  "new_experiments_run": false,
+  "data": [
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Biased",
+      "memory": "Reset",
+      "net": 0.39665527343749996,
+      "net_ci95": 0.002779493757543028
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Biased",
+      "memory": "Cumulative",
+      "net": 0.4691650390625,
+      "net_ci95": 0.0026722227012125448
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Biased",
+      "memory": "Window 8",
+      "net": 0.45935546875,
+      "net_ci95": 0.0028437110144971427
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Balanced",
+      "memory": "Reset",
+      "net": 0.45224121093749997,
+      "net_ci95": 0.0012341940553689743
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Balanced",
+      "memory": "Cumulative",
+      "net": 0.48006835937499986,
+      "net_ci95": 0.0005010876457668457
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Balanced",
+      "memory": "Window 8",
+      "net": 0.47920898437499987,
+      "net_ci95": 0.0007331035861235494
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Neyman",
+      "memory": "Reset",
+      "net": 0.45388893365859984,
+      "net_ci95": 0.0011828888700741373
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Neyman",
+      "memory": "Cumulative",
+      "net": 0.4804618215560913,
+      "net_ci95": 0.0004798310482747651
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Neyman",
+      "memory": "Window 8",
+      "net": 0.4796218554178874,
+      "net_ci95": 0.0007052445113388345
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Successive rejects",
+      "memory": "Reset",
+      "net": 0.4539990234375,
+      "net_ci95": 0.0012842097901006857
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Successive rejects",
+      "memory": "Cumulative",
+      "net": 0.48058593750000006,
+      "net_ci95": 0.0005376571819422169
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Successive rejects",
+      "memory": "Window 8",
+      "net": 0.4800195312500001,
+      "net_ci95": 0.0006922285844961851
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Discover once",
+      "memory": "Reset",
+      "net": 0.43663917541503905,
+      "net_ci95": 0.004755851395867031
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Discover once",
+      "memory": "Cumulative",
+      "net": 0.4792825889587402,
+      "net_ci95": 0.0012429117219260575
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Discover once",
+      "memory": "Window 8",
+      "net": 0.47536657333374027,
+      "net_ci95": 0.0019407114056675086
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Repeated discovery",
+      "memory": "Reset",
+      "net": 0.435221434434255,
+      "net_ci95": 0.0026051605965697654
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Repeated discovery",
+      "memory": "Cumulative",
+      "net": 0.47999692678451544,
+      "net_ci95": 0.0007991816850529715
+    },
+    {
+      "environment": "Stationary harm",
+      "arm_id": "Repeated discovery",
+      "memory": "Window 8",
+      "net": 0.47790442069371547,
+      "net_ci95": 0.0011836080838167104
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Biased",
+      "memory": "Reset",
+      "net": 0.5259521484374999,
+      "net_ci95": 0.002824676539810669
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Biased",
+      "memory": "Cumulative",
+      "net": 0.47211425781249994,
+      "net_ci95": 0.0028778553397901478
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Biased",
+      "memory": "Window 8",
+      "net": 0.5609423828125,
+      "net_ci95": 0.002909049261949745
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Balanced",
+      "memory": "Reset",
+      "net": 0.5827978515625,
+      "net_ci95": 0.0012815946517704716
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Balanced",
+      "memory": "Cumulative",
+      "net": 0.48026367187499985,
+      "net_ci95": 0.0006024324865126867
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Balanced",
+      "memory": "Window 8",
+      "net": 0.5758300781250001,
+      "net_ci95": 0.0008929614305109198
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Neyman",
+      "memory": "Reset",
+      "net": 0.582999165058136,
+      "net_ci95": 0.001211735033164298
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Neyman",
+      "memory": "Cumulative",
+      "net": 0.48053994655609134,
+      "net_ci95": 0.0005098641115380998
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Neyman",
+      "memory": "Window 8",
+      "net": 0.5760085479418435,
+      "net_ci95": 0.0008056827651832148
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Successive rejects",
+      "memory": "Reset",
+      "net": 0.5843505859375,
+      "net_ci95": 0.0011530923379208437
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Successive rejects",
+      "memory": "Cumulative",
+      "net": 0.48285156250000005,
+      "net_ci95": 0.0013120172689205063
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Successive rejects",
+      "memory": "Window 8",
+      "net": 0.5785937499999999,
+      "net_ci95": 0.000956072231108847
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Discover once",
+      "memory": "Reset",
+      "net": 0.5644152927398682,
+      "net_ci95": 0.005193248235510382
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Discover once",
+      "memory": "Cumulative",
+      "net": 0.4796341514587402,
+      "net_ci95": 0.001336751462791163
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Discover once",
+      "memory": "Window 8",
+      "net": 0.5723099239667258,
+      "net_ci95": 0.0020622771511087847
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Repeated discovery",
+      "memory": "Reset",
+      "net": 0.5628231326738993,
+      "net_ci95": 0.002525058529061532
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Repeated discovery",
+      "memory": "Cumulative",
+      "net": 0.48347352902094526,
+      "net_ci95": 0.0023517695968215966
+    },
+    {
+      "environment": "Workflow reversal",
+      "arm_id": "Repeated discovery",
+      "memory": "Window 8",
+      "net": 0.5820646166801452,
+      "net_ci95": 0.0023121225733254975
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Biased",
+      "memory": "Reset",
+      "net": 0.6616552734375001,
+      "net_ci95": 0.0029451341438026745
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Biased",
+      "memory": "Cumulative",
+      "net": 0.7183740234374999,
+      "net_ci95": 0.0012581557244184815
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Biased",
+      "memory": "Window 8",
+      "net": 0.7166162109374998,
+      "net_ci95": 0.0016486993832237288
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Balanced",
+      "memory": "Reset",
+      "net": 0.714111328125,
+      "net_ci95": 0.0011145131971852008
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Balanced",
+      "memory": "Cumulative",
+      "net": 0.7214746093750002,
+      "net_ci95": 0.00018630442316421445
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Balanced",
+      "memory": "Window 8",
+      "net": 0.7214746093750002,
+      "net_ci95": 0.00018630442316421445
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Neyman",
+      "memory": "Reset",
+      "net": 0.7131731764475504,
+      "net_ci95": 0.001138044026315052
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Neyman",
+      "memory": "Cumulative",
+      "net": 0.7215941007932026,
+      "net_ci95": 0.00025263515179765644
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Neyman",
+      "memory": "Window 8",
+      "net": 0.7215939696629842,
+      "net_ci95": 0.0002526373282334957
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Successive rejects",
+      "memory": "Reset",
+      "net": 0.7161914062499999,
+      "net_ci95": 0.0009731010578514005
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Successive rejects",
+      "memory": "Cumulative",
+      "net": 0.7218359375000001,
+      "net_ci95": 0.00017065889338815603
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Successive rejects",
+      "memory": "Window 8",
+      "net": 0.7218359375000001,
+      "net_ci95": 0.00017065889338815603
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Discover once",
+      "memory": "Reset",
+      "net": 0.6961542288462321,
+      "net_ci95": 0.00458329789402985
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Discover once",
+      "memory": "Cumulative",
+      "net": 0.7217326450347901,
+      "net_ci95": 7.667798557363887e-05
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Discover once",
+      "memory": "Window 8",
+      "net": 0.7210099713007609,
+      "net_ci95": 0.0008024759770180202
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Repeated discovery",
+      "memory": "Reset",
+      "net": 0.6941162141164143,
+      "net_ci95": 0.002337104767725872
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Repeated discovery",
+      "memory": "Cumulative",
+      "net": 0.7218668993314108,
+      "net_ci95": 7.655417527555606e-05
+    },
+    {
+      "environment": "Uniform gain",
+      "arm_id": "Repeated discovery",
+      "memory": "Window 8",
+      "net": 0.7218643164634705,
+      "net_ci95": 7.655299761172829e-05
+    }
+  ],
+  "output_sha256": "73762f6b0f039d8d04ebcece424cebbd5f283bb52049bf2248413d5fcbf0a4d2"
+}

@@ -92,7 +92,7 @@
   {
     "file": "main.tex",
     "line": 40,
-    "text": "\\date{October 9, 2026}",
+    "text": "\\date{October 10, 2026}",
     "kind": "abstract result, typesetting, or date",
     "sources": [
       "numeric claim ledger; LaTeX settings"
@@ -101,7 +101,7 @@
   {
     "file": "main.tex",
     "line": 44,
-    "text": "Stronger AI agents do not automatically produce better organizations: teams must learn which work arrangements to retain and when to reconsider them, while those arrangements determine what evidence the team can learn from. We propose a modeling specification for recursive organization improvement that connects actor-visible histories, organizational memory, decision rights, and evidence-carrying change contracts, and evaluate it through an executable checker, a public-record mapping, and two simulation studies. Study 1 holds evidence quality fixed and varies its acquisition, retention, and reuse. In a stationary environment, cumulative evidence raises balanced evaluation's net value per task from 0.452 to 0.480 and nearly removes repeated reassessment's disadvantage. After the best workflow reverses, indefinite retention delays adaptation. Matching trial acquisition and label reuse reduces the apparent evaluator-replacement gain from 0.006 to 0.002. Study 2 makes visible judgments a product of the human--agent review arrangement. With individual accuracy fixed, increasing reviewers' copying probability raises unanimous agreement from 69\\% to 91\\% while raising decision error from 3.5\\% to 9.6\\%. Greater shared agent error shifts the minimum-error arrangement within a budget-constrained catalog from blind agent voting to a human proposal with disagreement-triggered human arbitration. Paired observation with cumulative memory identifies lower-error arrangements in all six environments, but its net value is below a fixed blind-review baseline in five because continued acquisition costs exceed the deployment gain. All parameters are synthetic; Study 2 and the attribution controls are exploratory. Organizational improvement should be assessed across the lifecycle of its evidence, including how organizational arrangements generate it.",
+    "text": "Stronger AI agents do not automatically produce better organizations: teams must also learn which work arrangements to retain and when to reconsider them. We propose a modeling specification for recursive organization improvement and evaluate it through an executable checker, a public-record mapping, and two controlled simulation studies. The specification connects actor-visible histories, organizational memory, decision rights, and evidence-carrying change contracts. Study 1 crosses six decision rules, three memory conditions, and three task environments under fixed resource ceilings. In a stationary environment, cumulative evidence raises balanced evaluation's net value per task from 0.452 to 0.480 and nearly removes repeated reassessment's disadvantage. A reversal of the best workflow reveals the opposite cost: indefinite retention delays adaptation, while a finite window restores eventual performance at a transition cost. In exploratory controls, matching trial acquisition and label reuse reduces the apparent reassessment gain from 0.006 to 0.002. Program replacement adds no stable benefit across the tested reversal times. Exploratory Study 2 models how human--agent review arrangements generate evidence: shared agent errors, copying, and decision rights change the preferred placement of human judgment. Paid observation can identify lower-error arrangements without recovering its cost. Both studies use synthetic parameters. The studies identify evidence generation, acquisition, reuse, and timely updating as mechanisms that must be separated from evaluator replacement when assessing organizational improvement.",
     "kind": "abstract result, typesetting, or date",
     "sources": [
       "numeric claim ledger; LaTeX settings"
@@ -146,7 +146,7 @@
   {
     "file": "sections/introduction.tex",
     "line": 16,
-    "text": "Study 2, \\emph{review arrangements and evidence generation}, derives organizational outcomes and visible judgments from individual errors, shared error sources, upstream exposure, and decision rights. Its contribution is to distinguish mechanisms that can look identical in public records but respond differently to blinding, separate gold-labeled measurement from human override authority, and show how error dependence changes the preferred placement of humans under a fixed budget. Paid observation policies test whether identifying a better arrangement also recovers the cost of learning about it.",
+    "text": "Study 2, \\emph{review arrangements and evidence generation}, derives organizational outcomes and visible judgments from individual errors, shared error sources, upstream exposure, and decision rights. Its contribution is to distinguish mechanisms that, in a two-actor case, can look identical in public records but respond differently to blinding, separate gold-labeled measurement from human override authority, and show how error dependence changes the preferred placement of humans under a fixed budget. Paid observation policies test whether identifying a better arrangement also recovers the cost of learning about it.",
     "kind": "study identifier or explicit bottleneck illustration",
     "sources": [
       "analytic calculation: min(4,5,9)=4; min(8,5,9)=5; min(8,8,9)=8; interaction=3"
@@ -252,6 +252,16 @@
   {
     "file": "sections/specification.tex",
     "line": 99,
+    "text": "Study 2 instantiates parts of Actor--evidence through purchased private and exposed judgments, Cost--resource through acquisition, production, and switching charges, and Decision--memory through retained observation counts and recorded arrangement choices. Arrangements are selected directly from a fixed catalog; they are not submitted as versioned patches to the reference checker.",
+    "kind": "formal definition or public snapshot count",
+    "sources": [
+      "scripts/contracts.py",
+      "results/public_trace_summary.csv"
+    ]
+  },
+  {
+    "file": "sections/specification.tex",
+    "line": 101,
     "text": "Mapping public repository records supplies a complementary feasibility check. Three merged Flask PRs yield four commit artifacts and 56 mapped events: eight reviews, 42 head-commit check runs, and six opening/merge records. Artifact identifiers and recorded actions are recoverable. Historical authority, actual message exposure, effort, organization versions, and AI involvement remain unknown. Appendix~\\ref{app:records} specifies the snapshot and mapping. Such a trace can expose instrumentation gaps before a team attempts a workflow-effect estimate.",
     "kind": "formal definition or public snapshot count",
     "sources": [
@@ -405,7 +415,7 @@
   {
     "file": "sections/study.tex",
     "line": 46,
-    "text": "The core matrix crosses three environments, three memory rules, and six arms, using 128 independent replicate streams per cell. A separate 96-replicate grid crosses program-budget shares $.2,.4,.6$ with trial counts $1,3,6$, keeping the total ceiling fixed. It also removes program-score memory or trial-label pooling separately. After inspecting the core results, we added an explicitly exploratory trial-matched control and reversals before rounds 21 and 29 on new streams, to test attribution and timing. Appendix~\\ref{app:protocol} specifies all conditions. Supplementary Tables S1--S5, supplied as the arXiv ancillary file \\texttt{supplementary\\_tables.pdf}, report Monte Carlo intervals and secondary outcomes for all conditions across the two studies and audit controls; conditional program groups in S2 are descriptive summaries without intervals. Each table identifies its repository source.",
+    "text": "The core matrix crosses three environments, three memory rules, and six arms, using 128 independent replicate streams per cell. A separate 96-replicate grid crosses program-budget shares $.2,.4,.6$ with trial counts $1,3,6$, keeping the total ceiling fixed. It also removes program-score memory or trial-label pooling separately. Exploratory controls specified after inspection of the core results matched trial acquisition and tested reversals before rounds 21 and 29 on independent streams to assess attribution and timing. Appendix~\\ref{app:protocol} specifies all conditions.",
     "kind": "Study 1 settings or result claim",
     "sources": [
       "examples/learning_protocol.json",
@@ -575,6 +585,19 @@
   },
   {
     "file": "sections/study2.tex",
+    "line": 11,
+    "text": "Motivated by observed sycophancy in multi-agent debate \\citep{consensagent}, we isolate copying (echo) without additional task information. Here $\\eta_s$ is the probability that an agent reviewer copies an upstream decision from source $s\\in\\{H,A\\}$; otherwise it retains its private judgment. The subscript denotes the upstream actor, so $\\eta_H$ describes an agent copying a human. Blind protocols preserve private commitments for aggregation or escalation while retaining any intrinsic error dependence. We compare exposed and blind voting, exposed and blind disagreement-triggered human arbitration, random arbitration of unanimous cases, serial review, and single-actor baselines. Exact enumeration identifies a minimum-error arrangement within the declared candidate catalog and budget; expected cost breaks error ties. This error-first grid isolates decision quality within a hard resource ceiling, using cost only to break error ties. The learning comparison instead selects on deployment loss $3e+.02c$, where $e$ is error probability and $c$ is expected production call cost; its net-value score additionally deducts observation and switching costs (\\cref{eq:actor-value}). Appendix~\\ref{app:actor} specifies the joint error law, protocols, costs, parameter grid, and ties.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
     "line": 14,
     "text": "For an agent proposer and three agent reviewers, private accuracy of 90\\% and $\\rho_A=.1$, increasing $\\eta_A$ from 0 to .8 raises unanimous agreement with the proposer from 69.06\\% to 91.20\\%, while majority-decision error rises from 3.52\\% to 9.64\\%. Conditional on an incorrect proposal, unanimous approval rises from 10.09\\% to 59.62\\%. Blind voting retains an error rate of 3.52\\% under the same private-signal distribution. This comparison illustrates the copying mechanism; agreement alone does not identify its cause. With one agent proposer and one equally capable agent reviewer, $(\\rho_A,\\eta_A)=(.8,0)$ and $(0,.8)$ produce the same joint distribution of public votes and truth but respond differently to blinding (Appendix~\\ref{app:actor}).",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
@@ -627,7 +650,7 @@
   },
   {
     "file": "sections/study2.tex",
-    "line": 25,
+    "line": 26,
     "text": "We compare four fixed observation policies for selecting arrangements with unknown actor parameters. Across 48 rounds, they choose among 58 budget-feasible arrangements under reset, cumulative, or Window 8 memory. They acquire final outcomes only, paired private and post-exposure judgments, or observations from randomized blind and exposed tasks. An \\emph{Omit echo} ablation receives the same paired records but sets copying probabilities to zero in its predictions. Six environments, including a copying shift before round 25 and source-dependent copying, use 128 replicate trajectories per condition. All policies share a ceiling on acquisition cost, but purchase different numbers of labels. The cost schedule is separate from Study 1's label-count budget. Observation policies are assigned treatments and do not change during learning.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -640,7 +663,7 @@
   },
   {
     "file": "sections/study2.tex",
-    "line": 27,
+    "line": 28,
     "text": "In High echo with cumulative memory, paired observation achieves mean decision error 1.773\\% and net value $.86077$, compared with 9.825\\% and $.62323$ for the Omit echo ablation using the same acquired records. The paired net-value difference is $.23755$ (95\\% Monte Carlo half-width $.00004$). Randomized exposure reaches 1.782\\% error and $.86078$ net value. The fixed blind agent-proposer/three-reviewer baseline has higher error, 3.520\\%, but higher net value, $.87140$, because it purchases no continuing learning evidence. Appendix~\\ref{app:actor} reports all six environments under cumulative memory; Supplementary Table S5 reports every policy--memory condition and its costs.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -653,7 +676,7 @@
   },
   {
     "file": "sections/study2.tex",
-    "line": 29,
+    "line": 30,
     "text": "Across all six environments, cumulative paired observation has lower error than the fixed blind baseline, but its net value is lower in five. It spends 233.6 acquisition units per round, or $.05703$ per production task after amortization over 4096 tasks. In those five environments this expense exceeds the gain in deployment value, including production call cost; the switch charge is included separately. In Stronger humans, paired observation's net value is $.77306$, compared with $.60740$ for the fixed blind baseline. The result is specific to the stated observation budget, comparator, and amortization scale.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -666,7 +689,20 @@
   },
   {
     "file": "sections/study2.tex",
-    "line": 31,
+    "line": 32,
+    "text": "In No echo, fixed exposed and fixed blind review have the same error rate, but net values of $.87440$ and $.87140$: blind review pays commitment overhead and one initial switch. Under cumulative memory, randomized exposure has a 56.67\\% optimal-choice hit rate yet the same mean error as paired observation (1.7722\\%); its higher production call cost makes some equally accurate choices suboptimal under deployment loss. Hit rate therefore complements error, regret, and net value rather than serving as a primary measure of decision accuracy.",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/study2.tex",
+    "line": 34,
     "text": "Memory effects depend on the observation policy. In Echo shift, paired observation's full-horizon net values are $.85798$ with reset, $.86255$ with cumulative memory, and $.86274$ with Window 8; cumulative and Window 8 both reach final-16-round error 1.7704\\%. For randomized exposure, the corresponding net values are $.85081$, $.85206$, and $.85659$, and final-16-round errors are 2.3212\\%, 1.8372\\%, and 1.7704\\%. Thus finite retention improves adaptation for randomized exposure in this setting, while the cumulative penalty for paired observation is small; the large reversal penalty of Study 1 does not transfer unchanged to every observation procedure.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -742,7 +778,7 @@
   },
   {
     "file": "sections/discussion.tex",
-    "line": 34,
+    "line": 37,
     "text": "For Study 1, the catalog, known stratum weights, synthetic error distributions, and cost schedule define the comparison. Program trials evaluate a fixed catalog at a smaller screening budget than operational deployment. Historical program scores average trials conducted at different knowledge states; they are a heuristic selection rule, not a stationary posterior for program quality. Reset discards reusable evidence; cumulative retention assumes past outcomes remain relevant; the fixed window bounds age without detecting a change. These choices explain the limits of the tested learning rules. Concept-drift, switching-bandit, and change-point methods offer principled alternatives for future instances \\citep{drift,switchbandit,bocpd}, with acquisition costs represented explicitly \\citep{costbandit}.",
     "kind": "study/table identifier, disclosure, or cross-study synthesis",
     "sources": [
@@ -751,7 +787,7 @@
   },
   {
     "file": "sections/discussion.tex",
-    "line": 38,
+    "line": 41,
     "text": "Study 2 assumes conditionally independent human errors, one shared-error model for agents, and copying that adds no task information. Its parameters are experimental settings rather than estimates of human or language-model behavior. Paired observation additionally assumes that recording a private commitment does not change the subsequent copying mechanism. The enumerated optimum is specific to the candidate catalog and costs. These assumptions make exposure, dependence, and authority separately testable; their empirical magnitudes require task-specific measurement. Study 2 also holds observation procedures fixed and excludes human reviewers copying agent advice. Deployed private judgments do not enter learning memory without a separate purchase. Learning when to stop, allowing human copying, reusing deployed private judgments as feedback, and varying the observation ceiling and production amortization scale are therefore distinct next tests.",
     "kind": "study/table identifier, disclosure, or cross-study synthesis",
     "sources": [
@@ -761,6 +797,24 @@
   {
     "file": "sections/discussion.tex",
     "line": 43,
+    "text": "For Study 1, an organizational test would randomize review-routing changes and evaluation coverage across comparable task streams, retain failed proposals, and measure escaped errors and human attention over a declared horizon. A second stage could randomize whether teams may replace the evaluation program. Such a design would separate the value of broader evidence from the value of the procedure used to discover and retain that evidence policy.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 45,
+    "text": "For Study 2, an organizational test would randomize upstream visibility before private commitment across comparable review tasks, while recording actor identity, initial and final judgments, independent outcome labels, and attention costs. Separately varying escalation and override rights would distinguish the value of additional evidence from the effects of final decision authority. A later stage could randomize whether teams may replace the observation protocol, thereby testing procedure revision beyond the operational arrangement choices studied here.",
+    "kind": "study/table identifier, disclosure, or cross-study synthesis",
+    "sources": [
+      "numeric claim ledger; protocol provenance; release metadata"
+    ]
+  },
+  {
+    "file": "sections/discussion.tex",
+    "line": 48,
     "text": "Recursive organization improvement asks how human--agent teams change their work and learn whether those changes helped. The proposed modeling specification connects evidence access, organizational memory, authority, costs, and retention through explicit change contracts. Study 1 shows that evidence has a lifecycle: acquisition and reuse can remove much of repeated assessment's apparent disadvantage, whereas retaining obsolete evidence delays adaptation, and acquisition-matched comparisons narrow the gain attributable to evaluator replacement. Study 2 identifies an earlier part of that lifecycle: review arrangements determine which private judgments become visible evidence. Shared errors, copying, cost, and decision authority jointly shape the preferred placement of human judgment, while identifying a better arrangement need not recover the cost of continued observation. Together, the studies connect how evidence is generated to how it is acquired, retained, and reconsidered. Organizational improvement must therefore be evaluated across that lifecycle, rather than inferred from agent capability or the number of revisions performed.",
     "kind": "study/table identifier, disclosure, or cross-study synthesis",
     "sources": [
@@ -770,7 +824,7 @@
   {
     "file": "sections/availability.tex",
     "line": 1,
-    "text": "Code, protocols, per-trajectory results, validation records, and a pseudonymized public-record snapshot are available at \\url{https://github.com/wizardlancet/recursive-organization-improvement} (tag \\texttt{research-2026-10-09}). Supplementary Tables S1--S5 are supplied as arXiv ancillary material and summarize all conditions; the repository README maps each table to its source file. Code is licensed under MIT; the manuscript, figures, and synthetic data under CC BY 4.0. Third-party materials retain their original terms.",
+    "text": "Code, protocols, per-trajectory results, validation records, and a pseudonymized public-record snapshot are available at \\href{https://github.com/wizardlancet/recursive-organization-improvement}{\\mbox{\\texttt{https://github.com/wizardlancet/recursive-organization-improvement}}}. Supplementary Tables S1--S5, supplied as the arXiv ancillary file \\texttt{supplementary\\_tables.pdf}, report Monte Carlo intervals and secondary outcomes for all conditions across both studies and the audit controls; S2 reports descriptive conditional summaries without intervals. Each table identifies its repository source, and the README maps manuscript releases and tables to source files. Code is licensed under MIT; the manuscript, figures, and synthetic data under CC BY 4.0. Third-party materials retain their original terms.",
     "kind": "study/table identifier, disclosure, or cross-study synthesis",
     "sources": [
       "numeric claim ledger; protocol provenance; release metadata"
@@ -1935,7 +1989,7 @@
   {
     "file": "sections/actor_review.tex",
     "line": 4,
-    "text": "Study 2 was designed and its protocol fixed after Study 1 was completed; it is exploratory. The protocol is \\path{study2/protocol.json} (archive commit \\texttt{fdf5ec1}). Its retained pre-run record, \\path{study2/qa/pre_run_record.json}, records a matching SHA-256 hash at 13:06:04 UTC on October 2, 2026. The Git archive postdates execution; the local hash record is not an independently timestamped preregistration. A task has balanced binary truth $y\\in\\{0,1\\}$. A private judgment equals $y$ unless its actor makes an error. Human errors are independent Bernoulli draws with probability $q_H$, conditional on $y$, and independent of the agent group. For each task, draw a shared-mode indicator with probability $\\rho_A$. In shared mode, all agent errors equal one Bernoulli draw with probability $q_A$; otherwise each agent draws an independent Bernoulli error with that probability. Tasks are independent. An agent proposer belongs to the same group as its reviewers. This mixture preserves marginal agent error $q_A$ and gives pairwise error correlation $\\rho_A$; the full mixture law, rather than correlation alone, determines collective error.",
+    "text": "\\paragraph{Protocol provenance.} Study 2 was designed and its protocol fixed after Study 1 was completed; it is exploratory. The protocol is \\path{study2/protocol.json} (archive commit \\texttt{fdf5ec1}). Its retained pre-run record, \\path{study2/qa/pre_run_record.json}, records a matching SHA-256 hash at 13:06:04 UTC on October 2, 2026. The Git archive postdates execution; the local hash record is not an independently timestamped preregistration.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
       "study2/protocol.json",
@@ -1948,7 +2002,7 @@
   {
     "file": "sections/actor_review.tex",
     "line": 6,
-    "text": "Let $d_0$ be the displayed upstream judgment and $d_i^{\\rm priv}$ reviewer $i$'s private judgment. An exposed reviewer reports",
+    "text": "A task has balanced binary truth $y\\in\\{0,1\\}$. A private judgment equals $y$ unless its actor makes an error. Human errors are independent Bernoulli draws with probability $q_H$, conditional on $y$, and independent of the agent group. For each task, draw a shared-mode indicator with probability $\\rho_A$. In shared mode, all agent errors equal one Bernoulli draw with probability $q_A$; otherwise each agent draws an independent Bernoulli error with that probability. Tasks are independent. An agent proposer belongs to the same group as its reviewers. This mixture preserves marginal agent error $q_A$ and gives pairwise error correlation $\\rho_A$; the full mixture law, rather than correlation alone, determines collective error.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
       "study2/protocol.json",
@@ -1961,6 +2015,19 @@
   {
     "file": "sections/actor_review.tex",
     "line": 8,
+    "text": "Let $d_0$ be the displayed upstream judgment and $d_i^{\\rm priv}$ reviewer $i$'s private judgment. An exposed reviewer reports",
+    "kind": "Study 2 settings, result claim, analytical law, or validation record",
+    "sources": [
+      "study2/protocol.json",
+      "study2/results/",
+      "study2/model.py",
+      "study2/qa/validation.json",
+      "qa/protocol_provenance.json"
+    ]
+  },
+  {
+    "file": "sections/actor_review.tex",
+    "line": 10,
     "text": "d_i^{\\rm pub}=(1-C_i)d_i^{\\rm priv}+C_i d_0,",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -1973,7 +2040,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 12,
+    "line": 14,
     "text": "Here $\\eta_s$ is the probability that an agent reviewer copies an upstream decision from source $s$; $s$ identifies a human or agent upstream actor. Copy indicators are independent of private errors and of one another. This binary rule selects one judgment; it does not average signals or create new task evidence. Blind protocols use private commitments for aggregation or escalation, so changing $\\eta_s$ does not change their decisions. In serial review, the immediately preceding review replaces $d_0$ at each step, and all sources after the first step are agents.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -1986,7 +2053,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 18,
+    "line": 20,
     "text": "\\begin{tabularx}{\\linewidth}{@{}p{.23\\linewidth}YY@{}}\\toprule",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -1999,7 +2066,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 24,
+    "line": 26,
     "text": "Gate with random arbitration & Public reviews versus proposal & Arbitrate all disagreements and a random 25\\% of unanimous cases. \\\\",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2012,7 +2079,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 29,
+    "line": 31,
     "text": "These rules separate private information, public disagreement, and final authority. For example, the change in error from randomly overriding a unanimous case is $q_H-P(d_0\\ne y\\mid\\text{unanimous})$. An independent human override helps only when this difference is negative.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2025,7 +2092,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 31,
+    "line": 33,
     "text": "The exact search crosses $q_H\\in\\{.1,.2,.3\\}$, $q_A\\in\\{.05,.1,.2,.3\\}$, $\\rho_A\\in\\{0,.25,.5,.75,1\\}$ and $\\eta\\in\\{0,.25,.5,.75,1\\}$ with $\\eta_H=\\eta_A=\\eta$, human-to-agent call-cost ratios $2,4,8$, blind overheads $0,.05,.2$ per reviewer, task budgets $1,2,3$, and hard versus expected budget constraints. Human calls define one cost unit. A hard budget reserves every potentially called actor; an expected budget constrains the mean cost including escalation probabilities. The catalog has $2\\times7\\times6+2=86$ arrangements: two proposer types, one to seven reviewers, six protocols, and two single-actor baselines. Exact finite-state probabilities identify the minimum-error feasible arrangement in each of 16,200 cells. Errors within $10^{-12}$ count as ties; lower expected cost breaks error ties. Remaining ties use catalog order: human then agent baseline, then human/agent proposer, increasing reviewer count, and the six protocols in table order. The deployment-loss optimum is recorded separately.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2038,7 +2105,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 33,
+    "line": 35,
     "text": "The fixed-roster comparison retains all 25,200 combinations of the accuracy, dependence and exposure grid, two proposer types, one to seven reviewers, and six protocols. A separate source-sensitivity grid uses $\\eta_H,\\eta_A\\in\\{0,.2,.5,.8,1\\}$, $\\rho_A\\in\\{0,.5,.9\\}$, $q_H=.2$, and $q_A=.1$, giving 6,450 arrangement evaluations. The 21 equally spaced exposure values in \\cref{fig:actor-review}a--b are exact illustrative evaluations chosen after the core run, not a prespecified test.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2051,7 +2118,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 38,
+    "line": 40,
     "text": "P(d_1^{\\rm pub}\\ne d_0)=2q_A(1-q_A)(1-\\rho_A)(1-\\eta_A).",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2064,7 +2131,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 40,
+    "line": 42,
     "text": "Consequently, at the same $q_A$, $(\\rho_A,\\eta_A)=(.8,0)$ and $(0,.8)$ give the same joint distribution of public votes and truth in this two-actor case, but different responses to blinding. Private observations or randomized visibility can distinguish the mechanisms.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2077,7 +2144,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 42,
+    "line": 44,
     "text": "Four fixed observation policies select among 58 arrangements with at most five reviewers and hard task cost at most three. Human, agent, gold-label, and per-reviewer blind-commitment costs are $1,.25,1,.05$, respectively. Each round permits at most 240 acquisition-cost units, hence 1920 per eight-round block, with no borrowing. These cost units differ from the label counts used in Appendix~\\ref{app:protocol}. All current observations are acquired and charged before the selected arrangement is deployed; production outcomes do not provide free learning feedback.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2090,7 +2157,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 44,
+    "line": 46,
     "text": "\\emph{Paired observation} records two human and six agent private judgments, ten additional exposed agent responses (five for each proposer type), a gold label, and six private-commitment overheads on each task. Its cost is $2+6(.25)+10(.25)+1+6(.05)=7.3$, allowing 32 tasks and costing 233.6 per round. The same task supplies pre- and post-exposure judgments. Among reviews that initially disagree with a source, the fraction switching to that source estimates $\\eta_s$. Study 2 assumes recording the private commitment does not itself change the later copying mechanism.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2103,7 +2170,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 46,
+    "line": 48,
     "text": "\\emph{Randomized exposure} acquires 50 tasks, randomized in balanced cells crossing human/agent source and blind/exposed review. Each task purchases two human responses, six agent responses, and a gold label. Blind tasks additionally pay six commitment overheads. The four cells have 12 or 13 tasks, with 25 blind tasks in total, costing $25(4.8)+25(4.5)=232.5$ per round. Private ability and dependence use only blind tasks. For each source, the estimate of copying is one minus exposed disagreement divided by blind disagreement, clipped to $[0,1]$. This design uses disjoint blind and exposed tasks and assumes exchangeability across their randomized assignments.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2116,7 +2183,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 48,
+    "line": 50,
     "text": "Both model-based policies estimate $q_H$ and $q_A$ from gold-labeled private errors with one error and one success pseudocount, then clip estimates to $[.001,.499]$. Agent dependence is the private pairwise error moment minus squared raw error frequency, divided by the raw Bernoulli variance and clipped to $[0,1]$; zero estimated variance gives zero dependence. Paired copying estimates use half an event in each outcome as pseudocounts. Randomized disagreement rates likewise use half-event pseudocounts before taking their ratio. Each policy pools the requisite counts over its assigned memory interval and predicts every feasible arrangement's error and call cost under the known model family. The true parameters are used only by the external scorer and catalog benchmark.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2129,7 +2196,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 50,
+    "line": 52,
     "text": "\\emph{Omit echo ablation} purchases exactly the paired observations but fixes $\\eta_H=\\eta_A=0$ when predicting arrangements. \\emph{Final-outcome sampling} instead buys an arrangement's executed final outcome and a gold label, cycling through candidates. At zero-based round $r$, trial $j$ uses catalog index $(83r+j)\\bmod58$. A trial reserves its worst possible call cost plus one gold label; actual calls and that label are charged. It stops before exceeding the ceiling. For a candidate with $n$ retained observations, $e$ errors, total call cost $c$, and worst call cost $c_{\\max}$, its score is $3(1+e)/(2+n)+.02(c+c_{\\max})/(1+n)$. Thus unobserved candidates also have defined scores. No policy obtains unpurchased counterfactual responses.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2142,7 +2209,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 52,
+    "line": 54,
     "text": "Reset retains current-round counts; cumulative memory retains all acquired counts; Window 8 retains the current round and eight preceding rounds. Observation policies and memory rules are assigned research treatments and remain fixed. Each selected arrangement changes operational visibility, aggregation, or authority under the assigned procedure. Study 2 does not implement an outer search over observation policies.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2155,7 +2222,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 55,
+    "line": 57,
     "text": "The six learning environments in \\cref{tab:actor-worlds} isolate copying, private dependence, source asymmetry, and relative actor ability. The copying shift occurs before acquisition in round 25. Each environment crosses four observation policies and three memories, plus two fixed baselines, with 128 replicate trajectories of 48 rounds: $6(4\\times3+2)128=10{,}752$ trajectories. Fixed baselines use an agent proposer and three agent reviewers, either exposed or blind, and buy no learning evidence. These baselines were specified before outcomes were inspected.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2168,7 +2235,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 57,
+    "line": 59,
     "text": "\\caption{Study 2 environments. In the environment and policy names, echo means copying. All other costs and resource ceilings are held fixed as specified in Appendix~\\ref{app:actor}. Numerical parameters are experimental settings, not estimates of human or language-model behavior.}",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2181,7 +2248,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 61,
+    "line": 63,
     "text": "No echo & .2 & .1 & .1 & 0 & 0 & None \\\\",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2194,7 +2261,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 62,
+    "line": 64,
     "text": "High echo & .2 & .1 & .1 & .8 & .8 & None \\\\",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2207,7 +2274,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 63,
+    "line": 65,
     "text": "Both dependences & .2 & .1 & .8 & .8 & .8 & None \\\\",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2220,7 +2287,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 64,
+    "line": 66,
     "text": "Echo shift & .2 & .1 & .1 & 0 & 0 & Both $\\eta_s$ become .8 at round 25 \\\\",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2233,7 +2300,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 65,
+    "line": 67,
     "text": "Source asymmetry & .2 & .1 & .2 & .9 & .1 & None \\\\",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2246,7 +2313,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 66,
+    "line": 68,
     "text": "Stronger humans & .1 & .2 & .2 & .8 & .8 & None \\\\\\bottomrule",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2259,7 +2326,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 69,
+    "line": 71,
     "text": "The model-based learner selects the arrangement minimizing estimated deployment loss $3e+.02c$, where $e$ is final error probability and $c$ is expected production call cost. Ties use the filtered catalog order. Selection regret compares this loss with the feasible catalog minimum under the true environment parameters; an optimal-choice hit accepts every loss within $10^{-10}$ of that minimum. This objective differs from the error-first grid search and excludes acquisition and switching costs. Net value additionally charges those costs:",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2272,7 +2339,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 71,
+    "line": 73,
     "text": "V_t^{\\rm actor}=1-3e_t-.02c_t-\\frac{A_t+.5S_t}{4096},",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2285,7 +2352,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 74,
+    "line": 76,
     "text": "where $A_t$ is purchased-observation cost and $S_t$ indicates a change from the previous arrangement. All conditions start from the exposed agent-proposer/three-reviewer arrangement; the fixed blind baseline therefore pays one initial switch. The scorer integrates production error and cost exactly. The denominator 4096 is an amortization scale for the round's production volume, not 4096 additionally sampled production outcomes. Values from this resource schedule are not compared numerically with those from Study 1.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2298,7 +2365,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 76,
+    "line": 78,
     "text": "Learning uses root seed 2026100204, keyed by environment and round, with independent replicate rows and common potential-task panels across policies. Only purchased entries are revealed. Full-horizon and final-16-round summaries average within a trajectory before computing means and $1.96s/\\sqrt{128}$ Monte Carlo half-widths across trajectories. Paired comparisons use within-replicate differences. Intervals describe randomness in acquired evidence and resulting choices, conditional on the model. The fixed baselines have deterministic expected-outcome scores.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2311,7 +2378,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 78,
+    "line": 80,
     "text": "\\Cref{tab:actor-results} reports all six environments under cumulative memory; Supplementary Table S5 gives all 84 policy--memory--environment conditions, late outcomes, costs, regret, and paired comparisons. Error and net value are reported together because better selection need not repay continuing acquisition costs.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [
@@ -2324,7 +2391,7 @@
   },
   {
     "file": "sections/actor_review.tex",
-    "line": 82,
+    "line": 84,
     "text": "An independent bit-level enumeration checks 144 arrangement--environment cases to maximum absolute difference $1.11\\times10^{-15}$. A second implementation simulates 150,000 tasks in each of four independent environments and checks 344 arrangements on the shared panels; each metric must agree within seven estimated standard errors plus $2\\times10^{-5}$. The separate validation seed is 2026100205. Further checks cover the memory lookback boundary, copying endpoints, both resource ceilings, and the net-value identity. Exact enumeration results have no sampling interval; the Monte Carlo comparison checks implementation agreement rather than empirical validity.",
     "kind": "Study 2 settings, result claim, analytical law, or validation record",
     "sources": [

@@ -1,4 +1,4 @@
-"""V6 prospective design: discover, retain evidence, and reassess under fixed budgets.
+"""Study 1 prospective design: discover, retain evidence, and reassess under fixed budgets.
 All outcomes are synthetic. No true risk is supplied to a decision function.
 """
 from pathlib import Path

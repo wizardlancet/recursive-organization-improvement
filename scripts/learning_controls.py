@@ -1,4 +1,4 @@
-"""Exploratory v6 timing and acquisition-matched controls, declared separately."""
+"""Exploratory timing and acquisition-matched controls, declared separately."""
 import json
 from learning_experiment import ROOT,simulate,bank,write,aggregate
 p=json.loads((ROOT/'examples/learning_controls.json').read_text())

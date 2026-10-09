@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "current_release": "v2",
+  "scientific_files_byte_identical": 59,
+  "new_experiments_run": false,
+  "manuscript_version_labels_absent": true,
+  "public_descriptive_metadata_normalized": true,
+  "immutable_design_ids_preserved": [
+    "learning-v6-1",
+    "post-v5 review",
+    "v6 core results"
+  ],
+  "arxiv_submission_performed": false
+}

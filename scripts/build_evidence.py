@@ -118,9 +118,9 @@ tex=[r'''\documentclass[10pt]{article}
 \setlength{\emergencystretch}{2em}
 \renewcommand{\arraystretch}{1.08}
 \title{Recursive Organization Improvement\\Supplementary Tables S1--S5}
-\author{Zilong Wang}\date{October 9, 2026}
+\author{Zilong Wang}\date{October 10, 2026}
 \begin{document}\maketitle
-This arXiv ancillary supplement reports Study 1 (evidence acquisition and retention), Study 2 (review arrangements and evidence generation), and the supplementary audit controls. Study 2 and the acquisition-matched controls are exploratory. Source paths below are relative to the repository root at tag \texttt{research-2026-10-09}. Every uncertainty entry is a 95\% Monte Carlo half-width conditional on the supplied simulation parameters. Rounding to zero does not imply a general absence of uncertainty. Protocol definitions and cost units differ between the studies and are specified in the manuscript. Supplementary table panels retain all rows from the named analyses; no outcome-based row filtering is used.
+This arXiv ancillary supplement reports Study 1 (evidence acquisition and retention), Study 2 (review arrangements and evidence generation), and the supplementary audit controls. Study 2 and the acquisition-matched controls are exploratory. Source paths below are relative to the repository root. Every uncertainty entry is a 95\% Monte Carlo half-width conditional on the supplied simulation parameters. Rounding to zero does not imply a general absence of uncertainty. Protocol definitions and cost units differ between the studies and are specified in the manuscript. Supplementary table panels retain all rows from the named analyses; no outcome-based row filtering is used.
 \tableofcontents
 ''']
 html_parts=['<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Supplementary Tables S1–S5</title><style>body{font:15px/1.5 system-ui,sans-serif;max-width:1500px;margin:30px auto;padding:0 22px;color:#202530}h1,h2,h3{color:#162f45}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px;margin:18px 0}th,td{border-bottom:1px solid #ccc;padding:6px 9px;text-align:left;white-space:nowrap}th{background:#e8eef3;position:sticky;top:0}tr:nth-child(even){background:#f6f8fa}code{font-size:12px}</style><h1>Supplementary Tables S1–S5</h1><p>All uncertainty entries are 95% Monte Carlo half-widths conditional on the model. No outcome-based row exclusion. The PDF defines symbols and estimands; full-precision input tables accompany the reproducibility package.</p>']
@@ -187,5 +187,5 @@ tex.append(r'\end{document}')
 html_parts.append('</html>')
 write(ROOT/'supplement/supplementary_tables.tex','\n'.join(tex)+'\n')
 write(ROOT/'supplement/supplementary_tables.html','\n'.join(html_parts))
-write(ROOT/'supplement/table_inventory.json',json.dumps({'panels':index,'sources':SOURCES,'tag':'research-2026-10-09'},indent=2))
+write(ROOT/'supplement/table_inventory.json',json.dumps({'panels':index,'sources':SOURCES,'tag':'v2'},indent=2))
 print('Built Figure 4, all 36 cumulative/fixed rows for Table 12, and',len(index),'supplementary table panels.')

@@ -21,13 +21,14 @@ Repository: https://github.com/wizardlancet/recursive-organization-improvement
 
 | Manuscript package | Repository tag | Status |
 |---|---|---|
-| v1 | `research-2026-09-30` | First public manuscript package |
-| v3 | `research-2026-10-09` | Two-study manuscript and complete supplementary tables |
+| v1 | [`research-2026-09-30`](https://github.com/wizardlancet/recursive-organization-improvement/releases/tag/research-2026-09-30) | First public manuscript |
+| v2 | [`v2`](https://github.com/wizardlancet/recursive-organization-improvement/releases/tag/v2) | Two-study manuscript and complete supplementary tables |
 
-The intermediate v2 package was a local review draft, without a public repository
-tag. These are manuscript-package identifiers; uploading an arXiv replacement is
-a separate action and arXiv assigns its own version number. Suggested replacement
-comments are in [ARXIV_COMMENTS.txt](ARXIV_COMMENTS.txt).
+The current release is v2, prepared as the replacement for the first arXiv
+version. Publishing this GitHub release does not submit the arXiv replacement.
+The manuscript itself uses no manuscript-version labels. Submission metadata
+are supplied in [ARXIV_ABSTRACT.txt](ARXIV_ABSTRACT.txt) and
+[ARXIV_COMMENTS.txt](ARXIV_COMMENTS.txt).
 
 ## Results and interpretation
 
@@ -87,10 +88,9 @@ Neither study is externally preregistered. See `qa/protocol_provenance.json` for
 hashes and the limits of this evidence. Historical machine-readable design IDs
 are preserved and are not manuscript-version labels.
 
-**No new experiments were run for the v3 manuscript revision.** Its numerical
-audit reconstructs means, intervals, contrasts, and cost identities from saved
-trajectories. Existing independent validation records are retained; their
-simulation checks were not rerun for v3.
+The numerical audit reconstructs means, intervals, contrasts, and cost identities
+from saved trajectories without running simulations. Existing independent
+validation records are retained with their original dates and scope.
 
 Using a Python environment with NumPy, inspect archived results without running
 experiments:
@@ -112,9 +112,10 @@ To redraw from saved results, with Matplotlib installed:
 
 ```sh
 python scripts/build_evidence.py
+python scripts/render_study1_memory.py
 ```
 
-This rendering script does not sample outcomes or rerun an exact grid.
+These rendering scripts do not sample outcomes or rerun an exact grid.
 
 ### Running the experiments separately
 
@@ -144,11 +145,10 @@ python scripts/robustness.py
 python scripts/review_analysis.py
 python scripts/coverage_experiment.py
 python scripts/audit_extensions.py
-python scripts/v5_analysis.py
+python scripts/diagnostic_analysis.py
 ```
 
-`v5_analysis.py` is a historical implementation identifier, not a public
-manuscript version. `coverage_*` data describe a diagnostic reset-only model,
+`coverage_*` data describe a diagnostic reset-only model,
 not the crossed-memory Study 1. The public snapshot adapter runs offline by
 default. `--fetch` refreshes live public sources and intentionally does not
 reproduce the stored snapshot. Public PR links allow re-identification: the
@@ -169,7 +169,7 @@ the experiment datasets. The complete research repository retains the latter.
 
 `qa/manuscript_checks.json` records current compilation and reference checks.
 `qa/release_verification.json` and the checks explicitly labeled v1 are retained
-historical validation of the original release, not evidence of a new v3 run.
+historical validation of the original release, not evidence of a new simulation run.
 `MANIFEST.sha256` covers the current tracked delivery files except itself.
 
 ## License and citation

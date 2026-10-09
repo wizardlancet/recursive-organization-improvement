@@ -74,7 +74,7 @@ fig,axs=plt.subplots(1,3,figsize=(8,3.6),layout='constrained')
 for a,env in zip(axs,['Stationary harm','Workflow reversal','Uniform gain']):
     for j,arm in enumerate(arms):
         rr=[next(r for r in summary if r['environment']==env and r['memory']==m and r['arm']==arm) for m in ['Reset','Cumulative','Window 8']]
-        a.errorbar(np.arange(3)+(j-2.5)*.11,[float(r['net']) for r in rr],yerr=[float(r['net_ci95']) for r in rr],fmt=markers[j],color=colors[j],ms=4,capsize=2,label=arm,ls='none')
+        a.errorbar(np.arange(3)+(j-2.5)*.11,[float(r['net']) for r in rr],yerr=[float(r['net_ci95']) for r in rr],fmt=markers[j],color=colors[j],ms=4,capsize=2,label=('Successive rejection' if arm=='Successive rejects' else arm),ls='none')
     a.set(title=env,xticks=range(3),xticklabels=['Reset','Cumul.','Window 8'],ylabel='Net value / task')
 fig.legend(*axs[0].get_legend_handles_labels(),loc='outside lower center',ncol=3,fontsize=8,frameon=False)
 def save(fig,name):
