@@ -7,7 +7,7 @@ as the replacement for the first arXiv version.
 Study 2 distinguishes shared private error from copying, compares human–agent
 review arrangements under bounded resources, and measures the cost of paid
 observation. Tables S1–S5 report all conditions and are supplied as an arXiv
-ancillary PDF. The README maps tables to saved inputs. The 1,638-character
+ancillary PDF. The README maps tables to saved inputs. The 1,712-character
 abstract retains the original specification and Study 1 argument.
 
 No new experiment was run for this manuscript release. The package checks saved

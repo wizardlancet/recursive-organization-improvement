@@ -19,7 +19,7 @@
   pre-run Git commit or external preregistration.
 - Preserve both studies' empirical test plans, separate cross-study connections
   from human-authority implications, and clarify objective and cost accounting.
-- Shorten the abstract to 1,638 ASCII characters while retaining the original
+- Shorten the abstract to 1,712 ASCII characters while retaining the original
   specification and Study 1 argument; use v2 consistently in release metadata.
 
 ## v1 — research-2026-09-30

@@ -2,17 +2,14 @@
   "date": "2026-10-10",
   "main_pages": 26,
   "supplement_pages": 19,
-  "all_pages_inspected_in_contact_sheets": true,
-  "enlarged_pages_inspected": {
-    "main": [
-      1,
-      13,
-      14
-    ],
-    "supplement": [
-      1
-    ]
-  },
-  "result": "No clipped text, table overflow, overlapping elements, blank pages, or manuscript-version labels observed.",
+  "all_main_pages_inspected_in_contact_sheets": true,
+  "enlarged_main_pages_inspected": [
+    1,
+    10,
+    18,
+    22
+  ],
+  "unchanged_supplement_retains_previous_visual_review": true,
+  "result": "No clipped text, table overflow, or overlapping elements observed. The restored abstract clause and three prose corrections render correctly.",
   "new_experiments_run": false
 }

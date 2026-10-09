@@ -10,5 +10,7 @@
     "post-v5 review",
     "v6 core results"
   ],
-  "arxiv_submission_performed": false
+  "arxiv_submission_performed": false,
+  "abstract_metadata_characters": 1712,
+  "arxiv_abstract_limit": 1920
 }

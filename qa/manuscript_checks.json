@@ -3,7 +3,7 @@
   "pdfs": {
     "main.pdf": {
       "pages": 26,
-      "sha256": "0ad4f6e25a2c792cbaa308afaaa6c6e39c00656ec04d29015b94d3d54f751cd4",
+      "sha256": "73cfb4e4e808466902a64bd0b48f5ff3981fbc933903cfa801ecbe39451bfb14",
       "out_of_page_text": [],
       "unresolved_references_or_layout_errors": []
     },
@@ -22,7 +22,7 @@
   "figure1_after_equation4": true,
   "supplement_location": "anc/supplementary_tables.pdf",
   "compile_engine": "Tectonic, three TeX passes with BibTeX",
-  "abstract_metadata_characters": 1638,
+  "abstract_metadata_characters": 1712,
   "arxiv_abstract_limit": 1920,
   "manuscript_version_labels_absent": true,
   "repository_url_contiguous_two_extractors_and_annotation": true,

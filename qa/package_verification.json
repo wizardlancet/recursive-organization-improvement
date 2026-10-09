@@ -1,12 +1,10 @@
 {
   "passed": true,
   "archive": "roi-v2-arxiv-source.zip",
-  "archive_sha256": "bebc80f7e4f9031a97c426addd575adb4a5d4403d24e95c8208efcd0ae26950d",
+  "archive_sha256": "4171c71aa81d765073b56ed6d31ca5960e65b3981ae81d94951d4b9121cbd9a5",
   "source_files": 26,
   "independent_compile_pages": 26,
   "all_rendered_pages_identical": true,
   "ancillary_pdf_matches": true,
-  "excludes_internal_review_and_experiment_data": true,
-  "initial_build_difference": "One reference line on page 16 had different word spacing; no text or pagination difference.",
-  "resolution": "Recompiled local manuscript with resolved auxiliary data; all 26 pages are now pixel-identical to the independent source-package build."
+  "excludes_internal_review_and_experiment_data": true
 }
