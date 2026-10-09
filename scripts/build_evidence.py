@@ -107,21 +107,15 @@ for i,r in enumerate(primary):
 table.extend([r'\end{longtable}',r'\endgroup'])
 write(ROOT/'sections/actor_results.tex','\n'.join(table)+'\n')
 
-# A separate supplement keeps exhaustive tables out of the main-paper narrative.
-tex=[r'''\documentclass[10pt]{article}
-\usepackage[margin=19mm]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{lmodern,amsmath,booktabs,longtable,array,xcolor,hyperref}
-\hypersetup{colorlinks=true,urlcolor=blue!50!black,linkcolor=blue!50!black}
-\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
-\setlength{\emergencystretch}{2em}
+# Tables are included in the main PDF after the appendices.
+tex=[r'''% Included by main.tex after the appendices.
+\begingroup
 \renewcommand{\arraystretch}{1.08}
-\title{Recursive Organization Improvement\\Supplementary Tables S1--S5}
-\author{Zilong Wang}\date{October 10, 2026}
-\begin{document}\maketitle
-This arXiv ancillary supplement reports Study 1 (evidence acquisition and retention), Study 2 (review arrangements and evidence generation), and the supplementary audit controls. Study 2 and the acquisition-matched controls are exploratory. Source paths below are relative to the repository root. Every uncertainty entry is a 95\% Monte Carlo half-width conditional on the supplied simulation parameters. Rounding to zero does not imply a general absence of uncertainty. Protocol definitions and cost units differ between the studies and are specified in the manuscript. Supplementary table panels retain all rows from the named analyses; no outcome-based row filtering is used.
-\tableofcontents
+\renewcommand{\footnotesize}{\fontsize{8}{10}\selectfont}
+\section*{Supplementary Tables}
+\label{sec:supplementary-tables}
+\addcontentsline{toc}{section}{Supplementary Tables}
+Tables S1--S5 report Study 1 (evidence acquisition and retention), Study 2 (review arrangements and evidence generation), and the supplementary audit controls. Study 2 and the acquisition-matched controls are exploratory. Source paths below are relative to the repository root. Every uncertainty entry is a 95\% Monte Carlo half-width conditional on the supplied simulation parameters. Rounding to zero does not imply a general absence of uncertainty. Protocol definitions and cost units differ between the studies and are specified in the manuscript. Supplementary table panels retain all rows from the named analyses; no outcome-based row filtering is used.
 ''']
 html_parts=['<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Supplementary Tables S1–S5</title><style>body{font:15px/1.5 system-ui,sans-serif;max-width:1500px;margin:30px auto;padding:0 22px;color:#202530}h1,h2,h3{color:#162f45}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px;margin:18px 0}th,td{border-bottom:1px solid #ccc;padding:6px 9px;text-align:left;white-space:nowrap}th{background:#e8eef3;position:sticky;top:0}tr:nth-child(even){background:#f6f8fa}code{font-size:12px}</style><h1>Supplementary Tables S1–S5</h1><p>All uncertainty entries are 95% Monte Carlo half-widths conditional on the model. No outcome-based row exclusion. The PDF defines symbols and estimands; full-precision input tables accompany the reproducibility package.</p>']
 index=[]
@@ -130,15 +124,17 @@ SOURCES={'S1':['results/learning_summary.csv','results/learning_contrasts.csv'],
 
 def start(number,title,description):
     description = r'{\footnotesize Source: '+ '; '.join(r'\texttt{'+esc(x)+'}' for x in SOURCES[number]) + r'.}\par ' + description
-    tex.append('\\clearpage\n\\section*{Supplementary Table '+number+': '+title+'}\n\\addcontentsline{toc}{section}{Table '+number+': '+title+'}\n'+description+'\n')
+    page_break = '' if number == 'S1' else '\\clearpage\n'
+    tex.append(page_break+'\\subsection*{Table '+number+': '+title+'}\n\\label{supp:'+number+'}\n\\addcontentsline{toc}{subsection}{Table '+number+': '+title+'}\n'+description+'\n')
     html_parts.append('<h2 id="'+number+'">Table '+number+': '+html.escape(title)+'</h2><p>'+html.escape(description.replace('\\%','%'))+'</p>')
 
 def panel(title,headers,data,widths=None):
-    # Keep the final contrast heading with its table; use normal row spacing for S3.
+    # Keep the final contrast heading with its table and avoid short continuation pages.
     if title.startswith('E.'): tex.append(r'\clearpage')
     # Tables are split by metric rather than scaled below readable font sizes.
-    tex.append('\\subsection*{'+title+'}\n\\begingroup\\footnotesize\\setlength{\\tabcolsep}{4pt}\n')
-    if title=='Complete audit grid': tex.append(r'\renewcommand{\arraystretch}{1.0}')
+    tex.append('\\subsubsection*{'+title+'}\n\\begingroup\\footnotesize\\setlength{\\tabcolsep}{4pt}\n')
+    if title=='Complete audit grid': tex.append(r'\renewcommand{\arraystretch}{.93}')
+    if title=='C. Paired net-value contrasts': tex.append(r'\renewcommand{\arraystretch}{1.0}')
     spec=widths or ('l'*len(headers))
     h=' & '.join(headers)+r' \\'
     tex.extend([r'\begin{longtable}{@{}'+spec+r'@{}}',r'\toprule '+h+r'\midrule\endfirsthead',r'\toprule '+h+r'\midrule\endhead',r'\midrule\multicolumn{'+str(len(headers))+r'}{r}{Continued on next page}\\\endfoot',r'\bottomrule\endlastfoot'])
@@ -182,8 +178,8 @@ panel('B. Full-horizon costs and regret',['Environment','Policy','Memory','Acqui
 panel('C. Final-16-round outcomes',['Environment','Policy','Memory',r'Late error (\%)','Late net',r'Late hit (\%)'],[actor_id(r)+[pm(r,'error_late',factor=100,digits=3),pm(r,'net_late'),pm(r,'hit_late',factor=100,digits=2)] for r in summary])
 panel('D. Final-16-round costs and regret',['Environment','Policy','Memory','Late acquisition','Late production','Late regret'],[actor_id(r)+[pm(r,'acquisition_cost_late',digits=3),pm(r,'production_cost_late',digits=4),pm(r,'regret_late')] for r in summary])
 pairs=rows(ACTOR/'results/paired_contrasts.csv')
-panel('E. Paired policy and memory contrasts',['Environment','Policy A / memory','Policy B / memory','Error diff. (pp)','Net difference','Regret diff.'],[[WORLD[r['world']],ABBR[r['policy_a']]+' / '+MEM[r['memory_a']],ABBR[r['policy_b']]+' / '+MEM[r['memory_b']],pm(r,'error_difference','error_ci95',100,3),pm(r,'net_difference','net_ci95'),pm(r,'regret_difference','regret_ci95')] for r in pairs],r'l>{\raggedright\arraybackslash}p{.19\linewidth}>{\raggedright\arraybackslash}p{.19\linewidth}rrr')
-tex.append(r'\end{document}')
+panel('E. Paired policy and memory contrasts',['Environment','Policy A / memory','Policy B / memory','Error diff. (pp)','Net difference','Regret diff.'],[[WORLD[r['world']],ABBR[r['policy_a']]+' / '+MEM[r['memory_a']],ABBR[r['policy_b']]+' / '+MEM[r['memory_b']],pm(r,'error_difference','error_ci95',100,3),pm(r,'net_difference','net_ci95'),pm(r,'regret_difference','regret_ci95')] for r in pairs],r'l>{\raggedright\arraybackslash}p{.175\linewidth}>{\raggedright\arraybackslash}p{.175\linewidth}rrr')
+tex.append(r'\endgroup')
 html_parts.append('</html>')
 write(ROOT/'supplement/supplementary_tables.tex','\n'.join(tex)+'\n')
 write(ROOT/'supplement/supplementary_tables.html','\n'.join(html_parts))

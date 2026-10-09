@@ -7,7 +7,6 @@
     "figures/fig1_framework.pdf",
     "figures/fig4_actor_review.pdf",
     "figures/fig9_memory.pdf",
-    "main.bbl",
     "main.tex",
     "sections/actor_results.tex",
     "sections/actor_review.tex",
@@ -26,8 +25,8 @@
     "supplement/supplementary_tables.tex",
     "template/License.txt"
   ],
-  "archive_sha256": "85c5496a84eae1ee112592d689f0c3cbaf62d872db04848d69cd39d0a0f55758",
-  "bytes": 236146,
+  "archive_sha256": "ae31f89e2a37826e349a9cc19bdb8b44088011fcedca3c427f60c22dd27d5f57",
+  "bytes": 228083,
   "main_document": "main.tex",
   "standalone_supplement_pdf": false,
   "passed": true,
@@ -35,7 +34,8 @@
   "all_rendered_pages_identical": true,
   "compiler": "Tectonic (XeTeX) with BibTeX",
   "compiler_run_on_overleaf": false,
-  "source_files": 25,
+  "source_files": 24,
   "excludes_internal_review_and_experiment_data": true,
-  "tex_passes": 3
+  "tex_passes": 6,
+  "build_stabilization": "An additional compiler run stabilized bibliography microtype spacing; all 45 rendered pages then matched."
 }

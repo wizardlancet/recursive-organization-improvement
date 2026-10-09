@@ -1,24 +1,18 @@
-\documentclass[10pt]{article}
-\usepackage[margin=19mm]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{lmodern,amsmath,booktabs,longtable,array,xcolor,hyperref}
-\hypersetup{colorlinks=true,urlcolor=blue!50!black,linkcolor=blue!50!black}
-\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
-\setlength{\emergencystretch}{2em}
+% Included by main.tex after the appendices.
+\begingroup
 \renewcommand{\arraystretch}{1.08}
-\title{Recursive Organization Improvement\\Supplementary Tables S1--S5}
-\author{Zilong Wang}\date{October 10, 2026}
-\begin{document}\maketitle
-This arXiv ancillary supplement reports Study 1 (evidence acquisition and retention), Study 2 (review arrangements and evidence generation), and the supplementary audit controls. Study 2 and the acquisition-matched controls are exploratory. Source paths below are relative to the repository root. Every uncertainty entry is a 95\% Monte Carlo half-width conditional on the supplied simulation parameters. Rounding to zero does not imply a general absence of uncertainty. Protocol definitions and cost units differ between the studies and are specified in the manuscript. Supplementary table panels retain all rows from the named analyses; no outcome-based row filtering is used.
-\tableofcontents
+\renewcommand{\footnotesize}{\fontsize{8}{10}\selectfont}
+\section*{Supplementary Tables}
+\label{sec:supplementary-tables}
+\addcontentsline{toc}{section}{Supplementary Tables}
+Tables S1--S5 report Study 1 (evidence acquisition and retention), Study 2 (review arrangements and evidence generation), and the supplementary audit controls. Study 2 and the acquisition-matched controls are exploratory. Source paths below are relative to the repository root. Every uncertainty entry is a 95\% Monte Carlo half-width conditional on the supplied simulation parameters. Rounding to zero does not imply a general absence of uncertainty. Protocol definitions and cost units differ between the studies and are specified in the manuscript. Supplementary table panels retain all rows from the named analyses; no outcome-based row filtering is used.
 
-\clearpage
-\section*{Supplementary Table S1: Study 1: evidence acquisition and retention}
-\addcontentsline{toc}{section}{Table S1: Study 1: evidence acquisition and retention}
+\subsection*{Table S1: Study 1: evidence acquisition and retention}
+\label{supp:S1}
+\addcontentsline{toc}{subsection}{Table S1: Study 1: evidence acquisition and retention}
 {\footnotesize Source: \texttt{results/learning\_summary.csv}; \texttt{results/learning\_contrasts.csv}.}\par Core design: 54 conditions, each with 128 independent replicate trajectories of 48 rounds. Window 8 includes eight previous rounds plus current observations. Net value, regret and expenses are per production task. Harm is the percentage of rounds selecting a template worse than standard. Late net value covers the final eight rounds. Panel C separates core and exploratory control contrasts; intervals use paired replicate differences.
 
-\subsection*{A. Net value, harmful adoption, and selection regret}
+\subsubsection*{A. Net value, harmful adoption, and selection regret}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
 \begin{longtable}{@{}llllll@{}}
@@ -81,7 +75,7 @@ Uniform gain & Window 8 & Rejection & $0.72184 \pm 0.00017$ & $0.000 \pm 0.000$ 
 Uniform gain & Window 8 & Once & $0.72101 \pm 0.00080$ & $0.000 \pm 0.000$ & $0.00076 \pm 0.00080$ \\
 Uniform gain & Window 8 & Repeated & $0.72186 \pm 0.00008$ & $0.000 \pm 0.000$ & $0.00004 \pm 0.00008$ \\
 \end{longtable}\endgroup
-\subsection*{B. Evaluation expense, program-trial expense, and late outcome}
+\subsubsection*{B. Evaluation expense, program-trial expense, and late outcome}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
 \begin{longtable}{@{}llllll@{}}
@@ -146,8 +140,9 @@ Uniform gain & Window 8 & Repeated & $0.01810 \pm 0.00000$ & $0.00359 \pm 0.0000
 \end{longtable}\endgroup
 Reversal labels in Panel C give the one-based round before which the change occurs.
 
-\subsection*{C. Paired net-value contrasts}
+\subsubsection*{C. Paired net-value contrasts}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.0}
 
 \begin{longtable}{@{}lp{.19\linewidth}lp{.29\linewidth}rr@{}}
 \toprule Study & Environment & Memory & Comparison & $N$ & Difference \\\midrule\endfirsthead
@@ -246,11 +241,12 @@ exploratory control & Reversal at 29 & Window 8 & Repeated - Trial-matched Balan
 exploratory control & Reversal at 29 & Window 8 & Repeated - Discover once & 128 & $0.00342 \pm 0.00177$ \\
 \end{longtable}\endgroup
 \clearpage
-\section*{Supplementary Table S2: Retained programs and conditional block outcomes}
-\addcontentsline{toc}{section}{Table S2: Retained programs and conditional block outcomes}
+\subsection*{Table S2: Retained programs and conditional block outcomes}
+\label{supp:S2}
+\addcontentsline{toc}{subsection}{Table S2: Retained programs and conditional block outcomes}
 {\footnotesize Source: \texttt{results/learning\_conditional.csv}.}\par All 189 observed program groups are retained: three environments and three memories, both discover-once and repeated-discovery rules, and all three retained programs at their scheduled reviews. Shares use 128 runs per review condition; $n$ is the number retaining the named program. Net and harm cover the subsequent eight-round block. Harm is expressed as a percentage. These are descriptive, endogenously selected groups; no causal program effect or unavailable conditional interval is implied. Every reported group has at least one retained run.
 
-\subsection*{Complete conditional summary}
+\subsubsection*{Complete conditional summary}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
 \begin{longtable}{@{}lllllllll@{}}
@@ -449,14 +445,15 @@ Uniform gain & Window 8 & Repeated & 41 & Balanced & 26 & 20.31 & 0.72190 & 0.00
 Uniform gain & Window 8 & Repeated & 41 & Neyman & 41 & 32.03 & 0.72190 & 0.000 \\
 \end{longtable}\endgroup
 \clearpage
-\section*{Supplementary Table S3: Audit policy and memory-window grid}
-\addcontentsline{toc}{section}{Table S3: Audit policy and memory-window grid}
+\subsection*{Table S3: Audit policy and memory-window grid}
+\label{supp:S3}
+\addcontentsline{toc}{subsection}{Table S3: Audit policy and memory-window grid}
 {\footnotesize Source: \texttt{results/robustness\_summary.csv}.}\par All 54 combinations of three environments, three memory windows, and six audit policies. Each cell uses 200 independent seeds. Paired differences compare with fixed audit rate .10 within the same environment and window. The outcome is net value per task under the supplementary audit model.
 
-\subsection*{Complete audit grid}
+\subsubsection*{Complete audit grid}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
-\renewcommand{\arraystretch}{1.0}
+\renewcommand{\arraystretch}{.93}
 \begin{longtable}{@{}lllll@{}}
 \toprule Environment & Window & Policy & Net value & Difference vs. fixed .10 \\\midrule\endfirsthead
 \toprule Environment & Window & Policy & Net value & Difference vs. fixed .10 \\\midrule\endhead
@@ -518,11 +515,12 @@ Fast shifts & 24 & Periodic dense & $0.57131 \pm 0.00240$ & $-0.00931 \pm 0.0024
 Fast shifts & 24 & Adaptive audit & $0.56229 \pm 0.00220$ & $-0.01834 \pm 0.00251$ \\
 \end{longtable}\endgroup
 \clearpage
-\section*{Supplementary Table S4: Expected-value-of-information sensitivity}
-\addcontentsline{toc}{section}{Table S4: Expected-value-of-information sensitivity}
+\subsection*{Table S4: Expected-value-of-information sensitivity}
+\label{supp:S4}
+\addcontentsline{toc}{subsection}{Table S4: Expected-value-of-information sensitivity}
 {\footnotesize Source: \texttt{results/audit\_extensions\_summary.csv}.}\par All 72 combinations of three priors, two routing thresholds, two candidate-generation costs, two environments, and three policies. Each cell uses 96 independent test seeds; development seeds selected the horizon separately. Nonzero generation cost charges counterfactual A outputs when route B is executed. Paired differences use fixed audit rate .10 within the same condition.
 
-\subsection*{Complete prior, threshold, and generation-cost grid}
+\subsubsection*{Complete prior, threshold, and generation-cost grid}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
 \begin{longtable}{@{}lllllll@{}}
@@ -604,11 +602,12 @@ Fast shifts & 24 & Adaptive audit & $0.56229 \pm 0.00220$ & $-0.01834 \pm 0.0025
 1:19 & 0.16 & 0.2 & Regime shifts & EVSI & $0.56729 \pm 0.00321$ & $-0.05373 \pm 0.00515$ \\
 \end{longtable}\endgroup
 \clearpage
-\section*{Supplementary Table S5: Study 2: review arrangements and evidence generation}
-\addcontentsline{toc}{section}{Table S5: Study 2: review arrangements and evidence generation}
+\subsection*{Table S5: Study 2: review arrangements and evidence generation}
+\label{supp:S5}
+\addcontentsline{toc}{subsection}{Table S5: Study 2: review arrangements and evidence generation}
 {\footnotesize Source: \texttt{study2/results/learning\_summary.csv}; \texttt{study2/results/paired\_contrasts.csv}.}\par All 84 environment--policy--memory conditions: six environments, four paid policies crossed with three memories, and two fixed baselines per environment. Each learning condition uses 128 trajectories of 48 rounds; late outcomes cover the final 16 rounds. Error and optimal-choice hit are percentages. Regret is deployment loss above the finite-catalog minimum, excluding acquisition and switching. Acquisition cost is per round; production cost is per task in human-call units. Fixed baselines have deterministic expected-outcome scores; their displayed zero half-widths describe the simulation, not real-world certainty. Paired, Randomized, Omit echo and Final only denote the four observation policies defined in Appendix E.
 
-\subsection*{A. Full-horizon selection and net value}
+\subsubsection*{A. Full-horizon selection and net value}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
 \begin{longtable}{@{}llllll@{}}
@@ -701,7 +700,7 @@ Stronger humans & Omit echo & Window 8 & $8.982 \pm 0.027$ & $0.64741 \pm 0.0008
 Stronger humans & Fixed exposed & Fixed & $19.570 \pm 0.000$ & $0.39290 \pm 0.00000$ & $0.00 \pm 0.00$ \\
 Stronger humans & Fixed blind & Fixed & $12.320 \pm 0.000$ & $0.60740 \pm 0.00000$ & $0.00 \pm 0.00$ \\
 \end{longtable}\endgroup
-\subsection*{B. Full-horizon costs and regret}
+\subsubsection*{B. Full-horizon costs and regret}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
 \begin{longtable}{@{}llllll@{}}
@@ -794,7 +793,7 @@ Stronger humans & Omit echo & Window 8 & $233.600 \pm 0.000$ & $1.3053 \pm 0.001
 Stronger humans & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000$ & $0.43790 \pm 0.00000$ \\
 Stronger humans & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.22340 \pm 0.00000$ \\
 \end{longtable}\endgroup
-\subsection*{C. Final-16-round outcomes}
+\subsubsection*{C. Final-16-round outcomes}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
 \begin{longtable}{@{}llllll@{}}
@@ -887,7 +886,7 @@ Stronger humans & Omit echo & Window 8 & $8.952 \pm 0.043$ & $0.64831 \pm 0.0012
 Stronger humans & Fixed exposed & Fixed & $19.570 \pm 0.000$ & $0.39290 \pm 0.00000$ & $0.00 \pm 0.00$ \\
 Stronger humans & Fixed blind & Fixed & $12.320 \pm 0.000$ & $0.60740 \pm 0.00000$ & $0.00 \pm 0.00$ \\
 \end{longtable}\endgroup
-\subsection*{D. Final-16-round costs and regret}
+\subsubsection*{D. Final-16-round costs and regret}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
 \begin{longtable}{@{}llllll@{}}
@@ -981,10 +980,10 @@ Stronger humans & Fixed exposed & Fixed & $0.000 \pm 0.000$ & $1.0000 \pm 0.0000
 Stronger humans & Fixed blind & Fixed & $0.000 \pm 0.000$ & $1.1500 \pm 0.0000$ & $0.22340 \pm 0.00000$ \\
 \end{longtable}\endgroup
 \clearpage
-\subsection*{E. Paired policy and memory contrasts}
+\subsubsection*{E. Paired policy and memory contrasts}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
-\begin{longtable}{@{}l>{\raggedright\arraybackslash}p{.19\linewidth}>{\raggedright\arraybackslash}p{.19\linewidth}rrr@{}}
+\begin{longtable}{@{}l>{\raggedright\arraybackslash}p{.175\linewidth}>{\raggedright\arraybackslash}p{.175\linewidth}rrr@{}}
 \toprule Environment & Policy A / memory & Policy B / memory & Error diff. (pp) & Net difference & Regret diff. \\\midrule\endfirsthead
 \toprule Environment & Policy A / memory & Policy B / memory & Error diff. (pp) & Net difference & Regret diff. \\\midrule\endhead
 \midrule\multicolumn{6}{r}{Continued on next page}\\\endfoot
@@ -1020,4 +1019,4 @@ Stronger humans & Paired / Window 8 & Paired / Cumulative & $0.006 \pm 0.006$ & 
 Stronger humans & Randomized / Window 8 & Randomized / Cumulative & $0.007 \pm 0.006$ & $-0.00024 \pm 0.00019$ & $0.00024 \pm 0.00019$ \\
 Stronger humans & Paired / Cumulative & Fixed blind / Fixed & $-7.697 \pm 0.009$ & $0.16567 \pm 0.00028$ & $-0.22270 \pm 0.00028$ \\
 \end{longtable}\endgroup
-\end{document}
+\endgroup

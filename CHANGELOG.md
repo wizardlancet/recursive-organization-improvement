@@ -7,7 +7,7 @@
   in Section 6 and conclusion in Section 7.
 - Include the previously executed exploratory Study 2 code, unchanged protocol,
   complete results, and validation records in the main repository.
-- Supply Tables S1–S5 as arXiv ancillary material with explicit source-file maps.
+- Include Tables S1–S5 after the appendices in the paper PDF, with explicit source-file maps.
 - Explain the public-record ambiguity between private dependence and copying,
   separate gold-label measurement from human override, and report observation
   cost and memory comparisons from saved trajectories.

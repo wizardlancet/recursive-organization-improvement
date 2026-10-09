@@ -1,15 +1,19 @@
 {
   "date": "2026-10-10",
-  "main_pages": 26,
-  "supplement_pages": 19,
-  "all_main_pages_inspected_in_contact_sheets": true,
-  "enlarged_main_pages_inspected": [
-    1,
-    10,
-    18,
-    22
+  "main_pages": 45,
+  "main_body_and_appendix_pages": 26,
+  "integrated_supplement_pages": [
+    27,
+    45
   ],
-  "unchanged_supplement_retains_previous_visual_review": true,
-  "result": "No clipped text, table overflow, or overlapping elements observed. The restored abstract clause and three prose corrections render correctly.",
+  "all_changed_pages_inspected_in_contact_sheets": true,
+  "enlarged_pages_inspected": [
+    14,
+    27,
+    35,
+    45
+  ],
+  "unaffected_pages_pixel_identical_to_previous_reviewed_pdf": true,
+  "result": "No clipping, table overflow, overlapping elements, or unresolved references observed. Continuous pagination and supplementary-table bookmarks verified.",
   "new_experiments_run": false
 }

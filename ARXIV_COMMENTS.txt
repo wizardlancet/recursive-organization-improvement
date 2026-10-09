@@ -1,1 +1,1 @@
-v2: 26 pages, 4 figures. Includes an exploratory study of human-agent review arrangements and supplementary Tables S1-S5; expands the analysis of evidence generation and paid observation.
+v2: 45 pages (including appendices and supplementary tables), 4 figures. Includes an exploratory study of human-agent review arrangements and supplementary Tables S1-S5; expands the analysis of evidence generation and paid observation.

@@ -295,6 +295,7 @@ for p in files:
         if not re.search(r'\d',line) or line.startswith('%'):continue
         name=p.name
         if name.endswith('_rows.tex') or name=='actor_results.tex':kind='numeric table checked against identified CSV rows';sources=['results/learning_*.csv','results/audit_extensions_summary.csv','study2/results/learning_summary.csv']
+        elif name=='supplementary_tables.tex':kind='supplementary table or setting checked against saved inputs';sources=['results/learning_summary.csv','results/learning_contrasts.csv','results/learning_conditional.csv','results/robustness_summary.csv','results/audit_extensions_summary.csv','study2/results/learning_summary.csv','study2/results/paired_contrasts.csv']
         elif name=='study.tex':kind='Study 1 settings or result claim';sources=['examples/learning_protocol.json','examples/learning_controls.json','results/learning_*.csv']
         elif name in ('study2.tex','actor_review.tex'):kind='Study 2 settings, result claim, analytical law, or validation record';sources=['study2/protocol.json','study2/results/','study2/model.py','study2/qa/validation.json','qa/protocol_provenance.json']
         elif name=='learning_protocol.tex':kind='Study 1 methods or settings';sources=['examples/learning_protocol.json','examples/learning_controls.json','scripts/learning_experiment.py','qa/learning_validation.json']

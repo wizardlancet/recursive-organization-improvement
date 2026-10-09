@@ -16,6 +16,9 @@
 - `literature_verification.json`: primary-source metadata/access-depth checks for
   the newly cited classical literature and the software-workflow acknowledgment.
 - `package_verification.json`: independent build from the arXiv source ZIP.
+- `overleaf_package_verification.json`: independent local build of the minimal
+  Overleaf ZIP, following the original source-only package. Both builds produce
+  the same 45-page paper, including Tables S1–S5 after Appendix E.
 
 No experiment was rerun to produce these revision checks. The scientific
 validation records under `study2/qa/` were generated during the existing Study 2

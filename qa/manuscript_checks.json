@@ -2,14 +2,8 @@
   "passed": true,
   "pdfs": {
     "main.pdf": {
-      "pages": 26,
-      "sha256": "73cfb4e4e808466902a64bd0b48f5ff3981fbc933903cfa801ecbe39451bfb14",
-      "out_of_page_text": [],
-      "unresolved_references_or_layout_errors": []
-    },
-    "supplement/supplementary_tables.pdf": {
-      "pages": 19,
-      "sha256": "436e77817e81070c42c368bed0a93aa1e87395308d796f40e0b59cc9b51480b7",
+      "pages": 45,
+      "sha256": "c08c47a9aa5254d778cbac5bfa28b067ff55663726ba0757f1473c06c3a2e4ab",
       "out_of_page_text": [],
       "unresolved_references_or_layout_errors": []
     }
@@ -20,12 +14,24 @@
   "figures": 4,
   "tables": 12,
   "figure1_after_equation4": true,
-  "supplement_location": "anc/supplementary_tables.pdf",
+  "supplement_location": "main.pdf, pages 27-45, after Appendix E",
   "compile_engine": "Tectonic, three TeX passes with BibTeX",
   "abstract_metadata_characters": 1712,
   "arxiv_abstract_limit": 1920,
   "manuscript_version_labels_absent": true,
   "repository_url_contiguous_two_extractors_and_annotation": true,
   "native_pdf_click_or_clipboard_tested": false,
-  "nonfatal": "Fontconfig default-config diagnostic and UTF-8 inputenc warning; no missing glyphs or unresolved citations"
+  "nonfatal": "Fontconfig default-config diagnostic and UTF-8 inputenc warning; no missing glyphs or unresolved citations",
+  "supplementary_tables": 5,
+  "supplementary_table_pages": {
+    "Table S1": 27,
+    "Table S2": 31,
+    "Table S3": 35,
+    "Table S4": 36,
+    "Table S5": 38
+  },
+  "supplementary_rows": 879,
+  "main_body_and_appendix_pages": 26,
+  "standalone_supplement_pdf": false,
+  "unaffected_pages_1_to_26_pixel_identical_except_availability": true
 }

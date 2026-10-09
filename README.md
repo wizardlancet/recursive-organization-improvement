@@ -54,8 +54,8 @@ participants, real PR defect escape rates, or organizational productivity.
 
 ## Supplementary tables and source files
 
-Tables S1–S5 are delivered as the arXiv ancillary file
-[`anc/supplementary_tables.pdf`](anc/supplementary_tables.pdf).
+Tables S1–S5 follow Appendix E in the [main paper PDF](main.pdf), with continuous
+page numbering. No separate supplementary PDF is required.
 The [HTML copy](supplement/supplementary_tables.html) permits text search and
 copying. Its source is `supplement/supplementary_tables.tex`.
 
@@ -154,18 +154,20 @@ default. `--fetch` refreshes live public sources and intentionally does not
 reproduce the stored snapshot. Public PR links allow re-identification: the
 snapshot is pseudonymized, not irreversibly anonymized.
 
-## Build the manuscript and supplement
+## Build the manuscript
 
 ```sh
 tectonic --keep-logs --keep-intermediates --reruns 2 main.tex
-tectonic --keep-logs --keep-intermediates --reruns 2 supplement/supplementary_tables.tex --outdir supplement
-# Copy the resulting supplementary PDF to anc/supplementary_tables.pdf for arXiv.
 ```
 
 `latexmk -pdf main.tex` is an alternative with a full TeX installation. The
-community single-column template is `arxiv.sty`. The arXiv source release asset
-includes the manuscript inputs and `anc/supplementary_tables.pdf`, and excludes
-the experiment datasets. The complete research repository retains the latter.
+community single-column template is `arxiv.sty`. Both source ZIPs include the
+manuscript, supplementary-table inputs, figure PDFs, bibliography, style, and
+licenses. The arXiv ZIP also contains the compiled bibliography (`main.bbl`);
+the minimal Overleaf ZIP follows the original source-only package, with
+`main.tex` at its root. Upload it as a new project and select `main.tex` as the
+main document. Neither ZIP includes experiment datasets, standalone supplement
+PDFs, build logs, or internal review files. The repository retains the datasets.
 
 `qa/manuscript_checks.json` records current compilation and reference checks.
 `qa/release_verification.json` and the checks explicitly labeled v1 are retained

@@ -45,7 +45,7 @@
     "no_echo_blind_cost": 2.5673907444456745e-16
   },
   "claim_count": 98,
-  "numeric_source_lines": 250,
+  "numeric_source_lines": 1184,
   "study2_cost_comparisons": [
     {
       "world": "no_echo",

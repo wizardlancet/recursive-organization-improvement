@@ -6,8 +6,8 @@ as the replacement for the first arXiv version.
 
 Study 2 distinguishes shared private error from copying, compares human–agent
 review arrangements under bounded resources, and measures the cost of paid
-observation. Tables S1–S5 report all conditions and are supplied as an arXiv
-ancillary PDF. The README maps tables to saved inputs. The 1,712-character
+observation. Tables S1–S5 report all conditions after the appendices in the
+main PDF. The README maps tables to saved inputs. The 1,712-character
 abstract retains the original specification and Study 1 argument.
 
 No new experiment was run for this manuscript release. The package checks saved
@@ -18,6 +18,6 @@ neither study is externally preregistered.
 Code is MIT; manuscript, original figures, protocols, and synthetic data are
 CC BY 4.0. See the license files for third-party exclusions.
 
-Assets include the paper PDF, ancillary PDF, an arXiv source ZIP, and their
-SHA-256 checksums. This GitHub release does not submit an arXiv replacement.
+Assets include the combined paper PDF, an arXiv source ZIP, a minimal Overleaf
+source ZIP, and their SHA-256 checksums. This GitHub release does not submit an arXiv replacement.
 No Zenodo DOI has been minted for this release.
