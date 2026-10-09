@@ -3,7 +3,7 @@
   "pdfs": {
     "main.pdf": {
       "pages": 45,
-      "sha256": "c08c47a9aa5254d778cbac5bfa28b067ff55663726ba0757f1473c06c3a2e4ab",
+      "sha256": "5f7c96b47190c730efb7fa863a48fddab72e9f46990eb4d422f8680dae5dffe7",
       "out_of_page_text": [],
       "unresolved_references_or_layout_errors": []
     }
@@ -33,5 +33,5 @@
   "supplementary_rows": 879,
   "main_body_and_appendix_pages": 26,
   "standalone_supplement_pdf": false,
-  "unaffected_pages_1_to_26_pixel_identical_except_availability": true
+  "pages_1_to_26_pixel_identical_to_previous_version": true
 }

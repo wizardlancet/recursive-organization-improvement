@@ -6,7 +6,7 @@
       "columns": [
         "Environment",
         "Memory",
-        "Arm",
+        "Arm (SR = Successive rejection)",
         "Net value",
         "Harm (\\%)",
         "Regret"
@@ -18,7 +18,7 @@
       "columns": [
         "Environment",
         "Memory",
-        "Arm",
+        "Arm (SR = Successive rejection)",
         "Expense",
         "Trial expense",
         "Late net"

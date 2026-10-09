@@ -26,16 +26,14 @@
     "supplement/supplementary_tables.tex",
     "template/License.txt"
   ],
-  "archive_sha256": "85c5496a84eae1ee112592d689f0c3cbaf62d872db04848d69cd39d0a0f55758",
-  "bytes": 236146,
+  "archive_sha256": "53b47b56778e53311a965e1360750f8dd5649dd4552eff3db952d67db7e510c3",
+  "bytes": 236135,
   "main_document": "main.tex",
   "standalone_supplement_pdf": false,
-  "passed": true,
-  "independent_compile_pages": 45,
-  "all_rendered_pages_identical": true,
-  "compiler": "Tectonic (XeTeX) with BibTeX",
-  "compiler_run_on_overleaf": false,
   "source_files": 25,
-  "excludes_internal_review_and_experiment_data": true,
-  "tex_passes": 3
+  "passed": true,
+  "main_pdf_pages": 45,
+  "checked_against_independently_compiled_overleaf_inputs": true,
+  "only_addition": "main.bbl, byte-identical to the independent build bibliography",
+  "excludes_internal_review_and_experiment_data": true
 }

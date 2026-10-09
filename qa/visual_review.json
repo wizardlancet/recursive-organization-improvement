@@ -1,19 +1,21 @@
 {
   "date": "2026-10-10",
   "main_pages": 45,
-  "main_body_and_appendix_pages": 26,
-  "integrated_supplement_pages": [
+  "all_changed_pages_inspected_in_contact_sheets": [
     27,
-    45
+    28,
+    29,
+    30,
+    31,
+    36,
+    37
   ],
-  "all_changed_pages_inspected_in_contact_sheets": true,
   "enlarged_pages_inspected": [
-    14,
     27,
-    35,
-    45
+    31,
+    36
   ],
   "unaffected_pages_pixel_identical_to_previous_reviewed_pdf": true,
-  "result": "No clipping, table overflow, overlapping elements, or unresolved references observed. Continuous pagination and supplementary-table bookmarks verified.",
+  "result": "SR legend, full policy name, environment label, and conditional-summary wording render correctly; no clipping, overflow, or unresolved references.",
   "new_experiments_run": false
 }

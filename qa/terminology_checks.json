@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "rows_checked": 879,
+  "numeric_entries_unchanged": true,
+  "scientific_files_hash_unchanged": 59,
+  "new_experiments_run": false,
+  "display_mappings": {
+    "Regime shifts": "Slow shifts",
+    "S1 A and B Rejection": "SR (Successive rejection)",
+    "S1 C Successive rejects": "Successive rejection"
+  },
+  "environment_definition": "160 periods; A error probability alternates .04/.25 in 40-period blocks",
+  "evidence": [
+    "scripts/audit_extensions.py:23",
+    "scripts/robustness.py:41-42",
+    "sections/appendices.tex:57-78"
+  ]
+}

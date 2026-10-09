@@ -1,128 +1,128 @@
 <!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Supplementary Tables S1–S5</title><style>body{font:15px/1.5 system-ui,sans-serif;max-width:1500px;margin:30px auto;padding:0 22px;color:#202530}h1,h2,h3{color:#162f45}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px;margin:18px 0}th,td{border-bottom:1px solid #ccc;padding:6px 9px;text-align:left;white-space:nowrap}th{background:#e8eef3;position:sticky;top:0}tr:nth-child(even){background:#f6f8fa}code{font-size:12px}</style><h1>Supplementary Tables S1–S5</h1><p>All uncertainty entries are 95% Monte Carlo half-widths conditional on the model. No outcome-based row exclusion. The PDF defines symbols and estimands; full-precision input tables accompany the reproducibility package.</p>
 <h2 id="S1">Table S1: Study 1: evidence acquisition and retention</h2><p>{\footnotesize Source: \texttt{results/learning\_summary.csv}; \texttt{results/learning\_contrasts.csv}.}\par Core design: 54 conditions, each with 128 independent replicate trajectories of 48 rounds. Window 8 includes eight previous rounds plus current observations. Net value, regret and expenses are per production task. Harm is the percentage of rounds selecting a template worse than standard. Late net value covers the final eight rounds. Panel C separates core and exploratory control contrasts; intervals use paired replicate differences.</p>
-<h3>A. Net value, harmful adoption, and selection regret</h3><div class="scroll"><table><thead><tr><th>Environment</th><th>Memory</th><th>Arm</th><th>Net value</th><th>Harm (\%)</th><th>Regret</th></tr></thead><tbody>
+<h3>A. Net value, harmful adoption, and selection regret</h3><div class="scroll"><table><thead><tr><th>Environment</th><th>Memory</th><th>Arm (SR = Successive rejection)</th><th>Net value</th><th>Harm (\%)</th><th>Regret</th></tr></thead><tbody>
 <tr><td>Stationary</td><td>Reset</td><td>Biased</td><td>0.39666 ± 0.00278</td><td>15.755 ± 0.800</td><td>0.08514 ± 0.00278</td></tr>
 <tr><td>Stationary</td><td>Reset</td><td>Balanced</td><td>0.45224 ± 0.00123</td><td>0.537 ± 0.177</td><td>0.02939 ± 0.00123</td></tr>
 <tr><td>Stationary</td><td>Reset</td><td>Neyman</td><td>0.45389 ± 0.00118</td><td>0.521 ± 0.175</td><td>0.02781 ± 0.00118</td></tr>
-<tr><td>Stationary</td><td>Reset</td><td>Rejection</td><td>0.45400 ± 0.00128</td><td>0.505 ± 0.174</td><td>0.02795 ± 0.00128</td></tr>
+<tr><td>Stationary</td><td>Reset</td><td>SR</td><td>0.45400 ± 0.00128</td><td>0.505 ± 0.174</td><td>0.02795 ± 0.00128</td></tr>
 <tr><td>Stationary</td><td>Reset</td><td>Once</td><td>0.43664 ± 0.00476</td><td>4.704 ± 1.256</td><td>0.04509 ± 0.00476</td></tr>
 <tr><td>Stationary</td><td>Reset</td><td>Repeated</td><td>0.43522 ± 0.00261</td><td>4.980 ± 0.718</td><td>0.04667 ± 0.00261</td></tr>
 <tr><td>Stationary</td><td>Cumulative</td><td>Biased</td><td>0.46917 ± 0.00267</td><td>1.009 ± 0.376</td><td>0.01263 ± 0.00267</td></tr>
 <tr><td>Stationary</td><td>Cumulative</td><td>Balanced</td><td>0.48007 ± 0.00050</td><td>0.000 ± 0.000</td><td>0.00156 ± 0.00050</td></tr>
 <tr><td>Stationary</td><td>Cumulative</td><td>Neyman</td><td>0.48046 ± 0.00048</td><td>0.000 ± 0.000</td><td>0.00133 ± 0.00048</td></tr>
-<tr><td>Stationary</td><td>Cumulative</td><td>Rejection</td><td>0.48059 ± 0.00054</td><td>0.000 ± 0.000</td><td>0.00137 ± 0.00054</td></tr>
+<tr><td>Stationary</td><td>Cumulative</td><td>SR</td><td>0.48059 ± 0.00054</td><td>0.000 ± 0.000</td><td>0.00137 ± 0.00054</td></tr>
 <tr><td>Stationary</td><td>Cumulative</td><td>Once</td><td>0.47928 ± 0.00124</td><td>0.016 ± 0.032</td><td>0.00248 ± 0.00124</td></tr>
 <tr><td>Stationary</td><td>Cumulative</td><td>Repeated</td><td>0.48000 ± 0.00080</td><td>0.016 ± 0.032</td><td>0.00191 ± 0.00080</td></tr>
 <tr><td>Stationary</td><td>Window 8</td><td>Biased</td><td>0.45936 ± 0.00284</td><td>1.514 ± 0.496</td><td>0.02244 ± 0.00284</td></tr>
 <tr><td>Stationary</td><td>Window 8</td><td>Balanced</td><td>0.47921 ± 0.00073</td><td>0.000 ± 0.000</td><td>0.00242 ± 0.00073</td></tr>
 <tr><td>Stationary</td><td>Window 8</td><td>Neyman</td><td>0.47962 ± 0.00071</td><td>0.000 ± 0.000</td><td>0.00217 ± 0.00071</td></tr>
-<tr><td>Stationary</td><td>Window 8</td><td>Rejection</td><td>0.48002 ± 0.00069</td><td>0.000 ± 0.000</td><td>0.00193 ± 0.00069</td></tr>
+<tr><td>Stationary</td><td>Window 8</td><td>SR</td><td>0.48002 ± 0.00069</td><td>0.000 ± 0.000</td><td>0.00193 ± 0.00069</td></tr>
 <tr><td>Stationary</td><td>Window 8</td><td>Once</td><td>0.47537 ± 0.00194</td><td>0.309 ± 0.280</td><td>0.00639 ± 0.00194</td></tr>
 <tr><td>Stationary</td><td>Window 8</td><td>Repeated</td><td>0.47790 ± 0.00118</td><td>0.016 ± 0.032</td><td>0.00400 ± 0.00118</td></tr>
 <tr><td>Reversal</td><td>Reset</td><td>Biased</td><td>0.52595 ± 0.00282</td><td>8.203 ± 0.594</td><td>0.07584 ± 0.00282</td></tr>
 <tr><td>Reversal</td><td>Reset</td><td>Balanced</td><td>0.58280 ± 0.00128</td><td>0.244 ± 0.117</td><td>0.01883 ± 0.00128</td></tr>
 <tr><td>Reversal</td><td>Reset</td><td>Neyman</td><td>0.58300 ± 0.00121</td><td>0.244 ± 0.117</td><td>0.01870 ± 0.00121</td></tr>
-<tr><td>Reversal</td><td>Reset</td><td>Rejection</td><td>0.58435 ± 0.00115</td><td>0.244 ± 0.117</td><td>0.01760 ± 0.00115</td></tr>
+<tr><td>Reversal</td><td>Reset</td><td>SR</td><td>0.58435 ± 0.00115</td><td>0.244 ± 0.117</td><td>0.01760 ± 0.00115</td></tr>
 <tr><td>Reversal</td><td>Reset</td><td>Once</td><td>0.56442 ± 0.00519</td><td>2.702 ± 0.754</td><td>0.03731 ± 0.00520</td></tr>
 <tr><td>Reversal</td><td>Reset</td><td>Repeated</td><td>0.56282 ± 0.00253</td><td>2.523 ± 0.522</td><td>0.03907 ± 0.00253</td></tr>
 <tr><td>Reversal</td><td>Cumulative</td><td>Biased</td><td>0.47211 ± 0.00288</td><td>1.009 ± 0.376</td><td>0.12968 ± 0.00288</td></tr>
 <tr><td>Reversal</td><td>Cumulative</td><td>Balanced</td><td>0.48026 ± 0.00060</td><td>0.000 ± 0.000</td><td>0.12137 ± 0.00060</td></tr>
 <tr><td>Reversal</td><td>Cumulative</td><td>Neyman</td><td>0.48054 ± 0.00051</td><td>0.000 ± 0.000</td><td>0.12125 ± 0.00051</td></tr>
-<tr><td>Reversal</td><td>Cumulative</td><td>Rejection</td><td>0.48285 ± 0.00131</td><td>0.000 ± 0.000</td><td>0.11910 ± 0.00131</td></tr>
+<tr><td>Reversal</td><td>Cumulative</td><td>SR</td><td>0.48285 ± 0.00131</td><td>0.000 ± 0.000</td><td>0.11910 ± 0.00131</td></tr>
 <tr><td>Reversal</td><td>Cumulative</td><td>Once</td><td>0.47963 ± 0.00134</td><td>0.016 ± 0.032</td><td>0.12212 ± 0.00134</td></tr>
 <tr><td>Reversal</td><td>Cumulative</td><td>Repeated</td><td>0.48347 ± 0.00235</td><td>0.016 ± 0.032</td><td>0.11843 ± 0.00235</td></tr>
 <tr><td>Reversal</td><td>Window 8</td><td>Biased</td><td>0.56094 ± 0.00291</td><td>1.270 ± 0.460</td><td>0.04085 ± 0.00291</td></tr>
 <tr><td>Reversal</td><td>Window 8</td><td>Balanced</td><td>0.57583 ± 0.00089</td><td>0.000 ± 0.000</td><td>0.02580 ± 0.00089</td></tr>
 <tr><td>Reversal</td><td>Window 8</td><td>Neyman</td><td>0.57601 ± 0.00081</td><td>0.000 ± 0.000</td><td>0.02578 ± 0.00081</td></tr>
-<tr><td>Reversal</td><td>Window 8</td><td>Rejection</td><td>0.57859 ± 0.00096</td><td>0.000 ± 0.000</td><td>0.02336 ± 0.00096</td></tr>
+<tr><td>Reversal</td><td>Window 8</td><td>SR</td><td>0.57859 ± 0.00096</td><td>0.000 ± 0.000</td><td>0.02336 ± 0.00096</td></tr>
 <tr><td>Reversal</td><td>Window 8</td><td>Once</td><td>0.57231 ± 0.00206</td><td>0.212 ± 0.247</td><td>0.02945 ± 0.00207</td></tr>
 <tr><td>Reversal</td><td>Window 8</td><td>Repeated</td><td>0.58206 ± 0.00231</td><td>0.016 ± 0.032</td><td>0.01984 ± 0.00231</td></tr>
 <tr><td>Uniform gain</td><td>Reset</td><td>Biased</td><td>0.66166 ± 0.00295</td><td>0.000 ± 0.000</td><td>0.06014 ± 0.00295</td></tr>
 <tr><td>Uniform gain</td><td>Reset</td><td>Balanced</td><td>0.71411 ± 0.00111</td><td>0.000 ± 0.000</td><td>0.00752 ± 0.00111</td></tr>
 <tr><td>Uniform gain</td><td>Reset</td><td>Neyman</td><td>0.71317 ± 0.00114</td><td>0.000 ± 0.000</td><td>0.00852 ± 0.00114</td></tr>
-<tr><td>Uniform gain</td><td>Reset</td><td>Rejection</td><td>0.71619 ± 0.00097</td><td>0.000 ± 0.000</td><td>0.00576 ± 0.00097</td></tr>
+<tr><td>Uniform gain</td><td>Reset</td><td>SR</td><td>0.71619 ± 0.00097</td><td>0.000 ± 0.000</td><td>0.00576 ± 0.00097</td></tr>
 <tr><td>Uniform gain</td><td>Reset</td><td>Once</td><td>0.69615 ± 0.00458</td><td>0.000 ± 0.000</td><td>0.02559 ± 0.00459</td></tr>
 <tr><td>Uniform gain</td><td>Reset</td><td>Repeated</td><td>0.69412 ± 0.00234</td><td>0.000 ± 0.000</td><td>0.02777 ± 0.00234</td></tr>
 <tr><td>Uniform gain</td><td>Cumulative</td><td>Biased</td><td>0.71837 ± 0.00126</td><td>0.000 ± 0.000</td><td>0.00342 ± 0.00126</td></tr>
 <tr><td>Uniform gain</td><td>Cumulative</td><td>Balanced</td><td>0.72147 ± 0.00019</td><td>0.000 ± 0.000</td><td>0.00016 ± 0.00019</td></tr>
 <tr><td>Uniform gain</td><td>Cumulative</td><td>Neyman</td><td>0.72159 ± 0.00025</td><td>0.000 ± 0.000</td><td>0.00020 ± 0.00025</td></tr>
-<tr><td>Uniform gain</td><td>Cumulative</td><td>Rejection</td><td>0.72184 ± 0.00017</td><td>0.000 ± 0.000</td><td>0.00012 ± 0.00017</td></tr>
+<tr><td>Uniform gain</td><td>Cumulative</td><td>SR</td><td>0.72184 ± 0.00017</td><td>0.000 ± 0.000</td><td>0.00012 ± 0.00017</td></tr>
 <tr><td>Uniform gain</td><td>Cumulative</td><td>Once</td><td>0.72173 ± 0.00008</td><td>0.000 ± 0.000</td><td>0.00004 ± 0.00008</td></tr>
 <tr><td>Uniform gain</td><td>Cumulative</td><td>Repeated</td><td>0.72187 ± 0.00008</td><td>0.000 ± 0.000</td><td>0.00004 ± 0.00008</td></tr>
 <tr><td>Uniform gain</td><td>Window 8</td><td>Biased</td><td>0.71662 ± 0.00165</td><td>0.000 ± 0.000</td><td>0.00518 ± 0.00165</td></tr>
 <tr><td>Uniform gain</td><td>Window 8</td><td>Balanced</td><td>0.72147 ± 0.00019</td><td>0.000 ± 0.000</td><td>0.00016 ± 0.00019</td></tr>
 <tr><td>Uniform gain</td><td>Window 8</td><td>Neyman</td><td>0.72159 ± 0.00025</td><td>0.000 ± 0.000</td><td>0.00020 ± 0.00025</td></tr>
-<tr><td>Uniform gain</td><td>Window 8</td><td>Rejection</td><td>0.72184 ± 0.00017</td><td>0.000 ± 0.000</td><td>0.00012 ± 0.00017</td></tr>
+<tr><td>Uniform gain</td><td>Window 8</td><td>SR</td><td>0.72184 ± 0.00017</td><td>0.000 ± 0.000</td><td>0.00012 ± 0.00017</td></tr>
 <tr><td>Uniform gain</td><td>Window 8</td><td>Once</td><td>0.72101 ± 0.00080</td><td>0.000 ± 0.000</td><td>0.00076 ± 0.00080</td></tr>
 <tr><td>Uniform gain</td><td>Window 8</td><td>Repeated</td><td>0.72186 ± 0.00008</td><td>0.000 ± 0.000</td><td>0.00004 ± 0.00008</td></tr>
 </tbody></table></div>
-<h3>B. Evaluation expense, program-trial expense, and late outcome</h3><div class="scroll"><table><thead><tr><th>Environment</th><th>Memory</th><th>Arm</th><th>Expense</th><th>Trial expense</th><th>Late net</th></tr></thead><tbody>
+<h3>B. Evaluation expense, program-trial expense, and late outcome</h3><div class="scroll"><table><thead><tr><th>Environment</th><th>Memory</th><th>Arm (SR = Successive rejection)</th><th>Expense</th><th>Trial expense</th><th>Late net</th></tr></thead><tbody>
 <tr><td>Stationary</td><td>Reset</td><td>Biased</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.39935 ± 0.00766</td></tr>
 <tr><td>Stationary</td><td>Reset</td><td>Balanced</td><td>0.01837 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.45327 ± 0.00317</td></tr>
 <tr><td>Stationary</td><td>Reset</td><td>Neyman</td><td>0.01830 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.45577 ± 0.00305</td></tr>
-<tr><td>Stationary</td><td>Reset</td><td>Rejection</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.45670 ± 0.00320</td></tr>
+<tr><td>Stationary</td><td>Reset</td><td>SR</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.45670 ± 0.00320</td></tr>
 <tr><td>Stationary</td><td>Reset</td><td>Once</td><td>0.01827 ± 0.00001</td><td>0.00060 ± 0.00000</td><td>0.44309 ± 0.00568</td></tr>
 <tr><td>Stationary</td><td>Reset</td><td>Repeated</td><td>0.01811 ± 0.00000</td><td>0.00361 ± 0.00000</td><td>0.43967 ± 0.00566</td></tr>
 <tr><td>Stationary</td><td>Cumulative</td><td>Biased</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.48062 ± 0.00186</td></tr>
 <tr><td>Stationary</td><td>Cumulative</td><td>Balanced</td><td>0.01837 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.48163 ± 0.00000</td></tr>
 <tr><td>Stationary</td><td>Cumulative</td><td>Neyman</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.48179 ± 0.00000</td></tr>
-<tr><td>Stationary</td><td>Cumulative</td><td>Rejection</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.48195 ± 0.00000</td></tr>
+<tr><td>Stationary</td><td>Cumulative</td><td>SR</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.48195 ± 0.00000</td></tr>
 <tr><td>Stationary</td><td>Cumulative</td><td>Once</td><td>0.01824 ± 0.00001</td><td>0.00060 ± 0.00000</td><td>0.48173 ± 0.00001</td></tr>
 <tr><td>Stationary</td><td>Cumulative</td><td>Repeated</td><td>0.01809 ± 0.00000</td><td>0.00359 ± 0.00000</td><td>0.48191 ± 0.00000</td></tr>
 <tr><td>Stationary</td><td>Window 8</td><td>Biased</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.46571 ± 0.00562</td></tr>
 <tr><td>Stationary</td><td>Window 8</td><td>Balanced</td><td>0.01837 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.47976 ± 0.00216</td></tr>
 <tr><td>Stationary</td><td>Window 8</td><td>Neyman</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.47992 ± 0.00211</td></tr>
-<tr><td>Stationary</td><td>Window 8</td><td>Rejection</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.48066 ± 0.00185</td></tr>
+<tr><td>Stationary</td><td>Window 8</td><td>SR</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.48066 ± 0.00185</td></tr>
 <tr><td>Stationary</td><td>Window 8</td><td>Once</td><td>0.01824 ± 0.00001</td><td>0.00060 ± 0.00000</td><td>0.47719 ± 0.00265</td></tr>
 <tr><td>Stationary</td><td>Window 8</td><td>Repeated</td><td>0.01810 ± 0.00000</td><td>0.00359 ± 0.00000</td><td>0.47968 ± 0.00185</td></tr>
 <tr><td>Reversal</td><td>Reset</td><td>Biased</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.65722 ± 0.00820</td></tr>
 <tr><td>Reversal</td><td>Reset</td><td>Balanced</td><td>0.01837 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.71237 ± 0.00297</td></tr>
 <tr><td>Reversal</td><td>Reset</td><td>Neyman</td><td>0.01830 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.71102 ± 0.00318</td></tr>
-<tr><td>Reversal</td><td>Reset</td><td>Rejection</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.71445 ± 0.00250</td></tr>
+<tr><td>Reversal</td><td>Reset</td><td>SR</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.71445 ± 0.00250</td></tr>
 <tr><td>Reversal</td><td>Reset</td><td>Once</td><td>0.01827 ± 0.00001</td><td>0.00060 ± 0.00000</td><td>0.69498 ± 0.00676</td></tr>
 <tr><td>Reversal</td><td>Reset</td><td>Repeated</td><td>0.01811 ± 0.00000</td><td>0.00361 ± 0.00000</td><td>0.69142 ± 0.00633</td></tr>
 <tr><td>Reversal</td><td>Cumulative</td><td>Biased</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.49808 ± 0.00972</td></tr>
 <tr><td>Reversal</td><td>Cumulative</td><td>Balanced</td><td>0.01837 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.48280 ± 0.00189</td></tr>
 <tr><td>Reversal</td><td>Cumulative</td><td>Neyman</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.48226 ± 0.00092</td></tr>
-<tr><td>Reversal</td><td>Cumulative</td><td>Rejection</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.49484 ± 0.00631</td></tr>
+<tr><td>Reversal</td><td>Cumulative</td><td>SR</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.49484 ± 0.00631</td></tr>
 <tr><td>Reversal</td><td>Cumulative</td><td>Once</td><td>0.01824 ± 0.00001</td><td>0.00060 ± 0.00000</td><td>0.48384 ± 0.00307</td></tr>
 <tr><td>Reversal</td><td>Cumulative</td><td>Repeated</td><td>0.01809 ± 0.00000</td><td>0.00359 ± 0.00000</td><td>0.49785 ± 0.00945</td></tr>
 <tr><td>Reversal</td><td>Window 8</td><td>Biased</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72062 ± 0.00152</td></tr>
 <tr><td>Reversal</td><td>Window 8</td><td>Balanced</td><td>0.01837 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72163 ± 0.00000</td></tr>
 <tr><td>Reversal</td><td>Window 8</td><td>Neyman</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72179 ± 0.00000</td></tr>
-<tr><td>Reversal</td><td>Window 8</td><td>Rejection</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72195 ± 0.00000</td></tr>
+<tr><td>Reversal</td><td>Window 8</td><td>SR</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72195 ± 0.00000</td></tr>
 <tr><td>Reversal</td><td>Window 8</td><td>Once</td><td>0.01824 ± 0.00001</td><td>0.00060 ± 0.00000</td><td>0.72056 ± 0.00151</td></tr>
 <tr><td>Reversal</td><td>Window 8</td><td>Repeated</td><td>0.01810 ± 0.00000</td><td>0.00359 ± 0.00000</td><td>0.72190 ± 0.00000</td></tr>
 <tr><td>Uniform gain</td><td>Reset</td><td>Biased</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.65722 ± 0.00820</td></tr>
 <tr><td>Uniform gain</td><td>Reset</td><td>Balanced</td><td>0.01837 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.71237 ± 0.00297</td></tr>
 <tr><td>Uniform gain</td><td>Reset</td><td>Neyman</td><td>0.01831 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.71102 ± 0.00318</td></tr>
-<tr><td>Uniform gain</td><td>Reset</td><td>Rejection</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.71445 ± 0.00250</td></tr>
+<tr><td>Uniform gain</td><td>Reset</td><td>SR</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.71445 ± 0.00250</td></tr>
 <tr><td>Uniform gain</td><td>Reset</td><td>Once</td><td>0.01826 ± 0.00001</td><td>0.00060 ± 0.00000</td><td>0.69077 ± 0.00763</td></tr>
 <tr><td>Uniform gain</td><td>Reset</td><td>Repeated</td><td>0.01811 ± 0.00000</td><td>0.00361 ± 0.00000</td><td>0.69142 ± 0.00633</td></tr>
 <tr><td>Uniform gain</td><td>Cumulative</td><td>Biased</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72179 ± 0.00000</td></tr>
 <tr><td>Uniform gain</td><td>Cumulative</td><td>Balanced</td><td>0.01837 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72163 ± 0.00000</td></tr>
 <tr><td>Uniform gain</td><td>Cumulative</td><td>Neyman</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72179 ± 0.00000</td></tr>
-<tr><td>Uniform gain</td><td>Cumulative</td><td>Rejection</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72195 ± 0.00000</td></tr>
+<tr><td>Uniform gain</td><td>Cumulative</td><td>SR</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72195 ± 0.00000</td></tr>
 <tr><td>Uniform gain</td><td>Cumulative</td><td>Once</td><td>0.01823 ± 0.00001</td><td>0.00060 ± 0.00000</td><td>0.72175 ± 0.00001</td></tr>
 <tr><td>Uniform gain</td><td>Cumulative</td><td>Repeated</td><td>0.01809 ± 0.00000</td><td>0.00359 ± 0.00000</td><td>0.72191 ± 0.00000</td></tr>
 <tr><td>Uniform gain</td><td>Window 8</td><td>Biased</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72062 ± 0.00152</td></tr>
 <tr><td>Uniform gain</td><td>Window 8</td><td>Balanced</td><td>0.01837 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72163 ± 0.00000</td></tr>
 <tr><td>Uniform gain</td><td>Window 8</td><td>Neyman</td><td>0.01821 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72179 ± 0.00000</td></tr>
-<tr><td>Uniform gain</td><td>Window 8</td><td>Rejection</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72195 ± 0.00000</td></tr>
+<tr><td>Uniform gain</td><td>Window 8</td><td>SR</td><td>0.01805 ± 0.00000</td><td>0.00000 ± 0.00000</td><td>0.72195 ± 0.00000</td></tr>
 <tr><td>Uniform gain</td><td>Window 8</td><td>Once</td><td>0.01823 ± 0.00001</td><td>0.00060 ± 0.00000</td><td>0.72175 ± 0.00001</td></tr>
 <tr><td>Uniform gain</td><td>Window 8</td><td>Repeated</td><td>0.01810 ± 0.00000</td><td>0.00359 ± 0.00000</td><td>0.72190 ± 0.00000</td></tr>
 </tbody></table></div>
 <h3>C. Paired net-value contrasts</h3><div class="scroll"><table><thead><tr><th>Study</th><th>Environment</th><th>Memory</th><th>Comparison</th><th>$N$</th><th>Difference</th></tr></thead><tbody>
 <tr><td>core</td><td>Stationary</td><td>Reset</td><td>Repeated - Balanced</td><td>128</td><td>-0.01702 ± 0.00262</td></tr>
-<tr><td>core</td><td>Stationary</td><td>Reset</td><td>Repeated - Successive rejects</td><td>128</td><td>-0.01878 ± 0.00266</td></tr>
+<tr><td>core</td><td>Stationary</td><td>Reset</td><td>Repeated - Successive rejection</td><td>128</td><td>-0.01878 ± 0.00266</td></tr>
 <tr><td>core</td><td>Stationary</td><td>Reset</td><td>Repeated - Discover once</td><td>128</td><td>-0.00142 ± 0.00441</td></tr>
 <tr><td>core</td><td>Stationary</td><td>Reset</td><td>Repeated - uniform fixed mixture</td><td>128</td><td>0.00096 ± 0.00252</td></tr>
 <tr><td>core</td><td>Stationary</td><td>Cumulative</td><td>Repeated - Balanced</td><td>128</td><td>-0.00007 ± 0.00092</td></tr>
-<tr><td>core</td><td>Stationary</td><td>Cumulative</td><td>Repeated - Successive rejects</td><td>128</td><td>-0.00059 ± 0.00097</td></tr>
+<tr><td>core</td><td>Stationary</td><td>Cumulative</td><td>Repeated - Successive rejection</td><td>128</td><td>-0.00059 ± 0.00097</td></tr>
 <tr><td>core</td><td>Stationary</td><td>Cumulative</td><td>Repeated - Discover once</td><td>128</td><td>0.00071 ± 0.00070</td></tr>
 <tr><td>core</td><td>Stationary</td><td>Cumulative</td><td>Repeated - uniform fixed mixture</td><td>128</td><td>0.00343 ± 0.00117</td></tr>
 <tr><td>core</td><td>Stationary</td><td>Window 8</td><td>Repeated - Balanced</td><td>128</td><td>-0.00130 ± 0.00114</td></tr>
-<tr><td>core</td><td>Stationary</td><td>Window 8</td><td>Repeated - Successive rejects</td><td>128</td><td>-0.00212 ± 0.00115</td></tr>
+<tr><td>core</td><td>Stationary</td><td>Window 8</td><td>Repeated - Successive rejection</td><td>128</td><td>-0.00212 ± 0.00115</td></tr>
 <tr><td>core</td><td>Stationary</td><td>Window 8</td><td>Repeated - Discover once</td><td>128</td><td>0.00254 ± 0.00166</td></tr>
 <tr><td>core</td><td>Stationary</td><td>Window 8</td><td>Repeated - uniform fixed mixture</td><td>128</td><td>0.00518 ± 0.00137</td></tr>
 <tr><td>core</td><td>Stationary</td><td>Cumulative</td><td>Balanced - Reset</td><td>128</td><td>0.02783 ± 0.00124</td></tr>
@@ -132,15 +132,15 @@
 <tr><td>core</td><td>Stationary</td><td>Cumulative</td><td>Discover once - Reset</td><td>128</td><td>0.04264 ± 0.00456</td></tr>
 <tr><td>core</td><td>Stationary</td><td>Window 8</td><td>Discover once - Reset</td><td>128</td><td>0.03873 ± 0.00364</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Reset</td><td>Repeated - Balanced</td><td>128</td><td>-0.01997 ± 0.00235</td></tr>
-<tr><td>core</td><td>Reversal at 25</td><td>Reset</td><td>Repeated - Successive rejects</td><td>128</td><td>-0.02153 ± 0.00241</td></tr>
+<tr><td>core</td><td>Reversal at 25</td><td>Reset</td><td>Repeated - Successive rejection</td><td>128</td><td>-0.02153 ± 0.00241</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Reset</td><td>Repeated - Discover once</td><td>128</td><td>-0.00159 ± 0.00500</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Reset</td><td>Repeated - uniform fixed mixture</td><td>128</td><td>-0.00109 ± 0.00224</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Cumulative</td><td>Repeated - Balanced</td><td>128</td><td>0.00321 ± 0.00245</td></tr>
-<tr><td>core</td><td>Reversal at 25</td><td>Cumulative</td><td>Repeated - Successive rejects</td><td>128</td><td>0.00062 ± 0.00273</td></tr>
+<tr><td>core</td><td>Reversal at 25</td><td>Cumulative</td><td>Repeated - Successive rejection</td><td>128</td><td>0.00062 ± 0.00273</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Cumulative</td><td>Repeated - Discover once</td><td>128</td><td>0.00384 ± 0.00250</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Cumulative</td><td>Repeated - uniform fixed mixture</td><td>128</td><td>0.00583 ± 0.00259</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Window 8</td><td>Repeated - Balanced</td><td>128</td><td>0.00623 ± 0.00240</td></tr>
-<tr><td>core</td><td>Reversal at 25</td><td>Window 8</td><td>Repeated - Successive rejects</td><td>128</td><td>0.00347 ± 0.00252</td></tr>
+<tr><td>core</td><td>Reversal at 25</td><td>Window 8</td><td>Repeated - Successive rejection</td><td>128</td><td>0.00347 ± 0.00252</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Window 8</td><td>Repeated - Discover once</td><td>128</td><td>0.00975 ± 0.00267</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Window 8</td><td>Repeated - uniform fixed mixture</td><td>128</td><td>0.01114 ± 0.00255</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Cumulative</td><td>Balanced - Reset</td><td>128</td><td>-0.10253 ± 0.00132</td></tr>
@@ -150,15 +150,15 @@
 <tr><td>core</td><td>Reversal at 25</td><td>Cumulative</td><td>Discover once - Reset</td><td>128</td><td>-0.08478 ± 0.00493</td></tr>
 <tr><td>core</td><td>Reversal at 25</td><td>Window 8</td><td>Discover once - Reset</td><td>128</td><td>0.00789 ± 0.00423</td></tr>
 <tr><td>core</td><td>Uniform gain</td><td>Reset</td><td>Repeated - Balanced</td><td>128</td><td>-0.02000 ± 0.00240</td></tr>
-<tr><td>core</td><td>Uniform gain</td><td>Reset</td><td>Repeated - Successive rejects</td><td>128</td><td>-0.02208 ± 0.00239</td></tr>
+<tr><td>core</td><td>Uniform gain</td><td>Reset</td><td>Repeated - Successive rejection</td><td>128</td><td>-0.02208 ± 0.00239</td></tr>
 <tr><td>core</td><td>Uniform gain</td><td>Reset</td><td>Repeated - Discover once</td><td>128</td><td>-0.00204 ± 0.00464</td></tr>
 <tr><td>core</td><td>Uniform gain</td><td>Reset</td><td>Repeated - uniform fixed mixture</td><td>128</td><td>-0.00220 ± 0.00223</td></tr>
 <tr><td>core</td><td>Uniform gain</td><td>Cumulative</td><td>Repeated - Balanced</td><td>128</td><td>0.00039 ± 0.00013</td></tr>
-<tr><td>core</td><td>Uniform gain</td><td>Cumulative</td><td>Repeated - Successive rejects</td><td>128</td><td>0.00003 ± 0.00011</td></tr>
+<tr><td>core</td><td>Uniform gain</td><td>Cumulative</td><td>Repeated - Successive rejection</td><td>128</td><td>0.00003 ± 0.00011</td></tr>
 <tr><td>core</td><td>Uniform gain</td><td>Cumulative</td><td>Repeated - Discover once</td><td>128</td><td>0.00013 ± 0.00001</td></tr>
 <tr><td>core</td><td>Uniform gain</td><td>Cumulative</td><td>Repeated - uniform fixed mixture</td><td>128</td><td>0.00139 ± 0.00044</td></tr>
 <tr><td>core</td><td>Uniform gain</td><td>Window 8</td><td>Repeated - Balanced</td><td>128</td><td>0.00039 ± 0.00013</td></tr>
-<tr><td>core</td><td>Uniform gain</td><td>Window 8</td><td>Repeated - Successive rejects</td><td>128</td><td>0.00003 ± 0.00011</td></tr>
+<tr><td>core</td><td>Uniform gain</td><td>Window 8</td><td>Repeated - Successive rejection</td><td>128</td><td>0.00003 ± 0.00011</td></tr>
 <tr><td>core</td><td>Uniform gain</td><td>Window 8</td><td>Repeated - Discover once</td><td>128</td><td>0.00085 ± 0.00080</td></tr>
 <tr><td>core</td><td>Uniform gain</td><td>Window 8</td><td>Repeated - uniform fixed mixture</td><td>128</td><td>0.00197 ± 0.00056</td></tr>
 <tr><td>core</td><td>Uniform gain</td><td>Cumulative</td><td>Balanced - Reset</td><td>128</td><td>0.00736 ± 0.00110</td></tr>
@@ -204,7 +204,7 @@
 <tr><td>exploratory control</td><td>Reversal at 29</td><td>Window 8</td><td>Repeated - Trial-matched Balanced</td><td>128</td><td>-0.00057 ± 0.00069</td></tr>
 <tr><td>exploratory control</td><td>Reversal at 29</td><td>Window 8</td><td>Repeated - Discover once</td><td>128</td><td>0.00342 ± 0.00177</td></tr>
 </tbody></table></div>
-<h2 id="S2">Table S2: Retained programs and conditional block outcomes</h2><p>{\footnotesize Source: \texttt{results/learning\_conditional.csv}.}\par All 189 observed program groups are retained: three environments and three memories, both discover-once and repeated-discovery rules, and all three retained programs at their scheduled reviews. Shares use 128 runs per review condition; $n$ is the number retaining the named program. Net and harm cover the subsequent eight-round block. Harm is expressed as a percentage. These are descriptive, endogenously selected groups; no causal program effect or unavailable conditional interval is implied. Every reported group has at least one retained run.</p>
+<h2 id="S2">Table S2: Retained programs and conditional block outcomes</h2><p>{\footnotesize Source: \texttt{results/learning\_conditional.csv}.}\par All 189 observed program groups are retained: three environments and three memories, both discover-once and repeated-discovery rules, and all three retained programs at their scheduled reviews. Shares use 128 runs per review condition; $n$ is the number retaining the named program. Net and harm cover the subsequent eight-round block. Harm is expressed as a percentage. These are descriptive summaries of endogenously selected groups; they are not causal program effects, and no conditional intervals are reported. Every reported group has at least one retained run.</p>
 <h3>Complete conditional summary</h3><div class="scroll"><table><thead><tr><th>Environment</th><th>Memory</th><th>Arm</th><th>Round</th><th>Program</th><th>$n$</th><th>Share (\%)</th><th>Net</th><th>Harm (\%)</th></tr></thead><tbody>
 <tr><td>Stationary</td><td>Reset</td><td>Once</td><td>1</td><td>Biased</td><td>35</td><td>27.34</td><td>0.39126</td><td>17.857</td></tr>
 <tr><td>Stationary</td><td>Reset</td><td>Once</td><td>1</td><td>Balanced</td><td>48</td><td>37.50</td><td>0.44462</td><td>0.781</td></tr>
@@ -458,75 +458,75 @@
 <tr><td>1:1</td><td>0.14</td><td>0</td><td>Stationary</td><td>Fixed 0.10</td><td>0.84794 ± 0.00236</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:1</td><td>0.14</td><td>0</td><td>Stationary</td><td>Adaptive audit</td><td>0.85300 ± 0.00213</td><td>0.00506 ± 0.00173</td></tr>
 <tr><td>1:1</td><td>0.14</td><td>0</td><td>Stationary</td><td>EVSI</td><td>0.83379 ± 0.00359</td><td>-0.01415 ± 0.00326</td></tr>
-<tr><td>1:1</td><td>0.14</td><td>0</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.66159 ± 0.00308</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:1</td><td>0.14</td><td>0</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.67534 ± 0.00293</td><td>0.01375 ± 0.00317</td></tr>
-<tr><td>1:1</td><td>0.14</td><td>0</td><td>Regime shifts</td><td>EVSI</td><td>0.67584 ± 0.00569</td><td>0.01426 ± 0.00540</td></tr>
+<tr><td>1:1</td><td>0.14</td><td>0</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.66159 ± 0.00308</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:1</td><td>0.14</td><td>0</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.67534 ± 0.00293</td><td>0.01375 ± 0.00317</td></tr>
+<tr><td>1:1</td><td>0.14</td><td>0</td><td>Slow shifts</td><td>EVSI</td><td>0.67584 ± 0.00569</td><td>0.01426 ± 0.00540</td></tr>
 <tr><td>1:1</td><td>0.14</td><td>0.2</td><td>Stationary</td><td>Fixed 0.10</td><td>0.84718 ± 0.00244</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:1</td><td>0.14</td><td>0.2</td><td>Stationary</td><td>Adaptive audit</td><td>0.85173 ± 0.00220</td><td>0.00455 ± 0.00184</td></tr>
 <tr><td>1:1</td><td>0.14</td><td>0.2</td><td>Stationary</td><td>EVSI</td><td>0.82623 ± 0.00362</td><td>-0.02094 ± 0.00338</td></tr>
-<tr><td>1:1</td><td>0.14</td><td>0.2</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.65182 ± 0.00305</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:1</td><td>0.14</td><td>0.2</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.66587 ± 0.00299</td><td>0.01405 ± 0.00323</td></tr>
-<tr><td>1:1</td><td>0.14</td><td>0.2</td><td>Regime shifts</td><td>EVSI</td><td>0.66778 ± 0.00568</td><td>0.01596 ± 0.00542</td></tr>
+<tr><td>1:1</td><td>0.14</td><td>0.2</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.65182 ± 0.00305</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:1</td><td>0.14</td><td>0.2</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.66587 ± 0.00299</td><td>0.01405 ± 0.00323</td></tr>
+<tr><td>1:1</td><td>0.14</td><td>0.2</td><td>Slow shifts</td><td>EVSI</td><td>0.66778 ± 0.00568</td><td>0.01596 ± 0.00542</td></tr>
 <tr><td>1:1</td><td>0.16</td><td>0</td><td>Stationary</td><td>Fixed 0.10</td><td>0.85228 ± 0.00191</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:1</td><td>0.16</td><td>0</td><td>Stationary</td><td>Adaptive audit</td><td>0.85706 ± 0.00194</td><td>0.00479 ± 0.00134</td></tr>
 <tr><td>1:1</td><td>0.16</td><td>0</td><td>Stationary</td><td>EVSI</td><td>0.83421 ± 0.00355</td><td>-0.01807 ± 0.00313</td></tr>
-<tr><td>1:1</td><td>0.16</td><td>0</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.65968 ± 0.00334</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:1</td><td>0.16</td><td>0</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.67286 ± 0.00277</td><td>0.01318 ± 0.00371</td></tr>
-<tr><td>1:1</td><td>0.16</td><td>0</td><td>Regime shifts</td><td>EVSI</td><td>0.67570 ± 0.00566</td><td>0.01602 ± 0.00547</td></tr>
+<tr><td>1:1</td><td>0.16</td><td>0</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.65968 ± 0.00334</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:1</td><td>0.16</td><td>0</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.67286 ± 0.00277</td><td>0.01318 ± 0.00371</td></tr>
+<tr><td>1:1</td><td>0.16</td><td>0</td><td>Slow shifts</td><td>EVSI</td><td>0.67570 ± 0.00566</td><td>0.01602 ± 0.00547</td></tr>
 <tr><td>1:1</td><td>0.16</td><td>0.2</td><td>Stationary</td><td>Fixed 0.10</td><td>0.85180 ± 0.00195</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:1</td><td>0.16</td><td>0.2</td><td>Stationary</td><td>Adaptive audit</td><td>0.85607 ± 0.00199</td><td>0.00427 ± 0.00145</td></tr>
 <tr><td>1:1</td><td>0.16</td><td>0.2</td><td>Stationary</td><td>EVSI</td><td>0.82674 ± 0.00357</td><td>-0.02506 ± 0.00321</td></tr>
-<tr><td>1:1</td><td>0.16</td><td>0.2</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.65064 ± 0.00327</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:1</td><td>0.16</td><td>0.2</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.66208 ± 0.00286</td><td>0.01143 ± 0.00367</td></tr>
-<tr><td>1:1</td><td>0.16</td><td>0.2</td><td>Regime shifts</td><td>EVSI</td><td>0.66745 ± 0.00563</td><td>0.01681 ± 0.00541</td></tr>
+<tr><td>1:1</td><td>0.16</td><td>0.2</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.65064 ± 0.00327</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:1</td><td>0.16</td><td>0.2</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.66208 ± 0.00286</td><td>0.01143 ± 0.00367</td></tr>
+<tr><td>1:1</td><td>0.16</td><td>0.2</td><td>Slow shifts</td><td>EVSI</td><td>0.66745 ± 0.00563</td><td>0.01681 ± 0.00541</td></tr>
 <tr><td>1:9</td><td>0.14</td><td>0</td><td>Stationary</td><td>Fixed 0.10</td><td>0.85814 ± 0.00172</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:9</td><td>0.14</td><td>0</td><td>Stationary</td><td>Adaptive audit</td><td>0.86494 ± 0.00192</td><td>0.00680 ± 0.00087</td></tr>
 <tr><td>1:9</td><td>0.14</td><td>0</td><td>Stationary</td><td>EVSI</td><td>0.86557 ± 0.00207</td><td>0.00743 ± 0.00147</td></tr>
-<tr><td>1:9</td><td>0.14</td><td>0</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.66200 ± 0.00333</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:9</td><td>0.14</td><td>0</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.67056 ± 0.00285</td><td>0.00856 ± 0.00352</td></tr>
-<tr><td>1:9</td><td>0.14</td><td>0</td><td>Regime shifts</td><td>EVSI</td><td>0.65987 ± 0.00606</td><td>-0.00213 ± 0.00667</td></tr>
+<tr><td>1:9</td><td>0.14</td><td>0</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.66200 ± 0.00333</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:9</td><td>0.14</td><td>0</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.67056 ± 0.00285</td><td>0.00856 ± 0.00352</td></tr>
+<tr><td>1:9</td><td>0.14</td><td>0</td><td>Slow shifts</td><td>EVSI</td><td>0.65987 ± 0.00606</td><td>-0.00213 ± 0.00667</td></tr>
 <tr><td>1:9</td><td>0.14</td><td>0.2</td><td>Stationary</td><td>Fixed 0.10</td><td>0.85805 ± 0.00173</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:9</td><td>0.14</td><td>0.2</td><td>Stationary</td><td>Adaptive audit</td><td>0.86480 ± 0.00195</td><td>0.00675 ± 0.00094</td></tr>
 <tr><td>1:9</td><td>0.14</td><td>0.2</td><td>Stationary</td><td>EVSI</td><td>0.86507 ± 0.00222</td><td>0.00702 ± 0.00164</td></tr>
-<tr><td>1:9</td><td>0.14</td><td>0.2</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.65364 ± 0.00323</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:9</td><td>0.14</td><td>0.2</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.65984 ± 0.00290</td><td>0.00619 ± 0.00345</td></tr>
-<tr><td>1:9</td><td>0.14</td><td>0.2</td><td>Regime shifts</td><td>EVSI</td><td>0.65465 ± 0.00638</td><td>0.00100 ± 0.00689</td></tr>
+<tr><td>1:9</td><td>0.14</td><td>0.2</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.65364 ± 0.00323</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:9</td><td>0.14</td><td>0.2</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.65984 ± 0.00290</td><td>0.00619 ± 0.00345</td></tr>
+<tr><td>1:9</td><td>0.14</td><td>0.2</td><td>Slow shifts</td><td>EVSI</td><td>0.65465 ± 0.00638</td><td>0.00100 ± 0.00689</td></tr>
 <tr><td>1:9</td><td>0.16</td><td>0</td><td>Stationary</td><td>Fixed 0.10</td><td>0.85918 ± 0.00162</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:9</td><td>0.16</td><td>0</td><td>Stationary</td><td>Adaptive audit</td><td>0.86861 ± 0.00183</td><td>0.00943 ± 0.00053</td></tr>
 <tr><td>1:9</td><td>0.16</td><td>0</td><td>Stationary</td><td>EVSI</td><td>0.86603 ± 0.00210</td><td>0.00685 ± 0.00134</td></tr>
-<tr><td>1:9</td><td>0.16</td><td>0</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.65150 ± 0.00390</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:9</td><td>0.16</td><td>0</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.66416 ± 0.00362</td><td>0.01266 ± 0.00468</td></tr>
-<tr><td>1:9</td><td>0.16</td><td>0</td><td>Regime shifts</td><td>EVSI</td><td>0.65263 ± 0.00621</td><td>0.00114 ± 0.00705</td></tr>
+<tr><td>1:9</td><td>0.16</td><td>0</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.65150 ± 0.00390</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:9</td><td>0.16</td><td>0</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.66416 ± 0.00362</td><td>0.01266 ± 0.00468</td></tr>
+<tr><td>1:9</td><td>0.16</td><td>0</td><td>Slow shifts</td><td>EVSI</td><td>0.65263 ± 0.00621</td><td>0.00114 ± 0.00705</td></tr>
 <tr><td>1:9</td><td>0.16</td><td>0.2</td><td>Stationary</td><td>Fixed 0.10</td><td>0.85915 ± 0.00162</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:9</td><td>0.16</td><td>0.2</td><td>Stationary</td><td>Adaptive audit</td><td>0.86858 ± 0.00184</td><td>0.00943 ± 0.00055</td></tr>
 <tr><td>1:9</td><td>0.16</td><td>0.2</td><td>Stationary</td><td>EVSI</td><td>0.86603 ± 0.00210</td><td>0.00687 ± 0.00135</td></tr>
-<tr><td>1:9</td><td>0.16</td><td>0.2</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.64420 ± 0.00377</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:9</td><td>0.16</td><td>0.2</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.65145 ± 0.00364</td><td>0.00725 ± 0.00449</td></tr>
-<tr><td>1:9</td><td>0.16</td><td>0.2</td><td>Regime shifts</td><td>EVSI</td><td>0.65263 ± 0.00621</td><td>0.00844 ± 0.00697</td></tr>
+<tr><td>1:9</td><td>0.16</td><td>0.2</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.64420 ± 0.00377</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:9</td><td>0.16</td><td>0.2</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.65145 ± 0.00364</td><td>0.00725 ± 0.00449</td></tr>
+<tr><td>1:9</td><td>0.16</td><td>0.2</td><td>Slow shifts</td><td>EVSI</td><td>0.65263 ± 0.00621</td><td>0.00844 ± 0.00697</td></tr>
 <tr><td>1:19</td><td>0.14</td><td>0</td><td>Stationary</td><td>Fixed 0.10</td><td>0.85951 ± 0.00162</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:19</td><td>0.14</td><td>0</td><td>Stationary</td><td>Adaptive audit</td><td>0.87199 ± 0.00177</td><td>0.01248 ± 0.00036</td></tr>
 <tr><td>1:19</td><td>0.14</td><td>0</td><td>Stationary</td><td>EVSI</td><td>0.87950 ± 0.00163</td><td>0.02000 ± 0.00020</td></tr>
-<tr><td>1:19</td><td>0.14</td><td>0</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.64678 ± 0.00420</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:19</td><td>0.14</td><td>0</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.65715 ± 0.00397</td><td>0.01037 ± 0.00451</td></tr>
-<tr><td>1:19</td><td>0.14</td><td>0</td><td>Regime shifts</td><td>EVSI</td><td>0.56729 ± 0.00321</td><td>-0.07949 ± 0.00502</td></tr>
+<tr><td>1:19</td><td>0.14</td><td>0</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.64678 ± 0.00420</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:19</td><td>0.14</td><td>0</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.65715 ± 0.00397</td><td>0.01037 ± 0.00451</td></tr>
+<tr><td>1:19</td><td>0.14</td><td>0</td><td>Slow shifts</td><td>EVSI</td><td>0.56729 ± 0.00321</td><td>-0.07949 ± 0.00502</td></tr>
 <tr><td>1:19</td><td>0.14</td><td>0.2</td><td>Stationary</td><td>Fixed 0.10</td><td>0.85951 ± 0.00162</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:19</td><td>0.14</td><td>0.2</td><td>Stationary</td><td>Adaptive audit</td><td>0.87198 ± 0.00177</td><td>0.01247 ± 0.00037</td></tr>
 <tr><td>1:19</td><td>0.14</td><td>0.2</td><td>Stationary</td><td>EVSI</td><td>0.87950 ± 0.00163</td><td>0.02000 ± 0.00020</td></tr>
-<tr><td>1:19</td><td>0.14</td><td>0.2</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.63993 ± 0.00406</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:19</td><td>0.14</td><td>0.2</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.64531 ± 0.00381</td><td>0.00539 ± 0.00416</td></tr>
-<tr><td>1:19</td><td>0.14</td><td>0.2</td><td>Regime shifts</td><td>EVSI</td><td>0.56729 ± 0.00321</td><td>-0.07263 ± 0.00487</td></tr>
+<tr><td>1:19</td><td>0.14</td><td>0.2</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.63993 ± 0.00406</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:19</td><td>0.14</td><td>0.2</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.64531 ± 0.00381</td><td>0.00539 ± 0.00416</td></tr>
+<tr><td>1:19</td><td>0.14</td><td>0.2</td><td>Slow shifts</td><td>EVSI</td><td>0.56729 ± 0.00321</td><td>-0.07263 ± 0.00487</td></tr>
 <tr><td>1:19</td><td>0.16</td><td>0</td><td>Stationary</td><td>Fixed 0.10</td><td>0.85954 ± 0.00163</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:19</td><td>0.16</td><td>0</td><td>Stationary</td><td>Adaptive audit</td><td>0.87348 ± 0.00167</td><td>0.01394 ± 0.00026</td></tr>
 <tr><td>1:19</td><td>0.16</td><td>0</td><td>Stationary</td><td>EVSI</td><td>0.87950 ± 0.00163</td><td>0.01997 ± 0.00019</td></tr>
-<tr><td>1:19</td><td>0.16</td><td>0</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.62630 ± 0.00474</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:19</td><td>0.16</td><td>0</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.63964 ± 0.00445</td><td>0.01334 ± 0.00580</td></tr>
-<tr><td>1:19</td><td>0.16</td><td>0</td><td>Regime shifts</td><td>EVSI</td><td>0.56729 ± 0.00321</td><td>-0.05901 ± 0.00535</td></tr>
+<tr><td>1:19</td><td>0.16</td><td>0</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.62630 ± 0.00474</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:19</td><td>0.16</td><td>0</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.63964 ± 0.00445</td><td>0.01334 ± 0.00580</td></tr>
+<tr><td>1:19</td><td>0.16</td><td>0</td><td>Slow shifts</td><td>EVSI</td><td>0.56729 ± 0.00321</td><td>-0.05901 ± 0.00535</td></tr>
 <tr><td>1:19</td><td>0.16</td><td>0.2</td><td>Stationary</td><td>Fixed 0.10</td><td>0.85954 ± 0.00163</td><td>0.00000 ± 0.00000</td></tr>
 <tr><td>1:19</td><td>0.16</td><td>0.2</td><td>Stationary</td><td>Adaptive audit</td><td>0.87348 ± 0.00167</td><td>0.01394 ± 0.00026</td></tr>
 <tr><td>1:19</td><td>0.16</td><td>0.2</td><td>Stationary</td><td>EVSI</td><td>0.87950 ± 0.00163</td><td>0.01997 ± 0.00019</td></tr>
-<tr><td>1:19</td><td>0.16</td><td>0.2</td><td>Regime shifts</td><td>Fixed 0.10</td><td>0.62102 ± 0.00454</td><td>0.00000 ± 0.00000</td></tr>
-<tr><td>1:19</td><td>0.16</td><td>0.2</td><td>Regime shifts</td><td>Adaptive audit</td><td>0.62680 ± 0.00414</td><td>0.00578 ± 0.00529</td></tr>
-<tr><td>1:19</td><td>0.16</td><td>0.2</td><td>Regime shifts</td><td>EVSI</td><td>0.56729 ± 0.00321</td><td>-0.05373 ± 0.00515</td></tr>
+<tr><td>1:19</td><td>0.16</td><td>0.2</td><td>Slow shifts</td><td>Fixed 0.10</td><td>0.62102 ± 0.00454</td><td>0.00000 ± 0.00000</td></tr>
+<tr><td>1:19</td><td>0.16</td><td>0.2</td><td>Slow shifts</td><td>Adaptive audit</td><td>0.62680 ± 0.00414</td><td>0.00578 ± 0.00529</td></tr>
+<tr><td>1:19</td><td>0.16</td><td>0.2</td><td>Slow shifts</td><td>EVSI</td><td>0.56729 ± 0.00321</td><td>-0.05373 ± 0.00515</td></tr>
 </tbody></table></div>
 <h2 id="S5">Table S5: Study 2: review arrangements and evidence generation</h2><p>{\footnotesize Source: \texttt{study2/results/learning\_summary.csv}; \texttt{study2/results/paired\_contrasts.csv}.}\par All 84 environment--policy--memory conditions: six environments, four paid policies crossed with three memories, and two fixed baselines per environment. Each learning condition uses 128 trajectories of 48 rounds; late outcomes cover the final 16 rounds. Error and optimal-choice hit are percentages. Regret is deployment loss above the finite-catalog minimum, excluding acquisition and switching. Acquisition cost is per round; production cost is per task in human-call units. Fixed baselines have deterministic expected-outcome scores; their displayed zero half-widths describe the simulation, not real-world certainty. Paired, Randomized, Omit echo and Final only denote the four observation policies defined in Appendix E.</p>
 <h3>A. Full-horizon selection and net value</h3><div class="scroll"><table><thead><tr><th>Environment</th><th>Policy</th><th>Memory</th><th>Error (\%)</th><th>Net value</th><th>Hit (\%)</th></tr></thead><tbody>

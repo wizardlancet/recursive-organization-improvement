@@ -3080,7 +3080,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 26,
-    "text": "Stationary & Reset & Rejection & $0.45400 \\pm 0.00128$ & $0.505 \\pm 0.174$ & $0.02795 \\pm 0.00128$ \\\\",
+    "text": "Stationary & Reset & SR & $0.45400 \\pm 0.00128$ & $0.505 \\pm 0.174$ & $0.02795 \\pm 0.00128$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -3170,7 +3170,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 32,
-    "text": "Stationary & Cumulative & Rejection & $0.48059 \\pm 0.00054$ & $0.000 \\pm 0.000$ & $0.00137 \\pm 0.00054$ \\\\",
+    "text": "Stationary & Cumulative & SR & $0.48059 \\pm 0.00054$ & $0.000 \\pm 0.000$ & $0.00137 \\pm 0.00054$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -3260,7 +3260,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 38,
-    "text": "Stationary & Window 8 & Rejection & $0.48002 \\pm 0.00069$ & $0.000 \\pm 0.000$ & $0.00193 \\pm 0.00069$ \\\\",
+    "text": "Stationary & Window 8 & SR & $0.48002 \\pm 0.00069$ & $0.000 \\pm 0.000$ & $0.00193 \\pm 0.00069$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -3350,7 +3350,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 44,
-    "text": "Reversal & Reset & Rejection & $0.58435 \\pm 0.00115$ & $0.244 \\pm 0.117$ & $0.01760 \\pm 0.00115$ \\\\",
+    "text": "Reversal & Reset & SR & $0.58435 \\pm 0.00115$ & $0.244 \\pm 0.117$ & $0.01760 \\pm 0.00115$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -3440,7 +3440,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 50,
-    "text": "Reversal & Cumulative & Rejection & $0.48285 \\pm 0.00131$ & $0.000 \\pm 0.000$ & $0.11910 \\pm 0.00131$ \\\\",
+    "text": "Reversal & Cumulative & SR & $0.48285 \\pm 0.00131$ & $0.000 \\pm 0.000$ & $0.11910 \\pm 0.00131$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -3530,7 +3530,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 56,
-    "text": "Reversal & Window 8 & Rejection & $0.57859 \\pm 0.00096$ & $0.000 \\pm 0.000$ & $0.02336 \\pm 0.00096$ \\\\",
+    "text": "Reversal & Window 8 & SR & $0.57859 \\pm 0.00096$ & $0.000 \\pm 0.000$ & $0.02336 \\pm 0.00096$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -3620,7 +3620,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 62,
-    "text": "Uniform gain & Reset & Rejection & $0.71619 \\pm 0.00097$ & $0.000 \\pm 0.000$ & $0.00576 \\pm 0.00097$ \\\\",
+    "text": "Uniform gain & Reset & SR & $0.71619 \\pm 0.00097$ & $0.000 \\pm 0.000$ & $0.00576 \\pm 0.00097$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -3710,7 +3710,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 68,
-    "text": "Uniform gain & Cumulative & Rejection & $0.72184 \\pm 0.00017$ & $0.000 \\pm 0.000$ & $0.00012 \\pm 0.00017$ \\\\",
+    "text": "Uniform gain & Cumulative & SR & $0.72184 \\pm 0.00017$ & $0.000 \\pm 0.000$ & $0.00012 \\pm 0.00017$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -3800,7 +3800,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 74,
-    "text": "Uniform gain & Window 8 & Rejection & $0.72184 \\pm 0.00017$ & $0.000 \\pm 0.000$ & $0.00012 \\pm 0.00017$ \\\\",
+    "text": "Uniform gain & Window 8 & SR & $0.72184 \\pm 0.00017$ & $0.000 \\pm 0.000$ & $0.00012 \\pm 0.00017$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -3920,7 +3920,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 89,
-    "text": "Stationary & Reset & Rejection & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.45670 \\pm 0.00320$ \\\\",
+    "text": "Stationary & Reset & SR & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.45670 \\pm 0.00320$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4010,7 +4010,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 95,
-    "text": "Stationary & Cumulative & Rejection & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.48195 \\pm 0.00000$ \\\\",
+    "text": "Stationary & Cumulative & SR & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.48195 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4100,7 +4100,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 101,
-    "text": "Stationary & Window 8 & Rejection & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.48066 \\pm 0.00185$ \\\\",
+    "text": "Stationary & Window 8 & SR & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.48066 \\pm 0.00185$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4190,7 +4190,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 107,
-    "text": "Reversal & Reset & Rejection & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.71445 \\pm 0.00250$ \\\\",
+    "text": "Reversal & Reset & SR & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.71445 \\pm 0.00250$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4280,7 +4280,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 113,
-    "text": "Reversal & Cumulative & Rejection & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.49484 \\pm 0.00631$ \\\\",
+    "text": "Reversal & Cumulative & SR & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.49484 \\pm 0.00631$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4370,7 +4370,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 119,
-    "text": "Reversal & Window 8 & Rejection & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.72195 \\pm 0.00000$ \\\\",
+    "text": "Reversal & Window 8 & SR & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.72195 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4460,7 +4460,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 125,
-    "text": "Uniform gain & Reset & Rejection & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.71445 \\pm 0.00250$ \\\\",
+    "text": "Uniform gain & Reset & SR & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.71445 \\pm 0.00250$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4550,7 +4550,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 131,
-    "text": "Uniform gain & Cumulative & Rejection & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.72195 \\pm 0.00000$ \\\\",
+    "text": "Uniform gain & Cumulative & SR & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.72195 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4640,7 +4640,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 137,
-    "text": "Uniform gain & Window 8 & Rejection & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.72195 \\pm 0.00000$ \\\\",
+    "text": "Uniform gain & Window 8 & SR & $0.01805 \\pm 0.00000$ & $0.00000 \\pm 0.00000$ & $0.72195 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4699,7 +4699,7 @@
   },
   {
     "file": "supplement/supplementary_tables.tex",
-    "line": 145,
+    "line": 146,
     "text": "\\renewcommand{\\arraystretch}{1.0}",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
@@ -4760,7 +4760,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 153,
-    "text": "core & Stationary & Reset & Repeated - Successive rejects & 128 & $-0.01878 \\pm 0.00266$ \\\\",
+    "text": "core & Stationary & Reset & Repeated - Successive rejection & 128 & $-0.01878 \\pm 0.00266$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4820,7 +4820,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 157,
-    "text": "core & Stationary & Cumulative & Repeated - Successive rejects & 128 & $-0.00059 \\pm 0.00097$ \\\\",
+    "text": "core & Stationary & Cumulative & Repeated - Successive rejection & 128 & $-0.00059 \\pm 0.00097$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -4880,7 +4880,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 161,
-    "text": "core & Stationary & Window 8 & Repeated - Successive rejects & 128 & $-0.00212 \\pm 0.00115$ \\\\",
+    "text": "core & Stationary & Window 8 & Repeated - Successive rejection & 128 & $-0.00212 \\pm 0.00115$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -5030,7 +5030,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 171,
-    "text": "core & Reversal at 25 & Reset & Repeated - Successive rejects & 128 & $-0.02153 \\pm 0.00241$ \\\\",
+    "text": "core & Reversal at 25 & Reset & Repeated - Successive rejection & 128 & $-0.02153 \\pm 0.00241$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -5090,7 +5090,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 175,
-    "text": "core & Reversal at 25 & Cumulative & Repeated - Successive rejects & 128 & $0.00062 \\pm 0.00273$ \\\\",
+    "text": "core & Reversal at 25 & Cumulative & Repeated - Successive rejection & 128 & $0.00062 \\pm 0.00273$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -5150,7 +5150,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 179,
-    "text": "core & Reversal at 25 & Window 8 & Repeated - Successive rejects & 128 & $0.00347 \\pm 0.00252$ \\\\",
+    "text": "core & Reversal at 25 & Window 8 & Repeated - Successive rejection & 128 & $0.00347 \\pm 0.00252$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -5300,7 +5300,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 189,
-    "text": "core & Uniform gain & Reset & Repeated - Successive rejects & 128 & $-0.02208 \\pm 0.00239$ \\\\",
+    "text": "core & Uniform gain & Reset & Repeated - Successive rejection & 128 & $-0.02208 \\pm 0.00239$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -5360,7 +5360,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 193,
-    "text": "core & Uniform gain & Cumulative & Repeated - Successive rejects & 128 & $0.00003 \\pm 0.00011$ \\\\",
+    "text": "core & Uniform gain & Cumulative & Repeated - Successive rejection & 128 & $0.00003 \\pm 0.00011$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -5420,7 +5420,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 197,
-    "text": "core & Uniform gain & Window 8 & Repeated - Successive rejects & 128 & $0.00003 \\pm 0.00011$ \\\\",
+    "text": "core & Uniform gain & Window 8 & Repeated - Successive rejection & 128 & $0.00003 \\pm 0.00011$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -6140,7 +6140,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 247,
-    "text": "{\\footnotesize Source: \\texttt{results/learning\\_conditional.csv}.}\\par All 189 observed program groups are retained: three environments and three memories, both discover-once and repeated-discovery rules, and all three retained programs at their scheduled reviews. Shares use 128 runs per review condition; $n$ is the number retaining the named program. Net and harm cover the subsequent eight-round block. Harm is expressed as a percentage. These are descriptive, endogenously selected groups; no causal program effect or unavailable conditional interval is implied. Every reported group has at least one retained run.",
+    "text": "{\\footnotesize Source: \\texttt{results/learning\\_conditional.csv}.}\\par All 189 observed program groups are retained: three environments and three memories, both discover-once and repeated-discovery rules, and all three retained programs at their scheduled reviews. Shares use 128 runs per review condition; $n$ is the number retaining the named program. Net and harm cover the subsequent eight-round block. Harm is expressed as a percentage. These are descriptive summaries of endogenously selected groups; they are not causal program effects, and no conditional intervals are reported. Every reported group has at least one retained run.",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10130,7 +10130,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 534,
-    "text": "1:1 & 0.14 & 0 & Regime shifts & Fixed 0.10 & $0.66159 \\pm 0.00308$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:1 & 0.14 & 0 & Slow shifts & Fixed 0.10 & $0.66159 \\pm 0.00308$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10145,7 +10145,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 535,
-    "text": "1:1 & 0.14 & 0 & Regime shifts & Adaptive audit & $0.67534 \\pm 0.00293$ & $0.01375 \\pm 0.00317$ \\\\",
+    "text": "1:1 & 0.14 & 0 & Slow shifts & Adaptive audit & $0.67534 \\pm 0.00293$ & $0.01375 \\pm 0.00317$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10160,7 +10160,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 536,
-    "text": "1:1 & 0.14 & 0 & Regime shifts & EVSI & $0.67584 \\pm 0.00569$ & $0.01426 \\pm 0.00540$ \\\\",
+    "text": "1:1 & 0.14 & 0 & Slow shifts & EVSI & $0.67584 \\pm 0.00569$ & $0.01426 \\pm 0.00540$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10220,7 +10220,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 540,
-    "text": "1:1 & 0.14 & 0.2 & Regime shifts & Fixed 0.10 & $0.65182 \\pm 0.00305$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:1 & 0.14 & 0.2 & Slow shifts & Fixed 0.10 & $0.65182 \\pm 0.00305$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10235,7 +10235,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 541,
-    "text": "1:1 & 0.14 & 0.2 & Regime shifts & Adaptive audit & $0.66587 \\pm 0.00299$ & $0.01405 \\pm 0.00323$ \\\\",
+    "text": "1:1 & 0.14 & 0.2 & Slow shifts & Adaptive audit & $0.66587 \\pm 0.00299$ & $0.01405 \\pm 0.00323$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10250,7 +10250,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 542,
-    "text": "1:1 & 0.14 & 0.2 & Regime shifts & EVSI & $0.66778 \\pm 0.00568$ & $0.01596 \\pm 0.00542$ \\\\",
+    "text": "1:1 & 0.14 & 0.2 & Slow shifts & EVSI & $0.66778 \\pm 0.00568$ & $0.01596 \\pm 0.00542$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10310,7 +10310,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 546,
-    "text": "1:1 & 0.16 & 0 & Regime shifts & Fixed 0.10 & $0.65968 \\pm 0.00334$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:1 & 0.16 & 0 & Slow shifts & Fixed 0.10 & $0.65968 \\pm 0.00334$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10325,7 +10325,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 547,
-    "text": "1:1 & 0.16 & 0 & Regime shifts & Adaptive audit & $0.67286 \\pm 0.00277$ & $0.01318 \\pm 0.00371$ \\\\",
+    "text": "1:1 & 0.16 & 0 & Slow shifts & Adaptive audit & $0.67286 \\pm 0.00277$ & $0.01318 \\pm 0.00371$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10340,7 +10340,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 548,
-    "text": "1:1 & 0.16 & 0 & Regime shifts & EVSI & $0.67570 \\pm 0.00566$ & $0.01602 \\pm 0.00547$ \\\\",
+    "text": "1:1 & 0.16 & 0 & Slow shifts & EVSI & $0.67570 \\pm 0.00566$ & $0.01602 \\pm 0.00547$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10400,7 +10400,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 552,
-    "text": "1:1 & 0.16 & 0.2 & Regime shifts & Fixed 0.10 & $0.65064 \\pm 0.00327$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:1 & 0.16 & 0.2 & Slow shifts & Fixed 0.10 & $0.65064 \\pm 0.00327$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10415,7 +10415,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 553,
-    "text": "1:1 & 0.16 & 0.2 & Regime shifts & Adaptive audit & $0.66208 \\pm 0.00286$ & $0.01143 \\pm 0.00367$ \\\\",
+    "text": "1:1 & 0.16 & 0.2 & Slow shifts & Adaptive audit & $0.66208 \\pm 0.00286$ & $0.01143 \\pm 0.00367$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10430,7 +10430,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 554,
-    "text": "1:1 & 0.16 & 0.2 & Regime shifts & EVSI & $0.66745 \\pm 0.00563$ & $0.01681 \\pm 0.00541$ \\\\",
+    "text": "1:1 & 0.16 & 0.2 & Slow shifts & EVSI & $0.66745 \\pm 0.00563$ & $0.01681 \\pm 0.00541$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10490,7 +10490,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 558,
-    "text": "1:9 & 0.14 & 0 & Regime shifts & Fixed 0.10 & $0.66200 \\pm 0.00333$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:9 & 0.14 & 0 & Slow shifts & Fixed 0.10 & $0.66200 \\pm 0.00333$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10505,7 +10505,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 559,
-    "text": "1:9 & 0.14 & 0 & Regime shifts & Adaptive audit & $0.67056 \\pm 0.00285$ & $0.00856 \\pm 0.00352$ \\\\",
+    "text": "1:9 & 0.14 & 0 & Slow shifts & Adaptive audit & $0.67056 \\pm 0.00285$ & $0.00856 \\pm 0.00352$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10520,7 +10520,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 560,
-    "text": "1:9 & 0.14 & 0 & Regime shifts & EVSI & $0.65987 \\pm 0.00606$ & $-0.00213 \\pm 0.00667$ \\\\",
+    "text": "1:9 & 0.14 & 0 & Slow shifts & EVSI & $0.65987 \\pm 0.00606$ & $-0.00213 \\pm 0.00667$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10580,7 +10580,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 564,
-    "text": "1:9 & 0.14 & 0.2 & Regime shifts & Fixed 0.10 & $0.65364 \\pm 0.00323$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:9 & 0.14 & 0.2 & Slow shifts & Fixed 0.10 & $0.65364 \\pm 0.00323$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10595,7 +10595,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 565,
-    "text": "1:9 & 0.14 & 0.2 & Regime shifts & Adaptive audit & $0.65984 \\pm 0.00290$ & $0.00619 \\pm 0.00345$ \\\\",
+    "text": "1:9 & 0.14 & 0.2 & Slow shifts & Adaptive audit & $0.65984 \\pm 0.00290$ & $0.00619 \\pm 0.00345$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10610,7 +10610,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 566,
-    "text": "1:9 & 0.14 & 0.2 & Regime shifts & EVSI & $0.65465 \\pm 0.00638$ & $0.00100 \\pm 0.00689$ \\\\",
+    "text": "1:9 & 0.14 & 0.2 & Slow shifts & EVSI & $0.65465 \\pm 0.00638$ & $0.00100 \\pm 0.00689$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10670,7 +10670,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 570,
-    "text": "1:9 & 0.16 & 0 & Regime shifts & Fixed 0.10 & $0.65150 \\pm 0.00390$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:9 & 0.16 & 0 & Slow shifts & Fixed 0.10 & $0.65150 \\pm 0.00390$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10685,7 +10685,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 571,
-    "text": "1:9 & 0.16 & 0 & Regime shifts & Adaptive audit & $0.66416 \\pm 0.00362$ & $0.01266 \\pm 0.00468$ \\\\",
+    "text": "1:9 & 0.16 & 0 & Slow shifts & Adaptive audit & $0.66416 \\pm 0.00362$ & $0.01266 \\pm 0.00468$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10700,7 +10700,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 572,
-    "text": "1:9 & 0.16 & 0 & Regime shifts & EVSI & $0.65263 \\pm 0.00621$ & $0.00114 \\pm 0.00705$ \\\\",
+    "text": "1:9 & 0.16 & 0 & Slow shifts & EVSI & $0.65263 \\pm 0.00621$ & $0.00114 \\pm 0.00705$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10760,7 +10760,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 576,
-    "text": "1:9 & 0.16 & 0.2 & Regime shifts & Fixed 0.10 & $0.64420 \\pm 0.00377$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:9 & 0.16 & 0.2 & Slow shifts & Fixed 0.10 & $0.64420 \\pm 0.00377$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10775,7 +10775,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 577,
-    "text": "1:9 & 0.16 & 0.2 & Regime shifts & Adaptive audit & $0.65145 \\pm 0.00364$ & $0.00725 \\pm 0.00449$ \\\\",
+    "text": "1:9 & 0.16 & 0.2 & Slow shifts & Adaptive audit & $0.65145 \\pm 0.00364$ & $0.00725 \\pm 0.00449$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10790,7 +10790,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 578,
-    "text": "1:9 & 0.16 & 0.2 & Regime shifts & EVSI & $0.65263 \\pm 0.00621$ & $0.00844 \\pm 0.00697$ \\\\",
+    "text": "1:9 & 0.16 & 0.2 & Slow shifts & EVSI & $0.65263 \\pm 0.00621$ & $0.00844 \\pm 0.00697$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10850,7 +10850,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 582,
-    "text": "1:19 & 0.14 & 0 & Regime shifts & Fixed 0.10 & $0.64678 \\pm 0.00420$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:19 & 0.14 & 0 & Slow shifts & Fixed 0.10 & $0.64678 \\pm 0.00420$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10865,7 +10865,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 583,
-    "text": "1:19 & 0.14 & 0 & Regime shifts & Adaptive audit & $0.65715 \\pm 0.00397$ & $0.01037 \\pm 0.00451$ \\\\",
+    "text": "1:19 & 0.14 & 0 & Slow shifts & Adaptive audit & $0.65715 \\pm 0.00397$ & $0.01037 \\pm 0.00451$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10880,7 +10880,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 584,
-    "text": "1:19 & 0.14 & 0 & Regime shifts & EVSI & $0.56729 \\pm 0.00321$ & $-0.07949 \\pm 0.00502$ \\\\",
+    "text": "1:19 & 0.14 & 0 & Slow shifts & EVSI & $0.56729 \\pm 0.00321$ & $-0.07949 \\pm 0.00502$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10940,7 +10940,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 588,
-    "text": "1:19 & 0.14 & 0.2 & Regime shifts & Fixed 0.10 & $0.63993 \\pm 0.00406$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:19 & 0.14 & 0.2 & Slow shifts & Fixed 0.10 & $0.63993 \\pm 0.00406$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10955,7 +10955,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 589,
-    "text": "1:19 & 0.14 & 0.2 & Regime shifts & Adaptive audit & $0.64531 \\pm 0.00381$ & $0.00539 \\pm 0.00416$ \\\\",
+    "text": "1:19 & 0.14 & 0.2 & Slow shifts & Adaptive audit & $0.64531 \\pm 0.00381$ & $0.00539 \\pm 0.00416$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -10970,7 +10970,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 590,
-    "text": "1:19 & 0.14 & 0.2 & Regime shifts & EVSI & $0.56729 \\pm 0.00321$ & $-0.07263 \\pm 0.00487$ \\\\",
+    "text": "1:19 & 0.14 & 0.2 & Slow shifts & EVSI & $0.56729 \\pm 0.00321$ & $-0.07263 \\pm 0.00487$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -11030,7 +11030,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 594,
-    "text": "1:19 & 0.16 & 0 & Regime shifts & Fixed 0.10 & $0.62630 \\pm 0.00474$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:19 & 0.16 & 0 & Slow shifts & Fixed 0.10 & $0.62630 \\pm 0.00474$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -11045,7 +11045,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 595,
-    "text": "1:19 & 0.16 & 0 & Regime shifts & Adaptive audit & $0.63964 \\pm 0.00445$ & $0.01334 \\pm 0.00580$ \\\\",
+    "text": "1:19 & 0.16 & 0 & Slow shifts & Adaptive audit & $0.63964 \\pm 0.00445$ & $0.01334 \\pm 0.00580$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -11060,7 +11060,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 596,
-    "text": "1:19 & 0.16 & 0 & Regime shifts & EVSI & $0.56729 \\pm 0.00321$ & $-0.05901 \\pm 0.00535$ \\\\",
+    "text": "1:19 & 0.16 & 0 & Slow shifts & EVSI & $0.56729 \\pm 0.00321$ & $-0.05901 \\pm 0.00535$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -11120,7 +11120,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 600,
-    "text": "1:19 & 0.16 & 0.2 & Regime shifts & Fixed 0.10 & $0.62102 \\pm 0.00454$ & $0.00000 \\pm 0.00000$ \\\\",
+    "text": "1:19 & 0.16 & 0.2 & Slow shifts & Fixed 0.10 & $0.62102 \\pm 0.00454$ & $0.00000 \\pm 0.00000$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -11135,7 +11135,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 601,
-    "text": "1:19 & 0.16 & 0.2 & Regime shifts & Adaptive audit & $0.62680 \\pm 0.00414$ & $0.00578 \\pm 0.00529$ \\\\",
+    "text": "1:19 & 0.16 & 0.2 & Slow shifts & Adaptive audit & $0.62680 \\pm 0.00414$ & $0.00578 \\pm 0.00529$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",
@@ -11150,7 +11150,7 @@
   {
     "file": "supplement/supplementary_tables.tex",
     "line": 602,
-    "text": "1:19 & 0.16 & 0.2 & Regime shifts & EVSI & $0.56729 \\pm 0.00321$ & $-0.05373 \\pm 0.00515$ \\\\",
+    "text": "1:19 & 0.16 & 0.2 & Slow shifts & EVSI & $0.56729 \\pm 0.00321$ & $-0.05373 \\pm 0.00515$ \\\\",
     "kind": "supplementary table or setting checked against saved inputs",
     "sources": [
       "results/learning_summary.csv",

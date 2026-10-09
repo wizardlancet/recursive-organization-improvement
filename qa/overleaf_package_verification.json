@@ -25,17 +25,17 @@
     "supplement/supplementary_tables.tex",
     "template/License.txt"
   ],
-  "archive_sha256": "ae31f89e2a37826e349a9cc19bdb8b44088011fcedca3c427f60c22dd27d5f57",
-  "bytes": 228083,
+  "archive_sha256": "159110e575bf959a0b55f42b845e7760f6fce8efd423b73430464eeb543ecb82",
+  "bytes": 228072,
   "main_document": "main.tex",
   "standalone_supplement_pdf": false,
+  "source_files": 24,
   "passed": true,
   "independent_compile_pages": 45,
   "all_rendered_pages_identical": true,
   "compiler": "Tectonic (XeTeX) with BibTeX",
+  "tex_passes": 8,
+  "build_stabilization": "An additional compiler invocation stabilized bibliography microtype spacing.",
   "compiler_run_on_overleaf": false,
-  "source_files": 24,
-  "excludes_internal_review_and_experiment_data": true,
-  "tex_passes": 6,
-  "build_stabilization": "An additional compiler run stabilized bibliography microtype spacing; all 45 rendered pages then matched."
+  "excludes_internal_review_and_experiment_data": true
 }
