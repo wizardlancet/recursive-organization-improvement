@@ -1,0 +1,4130 @@
+[
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "alone:H:k0",
+    "error_mc": 0.20013333333333333,
+    "error_exact": 0.2
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "alone:A:k0",
+    "error_mc": 0.10052,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:H:k1",
+    "error_mc": 0.1499,
+    "error_exact": 0.15000000000000002
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:H:k1",
+    "error_mc": 0.1499,
+    "error_exact": 0.15000000000000002
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:H:k1",
+    "error_mc": 0.07197333333333333,
+    "error_exact": 0.07199999999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:H:k1",
+    "error_mc": 0.07197333333333333,
+    "error_exact": 0.07199999999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:H:k1",
+    "error_mc": 0.10373333333333333,
+    "error_exact": 0.104
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:H:k1",
+    "error_mc": 0.09930666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:H:k2",
+    "error_mc": 0.04548666666666667,
+    "error_exact": 0.046
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:H:k2",
+    "error_mc": 0.04548666666666667,
+    "error_exact": 0.046
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:H:k2",
+    "error_mc": 0.07192,
+    "error_exact": 0.07199999999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:H:k2",
+    "error_mc": 0.07192,
+    "error_exact": 0.07199999999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:H:k2",
+    "error_mc": 0.10341333333333333,
+    "error_exact": 0.104
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:H:k2",
+    "error_mc": 0.10058,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:H:k3",
+    "error_mc": 0.04192666666666667,
+    "error_exact": 0.041499999999999995
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:H:k3",
+    "error_mc": 0.04192666666666667,
+    "error_exact": 0.041499999999999995
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:H:k3",
+    "error_mc": 0.08343333333333333,
+    "error_exact": 0.08352000000000001
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:H:k3",
+    "error_mc": 0.08343333333333333,
+    "error_exact": 0.08352000000000001
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:H:k3",
+    "error_mc": 0.11202,
+    "error_exact": 0.11264
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:H:k3",
+    "error_mc": 0.10102666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:H:k4",
+    "error_mc": 0.013633333333333334,
+    "error_exact": 0.013419999999999994
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:H:k4",
+    "error_mc": 0.013633333333333334,
+    "error_exact": 0.013419999999999994
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:H:k4",
+    "error_mc": 0.09529333333333333,
+    "error_exact": 0.09504
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:H:k4",
+    "error_mc": 0.09529333333333333,
+    "error_exact": 0.09504
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:H:k4",
+    "error_mc": 0.12097333333333334,
+    "error_exact": 0.12128000000000001
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:H:k4",
+    "error_mc": 0.09998666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:H:k5",
+    "error_mc": 0.012533333333333334,
+    "error_exact": 0.012609999999999993
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:H:k5",
+    "error_mc": 0.012533333333333334,
+    "error_exact": 0.012609999999999993
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:H:k5",
+    "error_mc": 0.10596,
+    "error_exact": 0.10552319999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:H:k5",
+    "error_mc": 0.10596,
+    "error_exact": 0.10552319999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:H:k5",
+    "error_mc": 0.1292,
+    "error_exact": 0.12914239999999996
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:H:k5",
+    "error_mc": 0.10038666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:H:k6",
+    "error_mc": 0.00398,
+    "error_exact": 0.004185999999999997
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:H:k6",
+    "error_mc": 0.00398,
+    "error_exact": 0.004185999999999997
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:H:k6",
+    "error_mc": 0.11516666666666667,
+    "error_exact": 0.11496959999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:H:k6",
+    "error_mc": 0.11516666666666667,
+    "error_exact": 0.11496959999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:H:k6",
+    "error_mc": 0.13605333333333333,
+    "error_exact": 0.1362272
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:H:k6",
+    "error_mc": 0.10020666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:H:k7",
+    "error_mc": 0.00374,
+    "error_exact": 0.004003749999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:H:k7",
+    "error_mc": 0.00374,
+    "error_exact": 0.004003749999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:H:k7",
+    "error_mc": 0.12368666666666667,
+    "error_exact": 0.12347251199999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:H:k7",
+    "error_mc": 0.12368666666666667,
+    "error_exact": 0.12347251199999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:H:k7",
+    "error_mc": 0.14264,
+    "error_exact": 0.142604384
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:H:k7",
+    "error_mc": 0.09982666666666666,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:A:k1",
+    "error_mc": 0.09902666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:A:k1",
+    "error_mc": 0.09902666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:A:k1",
+    "error_mc": 0.04629333333333333,
+    "error_exact": 0.045999999999999985
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:A:k1",
+    "error_mc": 0.04629333333333333,
+    "error_exact": 0.045999999999999985
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:A:k1",
+    "error_mc": 0.08379333333333333,
+    "error_exact": 0.0845
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:A:k1",
+    "error_mc": 0.09930666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:A:k2",
+    "error_mc": 0.027793333333333333,
+    "error_exact": 0.027999999999999997
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:A:k2",
+    "error_mc": 0.027793333333333333,
+    "error_exact": 0.027999999999999997
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:A:k2",
+    "error_mc": 0.05554,
+    "error_exact": 0.054999999999999986
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:A:k2",
+    "error_mc": 0.05554,
+    "error_exact": 0.054999999999999986
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:A:k2",
+    "error_mc": 0.09066,
+    "error_exact": 0.09124999999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:A:k2",
+    "error_mc": 0.10058,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:A:k3",
+    "error_mc": 0.02774,
+    "error_exact": 0.02799999999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:A:k3",
+    "error_mc": 0.02774,
+    "error_exact": 0.02799999999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:A:k3",
+    "error_mc": 0.06958,
+    "error_exact": 0.06885999999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:A:k3",
+    "error_mc": 0.06958,
+    "error_exact": 0.06885999999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:A:k3",
+    "error_mc": 0.10124666666666667,
+    "error_exact": 0.101645
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:A:k3",
+    "error_mc": 0.10102666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:A:k4",
+    "error_mc": 0.00854,
+    "error_exact": 0.008559999999999995
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:A:k4",
+    "error_mc": 0.00854,
+    "error_exact": 0.008559999999999995
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:A:k4",
+    "error_mc": 0.08268,
+    "error_exact": 0.08191
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:A:k4",
+    "error_mc": 0.08268,
+    "error_exact": 0.08191
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:A:k4",
+    "error_mc": 0.11124666666666666,
+    "error_exact": 0.11143249999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:A:k4",
+    "error_mc": 0.09998666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:A:k5",
+    "error_mc": 0.008213333333333333,
+    "error_exact": 0.008559999999999996
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:A:k5",
+    "error_mc": 0.008213333333333333,
+    "error_exact": 0.008559999999999996
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:A:k5",
+    "error_mc": 0.0944,
+    "error_exact": 0.0937126
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:A:k5",
+    "error_mc": 0.0944,
+    "error_exact": 0.0937126
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:A:k5",
+    "error_mc": 0.12015333333333333,
+    "error_exact": 0.12028444999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:A:k5",
+    "error_mc": 0.10038666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:A:k6",
+    "error_mc": 0.0026666666666666666,
+    "error_exact": 0.0027279999999999982
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:A:k6",
+    "error_mc": 0.0026666666666666666,
+    "error_exact": 0.0027279999999999982
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:A:k6",
+    "error_mc": 0.10485333333333334,
+    "error_exact": 0.1043407
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:A:k6",
+    "error_mc": 0.10485333333333334,
+    "error_exact": 0.1043407
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:A:k6",
+    "error_mc": 0.12812,
+    "error_exact": 0.12825552499999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:A:k6",
+    "error_mc": 0.10020666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "exposed_vote:A:k7",
+    "error_mc": 0.00252,
+    "error_exact": 0.0027279999999999982
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_vote:A:k7",
+    "error_mc": 0.00252,
+    "error_exact": 0.0027279999999999982
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "echo_gate:A:k7",
+    "error_mc": 0.11444,
+    "error_exact": 0.11390656599999997
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "blind_gate:A:k7",
+    "error_mc": 0.11444,
+    "error_exact": 0.11390656599999997
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "audit_gate:A:k7",
+    "error_mc": 0.13544,
+    "error_exact": 0.13542992450000002
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "topology": "serial_last:A:k7",
+    "error_mc": 0.09982666666666666,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "alone:H:k0",
+    "error_mc": 0.2004,
+    "error_exact": 0.2
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "alone:A:k0",
+    "error_mc": 0.10056,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:H:k1",
+    "error_mc": 0.18964666666666666,
+    "error_exact": 0.19
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:H:k1",
+    "error_mc": 0.1496,
+    "error_exact": 0.15000000000000002
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:H:k1",
+    "error_mc": 0.17380666666666666,
+    "error_exact": 0.1744
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:H:k1",
+    "error_mc": 0.07128,
+    "error_exact": 0.07199999999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:H:k1",
+    "error_mc": 0.18031333333333333,
+    "error_exact": 0.1808
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:H:k1",
+    "error_mc": 0.17895333333333333,
+    "error_exact": 0.18000000000000002
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:H:k2",
+    "error_mc": 0.19490666666666667,
+    "error_exact": 0.194488
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:H:k2",
+    "error_mc": 0.06196,
+    "error_exact": 0.06219999999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:H:k2",
+    "error_mc": 0.1535,
+    "error_exact": 0.15392
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:H:k2",
+    "error_mc": 0.07152666666666667,
+    "error_exact": 0.07200000000000002
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:H:k2",
+    "error_mc": 0.165,
+    "error_exact": 0.16544
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:H:k2",
+    "error_mc": 0.13173333333333334,
+    "error_exact": 0.132
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:H:k3",
+    "error_mc": 0.19289333333333333,
+    "error_exact": 0.19225800000000004
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:H:k3",
+    "error_mc": 0.05856666666666667,
+    "error_exact": 0.05904999999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:H:k3",
+    "error_mc": 0.13732,
+    "error_exact": 0.137600512
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:H:k3",
+    "error_mc": 0.07962666666666667,
+    "error_exact": 0.08006399999999997
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:H:k3",
+    "error_mc": 0.15301333333333333,
+    "error_exact": 0.15320038400000002
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:H:k3",
+    "error_mc": 0.11231333333333333,
+    "error_exact": 0.11280000000000001
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:H:k4",
+    "error_mc": 0.19707333333333332,
+    "error_exact": 0.19637663040000003
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:H:k4",
+    "error_mc": 0.03932666666666667,
+    "error_exact": 0.03939399999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:H:k4",
+    "error_mc": 0.12447333333333334,
+    "error_exact": 0.12466104320000002
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:H:k4",
+    "error_mc": 0.08740666666666666,
+    "error_exact": 0.08812800000000001
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:H:k4",
+    "error_mc": 0.14342,
+    "error_exact": 0.14349578240000002
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:H:k4",
+    "error_mc": 0.10432666666666666,
+    "error_exact": 0.10512
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:H:k5",
+    "error_mc": 0.19644666666666666,
+    "error_exact": 0.19567833184
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:H:k5",
+    "error_mc": 0.03862,
+    "error_exact": 0.038827
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:H:k5",
+    "error_mc": 0.11394,
+    "error_exact": 0.11446664519680003
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:H:k5",
+    "error_mc": 0.09476,
+    "error_exact": 0.09546624
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:H:k5",
+    "error_mc": 0.13542,
+    "error_exact": 0.13584998389760003
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:H:k5",
+    "error_mc": 0.10238,
+    "error_exact": 0.102048
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:H:k6",
+    "error_mc": 0.19832,
+    "error_exact": 0.19787528308479999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:H:k6",
+    "error_mc": 0.032806666666666665,
+    "error_exact": 0.0329302
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:H:k6",
+    "error_mc": 0.10643333333333334,
+    "error_exact": 0.10650073014272
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:H:k6",
+    "error_mc": 0.10148666666666667,
+    "error_exact": 0.10207871999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:H:k6",
+    "error_mc": 0.12986,
+    "error_exact": 0.12987554760704
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:H:k6",
+    "error_mc": 0.10156,
+    "error_exact": 0.10081920000000001
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:H:k7",
+    "error_mc": 0.19822666666666666,
+    "error_exact": 0.19761147248672
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:H:k7",
+    "error_mc": 0.032773333333333335,
+    "error_exact": 0.03280262500000001
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:H:k7",
+    "error_mc": 0.10025333333333333,
+    "error_exact": 0.10034297665994753
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:H:k7",
+    "error_mc": 0.10732666666666667,
+    "error_exact": 0.10803075839999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:H:k7",
+    "error_mc": 0.12531333333333333,
+    "error_exact": 0.12525723249496065
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:H:k7",
+    "error_mc": 0.10085333333333334,
+    "error_exact": 0.10032768
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:A:k1",
+    "error_mc": 0.09952,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:A:k1",
+    "error_mc": 0.09945333333333334,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:A:k1",
+    "error_mc": 0.07711333333333334,
+    "error_exact": 0.07731999999999997
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:A:k1",
+    "error_mc": 0.06164666666666667,
+    "error_exact": 0.06219999999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:A:k1",
+    "error_mc": 0.10831333333333333,
+    "error_exact": 0.10799
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:A:k1",
+    "error_mc": 0.09900666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:A:k2",
+    "error_mc": 0.08210666666666666,
+    "error_exact": 0.08185599999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:A:k2",
+    "error_mc": 0.049653333333333334,
+    "error_exact": 0.04959999999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:A:k2",
+    "error_mc": 0.07016666666666667,
+    "error_exact": 0.070516
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:A:k2",
+    "error_mc": 0.06786,
+    "error_exact": 0.06849999999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:A:k2",
+    "error_mc": 0.10298,
+    "error_exact": 0.10288699999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:A:k2",
+    "error_mc": 0.09969333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:A:k3",
+    "error_mc": 0.07810666666666667,
+    "error_exact": 0.0782272
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:A:k3",
+    "error_mc": 0.049486666666666665,
+    "error_exact": 0.04959999999999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:A:k3",
+    "error_mc": 0.07026,
+    "error_exact": 0.07079723199999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:A:k3",
+    "error_mc": 0.07768666666666667,
+    "error_exact": 0.07820199999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:A:k3",
+    "error_mc": 0.10308666666666666,
+    "error_exact": 0.10309792399999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:A:k3",
+    "error_mc": 0.09976,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:A:k4",
+    "error_mc": 0.07436666666666666,
+    "error_exact": 0.07428632319999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:A:k4",
+    "error_mc": 0.03612666666666667,
+    "error_exact": 0.035991999999999996
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:A:k4",
+    "error_mc": 0.07315333333333333,
+    "error_exact": 0.07413300639999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:A:k4",
+    "error_mc": 0.08656,
+    "error_exact": 0.087337
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:A:k4",
+    "error_mc": 0.10542666666666667,
+    "error_exact": 0.10559975479999999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:A:k4",
+    "error_mc": 0.09886666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:A:k5",
+    "error_mc": 0.07212666666666667,
+    "error_exact": 0.07207420671999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:A:k5",
+    "error_mc": 0.03609333333333333,
+    "error_exact": 0.035991999999999996
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:A:k5",
+    "error_mc": 0.07765333333333334,
+    "error_exact": 0.07868148584319998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:A:k5",
+    "error_mc": 0.09488666666666666,
+    "error_exact": 0.09559881999999997
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:A:k5",
+    "error_mc": 0.10876,
+    "error_exact": 0.10901111438239999
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:A:k5",
+    "error_mc": 0.10030666666666667,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:A:k6",
+    "error_mc": 0.07082666666666666,
+    "error_exact": 0.0706122067456
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:A:k6",
+    "error_mc": 0.03194,
+    "error_exact": 0.031909599999999996
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:A:k6",
+    "error_mc": 0.08276,
+    "error_exact": 0.08360696821312
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:A:k6",
+    "error_mc": 0.1024,
+    "error_exact": 0.10303848999999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:A:k6",
+    "error_mc": 0.11264666666666667,
+    "error_exact": 0.11270522615984
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:A:k6",
+    "error_mc": 0.10087333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "exposed_vote:A:k7",
+    "error_mc": 0.06922,
+    "error_exact": 0.06918076707328001
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_vote:A:k7",
+    "error_mc": 0.032093333333333335,
+    "error_exact": 0.031909599999999996
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "echo_gate:A:k7",
+    "error_mc": 0.08786666666666666,
+    "error_exact": 0.08853588101976831
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "blind_gate:A:k7",
+    "error_mc": 0.10896666666666667,
+    "error_exact": 0.10973459619999998
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "audit_gate:A:k7",
+    "error_mc": 0.1165,
+    "error_exact": 0.11640191076482623
+  },
+  {
+    "env": [
+      0.2,
+      0.1,
+      0.3,
+      0.8,
+      0.4
+    ],
+    "topology": "serial_last:A:k7",
+    "error_mc": 0.10125333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "alone:H:k0",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "alone:A:k0",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:H:k1",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:H:k1",
+    "error_mc": 0.17455333333333334,
+    "error_exact": 0.175
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:H:k1",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:H:k1",
+    "error_mc": 0.0549,
+    "error_exact": 0.05499999999999999
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:H:k1",
+    "error_mc": 0.10004,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:H:k1",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:H:k2",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:H:k2",
+    "error_mc": 0.23494,
+    "error_exact": 0.23500000000000001
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:H:k2",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:H:k2",
+    "error_mc": 0.054966666666666664,
+    "error_exact": 0.05500000000000001
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:H:k2",
+    "error_mc": 0.10004,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:H:k2",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:H:k3",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.10000000000000002
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:H:k3",
+    "error_mc": 0.23652666666666666,
+    "error_exact": 0.23640625
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:H:k3",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.09999999999999999
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:H:k3",
+    "error_mc": 0.05564,
+    "error_exact": 0.055843749999999984
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:H:k3",
+    "error_mc": 0.10004,
+    "error_exact": 0.09999999999999999
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:H:k3",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:H:k4",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:H:k4",
+    "error_mc": 0.23214,
+    "error_exact": 0.23218750000000002
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:H:k4",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:H:k4",
+    "error_mc": 0.056453333333333335,
+    "error_exact": 0.0566875
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:H:k4",
+    "error_mc": 0.10004,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:H:k4",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:H:k5",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.09999999999999999
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:H:k5",
+    "error_mc": 0.23244666666666666,
+    "error_exact": 0.23271484375
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:H:k5",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.09999999999999999
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:H:k5",
+    "error_mc": 0.05717333333333333,
+    "error_exact": 0.057373046875
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:H:k5",
+    "error_mc": 0.10004,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:H:k5",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:H:k6",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.10000000000000002
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:H:k6",
+    "error_mc": 0.22990666666666668,
+    "error_exact": 0.23007812500000002
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:H:k6",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.10000000000000002
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:H:k6",
+    "error_mc": 0.05766,
+    "error_exact": 0.057900390625
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:H:k6",
+    "error_mc": 0.10004,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:H:k6",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:H:k7",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:H:k7",
+    "error_mc": 0.23021333333333333,
+    "error_exact": 0.2303253173828125
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:H:k7",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:H:k7",
+    "error_mc": 0.05807333333333333,
+    "error_exact": 0.058299194335937485
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:H:k7",
+    "error_mc": 0.10004,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:H:k7",
+    "error_mc": 0.09983333333333333,
+    "error_exact": 0.1
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:A:k1",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:A:k1",
+    "error_mc": 0.25005333333333335,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:A:k1",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:A:k1",
+    "error_mc": 0.23458,
+    "error_exact": 0.235
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:A:k1",
+    "error_mc": 0.21316666666666667,
+    "error_exact": 0.2125
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:A:k1",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:A:k2",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:A:k2",
+    "error_mc": 0.24041333333333334,
+    "error_exact": 0.240625
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:A:k2",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:A:k2",
+    "error_mc": 0.23186,
+    "error_exact": 0.2321875
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:A:k2",
+    "error_mc": 0.21316666666666667,
+    "error_exact": 0.2125
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:A:k2",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:A:k3",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:A:k3",
+    "error_mc": 0.24061333333333335,
+    "error_exact": 0.240625
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:A:k3",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:A:k3",
+    "error_mc": 0.23171333333333333,
+    "error_exact": 0.2321875
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:A:k3",
+    "error_mc": 0.21316666666666667,
+    "error_exact": 0.2125
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:A:k3",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:A:k4",
+    "error_mc": 0.2497,
+    "error_exact": 0.24999999999999997
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:A:k4",
+    "error_mc": 0.23533333333333334,
+    "error_exact": 0.2353515625
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:A:k4",
+    "error_mc": 0.2497,
+    "error_exact": 0.24999999999999997
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:A:k4",
+    "error_mc": 0.23224666666666666,
+    "error_exact": 0.23271484375
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:A:k4",
+    "error_mc": 0.21316666666666667,
+    "error_exact": 0.21249999999999997
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:A:k4",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:A:k5",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:A:k5",
+    "error_mc": 0.23502666666666666,
+    "error_exact": 0.2353515625
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:A:k5",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:A:k5",
+    "error_mc": 0.23280666666666666,
+    "error_exact": 0.2332421875
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:A:k5",
+    "error_mc": 0.21316666666666667,
+    "error_exact": 0.2125
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:A:k5",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:A:k6",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:A:k6",
+    "error_mc": 0.23178,
+    "error_exact": 0.23205566406250003
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:A:k6",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:A:k6",
+    "error_mc": 0.23318,
+    "error_exact": 0.233670654296875
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:A:k6",
+    "error_mc": 0.21316666666666667,
+    "error_exact": 0.2125
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:A:k6",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "exposed_vote:A:k7",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_vote:A:k7",
+    "error_mc": 0.23204666666666668,
+    "error_exact": 0.2320556640625
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "echo_gate:A:k7",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "blind_gate:A:k7",
+    "error_mc": 0.23354,
+    "error_exact": 0.234000244140625
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "audit_gate:A:k7",
+    "error_mc": 0.21316666666666667,
+    "error_exact": 0.2125
+  },
+  {
+    "env": [
+      0.1,
+      0.25,
+      0.9,
+      1.0,
+      1.0
+    ],
+    "topology": "serial_last:A:k7",
+    "error_mc": 0.2497,
+    "error_exact": 0.25
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "alone:H:k0",
+    "error_mc": 0.29850666666666664,
+    "error_exact": 0.3
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "alone:A:k0",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:H:k1",
+    "error_mc": 0.26266,
+    "error_exact": 0.26249999999999996
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:H:k1",
+    "error_mc": 0.17550666666666667,
+    "error_exact": 0.17499999999999996
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:H:k1",
+    "error_mc": 0.24372,
+    "error_exact": 0.2433
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:H:k1",
+    "error_mc": 0.11168,
+    "error_exact": 0.11100000000000002
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:H:k1",
+    "error_mc": 0.25884666666666667,
+    "error_exact": 0.257475
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:H:k1",
+    "error_mc": 0.22495333333333334,
+    "error_exact": 0.22499999999999998
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:H:k2",
+    "error_mc": 0.27588666666666667,
+    "error_exact": 0.27749999999999997
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:H:k2",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.049999999999999996
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:H:k2",
+    "error_mc": 0.20386666666666667,
+    "error_exact": 0.20360999999999999
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:H:k2",
+    "error_mc": 0.11168,
+    "error_exact": 0.11100000000000002
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:H:k2",
+    "error_mc": 0.22880666666666666,
+    "error_exact": 0.22770749999999998
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:H:k2",
+    "error_mc": 0.08518,
+    "error_exact": 0.08499999999999999
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:H:k3",
+    "error_mc": 0.26797333333333334,
+    "error_exact": 0.26962499999999995
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:H:k3",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.049999999999999996
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:H:k3",
+    "error_mc": 0.17607333333333333,
+    "error_exact": 0.175827
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:H:k3",
+    "error_mc": 0.11168,
+    "error_exact": 0.11100000000000002
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:H:k3",
+    "error_mc": 0.20732,
+    "error_exact": 0.20687024999999998
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:H:k3",
+    "error_mc": 0.05746,
+    "error_exact": 0.057
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:H:k4",
+    "error_mc": 0.27718,
+    "error_exact": 0.2790749999999999
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:H:k4",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.049999999999999996
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:H:k4",
+    "error_mc": 0.15677333333333332,
+    "error_exact": 0.1563789
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:H:k4",
+    "error_mc": 0.11168,
+    "error_exact": 0.11100000000000002
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:H:k4",
+    "error_mc": 0.19288,
+    "error_exact": 0.192284175
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:H:k4",
+    "error_mc": 0.05202,
+    "error_exact": 0.0514
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:H:k5",
+    "error_mc": 0.27365333333333336,
+    "error_exact": 0.27576749999999994
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:H:k5",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.049999999999999996
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:H:k5",
+    "error_mc": 0.14310666666666666,
+    "error_exact": 0.14276523
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:H:k5",
+    "error_mc": 0.11168,
+    "error_exact": 0.11100000000000002
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:H:k5",
+    "error_mc": 0.18285333333333334,
+    "error_exact": 0.18207392249999999
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:H:k5",
+    "error_mc": 0.051013333333333334,
+    "error_exact": 0.050280000000000005
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:H:k6",
+    "error_mc": 0.2807266666666667,
+    "error_exact": 0.2823824999999999
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:H:k6",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.049999999999999996
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:H:k6",
+    "error_mc": 0.13391333333333333,
+    "error_exact": 0.133235661
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:H:k6",
+    "error_mc": 0.11168,
+    "error_exact": 0.11100000000000002
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:H:k6",
+    "error_mc": 0.17611333333333334,
+    "error_exact": 0.17492674575
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:H:k6",
+    "error_mc": 0.05073333333333333,
+    "error_exact": 0.050056
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:H:k7",
+    "error_mc": 0.2788733333333333,
+    "error_exact": 0.28064606249999996
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:H:k7",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.049999999999999996
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:H:k7",
+    "error_mc": 0.12704,
+    "error_exact": 0.1265649627
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:H:k7",
+    "error_mc": 0.11168,
+    "error_exact": 0.11100000000000002
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:H:k7",
+    "error_mc": 0.17099333333333333,
+    "error_exact": 0.16992372202500003
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:H:k7",
+    "error_mc": 0.050646666666666666,
+    "error_exact": 0.050011200000000006
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:A:k1",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:A:k1",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:A:k1",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:A:k1",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:A:k1",
+    "error_mc": 0.11336666666666667,
+    "error_exact": 0.1125
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:A:k1",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05000000000000001
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:A:k2",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:A:k2",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:A:k2",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:A:k2",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:A:k2",
+    "error_mc": 0.11336666666666667,
+    "error_exact": 0.1125
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:A:k2",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:A:k3",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:A:k3",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:A:k3",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:A:k3",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:A:k3",
+    "error_mc": 0.11336666666666667,
+    "error_exact": 0.1125
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:A:k3",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:A:k4",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:A:k4",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:A:k4",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:A:k4",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:A:k4",
+    "error_mc": 0.11336666666666667,
+    "error_exact": 0.1125
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:A:k4",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:A:k5",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:A:k5",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:A:k5",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:A:k5",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:A:k5",
+    "error_mc": 0.11336666666666667,
+    "error_exact": 0.1125
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:A:k5",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:A:k6",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:A:k6",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:A:k6",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:A:k6",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:A:k6",
+    "error_mc": 0.11336666666666667,
+    "error_exact": 0.1125
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:A:k6",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "exposed_vote:A:k7",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_vote:A:k7",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "echo_gate:A:k7",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "blind_gate:A:k7",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "audit_gate:A:k7",
+    "error_mc": 0.11336666666666667,
+    "error_exact": 0.1125
+  },
+  {
+    "env": [
+      0.3,
+      0.05,
+      1.0,
+      0.7,
+      0.2
+    ],
+    "topology": "serial_last:A:k7",
+    "error_mc": 0.050633333333333336,
+    "error_exact": 0.05
+  }
+]

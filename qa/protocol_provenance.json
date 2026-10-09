@@ -1,0 +1,40 @@
+{
+  "archived_on": "2026-10-09",
+  "new_experiments_run": false,
+  "study1": {
+    "protocol": "examples/learning_protocol.json",
+    "sha256": "70b39e54e2062f561c556b4752ac7f3f2fd4e6614bb3a6941b9a111e2d6badca",
+    "first_public_commit": "75d312ec4daca08f414218e5ad7b4955f4fa901b",
+    "evidence": "The protocol declares a prospective local design. The first public commit contains both protocol and results; no verified pre-run Git commit is available."
+  },
+  "study2": {
+    "protocol": "study2/protocol.json",
+    "sha256": "446ce633a53058ff29225d54b708ba574af9159d16fe853aa1c7301744d8cd1e",
+    "pre_run_record": "study2/qa/pre_run_record.json",
+    "recorded_utc": "2026-10-02T13:06:04.290988+00:00",
+    "evidence": "A retained local pre-run record hashes the protocol. This is not an independently timestamped preregistration or a pre-run Git commit."
+  },
+  "study2_archived_files": {
+    "study2/learning_experiment.py": "e90e06ae342a1cc2dec0a3952247e60242f1d031a916526e6abc2a6ec1e7c120",
+    "study2/model.py": "35b61f3a58fdcf22ca37702204f118a265b906295a0dbd9c7f8a0aa29440dacf",
+    "study2/oracle_experiment.py": "591f1c75fe6af3b17f14295f214b00a20e1a18e9eb76d2f1f926e507538f6703",
+    "study2/protocol.json": "446ce633a53058ff29225d54b708ba574af9159d16fe853aa1c7301744d8cd1e",
+    "study2/requirements.txt": "3c73a9012bee459ba5eaa50f394b3bb9ee392fbff33693eaf7dd0bf1f900af48",
+    "study2/validate.py": "c4930ff49add18172e015798700c09ac04f4aed242188c864d8d732f947c563e",
+    "study2/qa/monte_carlo_checks.json": "b244d175324cca0c6464226b8b15bd1daec642f7f02818076ca7328f8fd55983",
+    "study2/qa/pre_run_record.json": "165a895508b5bda832ad3b2fa3ec49b5f7c9edf1505b4dc9565043534375226d",
+    "study2/qa/validation.json": "0986e0dabaffbc066fde3d9716ae7e6e345b61427c4e4c37bca3cff1dceec842",
+    "study2/results/fixed_roster.csv": "daeae199a17b67ed5d81bc5409b5ea07b46bb4ccbebe0d1094158ff1c71ab979",
+    "study2/results/illustrative_curve.csv": "1f671b688e58c7c2a865fe4f8f89311bdf35e00f6aaac62434ba6772693c6218",
+    "study2/results/learning_metadata.json": "6b97e2f57b0828cfd02c5003385c8bd1ceabca7ce3a0fdda1d101258182145b9",
+    "study2/results/learning_periods.csv": "82f3b5dede5f56f41b1fdb0d00f0b9a62f57acb9ddfc1baac9949bdc1e06e548",
+    "study2/results/learning_raw.npz": "2080ef7e7a05d6e81466855412bb0ca0a74c8055d03068ef7f156b1b0fcfb5fc",
+    "study2/results/learning_runs.csv": "394e51ed100a90417ffd6b353a48f1a4bafd60ee81dc508bcba10b541a4781d1",
+    "study2/results/learning_summary.csv": "a11659e83d515c5926a2b56b3b1f6f8d8d646a107fa07cf8bf4bb043c9f988f4",
+    "study2/results/oracle_summary.json": "006ff133ff6699b4e1b663704889751e005be93d94e7d6026cb802b4371beb3b",
+    "study2/results/paired_contrasts.csv": "34574e6f4a53db7c6fc440c647af850dedc628019aa1aa60928de7efa5ace00f",
+    "study2/results/phase.csv": "6eb803b20cfff9642b3b1ee94f2fb3651d59914d3d46ceac006d64da397a2942",
+    "study2/results/source_asymmetry.csv": "a6acea45465ee996bbb2cd4cc844af6f90e9139eb0fd9a7184efee209b69b5a3"
+  },
+  "scope": "Study 2 was designed after Study 1. All archived results and scientific implementation files are unchanged from the existing experiment snapshot."
+}

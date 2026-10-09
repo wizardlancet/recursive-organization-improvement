@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "enumeration_cases": 144,
+  "maximum_absolute_enumeration_error": 1.1102230246251565e-15,
+  "monte_carlo_cases": 344,
+  "tasks_per_environment": 150000,
+  "independent_environment_panels": 4,
+  "monte_carlo_rule": "7 SE + 0.00002 tolerance across dependent diagnostic comparisons",
+  "fitted_parameters_large_sample": [
+    0.2000243332522225,
+    0.09957266714148096,
+    0.34962936706947306,
+    0.8008521522306338,
+    0.30144546874731765
+  ],
+  "learning_accounting": "passed",
+  "maximum_acquisition_per_round": 233.6,
+  "learning_trajectories": 10752
+}
