@@ -1,0 +1,114 @@
+{
+  "manuscript_files": [
+    "main.tex",
+    "sections/introduction.tex",
+    "sections/study.tex",
+    "sections/discussion.tex"
+  ],
+  "abstract_characters": 1718,
+  "finding": "In post hoc acquisition-matched controls, the remaining contribution of program replacement depended on the memory rule: small and uncertain under an eight-round window, positive under cumulative memory after a reversal, and negative under reset evidence.",
+  "matched_controls": [
+    {
+      "environment": "Workflow reversal",
+      "memory": "Reset",
+      "mean": -0.01525498867034911,
+      "ci95_half_width": 0.002238312314399973,
+      "lower": -0.017493300984749084,
+      "upper": -0.013016676355949136
+    },
+    {
+      "environment": "Workflow reversal",
+      "memory": "Cumulative",
+      "mean": 0.008315703074137374,
+      "ci95_half_width": 0.0036265353714892545,
+      "lower": 0.0046891677026481195,
+      "upper": 0.011942238445626628
+    },
+    {
+      "environment": "Workflow reversal",
+      "memory": "Window 8",
+      "mean": 0.0019068924585978076,
+      "ci95_half_width": 0.0020713855219313677,
+      "lower": -0.00016449306333356012,
+      "upper": 0.003978277980529176
+    },
+    {
+      "environment": "Workflow reversal 20",
+      "memory": "Reset",
+      "mean": -0.01586045742034911,
+      "ci95_half_width": 0.002280982348512815,
+      "lower": -0.018141439768861928,
+      "upper": -0.013579475071836296
+    },
+    {
+      "environment": "Workflow reversal 20",
+      "memory": "Cumulative",
+      "mean": 0.011323535442352291,
+      "ci95_half_width": 0.005259685004463439,
+      "lower": 0.006063850437888852,
+      "upper": 0.01658322044681573
+    },
+    {
+      "environment": "Workflow reversal 20",
+      "memory": "Window 8",
+      "mean": -0.0006321501731872473,
+      "ci95_half_width": 0.0007210318121767824,
+      "lower": -0.0013531819853640297,
+      "upper": 8.888163898953519e-05
+    },
+    {
+      "environment": "Workflow reversal 28",
+      "memory": "Reset",
+      "mean": -0.013990062077840166,
+      "ci95_half_width": 0.00235332029255206,
+      "lower": -0.016343382370392227,
+      "upper": -0.011636741785288106
+    },
+    {
+      "environment": "Workflow reversal 28",
+      "memory": "Cumulative",
+      "mean": 0.0016750184694926122,
+      "ci95_half_width": 0.0013600086440593209,
+      "lower": 0.00031500982543329137,
+      "upper": 0.003035027113551933
+    },
+    {
+      "environment": "Workflow reversal 28",
+      "memory": "Window 8",
+      "mean": -0.0005738457043965644,
+      "ci95_half_width": 0.0006922594939067986,
+      "lower": -0.0012661051983033629,
+      "upper": 0.00011841378951023415
+    }
+  ],
+  "manuscript_date": "omitted",
+  "new_experiments_run": false,
+  "passed": true,
+  "main_pdf_pages": 39,
+  "visible_url_verified": true,
+  "source_stats_audit_passed": true,
+  "scientific_inputs_unchanged": 59,
+  "manuscript_files_changed": [
+    "main.tex",
+    "sections/discussion.tex",
+    "sections/introduction.tex",
+    "sections/study.tex"
+  ],
+  "changed_pdf_pages": [
+    1,
+    2,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "detail_pages": {
+    "Introduction": 1,
+    "Acquisition matching and the contribution": 9,
+    "How the two studies connect": 12,
+    "Conclusion": 13
+  }
+}

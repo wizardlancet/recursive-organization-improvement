@@ -12,6 +12,8 @@
 - `numeric_claim_ledger.json`: source-value references at table precision.
 - `narrative_rounding_checks.json`: key rounded narrative results checked against
   saved sources, including the acquisition-matched contrasts.
+- `claim_scope_checks.json` and `acquisition_memory_checks.json`: current
+  acquisition-matched claims across all three memory rules and reversal timings.
 - `clarification_checks.json`: visible URL, shared scope placement, interval
   precision, explicit subjects, and abstract context.
 - `style_revision_checks.json`: current scope, compression, protected scientific

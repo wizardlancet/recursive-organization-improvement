@@ -32,9 +32,10 @@ are supplied in [ARXIV_ABSTRACT.txt](ARXIV_ABSTRACT.txt) and
 
 ## Results and interpretation
 
-In Study 1, acquisition-matched controls isolate evaluator replacement from
-the trials and reusable labels that accompany it. The remaining difference is
-small and uncertain across three reversal timings. Retained evidence removes
+In Study 1, post hoc acquisition-matched controls separate evaluator replacement
+from the trials and reusable labels that accompany it. Across three reversal
+timings, the remaining contribution is small and uncertain under Window 8,
+positive under cumulative memory, and negative under reset evidence. Retained evidence removes
 much of the repeated-assessment penalty in a stable environment, while indefinite
 retention delays adaptation after reversal.
 

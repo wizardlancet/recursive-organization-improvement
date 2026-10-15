@@ -3,7 +3,7 @@
   "pdfs": {
     "main.pdf": {
       "pages": 39,
-      "sha256": "8eb48108dd71ed2d6bf82322d862ef5757c65cd4e89200f0c48099b394fcec8b",
+      "sha256": "56878b862f08e8dd67838bacc3574edb10543bac9ede7c66ca86cd6f196ed49f",
       "out_of_page_text": [],
       "unresolved_references_or_layout_errors": []
     }
@@ -27,7 +27,7 @@
   "main_body_and_appendix_pages": 23,
   "standalone_supplement_pdf": false,
   "compile_engine": "Tectonic (XeTeX), BibTeX, three TeX passes",
-  "abstract_metadata_characters": 1598,
+  "abstract_metadata_characters": 1718,
   "arxiv_abstract_limit": 1920,
   "manuscript_version_labels_absent": false,
   "repository_link_uri_verified": true,

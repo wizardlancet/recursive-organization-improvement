@@ -26,8 +26,8 @@
     "template/License.txt"
   ],
   "source_files": 24,
-  "archive_sha256": "d6a80501434732d7b51ff583d3064e1f55620165ce4b3dee511f15de298c68ae",
-  "bytes": 221802,
+  "archive_sha256": "93c4076c245bda539b67026b8857912a45690b92d044a28a9e302cb5a80fd3f6",
+  "bytes": 221951,
   "main_document": "main.tex",
   "standalone_supplement_pdf": false,
   "passed": true,

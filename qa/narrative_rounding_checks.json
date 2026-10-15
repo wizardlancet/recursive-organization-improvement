@@ -68,6 +68,18 @@
       "file": "sections/study.tex"
     },
     {
+      "claim": "Cumulative acquisition-matched range",
+      "source_value": 0.0016750184694926122,
+      "display": "0.0017",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Cumulative acquisition-matched range",
+      "source_value": 0.011323535442352291,
+      "display": "0.0113",
+      "file": "sections/study.tex"
+    },
+    {
       "claim": "High echo / Full_trace / error",
       "source_value": 1.7730511718749997,
       "display": "1.77",

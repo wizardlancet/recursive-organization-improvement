@@ -8,9 +8,9 @@ Study 2 distinguishes shared private error from copying, compares human–agent
 review arrangements under bounded resources, and measures the cost of paid
 observation. Tables S1–S5 report study and audit outcomes after the appendices in the
 main PDF. S2 summarizes the final program-selection proportions; the repository
-retains the complete conditional table. The README maps tables to saved inputs. The 1,598-character
+retains the complete conditional table. The README maps tables to saved inputs. The 1,718-character
 abstract retains the specification and Study 1 argument while emphasizing
-acquisition-matched attribution.
+acquisition-matched attribution and its dependence on the memory rule.
 
 No new experiment was run for this manuscript release. The package checks saved
 results and preserves the existing scientific inputs and independent validation

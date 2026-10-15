@@ -4,8 +4,6 @@
   "changed_pages_inspected": [
     1,
     2,
-    6,
-    8,
     9,
     10,
     11,
@@ -16,12 +14,12 @@
   ],
   "enlarged_pages_inspected": [
     1,
-    6,
+    2,
     9,
-    10,
+    12,
     13
   ],
   "remaining_pages_pixel_identical_to_previous_reviewed_pdf": true,
-  "result": "Visible GitHub URL, scope before subsection 4.1, four-decimal intervals with to, concise diagnostics, explicit gate/audit subjects, and abstract regret comparison verified. No overflow or unresolved references.",
+  "result": "Memory-specific acquisition-matched claims verified against all nine saved contrasts. Date omitted; revised abstract and body pages inspected. No overflow or unresolved references.",
   "new_experiments_run": false
 }

@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "source": "results/learning_contrasts.csv",
+  "comparison": "Repeated - Trial-matched Balanced",
+  "post_hoc": true,
+  "conditions": [
+    {
+      "environment": "Workflow reversal 20",
+      "memory": "Reset",
+      "mean": -0.01586045742034911,
+      "lower": -0.018141439768861928,
+      "upper": -0.013579475071836296
+    },
+    {
+      "environment": "Workflow reversal",
+      "memory": "Reset",
+      "mean": -0.01525498867034911,
+      "lower": -0.017493300984749084,
+      "upper": -0.013016676355949136
+    },
+    {
+      "environment": "Workflow reversal 28",
+      "memory": "Reset",
+      "mean": -0.013990062077840166,
+      "lower": -0.016343382370392227,
+      "upper": -0.011636741785288106
+    },
+    {
+      "environment": "Workflow reversal 20",
+      "memory": "Cumulative",
+      "mean": 0.011323535442352291,
+      "lower": 0.006063850437888852,
+      "upper": 0.01658322044681573
+    },
+    {
+      "environment": "Workflow reversal",
+      "memory": "Cumulative",
+      "mean": 0.008315703074137374,
+      "lower": 0.0046891677026481195,
+      "upper": 0.011942238445626628
+    },
+    {
+      "environment": "Workflow reversal 28",
+      "memory": "Cumulative",
+      "mean": 0.0016750184694926122,
+      "lower": 0.00031500982543329137,
+      "upper": 0.003035027113551933
+    },
+    {
+      "environment": "Workflow reversal 20",
+      "memory": "Window 8",
+      "mean": -0.0006321501731872473,
+      "lower": -0.0013531819853640297,
+      "upper": 8.888163898953519e-05
+    },
+    {
+      "environment": "Workflow reversal",
+      "memory": "Window 8",
+      "mean": 0.0019068924585978076,
+      "lower": -0.00016449306333356012,
+      "upper": 0.003978277980529176
+    },
+    {
+      "environment": "Workflow reversal 28",
+      "memory": "Window 8",
+      "mean": -0.0005738457043965644,
+      "lower": -0.0012661051983033629,
+      "upper": 0.00011841378951023415
+    }
+  ],
+  "new_experiments_run": false
+}

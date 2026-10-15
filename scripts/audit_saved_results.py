@@ -255,6 +255,23 @@ for value,display in zip((v,v-h,v+h),('0.0098','0.0071','0.0124')):narrative('Re
 for environment in ('Workflow reversal 20','Workflow reversal 28'):
     r=select(contrasts,study='exploratory control',environment=environment,memory='Window 8',comparison='Repeated - Trial-matched Balanced')
     assert float(r['delta'])<0 and abs(float(r['delta']))<float(r['ci95'])
+# Check the acquisition-matched claim in every memory/timing condition.
+matched_controls=[]
+for memory in ('Reset','Cumulative','Window 8'):
+    for environment in ('Workflow reversal 20','Workflow reversal','Workflow reversal 28'):
+        r=select(contrasts,study='exploratory control',environment=environment,memory=memory,comparison='Repeated - Trial-matched Balanced')
+        v,h=float(r['delta']),float(r['ci95'])
+        if memory=='Cumulative': assert v-h>0
+        elif memory=='Reset': assert v+h<0
+        else: assert v-h<0<v+h
+        matched_controls.append(dict(environment=environment,memory=memory,mean=v,lower=v-h,upper=v+h))
+means=[r['mean'] for r in matched_controls if r['memory']=='Cumulative']
+for value,display in [(min(means),'0.0017'),(max(means),'0.0113')]:
+    narrative('Cumulative acquisition-matched range',value,display,'sections/study.tex',decimals=4)
+finding='In post hoc acquisition-matched controls, the remaining contribution of program replacement depended on the memory rule: small and uncertain under an eight-round window, positive under cumulative memory after a reversal, and negative under reset evidence.'
+assert finding in text(ROOT/'main.tex') and finding in text(ROOT/'sections/discussion.tex')
+assert 'Under Window 8, acquisition matching therefore leaves a small, uncertain contribution' in text(ROOT/'sections/study.tex')
+(OUT/'acquisition_memory_checks.json').write_text(json.dumps({'passed':True,'source':'results/learning_contrasts.csv','comparison':'Repeated - Trial-matched Balanced','post_hoc':True,'conditions':matched_controls,'new_experiments_run':False},indent=2)+'\n',encoding='utf-8',newline='\n')
 for policy,metric,factor,display in [('Full_trace','error',100,'1.77'),('Full_trace','net',1,'.861'),('Ignore_echo','error',100,'9.82'),('Ignore_echo','net',1,'.623'),('blind_vote:A:k3','error',100,'3.52'),('blind_vote:A:k3','net',1,'.871')]:
     memory='none' if policy.startswith('blind_') else 'cumulative'
     narrative('High echo / '+policy+' / '+metric,factor*ca('high_echo',policy,memory,metric),display,'sections/study2.tex')
