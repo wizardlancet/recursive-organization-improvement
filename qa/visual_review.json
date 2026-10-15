@@ -1,21 +1,17 @@
 {
-  "date": "2026-10-10",
-  "main_pages": 45,
-  "all_changed_pages_inspected_in_contact_sheets": [
-    27,
-    28,
-    29,
-    30,
-    31,
-    36,
-    37
-  ],
+  "date": "2026-10-16",
+  "main_pages": 39,
+  "all_pages_inspected_in_contact_sheets": true,
   "enlarged_pages_inspected": [
-    27,
-    31,
-    36
+    1,
+    6,
+    9,
+    10,
+    11,
+    13,
+    16,
+    28
   ],
-  "unaffected_pages_pixel_identical_to_previous_reviewed_pdf": true,
-  "result": "SR legend, full policy name, environment label, and conditional-summary wording render correctly; no clipping, overflow, or unresolved references.",
+  "result": "All 39 pages inspected; scope, rounded results, acquisition-matched comparison, revised conclusion, repository link, and compact S2 render correctly. No clipped text, overflow, or unresolved references.",
   "new_experiments_run": false
 }

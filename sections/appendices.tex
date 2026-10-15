@@ -15,13 +15,13 @@ An instance begins by declaring its population, criterion, horizon, and change b
   "retention": "next-review-rule.v1"
 }
 \end{lstlisting}
-This example is a proposed full contract. The executable \texttt{Patch} class implements target, version, actor, evidence, reversibility, and admission cost; other contract fields are supplied by the surrounding experiment protocol. Reversibility is recorded but the checker does not simulate rollback. A diagnostic coverage trace contains per-round sample counts, estimates, decisions, cost totals, and authorized program changes. The outcome equations reconstruct net value from the selected workflow and ledger, while negative fixtures exercise admission failures.
+The example links a proposed change to the records needed to evaluate it. The reference checker implements target, version, actor, evidence, reversibility, and admission-cost fields; the experiment protocol defines the remaining fields. A diagnostic coverage trace records sample counts, estimates, decisions, costs, and authorized program changes. Outcome equations reconstruct net value from the selected workflow and ledger.
 
-The public mapping uses a convenience-sample snapshot from \texttt{pallets/flask}: the first three merged PRs before September 30, 2026 among the first 100 closed PRs returned in descending creation order. The snapshot was retrieved on September 28, 2026 at 17:45:43 UTC. Selection candidates, URLs, timestamps, and response hashes are retained. The snapshot contains factual identifiers and states, excluding message bodies and email addresses. Released actor identifiers are stable pseudonyms; account IDs and usernames are omitted. PR links remain available for provenance, so this is pseudonymization rather than irreversible anonymization.
+The public mapping uses a convenience sample from \texttt{pallets/flask}, frozen on September 28, 2026. From the 100 closed PRs returned in descending creation order at retrieval, it takes the first three already merged PRs. The archive retains the candidate list, URLs, timestamps, and response hashes. Message bodies and email addresses are excluded. Actor identifiers are replaced by stable pseudonyms; the public PR links permit re-identification.
 
 For each PR the adapter retrieves commits, reviews, and checks at its recorded head SHA, checking pagination for the subordinate lists. \Cref{tab:public} summarizes the mapped records. Commits are artifact versions; opening, review, check, and merge records are events. Endpoint definitions support these mappings \citep{githubreviews,githubchecks}. Earlier heads, test-merge commits, off-platform activity, and historical branch protection require additional sources.
 \begin{table}[!htbp]
-\caption{Public-record snapshot. These counts describe record availability, not organizational improvement or AI participation.}
+\caption{Public-record snapshot. Counts summarize the records available for mapping.}
 \label{tab:public}\centering\small
 \begin{tabular}{@{}lrrrr@{}}\toprule
 PR & Commit artifacts & Reviews & Head checks & Events \\\midrule
@@ -30,14 +30,14 @@ PR & Commit artifacts & Reviews & Head checks & Events \\\midrule
 \href{https://github.com/pallets/flask/pull/6095}{\#6095} & 1 & 3 & 14 & 19 \\\bottomrule
 \end{tabular}
 \end{table}
-Historical permission and actual evidence exposure remain unknown even when a merge and a public review are visible. The adapter preserves these unknown fields and does not pass the records to the complete-trace validator. No workflow intervention or counterfactual is observed. A generic log augmented with the same missing information would support the same checks; the practical benefit tested here is identifying the required connections and missing instrumentation.
+The adapter records historical permission and actual evidence exposure as unknown. The mapping identifies the links that additional instrumentation would need to recover before a workflow-effect comparison.
 
 \section{Analytical background for interaction and evaluation}
 \label{app:analytical}
 \subsection{Coverage and indistinguishability}
 Suppose two environments induce identical distributions over every history accessible to a procedure, but a specified workflow change improves the population in one and harms it in the other. Any binary sign decision based on those histories has the same output distribution in both environments. If its probability of reporting improvement is $q$, its two error probabilities are $1-q$ and $q$. Their sum is one, so at least one is at least $1/2$. This is the standard observation-equivalence argument.
 
-A construction uses equally frequent flagged and unflagged cases. A change lowers flagged error from $.20$ to $.10$ in both environments; unflagged error falls to $.10$ in one and rises to $.50$ in the other. If only flagged labels are observed and no downstream signal arrives, evidence is identical although population risk changes from $.20$ to $.10$ or $.30$. With known positive inclusion probabilities $q_i$ and accurate labels $E_i$, the Horvitz--Thompson estimator $N^{-1}\sum_i Z_i E_i/q_i$ is design-unbiased for finite-population risk \citep{ht}. Small inclusion probabilities can still produce high variance. Study 1 has positive coverage in every cell and tests this finite-evidence problem; it is not an instance of exact observational equivalence.
+A construction uses equally frequent flagged and unflagged cases. A change lowers flagged error from $.20$ to $.10$ in both environments; unflagged error falls to $.10$ in one and rises to $.50$ in the other. If only flagged labels are observed and no downstream signal arrives, evidence is identical although population risk changes from $.20$ to $.10$ or $.30$. With known positive inclusion probabilities $q_i$ and accurate labels $E_i$, the Horvitz--Thompson estimator $N^{-1}\sum_i Z_i E_i/q_i$ is design-unbiased for finite-population risk \citep{ht}. Small inclusion probabilities can still produce high variance. Study 1 gives every cell positive coverage and examines the resulting finite-sample selection problem.
 
 \subsection{Dependent evidence and interaction order}
 For equal-variance errors with equicorrelation $\rho$, the variance of the mean is $\sigma^2[\rho+(1-\rho)/n]$, with $-1/(n-1)\leq\rho\leq1$. Common bias contributes an additional squared-bias term to mean squared error. Information dependence therefore limits the gain from adding actors \citep{clemen}; more actors alone need not produce proportionally more information.
@@ -46,9 +46,7 @@ Let independent initial human and agent estimation errors have variances $v_H$ a
 \begin{equation}
 R(\alpha)=\{(1-\alpha)^2v_H+(1+\alpha)^2v_A\}/4.
 \end{equation}
-For $v_A<v_H$ and $0\leq\alpha\leq1$, the optimum is $\alpha^*=(v_H-v_A)/(v_H+v_A)$, giving $v_Hv_A/(v_H+v_A)$. This is also the risk of optimal inverse-variance weighting of the original private judgments. Thus a gain over equal private averaging is a reweighting gain, not evidence that exposure creates information. With initial covariance $\sigma_{HA}$, risk gains the term $(1-\alpha^2)\sigma_{HA}/2$. The parameters describe a candidate interaction model; they are not empirical estimates of anchoring.
-
-Cross-functional breadth can be represented by reduced transfer cost and changed capability profiles. A simple accounting decomposition is saved handoff cost plus improved integration, minus lost specialist depth and switching cost. Its sign depends on measured magnitudes and on the dependency graph. The specification preserves these separate terms instead of assigning a universal benefit to generalists.
+For $v_A<v_H$ and $0\leq\alpha\leq1$, the optimum is $\alpha^*=(v_H-v_A)/(v_H+v_A)$, giving $v_Hv_A/(v_H+v_A)$. This is also the risk of optimal inverse-variance weighting of the original private judgments. Thus reweighting the private judgments can reproduce the gain over equal private averaging. With initial covariance $\sigma_{HA}$, risk gains the term $(1-\alpha^2)\sigma_{HA}/2$.
 
 \input{sections/learning_protocol}
 

@@ -37,18 +37,16 @@
       ]
     },
     {
-      "panel": "Complete conditional summary",
-      "rows": 189,
+      "panel": "Final program-selection proportions",
+      "rows": 18,
       "columns": [
         "Environment",
         "Memory",
         "Arm",
-        "Round",
-        "Program",
-        "$n$",
-        "Share (\\%)",
-        "Net",
-        "Harm (\\%)"
+        "Review",
+        "Biased (\\%)",
+        "Balanced (\\%)",
+        "Neyman (\\%)"
       ]
     },
     {

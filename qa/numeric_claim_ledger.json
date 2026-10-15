@@ -574,20 +574,6 @@
     "scope": ""
   },
   {
-    "claim": "Abstract 0.006",
-    "source_value": 0.00607382774353022,
-    "manuscript_display": "0.006",
-    "source": "same source as corresponding full-precision body claim",
-    "scope": ""
-  },
-  {
-    "claim": "Abstract 0.002",
-    "source_value": 0.0019068924585978076,
-    "manuscript_display": "0.002",
-    "source": "same source as corresponding full-precision body claim",
-    "scope": ""
-  },
-  {
     "claim": "Paired cumulative below fixed blind net",
     "source_value": 5,
     "manuscript_display": "5 of 6",

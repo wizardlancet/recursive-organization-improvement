@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "date": "2026-10-16",
+  "new_experiments_run": false,
+  "v1_files_preserved": 19,
+  "scientific_inputs_preserved": 59,
+  "equations_1_to_10_unchanged": true,
+  "all_four_figure_pdfs_unchanged": true,
+  "original_numeric_table_inputs_unchanged": true,
+  "foundations_editorial_changes": 2,
+  "scope_and_exploratory_timing_retained": true,
+  "both_empirical_test_plans_retained": true,
+  "s2_display_rows": 18,
+  "s2_source_rows": 189,
+  "supplement_display_rows": 708,
+  "other_690_supplement_numeric_rows_identical": true,
+  "abstract_characters": 1548,
+  "negation_and_contrast_markers": {
+    "before": 74,
+    "after": 12
+  },
+  "pages": 39,
+  "prior_pages": 45
+}

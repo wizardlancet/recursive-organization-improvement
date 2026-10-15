@@ -9,7 +9,11 @@
   resolution, and machine-readable layout checks.
 - `saved_results_audit.json`: reconstruction of statistics from saved trajectories,
   CSV-to-table checks, acquisition budgets, and the five-of-six cost comparison.
-- `numeric_claim_ledger.json`: result claims with full-precision values and sources.
+- `numeric_claim_ledger.json`: source-value references at table precision.
+- `narrative_rounding_checks.json`: key rounded narrative results checked against
+  saved sources, including the acquisition-matched contrasts.
+- `style_revision_checks.json`: current scope, compression, protected scientific
+  inputs, and manuscript-preservation checks.
 - `numeric_source_inventory.json`: every numeral-bearing line in the actual
   manuscript input graph, including settings, formulas, identifiers and provenance.
 - `protocol_provenance.json`: protocol hashes, archival commit, and evidence limits.
@@ -18,7 +22,7 @@
 - `package_verification.json`: independent build from the arXiv source ZIP.
 - `overleaf_package_verification.json`: independent local build of the minimal
   Overleaf ZIP, following the original source-only package. Both builds produce
-  the same 45-page paper, including Tables S1–S5 after Appendix E.
+  the same 39-page paper, including Tables S1–S5 after Appendix E.
 
 No experiment was rerun to produce these revision checks. The scientific
 validation records under `study2/qa/` were generated during the existing Study 2
@@ -33,3 +37,7 @@ describe the current PDF. `learning_checks.json`, `learning_validation.json`,
 original implementation/data validation. The Study 1 scientific files and
 result tables are unchanged; these records are retained without relabeling
 them as fresh experimental runs.
+
+`terminology_checks.json` records the October 10 terminology pass (879 displayed
+rows). The current display has 708 rows after S2 compression; all 189 original
+conditional groups remain in the unchanged source CSV.

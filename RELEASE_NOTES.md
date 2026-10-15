@@ -6,9 +6,11 @@ as the replacement for the first arXiv version.
 
 Study 2 distinguishes shared private error from copying, compares human–agent
 review arrangements under bounded resources, and measures the cost of paid
-observation. Tables S1–S5 report all conditions after the appendices in the
-main PDF. The README maps tables to saved inputs. The 1,712-character
-abstract retains the original specification and Study 1 argument.
+observation. Tables S1–S5 report study and audit outcomes after the appendices in the
+main PDF. S2 summarizes the final program-selection proportions; the repository
+retains the complete conditional table. The README maps tables to saved inputs. The 1,548-character
+abstract retains the specification and Study 1 argument while emphasizing
+acquisition-matched attribution.
 
 No new experiment was run for this manuscript release. The package checks saved
 results and preserves the existing scientific inputs and independent validation

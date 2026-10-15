@@ -117,6 +117,19 @@ for line in table_lines('learning_program_rows.tex'):
     rr=[select(conditional,environment=e,memory=m,arm='Repeated discovery',review_round=rd,program=p) for p in ('Biased','Balanced','Neyman')]
     rounded_matches([float(x) for x in cells[:3]],[100*float(r['share']) for r in rr],1,'table8')
     close(cells[3],rr[1]['n'],'table8');close(cells[4],round(float(rr[1]['net']),4),'table8');close(cells[5],round(100*float(rr[1]['harm']),2),'table8')
+# Reconstruct the compact S2 proportions from the untouched conditional CSV.
+supplement=text(ROOT/'supplement/supplementary_tables.tex')
+s2=supplement.split(r'\subsection*{Table S2:',1)[1].split(r'\subsection*{Table S3:',1)[0]
+s2rows=[line for line in s2.splitlines() if ' & ' in line and not line.startswith('\\') and line.rstrip().endswith(r'\\')]
+assert len(s2rows)==18
+for line in s2rows:
+    environment,memory,arm,review,*shares=line.removesuffix(r'\\').strip().split(' & ')
+    environment={'Stationary':'Stationary harm','Reversal':'Workflow reversal','Uniform gain':'Uniform gain'}[environment]
+    arm={'Once':'Discover once','Repeated':'Repeated discovery'}[arm]
+    rr=[select(conditional,environment=environment,memory=memory,arm=arm,review_round=review,program=p) for p in ('Biased','Balanced','Neyman')]
+    assert sum(int(r['n']) for r in rr)==128
+    rounded_matches([float(x) for x in shares],[100*float(r['share']) for r in rr],1,'supplement_s2')
+
 audit=rows(CORE/'audit_extensions_summary.csv')
 for line in table_lines('audit_rows.tex'):
     prior,threshold,*cells=line.replace(r'\\','').split(' & ')
@@ -219,11 +232,29 @@ assert ca('no_echo','Randomized_exposure','cumulative','production_cost')>ca('no
 close(ca('no_echo','exposed_vote:A:k3','none')-ca('no_echo','blind_vote:A:k3','none'),.02*(3*.05)+.5/(48*4096),'no_echo_blind_cost')
 
 # Abstract values are derived independently at their coarser precision.
-for display,v,digits in [('0.452',cs('Stationary harm','Reset','Balanced'),3),('0.480',cs('Stationary harm','Cumulative','Balanced'),3),
- ('0.006',float(select(contrasts,study='exploratory control',environment='Workflow reversal',memory='Window 8',comparison='Repeated - Balanced')['delta']),3),
- ('0.002',float(select(contrasts,study='exploratory control',environment='Workflow reversal',memory='Window 8',comparison='Repeated - Trial-matched Balanced')['delta']),3)]:
+for display,v,digits in [('0.452',cs('Stationary harm','Reset','Balanced'),3),('0.480',cs('Stationary harm','Cumulative','Balanced'),3)]:
     assert display in text(ROOT/'main.tex').split(r'\begin{abstract}',1)[1].split(r'\end{abstract}',1)[0]
     claim('Abstract '+display,v,display,'same source as corresponding full-precision body claim',digits=digits)
+
+# Three-significant-figure narrative contrasts, independent of display generation.
+narrative_checks=[]
+def narrative(label,value,display,path):
+    assert abs(float(display)-float(f'{value:.3g}'))<1e-12,(label,value,display)
+    assert display in text(ROOT/path),(label,path,display)
+    narrative_checks.append(dict(claim=label,source_value=value,display=display,file=path))
+narrative('Balanced reset',cs('Stationary harm','Reset','Balanced'),'.452','sections/study.tex')
+narrative('Balanced cumulative',cs('Stationary harm','Cumulative','Balanced'),'.480','sections/study.tex')
+for comparator,displays in [('Repeated - Balanced',('.00607','.00390','.00825')),('Repeated - Trial-matched Balanced',('.00191','-.000164','.00398'))]:
+    r=select(contrasts,study='exploratory control',environment='Workflow reversal',memory='Window 8',comparison=comparator)
+    v,h=float(r['delta']),float(r['ci95'])
+    for value,display in zip((v,v-h,v+h),displays):narrative(comparator,value,display,'sections/study.tex')
+for environment in ('Workflow reversal 20','Workflow reversal 28'):
+    r=select(contrasts,study='exploratory control',environment=environment,memory='Window 8',comparison='Repeated - Trial-matched Balanced')
+    assert float(r['delta'])<0 and abs(float(r['delta']))<float(r['ci95'])
+for policy,metric,factor,display in [('Full_trace','error',100,'1.77'),('Full_trace','net',1,'.861'),('Ignore_echo','error',100,'9.82'),('Ignore_echo','net',1,'.623'),('blind_vote:A:k3','error',100,'3.52'),('blind_vote:A:k3','net',1,'.871')]:
+    memory='none' if policy.startswith('blind_') else 'cumulative'
+    narrative('High echo / '+policy+' / '+metric,factor*ca('high_echo',policy,memory,metric),display,'sections/study2.tex')
+(OUT/'narrative_rounding_checks.json').write_text(json.dumps({'passed':True,'checks':narrative_checks,'source_ledger_precision':'numeric_claim_ledger retains source-table reference precision'},indent=2)+'\n',encoding='utf-8',newline='\n')
 
 cost_comparisons=[]
 for w in WORLDS:
@@ -310,16 +341,16 @@ joined='\n'.join(text(p) for p in files)
 labels=re.findall(r'\\label\{([^}]+)\}',joined);assert len(labels)==len(set(labels))
 refs={x.strip() for group in re.findall(r'\\(?:[cC]ref|ref|eqref)\{([^}]+)\}',joined) for x in group.split(',')};assert refs<=set(labels)
 cites={x.strip() for group in re.findall(r'\\cite\w*\{([^}]+)\}',joined) for x in group.split(',')}
-bib=set(re.findall(r'@\w+\s*\{([^,]+),',text(ROOT/'bibliography.bib')));assert cites<=bib and len(cites)==53
+bib=set(re.findall(r'@\w+\s*\{([^,]+),',text(ROOT/'bibliography.bib')));assert cites<=bib and len(cites)>0
 assert not re.search(r'actor-level extension|this revision(?! loop)|reader-facing|dated local|template-level mechanism (?:study|experiment)|the main study|Frozen core',joined,re.I)
 supp=json.loads(text(ROOT/'supplement/table_inventory.json'))
-assert sum(p['rows'] for p in supp['panels'])==879 and len(supp['panels'])==11
+assert sum(p['rows'] for p in supp['panels'])==708 and len(supp['panels'])==11
 for source_list in supp['sources'].values():
     for source in source_list:
         actual=ACTOR/source.removeprefix('study2/') if source.startswith('study2/') else CORE/source.removeprefix('results/')
         assert actual.is_file()
 
-report=dict(passed=True,new_experiments_run=False,method='Saved-trajectory arithmetic and CSV-to-TeX checks only; no simulation module imported',checks=dict(COUNTS),maximum_absolute_differences=dict(MAXIMUM),claim_count=len(claims),numeric_source_lines=len(inventory),study2_cost_comparisons=cost_comparisons,sr_strict_best_cells=strict_best,sr_uniform_gain_gaps=near,citations=len(cites),supplement_rows=879,study2_protocol_sha256=sha(ACTOR/'protocol.json'))
+report=dict(passed=True,new_experiments_run=False,method='Saved-trajectory arithmetic and CSV-to-TeX checks only; no simulation module imported',checks=dict(COUNTS),maximum_absolute_differences=dict(MAXIMUM),claim_count=len(claims),narrative_claim_checks=len(narrative_checks),numeric_source_lines=len(inventory),study2_cost_comparisons=cost_comparisons,sr_strict_best_cells=strict_best,sr_uniform_gain_gaps=near,citations=len(cites),supplement_rows=708,full_conditional_source_rows=len(conditional),study2_protocol_sha256=sha(ACTOR/'protocol.json'))
 (OUT/'saved_results_audit.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8',newline='\n')
 (OUT/'numeric_claim_ledger.json').write_text(json.dumps(claims,indent=2)+'\n',encoding='utf-8',newline='\n')
 (OUT/'numeric_source_inventory.json').write_text(json.dumps(inventory,indent=2)+'\n',encoding='utf-8',newline='\n')

@@ -16,9 +16,10 @@
     "table6": 63,
     "table7": 36,
     "table8": 108,
+    "supplement_s2": 54,
     "table9": 36,
     "table12": 156,
-    "prose_claims": 96,
+    "prose_claims": 94,
     "no_echo_equal_error": 1,
     "no_echo_blind_cost": 1,
     "table5": 12,
@@ -38,14 +39,16 @@
     "table6": 0.0,
     "table7": 0.0,
     "table8": 0.0,
+    "supplement_s2": 0.0,
     "table9": 0.0,
     "table12": 0.0,
     "prose_claims": 0.0,
     "no_echo_equal_error": 0.0,
     "no_echo_blind_cost": 2.5673907444456745e-16
   },
-  "claim_count": 98,
-  "numeric_source_lines": 1184,
+  "claim_count": 96,
+  "narrative_claim_checks": 14,
+  "numeric_source_lines": 1014,
   "study2_cost_comparisons": [
     {
       "world": "no_echo",
@@ -122,7 +125,8 @@
     3.096183141071407e-05,
     2.8378963470410135e-05
   ],
-  "citations": 53,
-  "supplement_rows": 879,
+  "citations": 47,
+  "supplement_rows": 708,
+  "full_conditional_source_rows": 189,
   "study2_protocol_sha256": "446ce633a53058ff29225d54b708ba574af9159d16fe853aa1c7301744d8cd1e"
 }

@@ -1,6 +1,6 @@
 # Changelog
 
-## v2 — 2026-10-10
+## v2 — 2026-10-16
 
 - Organize the manuscript around Study 1 (evidence acquisition and retention)
   and Study 2 (review arrangements and evidence generation), with implications
@@ -19,8 +19,10 @@
   pre-run Git commit or external preregistration.
 - Preserve both studies' empirical test plans, separate cross-study connections
   from human-authority implications, and clarify objective and cost accounting.
-- Shorten the abstract to 1,712 ASCII characters while retaining the original
-  specification and Study 1 argument; use v2 consistently in release metadata.
+- Use a 1,548-character abstract that retains the specification and Study 1
+  argument and foregrounds acquisition-matched attribution.
+- Consolidate simulation scope and protocol provenance, remove unsupported
+  discussion, and summarize S2 while retaining the full conditional CSV.
 
 ## v1 — research-2026-09-30
 

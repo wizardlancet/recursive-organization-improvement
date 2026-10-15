@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "claim": "Balanced reset",
+      "source_value": 0.45224121093749997,
+      "display": ".452",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Balanced cumulative",
+      "source_value": 0.48006835937499986,
+      "display": ".480",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Repeated - Balanced",
+      "source_value": 0.00607382774353022,
+      "display": ".00607",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Repeated - Balanced",
+      "source_value": 0.0038991340604308438,
+      "display": ".00390",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Repeated - Balanced",
+      "source_value": 0.008248521426629598,
+      "display": ".00825",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Repeated - Trial-matched Balanced",
+      "source_value": 0.0019068924585978076,
+      "display": ".00191",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Repeated - Trial-matched Balanced",
+      "source_value": -0.00016449306333356012,
+      "display": "-.000164",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Repeated - Trial-matched Balanced",
+      "source_value": 0.003978277980529176,
+      "display": ".00398",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "High echo / Full_trace / error",
+      "source_value": 1.7730511718749997,
+      "display": "1.77",
+      "file": "sections/study2.tex"
+    },
+    {
+      "claim": "High echo / Full_trace / net",
+      "source_value": 0.8607735378888453,
+      "display": ".861",
+      "file": "sections/study2.tex"
+    },
+    {
+      "claim": "High echo / Ignore_echo / error",
+      "source_value": 9.824664881875,
+      "display": "9.82",
+      "file": "sections/study2.tex"
+    },
+    {
+      "claim": "High echo / Ignore_echo / net",
+      "source_value": 0.6232256929950948,
+      "display": ".623",
+      "file": "sections/study2.tex"
+    },
+    {
+      "claim": "High echo / blind_vote:A:k3 / error",
+      "source_value": 3.52,
+      "display": "3.52",
+      "file": "sections/study2.tex"
+    },
+    {
+      "claim": "High echo / blind_vote:A:k3 / net",
+      "source_value": 0.8713974568684896,
+      "display": ".871",
+      "file": "sections/study2.tex"
+    }
+  ],
+  "source_ledger_precision": "numeric_claim_ledger retains source-table reference precision"
+}

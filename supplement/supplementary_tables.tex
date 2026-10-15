@@ -5,7 +5,7 @@
 \section*{Supplementary Tables}
 \label{sec:supplementary-tables}
 \addcontentsline{toc}{section}{Supplementary Tables}
-Tables S1--S5 report Study 1 (evidence acquisition and retention), Study 2 (review arrangements and evidence generation), and the supplementary audit controls. Study 2 and the acquisition-matched controls are exploratory. Source paths below are relative to the repository root. Every uncertainty entry is a 95\% Monte Carlo half-width conditional on the supplied simulation parameters. Rounding to zero does not imply a general absence of uncertainty. Protocol definitions and cost units differ between the studies and are specified in the manuscript. Supplementary table panels retain all rows from the named analyses; no outcome-based row filtering is used.
+Tables S1--S5 report the simulation results and supplementary audit controls. Uncertainty entries are 95\% Monte Carlo half-widths across independent trajectories. Cost units and reporting horizons are defined separately for the two studies.
 
 \subsection*{Table S1: Study 1: evidence acquisition and retention}
 \label{supp:S1}
@@ -241,208 +241,37 @@ exploratory control & Reversal at 29 & Window 8 & Repeated - Trial-matched Balan
 exploratory control & Reversal at 29 & Window 8 & Repeated - Discover once & 128 & $0.00342 \pm 0.00177$ \\
 \end{longtable}\endgroup
 \clearpage
-\subsection*{Table S2: Retained programs and conditional block outcomes}
+\subsection*{Table S2: Program selection at the final scheduled assessment}
 \label{supp:S2}
-\addcontentsline{toc}{subsection}{Table S2: Retained programs and conditional block outcomes}
-{\footnotesize Source: \texttt{results/learning\_conditional.csv}.}\par All 189 observed program groups are retained: three environments and three memories, both discover-once and repeated-discovery rules, and all three retained programs at their scheduled reviews. Shares use 128 runs per review condition; $n$ is the number retaining the named program. Net and harm cover the subsequent eight-round block. Harm is expressed as a percentage. These are descriptive summaries of endogenously selected groups; they are not causal program effects, and no conditional intervals are reported. Every reported group has at least one retained run.
+\addcontentsline{toc}{subsection}{Table S2: Program selection at the final scheduled assessment}
+{\footnotesize Source: \texttt{results/learning\_conditional.csv}.}\par Each row summarizes 128 runs at the final program assessment: round 1 for discover-once and round 41 for repeated discovery. Program columns give the percentage retaining Biased, Balanced, or Neyman. The source table also records the conditional block outcomes and earlier assessments.
 
-\subsubsection*{Complete conditional summary}
+\subsubsection*{Final program-selection proportions}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
 
-\begin{longtable}{@{}lllllllll@{}}
-\toprule Environment & Memory & Arm & Round & Program & $n$ & Share (\%) & Net & Harm (\%) \\\midrule\endfirsthead
-\toprule Environment & Memory & Arm & Round & Program & $n$ & Share (\%) & Net & Harm (\%) \\\midrule\endhead
-\midrule\multicolumn{9}{r}{Continued on next page}\\\endfoot
+\begin{longtable}{@{}lllllll@{}}
+\toprule Environment & Memory & Arm & Review & Biased (\%) & Balanced (\%) & Neyman (\%) \\\midrule\endfirsthead
+\toprule Environment & Memory & Arm & Review & Biased (\%) & Balanced (\%) & Neyman (\%) \\\midrule\endhead
+\midrule\multicolumn{7}{r}{Continued on next page}\\\endfoot
 \bottomrule\endlastfoot
-Stationary & Reset & Once & 1 & Biased & 35 & 27.34 & 0.39126 & 17.857 \\
-Stationary & Reset & Once & 1 & Balanced & 48 & 37.50 & 0.44462 & 0.781 \\
-Stationary & Reset & Once & 1 & Neyman & 45 & 35.16 & 0.44897 & 1.389 \\
-Stationary & Reset & Repeated & 1 & Biased & 35 & 27.34 & 0.39126 & 17.857 \\
-Stationary & Reset & Repeated & 1 & Balanced & 48 & 37.50 & 0.44462 & 0.781 \\
-Stationary & Reset & Repeated & 1 & Neyman & 45 & 35.16 & 0.44897 & 1.389 \\
-Stationary & Reset & Repeated & 9 & Biased & 33 & 25.78 & 0.39189 & 18.182 \\
-Stationary & Reset & Repeated & 9 & Balanced & 38 & 29.69 & 0.45446 & 0.658 \\
-Stationary & Reset & Repeated & 9 & Neyman & 57 & 44.53 & 0.44748 & 1.096 \\
-Stationary & Reset & Repeated & 17 & Biased & 40 & 31.25 & 0.40474 & 11.562 \\
-Stationary & Reset & Repeated & 17 & Balanced & 40 & 31.25 & 0.44701 & 1.250 \\
-Stationary & Reset & Repeated & 17 & Neyman & 48 & 37.50 & 0.45291 & 0.260 \\
-Stationary & Reset & Repeated & 25 & Biased & 42 & 32.81 & 0.40127 & 15.774 \\
-Stationary & Reset & Repeated & 25 & Balanced & 40 & 31.25 & 0.45433 & 0.625 \\
-Stationary & Reset & Repeated & 25 & Neyman & 46 & 35.94 & 0.45002 & 1.359 \\
-Stationary & Reset & Repeated & 33 & Biased & 39 & 30.47 & 0.40016 & 14.744 \\
-Stationary & Reset & Repeated & 33 & Balanced & 41 & 32.03 & 0.44695 & 1.829 \\
-Stationary & Reset & Repeated & 33 & Neyman & 48 & 37.50 & 0.44908 & 1.042 \\
-Stationary & Reset & Repeated & 41 & Biased & 35 & 27.34 & 0.40549 & 11.071 \\
-Stationary & Reset & Repeated & 41 & Balanced & 55 & 42.97 & 0.45203 & 0.455 \\
-Stationary & Reset & Repeated & 41 & Neyman & 38 & 29.69 & 0.45328 & 0.658 \\
-Stationary & Cumulative & Once & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
-Stationary & Cumulative & Once & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
-Stationary & Cumulative & Once & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
-Stationary & Cumulative & Repeated & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
-Stationary & Cumulative & Repeated & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
-Stationary & Cumulative & Repeated & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
-Stationary & Cumulative & Repeated & 9 & Biased & 34 & 26.56 & 0.48146 & 0.000 \\
-Stationary & Cumulative & Repeated & 9 & Balanced & 46 & 35.94 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 9 & Neyman & 48 & 37.50 & 0.48160 & 0.000 \\
-Stationary & Cumulative & Repeated & 17 & Biased & 43 & 33.59 & 0.47912 & 0.000 \\
-Stationary & Cumulative & Repeated & 17 & Balanced & 44 & 34.38 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 17 & Neyman & 41 & 32.03 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 25 & Biased & 43 & 33.59 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 25 & Balanced & 46 & 35.94 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 25 & Neyman & 39 & 30.47 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 33 & Biased & 46 & 35.94 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 33 & Balanced & 41 & 32.03 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 33 & Neyman & 41 & 32.03 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 41 & Biased & 49 & 38.28 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 41 & Balanced & 40 & 31.25 & 0.48191 & 0.000 \\
-Stationary & Cumulative & Repeated & 41 & Neyman & 39 & 30.47 & 0.48191 & 0.000 \\
-Stationary & Window 8 & Once & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
-Stationary & Window 8 & Once & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
-Stationary & Window 8 & Once & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
-Stationary & Window 8 & Repeated & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
-Stationary & Window 8 & Repeated & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
-Stationary & Window 8 & Repeated & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
-Stationary & Window 8 & Repeated & 9 & Biased & 34 & 26.56 & 0.47838 & 0.000 \\
-Stationary & Window 8 & Repeated & 9 & Balanced & 46 & 35.94 & 0.47832 & 0.000 \\
-Stationary & Window 8 & Repeated & 9 & Neyman & 48 & 37.50 & 0.48128 & 0.000 \\
-Stationary & Window 8 & Repeated & 17 & Biased & 56 & 43.75 & 0.47628 & 0.000 \\
-Stationary & Window 8 & Repeated & 17 & Balanced & 35 & 27.34 & 0.48190 & 0.000 \\
-Stationary & Window 8 & Repeated & 17 & Neyman & 37 & 28.91 & 0.48069 & 0.000 \\
-Stationary & Window 8 & Repeated & 25 & Biased & 51 & 39.84 & 0.47808 & 0.000 \\
-Stationary & Window 8 & Repeated & 25 & Balanced & 39 & 30.47 & 0.48191 & 0.000 \\
-Stationary & Window 8 & Repeated & 25 & Neyman & 38 & 29.69 & 0.47875 & 0.000 \\
-Stationary & Window 8 & Repeated & 33 & Biased & 50 & 39.06 & 0.47591 & 0.000 \\
-Stationary & Window 8 & Repeated & 33 & Balanced & 34 & 26.56 & 0.47882 & 0.000 \\
-Stationary & Window 8 & Repeated & 33 & Neyman & 44 & 34.38 & 0.48020 & 0.000 \\
-Stationary & Window 8 & Repeated & 41 & Biased & 41 & 32.03 & 0.47678 & 0.000 \\
-Stationary & Window 8 & Repeated & 41 & Balanced & 38 & 29.69 & 0.48032 & 0.000 \\
-Stationary & Window 8 & Repeated & 41 & Neyman & 49 & 38.28 & 0.48160 & 0.000 \\
-Reversal & Reset & Once & 1 & Biased & 35 & 27.34 & 0.39126 & 17.857 \\
-Reversal & Reset & Once & 1 & Balanced & 48 & 37.50 & 0.44462 & 0.781 \\
-Reversal & Reset & Once & 1 & Neyman & 45 & 35.16 & 0.44897 & 1.389 \\
-Reversal & Reset & Repeated & 1 & Biased & 35 & 27.34 & 0.39126 & 17.857 \\
-Reversal & Reset & Repeated & 1 & Balanced & 48 & 37.50 & 0.44462 & 0.781 \\
-Reversal & Reset & Repeated & 1 & Neyman & 45 & 35.16 & 0.44897 & 1.389 \\
-Reversal & Reset & Repeated & 9 & Biased & 33 & 25.78 & 0.39189 & 18.182 \\
-Reversal & Reset & Repeated & 9 & Balanced & 38 & 29.69 & 0.45446 & 0.658 \\
-Reversal & Reset & Repeated & 9 & Neyman & 57 & 44.53 & 0.44748 & 1.096 \\
-Reversal & Reset & Repeated & 17 & Biased & 40 & 31.25 & 0.40474 & 11.562 \\
-Reversal & Reset & Repeated & 17 & Balanced & 40 & 31.25 & 0.44701 & 1.250 \\
-Reversal & Reset & Repeated & 17 & Neyman & 48 & 37.50 & 0.45291 & 0.260 \\
-Reversal & Reset & Repeated & 25 & Biased & 47 & 36.72 & 0.66508 & 0.000 \\
-Reversal & Reset & Repeated & 25 & Balanced & 45 & 35.16 & 0.71022 & 0.000 \\
-Reversal & Reset & Repeated & 25 & Neyman & 36 & 28.12 & 0.70606 & 0.000 \\
-Reversal & Reset & Repeated & 33 & Biased & 58 & 45.31 & 0.66603 & 0.000 \\
-Reversal & Reset & Repeated & 33 & Balanced & 29 & 22.66 & 0.71206 & 0.000 \\
-Reversal & Reset & Repeated & 33 & Neyman & 41 & 32.03 & 0.70908 & 0.000 \\
-Reversal & Reset & Repeated & 41 & Biased & 61 & 47.66 & 0.67001 & 0.000 \\
-Reversal & Reset & Repeated & 41 & Balanced & 29 & 22.66 & 0.71258 & 0.000 \\
-Reversal & Reset & Repeated & 41 & Neyman & 38 & 29.69 & 0.70965 & 0.000 \\
-Reversal & Cumulative & Once & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
-Reversal & Cumulative & Once & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
-Reversal & Cumulative & Once & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
-Reversal & Cumulative & Repeated & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
-Reversal & Cumulative & Repeated & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
-Reversal & Cumulative & Repeated & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
-Reversal & Cumulative & Repeated & 9 & Biased & 34 & 26.56 & 0.48146 & 0.000 \\
-Reversal & Cumulative & Repeated & 9 & Balanced & 46 & 35.94 & 0.48191 & 0.000 \\
-Reversal & Cumulative & Repeated & 9 & Neyman & 48 & 37.50 & 0.48160 & 0.000 \\
-Reversal & Cumulative & Repeated & 17 & Biased & 43 & 33.59 & 0.47912 & 0.000 \\
-Reversal & Cumulative & Repeated & 17 & Balanced & 44 & 34.38 & 0.48191 & 0.000 \\
-Reversal & Cumulative & Repeated & 17 & Neyman & 41 & 32.03 & 0.48191 & 0.000 \\
-Reversal & Cumulative & Repeated & 25 & Biased & 43 & 33.59 & 0.48191 & 0.000 \\
-Reversal & Cumulative & Repeated & 25 & Balanced & 46 & 35.94 & 0.48452 & 0.000 \\
-Reversal & Cumulative & Repeated & 25 & Neyman & 39 & 30.47 & 0.48191 & 0.000 \\
-Reversal & Cumulative & Repeated & 33 & Biased & 45 & 35.16 & 0.48191 & 0.000 \\
-Reversal & Cumulative & Repeated & 33 & Balanced & 42 & 32.81 & 0.49405 & 0.000 \\
-Reversal & Cumulative & Repeated & 33 & Neyman & 41 & 32.03 & 0.48191 & 0.000 \\
-Reversal & Cumulative & Repeated & 41 & Biased & 49 & 38.28 & 0.49171 & 0.000 \\
-Reversal & Cumulative & Repeated & 41 & Balanced & 40 & 31.25 & 0.50816 & 0.000 \\
-Reversal & Cumulative & Repeated & 41 & Neyman & 39 & 30.47 & 0.49499 & 0.000 \\
-Reversal & Window 8 & Once & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
-Reversal & Window 8 & Once & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
-Reversal & Window 8 & Once & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
-Reversal & Window 8 & Repeated & 1 & Biased & 35 & 27.34 & 0.46315 & 0.357 \\
-Reversal & Window 8 & Repeated & 1 & Balanced & 48 & 37.50 & 0.47470 & 0.000 \\
-Reversal & Window 8 & Repeated & 1 & Neyman & 45 & 35.16 & 0.47489 & 0.000 \\
-Reversal & Window 8 & Repeated & 9 & Biased & 34 & 26.56 & 0.47838 & 0.000 \\
-Reversal & Window 8 & Repeated & 9 & Balanced & 46 & 35.94 & 0.47832 & 0.000 \\
-Reversal & Window 8 & Repeated & 9 & Neyman & 48 & 37.50 & 0.48128 & 0.000 \\
-Reversal & Window 8 & Repeated & 17 & Biased & 56 & 43.75 & 0.47628 & 0.000 \\
-Reversal & Window 8 & Repeated & 17 & Balanced & 35 & 27.34 & 0.48190 & 0.000 \\
-Reversal & Window 8 & Repeated & 17 & Neyman & 37 & 28.91 & 0.48069 & 0.000 \\
-Reversal & Window 8 & Repeated & 25 & Biased & 51 & 39.84 & 0.60573 & 0.000 \\
-Reversal & Window 8 & Repeated & 25 & Balanced & 39 & 30.47 & 0.61883 & 0.000 \\
-Reversal & Window 8 & Repeated & 25 & Neyman & 38 & 29.69 & 0.63506 & 0.000 \\
-Reversal & Window 8 & Repeated & 33 & Biased & 56 & 43.75 & 0.72191 & 0.000 \\
-Reversal & Window 8 & Repeated & 33 & Balanced & 36 & 28.12 & 0.72191 & 0.000 \\
-Reversal & Window 8 & Repeated & 33 & Neyman & 36 & 28.12 & 0.72191 & 0.000 \\
-Reversal & Window 8 & Repeated & 41 & Biased & 61 & 47.66 & 0.72191 & 0.000 \\
-Reversal & Window 8 & Repeated & 41 & Balanced & 26 & 20.31 & 0.72190 & 0.000 \\
-Reversal & Window 8 & Repeated & 41 & Neyman & 41 & 32.03 & 0.72190 & 0.000 \\
-Uniform gain & Reset & Once & 1 & Biased & 46 & 35.94 & 0.67592 & 0.000 \\
-Uniform gain & Reset & Once & 1 & Balanced & 35 & 27.34 & 0.71374 & 0.000 \\
-Uniform gain & Reset & Once & 1 & Neyman & 47 & 36.72 & 0.71295 & 0.000 \\
-Uniform gain & Reset & Repeated & 1 & Biased & 46 & 35.94 & 0.67592 & 0.000 \\
-Uniform gain & Reset & Repeated & 1 & Balanced & 35 & 27.34 & 0.71374 & 0.000 \\
-Uniform gain & Reset & Repeated & 1 & Neyman & 47 & 36.72 & 0.71295 & 0.000 \\
-Uniform gain & Reset & Repeated & 9 & Biased & 44 & 34.38 & 0.66939 & 0.000 \\
-Uniform gain & Reset & Repeated & 9 & Balanced & 35 & 27.34 & 0.70860 & 0.000 \\
-Uniform gain & Reset & Repeated & 9 & Neyman & 49 & 38.28 & 0.71148 & 0.000 \\
-Uniform gain & Reset & Repeated & 17 & Biased & 46 & 35.94 & 0.67069 & 0.000 \\
-Uniform gain & Reset & Repeated & 17 & Balanced & 39 & 30.47 & 0.70727 & 0.000 \\
-Uniform gain & Reset & Repeated & 17 & Neyman & 43 & 33.59 & 0.70829 & 0.000 \\
-Uniform gain & Reset & Repeated & 25 & Biased & 47 & 36.72 & 0.66508 & 0.000 \\
-Uniform gain & Reset & Repeated & 25 & Balanced & 45 & 35.16 & 0.71022 & 0.000 \\
-Uniform gain & Reset & Repeated & 25 & Neyman & 36 & 28.12 & 0.70606 & 0.000 \\
-Uniform gain & Reset & Repeated & 33 & Biased & 58 & 45.31 & 0.66603 & 0.000 \\
-Uniform gain & Reset & Repeated & 33 & Balanced & 29 & 22.66 & 0.71206 & 0.000 \\
-Uniform gain & Reset & Repeated & 33 & Neyman & 41 & 32.03 & 0.70908 & 0.000 \\
-Uniform gain & Reset & Repeated & 41 & Biased & 61 & 47.66 & 0.67001 & 0.000 \\
-Uniform gain & Reset & Repeated & 41 & Balanced & 29 & 22.66 & 0.71258 & 0.000 \\
-Uniform gain & Reset & Repeated & 41 & Neyman & 38 & 29.69 & 0.70965 & 0.000 \\
-Uniform gain & Cumulative & Once & 1 & Biased & 46 & 35.94 & 0.72125 & 0.000 \\
-Uniform gain & Cumulative & Once & 1 & Balanced & 35 & 27.34 & 0.72188 & 0.000 \\
-Uniform gain & Cumulative & Once & 1 & Neyman & 47 & 36.72 & 0.72189 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 1 & Biased & 46 & 35.94 & 0.72125 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 1 & Balanced & 35 & 27.34 & 0.72188 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 1 & Neyman & 47 & 36.72 & 0.72189 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 9 & Biased & 34 & 26.56 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 9 & Balanced & 39 & 30.47 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 9 & Neyman & 55 & 42.97 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 17 & Biased & 33 & 25.78 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 17 & Balanced & 38 & 29.69 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 17 & Neyman & 57 & 44.53 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 25 & Biased & 36 & 28.12 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 25 & Balanced & 39 & 30.47 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 25 & Neyman & 53 & 41.41 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 33 & Biased & 36 & 28.12 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 33 & Balanced & 36 & 28.12 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 33 & Neyman & 56 & 43.75 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 41 & Biased & 39 & 30.47 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 41 & Balanced & 33 & 25.78 & 0.72191 & 0.000 \\
-Uniform gain & Cumulative & Repeated & 41 & Neyman & 56 & 43.75 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Once & 1 & Biased & 46 & 35.94 & 0.72125 & 0.000 \\
-Uniform gain & Window 8 & Once & 1 & Balanced & 35 & 27.34 & 0.72188 & 0.000 \\
-Uniform gain & Window 8 & Once & 1 & Neyman & 47 & 36.72 & 0.72189 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 1 & Biased & 46 & 35.94 & 0.72125 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 1 & Balanced & 35 & 27.34 & 0.72188 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 1 & Neyman & 47 & 36.72 & 0.72189 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 9 & Biased & 34 & 26.56 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 9 & Balanced & 39 & 30.47 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 9 & Neyman & 55 & 42.97 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 17 & Biased & 41 & 32.03 & 0.72190 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 17 & Balanced & 30 & 23.44 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 17 & Neyman & 57 & 44.53 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 25 & Biased & 42 & 32.81 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 25 & Balanced & 38 & 29.69 & 0.72190 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 25 & Neyman & 48 & 37.50 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 33 & Biased & 52 & 40.62 & 0.72190 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 33 & Balanced & 34 & 26.56 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 33 & Neyman & 42 & 32.81 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 41 & Biased & 61 & 47.66 & 0.72191 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 41 & Balanced & 26 & 20.31 & 0.72190 & 0.000 \\
-Uniform gain & Window 8 & Repeated & 41 & Neyman & 41 & 32.03 & 0.72190 & 0.000 \\
+Stationary & Reset & Once & 1 & 27.3 & 37.5 & 35.2 \\
+Stationary & Reset & Repeated & 41 & 27.3 & 43.0 & 29.7 \\
+Stationary & Cumulative & Once & 1 & 27.3 & 37.5 & 35.2 \\
+Stationary & Cumulative & Repeated & 41 & 38.3 & 31.2 & 30.5 \\
+Stationary & Window 8 & Once & 1 & 27.3 & 37.5 & 35.2 \\
+Stationary & Window 8 & Repeated & 41 & 32.0 & 29.7 & 38.3 \\
+Reversal & Reset & Once & 1 & 27.3 & 37.5 & 35.2 \\
+Reversal & Reset & Repeated & 41 & 47.7 & 22.7 & 29.7 \\
+Reversal & Cumulative & Once & 1 & 27.3 & 37.5 & 35.2 \\
+Reversal & Cumulative & Repeated & 41 & 38.3 & 31.2 & 30.5 \\
+Reversal & Window 8 & Once & 1 & 27.3 & 37.5 & 35.2 \\
+Reversal & Window 8 & Repeated & 41 & 47.7 & 20.3 & 32.0 \\
+Uniform gain & Reset & Once & 1 & 35.9 & 27.3 & 36.7 \\
+Uniform gain & Reset & Repeated & 41 & 47.7 & 22.7 & 29.7 \\
+Uniform gain & Cumulative & Once & 1 & 35.9 & 27.3 & 36.7 \\
+Uniform gain & Cumulative & Repeated & 41 & 30.5 & 25.8 & 43.8 \\
+Uniform gain & Window 8 & Once & 1 & 35.9 & 27.3 & 36.7 \\
+Uniform gain & Window 8 & Repeated & 41 & 47.7 & 20.3 & 32.0 \\
 \end{longtable}\endgroup
 \clearpage
 \subsection*{Table S3: Audit policy and memory-window grid}
@@ -605,7 +434,7 @@ Fast shifts & 24 & Adaptive audit & $0.56229 \pm 0.00220$ & $-0.01834 \pm 0.0025
 \subsection*{Table S5: Study 2: review arrangements and evidence generation}
 \label{supp:S5}
 \addcontentsline{toc}{subsection}{Table S5: Study 2: review arrangements and evidence generation}
-{\footnotesize Source: \texttt{study2/results/learning\_summary.csv}; \texttt{study2/results/paired\_contrasts.csv}.}\par All 84 environment--policy--memory conditions: six environments, four paid policies crossed with three memories, and two fixed baselines per environment. Each learning condition uses 128 trajectories of 48 rounds; late outcomes cover the final 16 rounds. Error and optimal-choice hit are percentages. Regret is deployment loss above the finite-catalog minimum, excluding acquisition and switching. Acquisition cost is per round; production cost is per task in human-call units. Fixed baselines have deterministic expected-outcome scores; their displayed zero half-widths describe the simulation, not real-world certainty. Paired, Randomized, Omit echo and Final only denote the four observation policies defined in Appendix E.
+{\footnotesize Source: \texttt{study2/results/learning\_summary.csv}; \texttt{study2/results/paired\_contrasts.csv}.}\par All 84 environment--policy--memory conditions: six environments, four paid policies crossed with three memories, and two fixed baselines per environment. Each learning condition uses 128 trajectories of 48 rounds; late outcomes cover the final 16 rounds. Error and optimal-choice hit are percentages. Regret is deployment loss above the finite-catalog minimum, excluding acquisition and switching. Acquisition cost is per round; production cost is per task in human-call units. Fixed baselines use exact expected-outcome scores. Paired, Randomized, Omit echo and Final only denote the four observation policies defined in Appendix E.
 
 \subsubsection*{A. Full-horizon selection and net value}
 \begingroup\footnotesize\setlength{\tabcolsep}{4pt}
