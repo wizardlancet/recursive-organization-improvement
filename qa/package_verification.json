@@ -26,9 +26,9 @@
     "supplement/supplementary_tables.tex",
     "template/License.txt"
   ],
-  "archive_sha256": "21fcdf19b4b9ee892b26f74e01face039300fdffdb8d33208dfc703153e2052a",
-  "bytes": 228540,
   "source_files": 25,
+  "archive_sha256": "00abb6bacd6b5e5a80d56df11728a28bb4b4e7e7ea21df6b33b821f781f099b3",
+  "bytes": 228486,
   "main_document": "main.tex",
   "standalone_supplement_pdf": false,
   "passed": true,

@@ -19,7 +19,7 @@
   pre-run Git commit or external preregistration.
 - Preserve both studies' empirical test plans, separate cross-study connections
   from human-authority implications, and clarify objective and cost accounting.
-- Use a 1,548-character abstract that retains the specification and Study 1
+- Use a 1,598-character abstract that retains the specification and Study 1
   argument and foregrounds acquisition-matched attribution.
 - Consolidate simulation scope and protocol provenance, remove unsupported
   discussion, and summarize S2 while retaining the full conditional CSV.

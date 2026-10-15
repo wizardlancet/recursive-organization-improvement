@@ -16,37 +16,55 @@
     {
       "claim": "Repeated - Balanced",
       "source_value": 0.00607382774353022,
-      "display": ".00607",
+      "display": "0.0061",
       "file": "sections/study.tex"
     },
     {
       "claim": "Repeated - Balanced",
       "source_value": 0.0038991340604308438,
-      "display": ".00390",
+      "display": "0.0039",
       "file": "sections/study.tex"
     },
     {
       "claim": "Repeated - Balanced",
       "source_value": 0.008248521426629598,
-      "display": ".00825",
+      "display": "0.0082",
       "file": "sections/study.tex"
     },
     {
       "claim": "Repeated - Trial-matched Balanced",
       "source_value": 0.0019068924585978076,
-      "display": ".00191",
+      "display": "0.0019",
       "file": "sections/study.tex"
     },
     {
       "claim": "Repeated - Trial-matched Balanced",
       "source_value": -0.00016449306333356012,
-      "display": "-.000164",
+      "display": "-0.0002",
       "file": "sections/study.tex"
     },
     {
       "claim": "Repeated - Trial-matched Balanced",
       "source_value": 0.003978277980529176,
-      "display": ".00398",
+      "display": "0.0040",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Repeated - Discover once",
+      "source_value": 0.009754692713419517,
+      "display": "0.0098",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Repeated - Discover once",
+      "source_value": 0.007086231035757319,
+      "display": "0.0071",
+      "file": "sections/study.tex"
+    },
+    {
+      "claim": "Repeated - Discover once",
+      "source_value": 0.012423154391081714,
+      "display": "0.0124",
       "file": "sections/study.tex"
     },
     {

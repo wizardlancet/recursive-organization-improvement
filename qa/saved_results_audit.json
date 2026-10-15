@@ -19,7 +19,7 @@
     "supplement_s2": 54,
     "table9": 36,
     "table12": 156,
-    "prose_claims": 94,
+    "prose_claims": 96,
     "no_echo_equal_error": 1,
     "no_echo_blind_cost": 1,
     "table5": 12,
@@ -46,8 +46,8 @@
     "no_echo_equal_error": 0.0,
     "no_echo_blind_cost": 2.5673907444456745e-16
   },
-  "claim_count": 96,
-  "narrative_claim_checks": 14,
+  "claim_count": 98,
+  "narrative_claim_checks": 17,
   "numeric_source_lines": 1014,
   "study2_cost_comparisons": [
     {

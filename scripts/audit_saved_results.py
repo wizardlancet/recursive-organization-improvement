@@ -232,22 +232,26 @@ assert ca('no_echo','Randomized_exposure','cumulative','production_cost')>ca('no
 close(ca('no_echo','exposed_vote:A:k3','none')-ca('no_echo','blind_vote:A:k3','none'),.02*(3*.05)+.5/(48*4096),'no_echo_blind_cost')
 
 # Abstract values are derived independently at their coarser precision.
-for display,v,digits in [('0.452',cs('Stationary harm','Reset','Balanced'),3),('0.480',cs('Stationary harm','Cumulative','Balanced'),3)]:
+for display,v,digits in [('0.452',cs('Stationary harm','Reset','Balanced'),3),('0.480',cs('Stationary harm','Cumulative','Balanced'),3),('0.029',cs('Stationary harm','Reset','Balanced','regret'),3),('0.002',cs('Stationary harm','Cumulative','Balanced','regret'),3)]:
     assert display in text(ROOT/'main.tex').split(r'\begin{abstract}',1)[1].split(r'\end{abstract}',1)[0]
     claim('Abstract '+display,v,display,'same source as corresponding full-precision body claim',digits=digits)
 
-# Three-significant-figure narrative contrasts, independent of display generation.
+# Narrative levels and four-decimal contrasts checked independently of display generation.
 narrative_checks=[]
-def narrative(label,value,display,path):
-    assert abs(float(display)-float(f'{value:.3g}'))<1e-12,(label,value,display)
+def narrative(label,value,display,path,decimals=None):
+    expected=float(f'{value:.3g}') if decimals is None else round(value,decimals)
+    assert abs(float(display)-expected)<1e-12,(label,value,display)
     assert display in text(ROOT/path),(label,path,display)
     narrative_checks.append(dict(claim=label,source_value=value,display=display,file=path))
 narrative('Balanced reset',cs('Stationary harm','Reset','Balanced'),'.452','sections/study.tex')
 narrative('Balanced cumulative',cs('Stationary harm','Cumulative','Balanced'),'.480','sections/study.tex')
-for comparator,displays in [('Repeated - Balanced',('.00607','.00390','.00825')),('Repeated - Trial-matched Balanced',('.00191','-.000164','.00398'))]:
+for comparator,displays in [('Repeated - Balanced',('0.0061','0.0039','0.0082')),('Repeated - Trial-matched Balanced',('0.0019','-0.0002','0.0040'))]:
     r=select(contrasts,study='exploratory control',environment='Workflow reversal',memory='Window 8',comparison=comparator)
     v,h=float(r['delta']),float(r['ci95'])
-    for value,display in zip((v,v-h,v+h),displays):narrative(comparator,value,display,'sections/study.tex')
+    for value,display in zip((v,v-h,v+h),displays):narrative(comparator,value,display,'sections/study.tex',decimals=4)
+r=select(contrasts,study='core',environment='Workflow reversal',memory='Window 8',comparison='Repeated - Discover once')
+v,h=float(r['delta']),float(r['ci95'])
+for value,display in zip((v,v-h,v+h),('0.0098','0.0071','0.0124')):narrative('Repeated - Discover once',value,display,'sections/study.tex',decimals=4)
 for environment in ('Workflow reversal 20','Workflow reversal 28'):
     r=select(contrasts,study='exploratory control',environment=environment,memory='Window 8',comparison='Repeated - Trial-matched Balanced')
     assert float(r['delta'])<0 and abs(float(r['delta']))<float(r['ci95'])

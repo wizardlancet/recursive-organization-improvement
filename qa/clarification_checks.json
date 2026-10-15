@@ -1,0 +1,63 @@
+{
+  "points_addressed": 6,
+  "manuscript_files": [
+    "main.tex",
+    "sections/availability.tex",
+    "sections/study.tex",
+    "sections/study2.tex"
+  ],
+  "abstract_characters": 1598,
+  "contrasts_four_decimal_places": {
+    "repeated_minus_once": [
+      "0.0098",
+      "0.0071",
+      "0.0124"
+    ],
+    "repeated_minus_balanced_core": [
+      "0.0062",
+      "0.0038",
+      "0.0086"
+    ],
+    "repeated_minus_balanced_control": [
+      "0.0061",
+      "0.0039",
+      "0.0082"
+    ],
+    "repeated_minus_matched": [
+      "0.0019",
+      "-0.0002",
+      "0.0040"
+    ]
+  },
+  "new_experiments_run": false,
+  "passed": true,
+  "main_pdf_pages": 39,
+  "visible_url_verified": true,
+  "source_stats_audit_passed": true,
+  "scientific_inputs_unchanged": 59,
+  "manuscript_files_changed": [
+    "main.tex",
+    "sections/availability.tex",
+    "sections/study.tex",
+    "sections/study2.tex"
+  ],
+  "changed_pdf_pages": [
+    1,
+    2,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "detail_pages": {
+    "Scope of the simulations": 6,
+    "Matching acquisition isolates": 9,
+    "The gate changes decision authority": 10,
+    "Code and data availability": 13
+  }
+}

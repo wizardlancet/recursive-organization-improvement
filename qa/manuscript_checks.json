@@ -3,7 +3,7 @@
   "pdfs": {
     "main.pdf": {
       "pages": 39,
-      "sha256": "9a3eba971b37cb04f6e040c2496daa32a365ed553dabc3bf804dfedc767d8c1c",
+      "sha256": "8eb48108dd71ed2d6bf82322d862ef5757c65cd4e89200f0c48099b394fcec8b",
       "out_of_page_text": [],
       "unresolved_references_or_layout_errors": []
     }
@@ -27,11 +27,13 @@
   "main_body_and_appendix_pages": 23,
   "standalone_supplement_pdf": false,
   "compile_engine": "Tectonic (XeTeX), BibTeX, three TeX passes",
-  "abstract_metadata_characters": 1548,
+  "abstract_metadata_characters": 1598,
   "arxiv_abstract_limit": 1920,
   "manuscript_version_labels_absent": false,
   "repository_link_uri_verified": true,
-  "repository_link_text": "project repository",
+  "repository_link_text": "https://github.com/wizardlancet/recursive-organization-improvement",
   "native_pdf_click_or_clipboard_tested": false,
-  "nonfatal": "Fontconfig default-config diagnostic; no layout warnings, missing glyphs or unresolved citations"
+  "nonfatal": "Fontconfig default-config diagnostic; no layout warnings, missing glyphs or unresolved citations",
+  "repository_url_visible_in_pdf": true,
+  "repository_url_contiguous_two_extractors": true
 }

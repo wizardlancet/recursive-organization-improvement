@@ -12,6 +12,8 @@
 - `numeric_claim_ledger.json`: source-value references at table precision.
 - `narrative_rounding_checks.json`: key rounded narrative results checked against
   saved sources, including the acquisition-matched contrasts.
+- `clarification_checks.json`: visible URL, shared scope placement, interval
+  precision, explicit subjects, and abstract context.
 - `style_revision_checks.json`: current scope, compression, protected scientific
   inputs, and manuscript-preservation checks.
 - `numeric_source_inventory.json`: every numeral-bearing line in the actual

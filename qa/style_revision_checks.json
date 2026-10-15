@@ -14,11 +14,12 @@
   "s2_source_rows": 189,
   "supplement_display_rows": 708,
   "other_690_supplement_numeric_rows_identical": true,
-  "abstract_characters": 1548,
+  "abstract_characters": 1598,
   "negation_and_contrast_markers": {
     "before": 74,
     "after": 12
   },
   "pages": 39,
-  "prior_pages": 45
+  "prior_pages": 45,
+  "contrast_precision": "Four decimal places with explicit to separators; levels retain concise precision"
 }

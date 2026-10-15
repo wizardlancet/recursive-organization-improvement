@@ -1,17 +1,27 @@
 {
   "date": "2026-10-16",
   "main_pages": 39,
-  "all_pages_inspected_in_contact_sheets": true,
+  "changed_pages_inspected": [
+    1,
+    2,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
   "enlarged_pages_inspected": [
     1,
     6,
     9,
     10,
-    11,
-    13,
-    16,
-    28
+    13
   ],
-  "result": "All 39 pages inspected; scope, rounded results, acquisition-matched comparison, revised conclusion, repository link, and compact S2 render correctly. No clipped text, overflow, or unresolved references.",
+  "remaining_pages_pixel_identical_to_previous_reviewed_pdf": true,
+  "result": "Visible GitHub URL, scope before subsection 4.1, four-decimal intervals with to, concise diagnostics, explicit gate/audit subjects, and abstract regret comparison verified. No overflow or unresolved references.",
   "new_experiments_run": false
 }

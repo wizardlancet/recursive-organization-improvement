@@ -101,7 +101,7 @@
   {
     "file": "main.tex",
     "line": 44,
-    "text": "Stronger AI agents do not automatically produce better organizations: teams must also learn which work arrangements to retain and when to reconsider them, while those arrangements determine what evidence the team can learn from. We propose a modeling specification for recursive organization improvement and evaluate it through an executable checker, a public-record mapping, and two simulation studies. The specification connects actor-visible histories, organizational memory, decision rights, and the evidence used to retain changes. Study 1 crosses six decision rules, three memory conditions, and three task environments under fixed resource ceilings. In a stationary environment, cumulative evidence raises balanced evaluation's net value per task from 0.452 to 0.480. After a workflow-ranking reversal, retained evidence delays adaptation. Acquisition-matched controls leave small, uncertain differences between fixed and replaceable evaluators across three reversal timings. Study 2 models human--agent review with shared errors, copying, and decision rights. It identifies a two-actor case in which public records conceal whether agreement comes from shared errors or copying, and shows how dependence changes the preferred placement of human judgment under a fixed budget. Paid observation can lower decision error while costing more than the deployment gain. Assessments of organizational improvement should track the evidence acquired and retained, using acquisition-matched comparisons to isolate the contribution of evaluator revision.",
+    "text": "Stronger AI agents do not automatically produce better organizations: teams must also learn which work arrangements to retain and when to reconsider them, while those arrangements determine what evidence the team can learn from. We propose a modeling specification for recursive organization improvement and evaluate it through an executable checker, a public-record mapping, and two simulation studies. The specification connects actor-visible histories, organizational memory, decision rights, and the evidence used to retain changes. Study 1 crosses six decision rules, three memory conditions, and three task environments under fixed resource ceilings. In a stationary environment, cumulative evidence raises balanced evaluation's net value per task from 0.452 to 0.480, while selection regret falls from 0.029 to 0.002. After a workflow-ranking reversal, retained evidence delays adaptation. Acquisition-matched controls leave small, uncertain differences between fixed and replaceable evaluators across three reversal timings. Study 2 models human--agent review with shared errors, copying, and decision rights. It identifies a two-actor case in which public records conceal whether agreement comes from shared errors or copying, and shows how dependence changes the preferred placement of human judgment under a fixed budget. Paid observation can lower decision error while costing more than the deployment gain. Assessments of organizational improvement should track the evidence acquired and retained, using acquisition-matched comparisons to isolate the contribution of evaluator revision.",
     "kind": "abstract result, typesetting, or date",
     "sources": [
       "numeric claim ledger; LaTeX settings"
@@ -292,7 +292,7 @@
   },
   {
     "file": "sections/study.tex",
-    "line": 4,
+    "line": 3,
     "text": "\\emph{Scope of the simulations.} Both studies examine evaluation and review arrangements in human--agent organizations using synthetic task, actor, and cost parameters. The core Study 1 design preceded execution; its acquisition-matched and change-timing controls were specified after inspection of the core results. Study 2 was designed after Study 1 and is exploratory. Task decomposition, capacity, queues, and specialist--generalist trade-offs are represented by the specification but lie outside these simulations.",
     "kind": "Study 1 settings or result claim",
     "sources": [
@@ -447,7 +447,7 @@
   {
     "file": "sections/study.tex",
     "line": 51,
-    "text": "\\Cref{fig:memory} reports every core arm and memory condition. Under stationary harm, cumulative evidence raises Balanced's mean net value from $.452$ to $.480$, a paired gain of $.0278$ (95\\% Monte Carlo interval $.0266$--$.0291$). Its final-eight-round value reaches $.482$, the value of consistently selecting broad under its actual evaluation expenditure. Balanced's mean selection regret falls from $.0294$ to $.00156$ per task, while its evaluation expense remains $.0184$. The net-value gain therefore equals the reduction in selection regret.",
+    "text": "\\Cref{fig:memory} reports every core arm and memory condition. Under stationary harm, cumulative evidence raises Balanced's mean net value from $.452$ to $.480$, a paired gain of $0.0278$ (95\\% Monte Carlo interval $0.0266$ to $0.0291$). Its final-eight-round value reaches $.482$, the value of consistently selecting broad under its actual evaluation expenditure. Balanced's mean selection regret falls from $.0294$ to $.00156$ per task, while its evaluation expense remains $.0184$. The net-value gain therefore equals the reduction in selection regret.",
     "kind": "Study 1 settings or result claim",
     "sources": [
       "examples/learning_protocol.json",
@@ -480,7 +480,7 @@
   {
     "file": "sections/study.tex",
     "line": 59,
-    "text": "Repeated discovery is $.0170$ below Balanced with reset evidence (interval $-.0196$ to $-.0144$). With cumulative evidence, both means round to $.480$ and the paired interval spans zero. Discover once reaches $.479$, while successive rejection reaches $.481$. Reusing acquired evidence thus removes most of the reset disadvantage, and fixed selection rules remain competitive with program revision. Under Uniform gain, specialized is best from the outset, so retention improves selection throughout.",
+    "text": "Repeated discovery is $0.0170$ below Balanced with reset evidence (interval $-0.0196$ to $-0.0144$). With cumulative evidence, both means round to $.480$ and the paired interval spans zero. Discover once reaches $.479$, while successive rejection reaches $.481$. Reusing acquired evidence thus removes most of the reset disadvantage, and fixed selection rules remain competitive with program revision. Under Uniform gain, specialized is best from the outset, so retention improves selection throughout.",
     "kind": "Study 1 settings or result claim",
     "sources": [
       "examples/learning_protocol.json",
@@ -535,7 +535,7 @@
   {
     "file": "sections/study.tex",
     "line": 72,
-    "text": "With Window 8 in the core reversal, repeated discovery exceeds discover-once by $.00975$ (interval $.00709$--$.0124$) and ordinary Balanced by $.00623$. Program trials also concentrate acquisition near review times and supply labels that workflow selection can reuse. The trial-matched control gives Balanced these same trials, pooled labels, and acquisition timing while keeping its program fixed. On independent streams with reversal before round 25, the repeated-discovery advantage falls from $.00607$ over ordinary Balanced (interval $.00390$--$.00825$) to $.00191$ over trial-matched Balanced (interval $-.000164$--$.00398$). At reversals before rounds 21 and 29, the remaining mean differences are slightly negative and both intervals span zero. Acquisition matching therefore leaves a small, uncertain contribution from program replacement across these three timings.",
+    "text": "With Window 8 in the core reversal, repeated discovery exceeds discover-once by $0.0098$ (interval $0.0071$ to $0.0124$) and ordinary Balanced by $0.0062$. Program trials also concentrate acquisition near review times and supply labels that workflow selection can reuse. The trial-matched control gives Balanced these same trials, pooled labels, and acquisition timing while keeping its program fixed. On independent streams with reversal before round 25, the repeated-discovery advantage falls from $0.0061$ over ordinary Balanced (interval $0.0039$ to $0.0082$) to $0.0019$ over trial-matched Balanced (interval $-0.0002$ to $0.0040$). At reversals before rounds 21 and 29, the remaining mean differences are slightly negative and both intervals span zero. Acquisition matching therefore leaves a small, uncertain contribution from program replacement across these three timings.",
     "kind": "Study 1 settings or result claim",
     "sources": [
       "examples/learning_protocol.json",
@@ -546,7 +546,7 @@
   {
     "file": "sections/study.tex",
     "line": 75,
-    "text": "The full nine-cell budget-share/trial-count grid is reported in \\cref{tab:grid}. More trial expenditure can improve the total repeated-discovery package when it also provides reusable workflow evidence. Program-trial expenditure can purchase workflow evidence that remains useful after the program decision. Removing trial-label pooling lowers repeated discovery from $.480$ to $.478$ under stationary cumulative memory, and from $.582$ to $.574$ under reversal with Window 8 on the independent sensitivity streams. Resetting only the program-score history has much smaller mean effects in these two conditions.",
+    "text": "The full nine-cell budget-share/trial-count grid is reported in \\cref{tab:grid}. Program trials can improve subsequent workflow selection by adding reusable labels to workflow memory. Removing trial-label pooling lowers repeated discovery from $.480$ to $.478$ under stationary cumulative memory, and from $.582$ to $.574$ under reversal with Window 8 on the independent sensitivity streams.",
     "kind": "Study 1 settings or result claim",
     "sources": [
       "examples/learning_protocol.json",
@@ -835,8 +835,8 @@
   },
   {
     "file": "sections/availability.tex",
-    "line": 1,
-    "text": "Code, protocols, trajectory results, validation records, and the public-record snapshot are available in the \\href{https://github.com/wizardlancet/recursive-organization-improvement}{project repository}. Protocols were archived at commits \\texttt{75d312e} and \\texttt{fdf5ec1}; neither study was externally preregistered. \\hyperref[sec:supplementary-tables]{Supplementary Tables S1--S5} follow the appendices. S2 summarizes final program-selection proportions; the repository contains the full 189-group conditional results and maps each table to its source. Code is licensed under MIT; the manuscript, figures, and synthetic data under CC BY 4.0. Third-party materials retain their original terms.",
+    "line": 3,
+    "text": "Protocols were archived at commits \\texttt{75d312e} and \\texttt{fdf5ec1}; neither study was externally preregistered. \\hyperref[sec:supplementary-tables]{Supplementary Tables S1--S5} follow the appendices. S2 summarizes final program-selection proportions; the repository contains the full 189-group conditional results and maps each table to its source. Code is licensed under MIT; the manuscript, figures, and synthetic data under CC BY 4.0. Third-party materials retain their original terms.",
     "kind": "study/table identifier, disclosure, or cross-study synthesis",
     "sources": [
       "numeric claim ledger; protocol provenance; release metadata"
